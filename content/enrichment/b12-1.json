@@ -1,0 +1,26 @@
+{
+  "explanation": "～(の)なら dùng khi người nói tiếp nhận một thông tin, tình huống, ý định từ người nghe (hoặc từ ngữ cảnh), rồi đưa ra lời khuyên, đề nghị, phán đoán dựa trên giả định đó: \"nếu (đúng là)… thì…\". Thông tin X thường vừa được người nghe nhắc đến.\n\nN + なら còn dùng để chuyển chủ đề, giới thiệu điều tốt nhất về chủ đề đó: 「日本料理なら、すしが一番だ」 (nói đến món Nhật thì sushi là nhất).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + (の)なら", "samples": ["行く → 行くなら", "読まない → 読まないのなら"] },
+    { "wordType": "Tính từ い", "rule": "Aい + (の)なら", "samples": ["高い → 高いなら", "寒い → 寒いのなら"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + なら", "samples": ["暇 → 暇なら", "ベトナム → ベトナムなら"] }
+  ],
+  "usage": [
+    "Lời khuyên dựa trên ý định người nghe: 「北海道に行くなら、冬がいいですよ」.",
+    "Giới thiệu thứ tốt nhất về chủ đề: 「カメラなら、この店が安い」.",
+    "Vế sau có thể xảy ra TRƯỚC vế trước: 「旅行に行くなら、ガイドブックを買っておいたほうがいい」."
+  ],
+  "pitfalls": [
+    "Không dùng なら cho quy luật tự nhiên: ✗「春になるなら、暖かくなる」 → ✓「春になると」.",
+    "なら dựa trên thông tin có sẵn; điều kiện giả định chung, không có ngữ cảnh thì dùng ～ば／～たら."
+  ],
+  "comparisons": [
+    { "pattern": "～たら", "targetId": null, "difference": "～たら: Y xảy ra sau khi X hoàn thành (日本に行ったら、すしを食べたい). ～なら: Y có thể làm trước X (日本に行くなら、日本語を勉強したほうがいい)." },
+    { "pattern": "～ば", "targetId": null, "difference": "～ば nhấn mạnh điều kiện cần cho kết quả; ～なら nhấn mạnh việc tiếp nhận thông tin từ đối phương." }
+  ],
+  "examples": [
+    { "japanese": "日本へ旅行に行くなら、桜の季節がいいですよ。", "vietnamese": "Nếu đi du lịch Nhật thì mùa hoa anh đào là đẹp nhất đấy." },
+    { "japanese": "Ａ：頭が痛いんです。Ｂ：頭が痛いのなら、今日は早く帰ったほうがいいよ。", "vietnamese": "A: Tôi đau đầu. B: Nếu đau đầu thì hôm nay nên về sớm đi." },
+    { "japanese": "ラーメンなら、駅前の店が一番おいしいよ。", "vietnamese": "Nói đến mì ramen thì quán trước ga là ngon nhất đấy." }
+  ]
+}

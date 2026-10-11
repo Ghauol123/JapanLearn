@@ -1,0 +1,27 @@
+{
+  "explanation": "～おかげで và ～せいで đều chỉ nguyên nhân, nhưng mang cảm xúc ngược nhau. おかげで: \"nhờ có…\" — kết quả tốt, người nói biết ơn. せいで: \"tại…, vì…\" — kết quả xấu, người nói đổ lỗi, trách móc.\n\nおかげで đôi khi được dùng mỉa mai cho kết quả xấu: 「君のおかげで、全部やり直しだ」 (nhờ cậu mà phải làm lại hết — thực ra là trách). Dạng cuối câu: ～おかげだ／～せいだ. せいか (không rõ có phải tại… không) diễn tả nguyên nhân không chắc chắn.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + おかげで／せいで", "samples": ["手伝ってくれた → 手伝ってくれたおかげで", "飲んだ → 飲んだせいで"] },
+    { "wordType": "Tính từ い", "rule": "Aい + おかげで／せいで", "samples": ["涼しい → 涼しいおかげで", "暑い → 暑いせいで"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + おかげで／せいで", "samples": ["丈夫 → 丈夫なおかげで", "複雑 → 複雑なせいで"] },
+    { "wordType": "Danh từ", "rule": "N + の + おかげで／せいで", "samples": ["先生 → 先生のおかげで", "雨 → 雨のせいで"] }
+  ],
+  "usage": [
+    "Cảm ơn: 「皆さんのおかげで、成功しました」.",
+    "Đổ lỗi: 「あなたのせいで遅れた」.",
+    "Nguyên nhân không chắc: 「疲れているせいか、頭が痛い」."
+  ],
+  "pitfalls": [
+    "Không dùng せい cho kết quả tốt: ✗「先生のせいで合格した」.",
+    "Vế sau không dùng ý chí, mệnh lệnh: ✗「雨のせいで、家にいましょう」 → ✓「雨だから、家にいましょう」."
+  ],
+  "comparisons": [
+    { "pattern": "～によって（原因）", "targetId": "b11-1", "difference": "によって khách quan, không cảm xúc; おかげで／せいで thể hiện thái độ của người nói." },
+    { "pattern": "～から／～ので", "targetId": null, "difference": "から／ので chỉ lý do chung, vế sau dùng được ý chí; おかげで／せいで chỉ kết quả đã xảy ra." }
+  ],
+  "examples": [
+    { "japanese": "友達が手伝ってくれたおかげで、引っ越しが早く終わった。", "vietnamese": "Nhờ bạn giúp mà việc chuyển nhà xong sớm." },
+    { "japanese": "雪のせいで、飛行機が飛ばなかった。", "vietnamese": "Tại tuyết mà máy bay không cất cánh được." },
+    { "japanese": "昨日夜更かししたせいか、今日は頭が痛い。", "vietnamese": "Không biết có phải vì hôm qua thức khuya không mà hôm nay tôi đau đầu." }
+  ]
+}

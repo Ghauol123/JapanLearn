@@ -1,0 +1,27 @@
+{
+  "explanation": "～わけではない／～というわけではない／～のではない dùng để phủ định một suy luận mà người nghe (hoặc chính người nói) có thể rút ra từ tình huống: \"không phải là…\". Thường người nói sau đó giải thích lý do thật sự.\n\n～わけではない phổ biến nhất, phủ định một phần (全部が～わけではない — không phải tất cả). ～というわけではない nhấn mạnh việc phủ nhận một cách diễn giải. ～のではない／～んじゃない phủ định trực tiếp lý do, thường đi với ～のだ ở vế sau: 「嫌いなんじゃない。忙しいんだ」.",
+  "formation": [
+    { "wordType": "～わけではない", "rule": "V／Aい (thể thường)／Aな + な／N + の(である) + わけではない", "samples": ["嫌い → 嫌いなわけではない", "知らない → 知らないわけではない"] },
+    { "wordType": "～というわけではない", "rule": "Thể thường (N／Aな có thể bỏ だ) + というわけではない", "samples": ["好き → 好きというわけではない", "高い → 高いというわけではない"] },
+    { "wordType": "～のではない", "rule": "Thể thường (だ→な) + のではない／んじゃない", "samples": ["忘れた → 忘れたのではない", "嫌い → 嫌いなんじゃない"] }
+  ],
+  "usage": [
+    "Phủ định một phần: 「お金持ちがみんな幸せなわけではない」.",
+    "Giải thích hiểu lầm: 「怒っているわけじゃないよ。疲れているだけ」.",
+    "Hay đi với 別に, 必ずしも, 全部, みんな, いつも."
+  ],
+  "pitfalls": [
+    "Không dùng để phủ định hoàn toàn sự thật đơn thuần: ✗「今日は雨が降るわけではない」 khi chỉ muốn nói không mưa.",
+    "Danh từ cần の／である: ✗ 学生わけではない → ✓ 学生なわけではない／学生というわけではない."
+  ],
+  "comparisons": [
+    { "pattern": "～とは限らない", "targetId": "b14-2", "difference": "とは限らない: phủ định tính tuyệt đối của quy luật; わけではない: phủ định suy luận từ tình huống cụ thể." },
+    { "pattern": "～ないことはない", "targetId": "b14-4", "difference": "ないことはない là thừa nhận nhẹ một khả năng (không phải là không thể); わけではない là phủ định suy luận." },
+    { "pattern": "～というより", "targetId": "b10-4", "difference": "というより đưa ra cách nói thay thế chính xác hơn; わけではない chỉ phủ nhận." }
+  ],
+  "examples": [
+    { "japanese": "肉が嫌いなわけではないが、最近はあまり食べない。", "vietnamese": "Không phải là tôi ghét thịt, nhưng dạo này ít ăn." },
+    { "japanese": "日本人がみんなすしを毎日食べているわけではない。", "vietnamese": "Không phải người Nhật nào cũng ăn sushi hằng ngày." },
+    { "japanese": "怒っているんじゃないよ。ちょっと疲れているだけ。", "vietnamese": "Không phải là tôi giận đâu. Chỉ hơi mệt thôi." }
+  ]
+}

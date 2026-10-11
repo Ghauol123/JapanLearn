@@ -1,0 +1,25 @@
+{
+  "explanation": "～のだから／～んだから nêu một lý do mà cả người nói và người nghe đều biết rõ, là sự thật hiển nhiên, rồi từ đó đưa ra kết luận, yêu cầu, lời khuyên hoặc đánh giá mạnh mẽ: \"vì (rõ ràng) là… nên…, đã… thì…\".\n\nSắc thái thường là nhấn mạnh, đôi khi trách móc: 「子供じゃないんだから、自分でやりなさい」 (đâu phải trẻ con nữa, tự làm đi). Vế sau hay có ～なさい, ～べきだ, ～てください, ～はずだ, ～ないと.",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + のだから／んだから", "samples": ["約束した → 約束したんだから", "若い → 若いのだから"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + な + のだから／んだから", "samples": ["好き → 好きなんだから", "学生 → 学生なんだから"] }
+  ],
+  "usage": [
+    "Thúc giục, yêu cầu dựa trên sự thật hiển nhiên: 「もう大人なんだから、しっかりしなさい」.",
+    "Đưa ra phán đoán tất yếu: 「毎日練習しているんだから、きっと勝てる」.",
+    "Trong văn nói dùng んだから; văn viết dùng のだから."
+  ],
+  "pitfalls": [
+    "Lý do phải là điều người nghe đã biết; nếu là thông tin mới thì dùng から／ので.",
+    "Dễ nghe áp đặt; với người trên nên tránh dùng để yêu cầu."
+  ],
+  "comparisons": [
+    { "pattern": "～から", "targetId": null, "difference": "から nêu lý do bất kỳ (có thể là thông tin mới); のだから nêu lý do đã rõ ràng với cả hai bên và nhấn mạnh." },
+    { "pattern": "～わけだ", "targetId": "b21-1", "difference": "わけだ: từ lý do suy ra kết luận đương nhiên (vậy ra là…); のだから: từ lý do đưa ra yêu cầu, đánh giá." }
+  ],
+  "examples": [
+    { "japanese": "約束したんだから、ちゃんと守ってよ。", "vietnamese": "Đã hứa rồi thì phải giữ lời đấy." },
+    { "japanese": "せっかく日本に来たのだから、いろいろな所を見たい。", "vietnamese": "Đã mất công đến Nhật rồi thì tôi muốn đi xem nhiều nơi." },
+    { "japanese": "あんなに練習したんだから、きっと大丈夫だよ。", "vietnamese": "Đã luyện tập nhiều như thế thì chắc chắn sẽ ổn thôi." }
+  ]
+}

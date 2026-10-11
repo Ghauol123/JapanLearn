@@ -1,0 +1,27 @@
+{
+  "explanation": "～さえ～ば diễn tả điều kiện tối thiểu, duy nhất cần có: chỉ cần X được thỏa mãn thì Y chắc chắn thành hiện thực, những yếu tố khác không quan trọng: \"chỉ cần… là…\". さえ nhấn mạnh rằng X là đủ.\n\nVị trí của さえ thay đổi theo từ loại: sau danh từ (お金さえあれば), xen giữa động từ (Vます + さえすれば), hoặc sau thể て (教えてさえくれれば). Dạng phủ định ～さえ～なければ: \"chỉ cần không… là…\".",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + さえ + Vば／Aければ／なら", "samples": ["お金 → お金さえあれば", "体 → 体さえ元気なら"] },
+    { "wordType": "Động từ", "rule": "Vます + さえ + すれば", "samples": ["飲む → 飲みさえすれば", "謝る → 謝りさえすれば"] },
+    { "wordType": "Thể て", "rule": "Vて + さえ + いれば／くれれば", "samples": ["知って → 知ってさえいれば", "教えて → 教えてさえくれれば"] },
+    { "wordType": "Tính từ い／な", "rule": "Aく + さえあれば ／ Aで + さえあれば", "samples": ["安い → 安くさえあれば", "静か → 静かでさえあれば"] }
+  ],
+  "usage": [
+    "Nhấn mạnh điều kiện duy nhất: 「あなたさえいれば、何もいらない」.",
+    "Tiếc nuối (quá khứ): 「あの時、もう少し勉強さえしていれば…」.",
+    "Phủ định: 「雨さえ降らなければ、試合はできる」."
+  ],
+  "pitfalls": [
+    "Không nhầm với さえ (ngay cả): 「漢字さえ書けない」 (ngay cả kanji cũng không viết được) — không có ば.",
+    "✗ 飲むさえすれば → ✓ 飲みさえすれば (dùng Vます)."
+  ],
+  "comparisons": [
+    { "pattern": "～ば", "targetId": null, "difference": "～ば là điều kiện thông thường; ～さえ～ば nhấn mạnh X là điều kiện DUY NHẤT cần có." },
+    { "pattern": "～だけ～ば", "targetId": null, "difference": "～だけ～ばいい (chỉ cần làm mỗi việc này) gần nghĩa nhưng nhấn mạnh phạm vi; さえ nhấn mạnh sự đủ." }
+  ],
+  "examples": [
+    { "japanese": "パスポートさえあれば、どこへでも行ける。", "vietnamese": "Chỉ cần có hộ chiếu là đi đâu cũng được." },
+    { "japanese": "この問題は、公式を覚えさえすれば簡単に解ける。", "vietnamese": "Bài này chỉ cần nhớ công thức là giải dễ dàng." },
+    { "japanese": "天気さえよければ、明日は山に登る予定だ。", "vietnamese": "Chỉ cần trời đẹp là mai tôi định leo núi." }
+  ]
+}

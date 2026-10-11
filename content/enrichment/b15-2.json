@@ -1,0 +1,27 @@
+{
+  "explanation": "～させてもらいたい／～させてほしい là kết hợp thể sai khiến (cho phép) với ～てもらいたい: \"muốn được (ai đó) cho phép mình làm…\". Người nói xin phép một cách khiêm tốn: hành động là của chính người nói, người cho phép là người nghe hoặc người thứ ba.\n\n～させていただきたい là dạng rất lịch sự, thường dùng trong công việc: 「本日は早退させていただきたいのですが」. Dạng phủ định ～させないでほしい = \"mong đừng bắt (tôi) làm…\".",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Vない (đuôi あ) + せて + もらいたい／ほしい", "samples": ["帰る → 帰らせてもらいたい", "休む → 休ませてほしい"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + させて + もらいたい", "samples": ["考える → 考えさせてほしい", "見る → 見させてもらいたい"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → させて; 来る → 来させて", "samples": ["説明する → 説明させていただきたい"] },
+    { "wordType": "Phủ định", "rule": "Vさせないで + ほしい", "samples": ["やる → やらせないでほしい", "待つ → 待たせないでほしい"] }
+  ],
+  "usage": [
+    "Xin phép lịch sự trong công việc: 「来週、休ませていただきたいのですが…」.",
+    "Xin thêm thời gian: 「もう少し考えさせてください／考えさせてほしい」.",
+    "Phản đối bị ép làm: 「一人で全部やらせないでほしい」."
+  ],
+  "pitfalls": [
+    "Không dùng ～させていただく quá mức cho việc không cần sự cho phép — người Nhật cũng cho là thừa kính ngữ.",
+    "✗ 帰りさせて → ✓ 帰らせて (nhóm 1 dùng đuôi あ)."
+  ],
+  "comparisons": [
+    { "pattern": "～てもらいたい", "targetId": "b15-1", "difference": "～てもらいたい: muốn người khác làm; ～させてもらいたい: muốn được người khác cho phép mình làm." },
+    { "pattern": "Bị động sai khiến", "targetId": "b1-3", "difference": "～させられる: bị bắt làm (miễn cưỡng); ～させてもらう: được cho phép làm (biết ơn)." }
+  ],
+  "examples": [
+    { "japanese": "その仕事、ぜひ私にやらせていただきたいです。", "vietnamese": "Công việc đó, xin hãy để tôi làm." },
+    { "japanese": "すみません、少し休ませてもらいたいんですが。", "vietnamese": "Xin lỗi, tôi muốn được nghỉ một chút." },
+    { "japanese": "大事なことなので、一晩考えさせてほしい。", "vietnamese": "Vì là chuyện quan trọng nên cho tôi suy nghĩ một đêm." }
+  ]
+}

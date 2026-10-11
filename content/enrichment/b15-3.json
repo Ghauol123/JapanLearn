@@ -1,0 +1,27 @@
+{
+  "explanation": "～といい／～ばいい／～たらいい (nguyện vọng) diễn tả mong muốn một điều gì đó xảy ra mà người nói không tự kiểm soát được: \"giá mà…, mong là…\". Cuối câu thường có なあ (độc thoại), ね (nói với người khác) hoặc のに (tiếc nuối vì thực tế khác).\n\nBa dạng gần như cùng nghĩa: といい tự nhiên và phổ biến nhất; ばいい và たらいい thường đi kèm のに khi điều mong muốn khó xảy ra.",
+  "formation": [
+    { "wordType": "～といい", "rule": "V／Aい／Aな だ／N だ (hiện tại thể thường) + といい", "samples": ["晴れる → 晴れるといい", "元気だ → 元気だといい"] },
+    { "wordType": "～ばいい", "rule": "Vば／Aければ／Aな・N なら + いい", "samples": ["ある → あればいい", "近い → 近ければいい"] },
+    { "wordType": "～たらいい", "rule": "Vたら／Aかったら／Aな・N だったら + いい", "samples": ["合格する → 合格できたらいい", "休み → 休みだったらいい"] }
+  ],
+  "usage": [
+    "Mong muốn cho bản thân: 「明日、晴れるといいなあ」.",
+    "Chúc người khác: 「試験、うまくいくといいね」.",
+    "Tiếc nuối: 「もっと休みがあればいいのに」."
+  ],
+  "pitfalls": [
+    "Không dùng cho hành động mình tự quyết định được: ✗「明日早く起きるといいなあ」 (tự mình dậy được) — trừ khi lo không dậy nổi.",
+    "Đừng nhầm với lời khuyên ～といい (2): 「この薬を飲むといいですよ」 nói với người khác về hành động của họ."
+  ],
+  "comparisons": [
+    { "pattern": "～といい（アドバイス）", "targetId": "b15-4", "difference": "Nghĩa (2): khuyên người khác nên làm gì; nghĩa (1): mong điều gì xảy ra." },
+    { "pattern": "～ば…のに", "targetId": "b12-4", "difference": "～ば…のに: tiếc nuối điều trái thực tế; ～といい: mong điều có thể xảy ra trong tương lai." },
+    { "pattern": "～ように（祈り）", "targetId": "b29-2", "difference": "～ますように là lời cầu nguyện trang trọng hơn (合格しますように)." }
+  ],
+  "examples": [
+    { "japanese": "週末、晴れるといいね。", "vietnamese": "Mong cuối tuần trời nắng nhỉ." },
+    { "japanese": "毎日が日曜日だったらいいのになあ。", "vietnamese": "Giá mà ngày nào cũng là Chủ nhật." },
+    { "japanese": "早く病気が治るといいですね。", "vietnamese": "Mong bệnh của anh/chị sớm khỏi." }
+  ]
+}

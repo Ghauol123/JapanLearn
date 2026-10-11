@@ -1,0 +1,26 @@
+{
+  "explanation": "～はずがない／～わけがない diễn tả sự phủ định mạnh mẽ dựa trên lập luận, căn cứ của người nói: \"không có lý nào…, làm gì có chuyện…\". Người nói tin chắc rằng khả năng đó bằng 0.\n\n～はずがない thiên về lập luận logic, căn cứ khách quan; ～わけがない mang cảm xúc mạnh hơn, chủ quan hơn và hay dùng trong văn nói. Văn nói rút gọn: ～はずない, ～わけない.",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + はずがない／わけがない", "samples": ["来る → 来るはずがない", "安い → 安いわけがない"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + はずがない／わけがない", "samples": ["暇 → 暇なはずがない", "静か → 静かなわけがない"] },
+    { "wordType": "Danh từ", "rule": "N + の + はずがない／わけがない", "samples": ["休み → 休みのはずがない", "うそ → うそのわけがない"] }
+  ],
+  "usage": [
+    "Phủ định dựa trên căn cứ: 「鍵をかけたから、泥棒が入れるはずがない」.",
+    "Bác bỏ mạnh: 「彼がそんなことを言うわけがない」.",
+    "Dạng ～ないはずがない = chắc chắn là có (phủ định kép)."
+  ],
+  "pitfalls": [
+    "Không nhầm với ～はずではない (không phải lẽ ra là — ít dùng) hay ～はずだった (đáng lẽ ra).",
+    "Không dùng cho hành động có ý chí của chính mình: ✗「私が行くはずがない」 nghe lạ; muốn từ chối dùng 「行くつもりはない」."
+  ],
+  "comparisons": [
+    { "pattern": "～はずだ", "targetId": null, "difference": "～はずだ: chắc chắn là (khẳng định có căn cứ); ～はずがない: chắc chắn là không." },
+    { "pattern": "～とは限らない", "targetId": "b14-2", "difference": "～とは限らない phủ định nhẹ (không hẳn lúc nào cũng); ～はずがない phủ định hoàn toàn." }
+  ],
+  "examples": [
+    { "japanese": "彼は昨日日本にいなかったから、犯人のはずがない。", "vietnamese": "Hôm qua anh ấy không ở Nhật nên không thể nào là thủ phạm." },
+    { "japanese": "こんなに安い時計が本物のわけがないよ。", "vietnamese": "Đồng hồ rẻ thế này làm gì có chuyện là hàng thật." },
+    { "japanese": "あんなに練習したんだから、負けるはずがない。", "vietnamese": "Đã luyện tập nhiều như thế thì không có lý nào lại thua." }
+  ]
+}

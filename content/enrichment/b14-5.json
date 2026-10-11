@@ -1,0 +1,26 @@
+{
+  "explanation": "X ことは X が、Y lặp lại cùng một từ để nói: \"đúng là có X thật, nhưng…\". Người nói thừa nhận sự thật X nhưng muốn hạn chế mức độ của nó — X không hoàn toàn, không đủ, hoặc không quan trọng bằng Y. Vế sau thường nêu điểm chưa ổn.\n\nVí dụ 「読んだことは読んだが、わからなかった」 = đọc thì có đọc, nhưng không hiểu. Mẫu này giúp lời nói khiêm tốn, dè dặt, tránh khẳng định quá mức.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + ことは + V + が", "samples": ["行く → 行くことは行くが", "読んだ → 読んだことは読んだが"] },
+    { "wordType": "Tính từ い", "rule": "Aい + ことは + Aい + が", "samples": ["高い → 高いことは高いが", "おいしい → おいしいことはおいしいが"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + ことは + Aな + だ + が", "samples": ["好き → 好きなことは好きだが", "便利 → 便利なことは便利だが"] }
+  ],
+  "usage": [
+    "Thừa nhận có hạn chế: 「料理はできることはできるが、上手じゃない」.",
+    "Đánh giá cân bằng: 「高いことは高いが、質がいい」.",
+    "Văn nói thường dùng けど thay cho が."
+  ],
+  "pitfalls": [
+    "Phải lặp cùng một từ: ✗「読んだことは見たが」.",
+    "Từ thứ hai có thể chia thì khác: 「行くことは行ったが」 (đi thì đã đi rồi nhưng…) là chấp nhận được trong văn nói."
+  ],
+  "comparisons": [
+    { "pattern": "～ないことはない", "targetId": "b14-4", "difference": "ないことはない: thừa nhận một khả năng; ことは～が: thừa nhận một sự thật đã/đang xảy ra." },
+    { "pattern": "～けど／～が", "targetId": null, "difference": "けど／が thông thường chỉ nối tương phản; ことは～が nhấn mạnh việc thừa nhận có giới hạn." }
+  ],
+  "examples": [
+    { "japanese": "パーティーに行くことは行くけど、少し遅れるかもしれない。", "vietnamese": "Đi tiệc thì tôi có đi, nhưng có thể đến muộn một chút." },
+    { "japanese": "このアパートは狭いことは狭いが、駅に近くて便利だ。", "vietnamese": "Căn hộ này chật thì có chật, nhưng gần ga nên tiện." },
+    { "japanese": "説明を聞いたことは聞いたが、よく覚えていない。", "vietnamese": "Nghe giải thích thì có nghe, nhưng tôi không nhớ rõ." }
+  ]
+}

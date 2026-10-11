@@ -1,0 +1,26 @@
+{
+  "explanation": "～とか (cuối câu) dùng để truyền lại thông tin nghe được nhưng người nói không chắc chắn hoàn toàn, nhớ không rõ, hoặc không muốn khẳng định: \"nghe đâu là…, hình như nghe nói…\". Sắc thái nhẹ nhàng, mơ hồ hơn ～そうだ.\n\nMẫu này dùng trong hội thoại thân mật hoặc lịch sự nhẹ (～とか。／～とかで…). Không dùng trong văn bản trang trọng.",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + とか", "samples": ["結婚する → 結婚するとか", "おいしい → おいしいとか"] },
+    { "wordType": "Danh từ／Tính từ な", "rule": "N／Aな + だ + とか", "samples": ["病気 → 病気だとか", "上手 → 上手だとか"] }
+  ],
+  "usage": [
+    "Truyền tin đồn nhẹ nhàng: 「あの店、来月閉まるとか」.",
+    "Dùng とかで để nêu lý do nghe được: 「風邪だとかで、休んでいます」.",
+    "Thường đi với câu bày tỏ cảm xúc phía sau: 「すごいなあ」「行ってみよう」."
+  ],
+  "pitfalls": [
+    "Không nhầm với とか liệt kê: 「りんごとかバナナとか」 (nào là táo, nào là chuối).",
+    "Không dùng cho thông tin chắc chắn, chính thức."
+  ],
+  "comparisons": [
+    { "pattern": "～そうだ（伝聞）", "targetId": null, "difference": "～そうだ truyền đạt rõ ràng; ～とか mơ hồ, không chắc, nhẹ nhàng hơn." },
+    { "pattern": "～って", "targetId": "b13-4", "difference": "～って truyền đạt suồng sã nhưng khá rõ ràng; ～とか nhấn mạnh sự không chắc chắn." },
+    { "pattern": "～ということだ", "targetId": "b13-1", "difference": "ということだ trang trọng, thông tin rõ nguồn; とか thân mật, không chắc." }
+  ],
+  "examples": [
+    { "japanese": "駅前に新しいカフェができたとか。今度行ってみない？", "vietnamese": "Nghe đâu trước ga mới mở quán cà phê. Lần tới đi thử không?" },
+    { "japanese": "田中さんは風邪だとかで、今日は休んでいます。", "vietnamese": "Nghe nói anh Tanaka bị cảm nên hôm nay nghỉ." },
+    { "japanese": "来週から電気代が上がるとか。困ったね。", "vietnamese": "Nghe đâu từ tuần sau tiền điện tăng. Khổ thật." }
+  ]
+}

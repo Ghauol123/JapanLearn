@@ -1,0 +1,26 @@
+{
+  "explanation": "N + によって／による (nguyên nhân) nghĩa là \"do…, vì…, bởi…\": X là nguyên nhân trực tiếp gây ra sự thay đổi, kết quả Y. Đây là cách nói trang trọng, khách quan, rất hay dùng trong tin tức, báo chí, thông báo về thiên tai, tai nạn, biến động xã hội.\n\nによって đứng giữa câu nối với động từ; による đứng trước danh từ để bổ nghĩa: 「台風による被害」 (thiệt hại do bão).",
+  "formation": [
+    { "wordType": "Danh từ + động từ", "rule": "N + によって + V", "samples": ["地震 → 地震によって", "事故 → 事故によって"] },
+    { "wordType": "Danh từ + danh từ", "rule": "N + による + N", "samples": ["台風 → 台風による被害", "病気 → 病気による欠席"] }
+  ],
+  "usage": [
+    "Tin tức, thông báo: 「大雪によって、電車が止まっている」.",
+    "Danh từ nguyên nhân thường là: 地震, 台風, 事故, 不況, ミス, 病気.",
+    "Văn nói thường thay bằng ～で: 「地震で家が壊れた」."
+  ],
+  "pitfalls": [
+    "Không dùng cho nguyên nhân cá nhân, nhỏ nhặt trong hội thoại: ✗「寝坊によって遅刻した」 → ✓「寝坊して遅刻した」.",
+    "Vế sau là sự thật khách quan, không dùng ý chí hay mệnh lệnh."
+  ],
+  "comparisons": [
+    { "pattern": "～によって（手段）", "targetId": "b11-2", "difference": "Nghĩa phương tiện: によって chỉ cách thức để đạt được Y (選挙によって決める), không phải nguyên nhân." },
+    { "pattern": "～せいで／～おかげで", "targetId": "b11-3", "difference": "せいで／おかげで có cảm xúc của người nói (trách móc / biết ơn); によって trung tính, khách quan." },
+    { "pattern": "～によって（違い）", "targetId": "b8-2", "difference": "Bài 8: によって chỉ sự khác biệt theo từng X (国によって違う)." }
+  ],
+  "examples": [
+    { "japanese": "今朝の事故によって、電車が２時間止まった。", "vietnamese": "Do tai nạn sáng nay mà tàu điện bị dừng 2 tiếng." },
+    { "japanese": "台風による被害は、去年より大きかった。", "vietnamese": "Thiệt hại do bão lớn hơn năm ngoái." },
+    { "japanese": "不景気によって、仕事を失う人が増えている。", "vietnamese": "Do kinh tế suy thoái mà số người mất việc đang tăng." }
+  ]
+}
