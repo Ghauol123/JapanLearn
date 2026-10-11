@@ -1,0 +1,26 @@
+{
+  "explanation": "～間 và ～間に cùng chỉ một khoảng thời gian có điểm đầu và điểm cuối, nhưng khác nhau về hành động ở vế sau. X間、Y: Y diễn ra liên tục suốt toàn bộ khoảng X (vế sau thường là ～ている, ずっと). X間に、Y: Y xảy ra tại một thời điểm nào đó bên trong khoảng X (hành động một lần, có kết thúc).\n\nMẹo phân biệt: nếu có thể thêm ずっと vào vế sau thì dùng 間; nếu vế sau là một sự việc xảy ra rồi xong thì dùng 間に.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + の + 間／間に", "samples": ["夏休み → 夏休みの間", "留守 → 留守の間に"] },
+    { "wordType": "Động từ", "rule": "Vている／Vる + 間／間に", "samples": ["待っている → 待っている間", "寝ている → 寝ている間に"] },
+    { "wordType": "Phủ định／tính từ", "rule": "Vない／Aい／Aな + な + 間(に)", "samples": ["いない → 親がいない間に", "暇 → 暇な間に"] }
+  ],
+  "usage": [
+    "間 + hành động kéo dài: 「電車に乗っている間、ずっと本を読んでいた」.",
+    "間に + sự việc một lần: 「留守の間に、泥棒に入られた」.",
+    "Chủ ngữ hai vế có thể khác nhau: 「私が寝ている間に、母が料理を作ってくれた」."
+  ],
+  "pitfalls": [
+    "✗「授業の間に、ずっと寝ていた」 → ✓「授業の間、ずっと寝ていた」.",
+    "✗「出かけている間、電話があった」 → ✓「出かけている間に、電話があった」."
+  ],
+  "comparisons": [
+    { "pattern": "～うちに（１）", "targetId": "b7-1", "difference": "うちに nhấn mạnh tranh thủ trước khi trạng thái thay đổi; 間に chỉ khoảng thời gian khách quan có mốc rõ." },
+    { "pattern": "～中(に)", "targetId": null, "difference": "～中 (じゅう／ちゅう) gắn với danh từ chỉ thời gian hoặc hoạt động: 今日中に, 会議中 — phạm vi hẹp hơn." }
+  ],
+  "examples": [
+    { "japanese": "母が買い物に行っている間、私は弟の世話をしていた。", "vietnamese": "Trong suốt lúc mẹ đi chợ, tôi trông em trai." },
+    { "japanese": "寝ている間に、地震があったそうだ。", "vietnamese": "Nghe nói trong lúc tôi ngủ đã có động đất." },
+    { "japanese": "留守の間に、荷物が届いていた。", "vietnamese": "Trong lúc tôi vắng nhà thì hàng đã được giao tới." }
+  ]
+}

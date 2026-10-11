@@ -1,0 +1,27 @@
+{
+  "explanation": "～一方(で) có hai cách dùng. ① Đối lập: một sự vật có hai mặt trái ngược (gần giống ～反面): \"mặt khác…\". ② Song song, bổ sung: bên cạnh X thì còn có Y (không đối lập): \"đồng thời…, bên cạnh đó…\".\n\n一方 cũng đứng đầu câu như một liên từ: 「一方、～」 (mặt khác, trong khi đó) để chuyển sang nói về đối tượng khác — rất hay gặp trong bài đọc.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + 一方(で)", "samples": ["話せる → 話せる一方で", "楽しみにする → 楽しみにする一方"] },
+    { "wordType": "Tính từ い", "rule": "Aい + 一方(で)", "samples": ["楽しい → 楽しい一方で"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな + な／である、N + である + 一方(で)", "samples": ["便利 → 便利な一方で", "俳優 → 俳優である一方で"] },
+    { "wordType": "Liên từ đầu câu", "rule": "一方、～", "samples": ["一方、地方では…"] }
+  ],
+  "usage": [
+    "Đối lập: 「この町は観光客が増えている一方で、住む人は減っている」.",
+    "Bổ sung: 「彼は医者である一方で、小説家としても有名だ」.",
+    "Đầu câu trong văn viết: 「一方、反対する人もいる」."
+  ],
+  "pitfalls": [
+    "Đừng nhầm với ～一方だ (cuối câu, N2): 「物価は上がる一方だ」 = ngày càng (chỉ một chiều).",
+    "Nghĩa bổ sung không dùng được với ～反面: ✗「医者である反面、小説家としても有名だ」."
+  ],
+  "comparisons": [
+    { "pattern": "～反面", "targetId": "b10-2", "difference": "～反面 chỉ có nghĩa đối lập; ～一方 có cả nghĩa đối lập và bổ sung." },
+    { "pattern": "～に対して", "targetId": "b10-1", "difference": "～に対して so sánh hai đối tượng; ～一方 có thể dùng cho một hoặc hai đối tượng." }
+  ],
+  "examples": [
+    { "japanese": "インターネットは便利な一方で、危険な面もある。", "vietnamese": "Internet tiện lợi, nhưng mặt khác cũng có mặt nguy hiểm." },
+    { "japanese": "彼女は会社で働く一方、夜は大学で勉強している。", "vietnamese": "Cô ấy làm việc ở công ty, đồng thời buổi tối học ở đại học." },
+    { "japanese": "都会では子供が増えている。一方、地方では減り続けている。", "vietnamese": "Ở thành phố trẻ em đang tăng. Trong khi đó ở địa phương thì tiếp tục giảm." }
+  ]
+}

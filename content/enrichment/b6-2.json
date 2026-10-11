@@ -1,0 +1,27 @@
+{
+  "explanation": "～なければならない／～なくてはいけない đều nghĩa là \"phải…\" (cấu trúc phủ định kép: không làm thì không được). Sự khác biệt nằm ở nguồn của nghĩa vụ: ならない thiên về nghĩa vụ khách quan (luật, quy định, lẽ đương nhiên), いけない thiên về nghĩa vụ chủ quan (người nói thấy cần, lời khuyên cá nhân). Trong hội thoại thực tế hai dạng thường dùng thay thế nhau.\n\nVăn nói rút gọn rất hay gặp: ～なければ → ～なきゃ, ～なくては → ～なくちゃ, và thường bỏ luôn phần sau: 「もう帰らなきゃ」「勉強しなくちゃ」.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vない bỏ い + ければ／くては + ならない／いけない", "samples": ["行く → 行かなければならない", "返す → 返さなくてはいけない"] },
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + くなければならない", "samples": ["新しい → 新しくなければならない"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + でなければならない", "samples": ["静か → 静かでなければならない", "日本人 → 日本人でなければならない"] },
+    { "wordType": "Văn nói", "rule": "～なきゃ／～なくちゃ (+ いけない)", "samples": ["帰る → 帰らなきゃ", "寝る → 寝なくちゃ"] }
+  ],
+  "usage": [
+    "Quy định, luật lệ: 「日本では車は左側を走らなければならない」.",
+    "Việc cá nhân cần làm: 「明日までにレポートを書かなくてはいけない」.",
+    "Tự nhắc mình trong văn nói: 「あ、もう行かなきゃ」."
+  ],
+  "pitfalls": [
+    "Không có dạng ✗ なければいかない; chỉ có ならない hoặc いけない.",
+    "Câu hỏi \"có phải… không?\" trả lời phủ định bằng ～なくてもいい／かまわない, không phải ～なければならない ではない."
+  ],
+  "comparisons": [
+    { "pattern": "～べきだ", "targetId": "b16-3", "difference": "～べきだ: nên làm theo lẽ phải, đạo đức (khuyên); ～なければならない: bắt buộc phải làm." },
+    { "pattern": "～ないわけにはいかない", "targetId": "b21-3", "difference": "～ないわけにはいかない: không thể không làm vì lý do tình cảm, xã hội; ～なければならない là nghĩa vụ nói chung." }
+  ],
+  "examples": [
+    { "japanese": "日本で車を運転するには、免許を取らなければならない。", "vietnamese": "Để lái xe ở Nhật thì phải lấy bằng lái." },
+    { "japanese": "明日は朝早いから、もう寝なくちゃ。", "vietnamese": "Mai phải dậy sớm nên giờ phải đi ngủ thôi." },
+    { "japanese": "この仕事に応募する人は、日本語が上手でなければなりません。", "vietnamese": "Người ứng tuyển công việc này phải giỏi tiếng Nhật." }
+  ]
+}

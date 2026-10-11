@@ -1,0 +1,27 @@
+{
+  "explanation": "～くらい／ぐらい／ほど (mức độ) dùng để diễn tả mức độ của một trạng thái bằng cách so sánh với một hình ảnh cụ thể, thường là phóng đại: \"đến mức…, tới nỗi…\". Ví dụ 「泣きたいほど痛い」 — đau đến mức muốn khóc.\n\nほど thường dùng cho mức độ cao, trang trọng hơn; くらい／ぐらい dùng được cả mức độ cao và thấp (nhẹ nhàng, khiêm tốn), thân mật hơn. Với mức độ thấp chỉ dùng くらい: 「挨拶くらいできる」 (ít ra chào hỏi được).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + くらい／ほど", "samples": ["泣きたい → 泣きたいくらい", "立てなくなる → 立てなくなるほど"] },
+    { "wordType": "Tính từ い", "rule": "Aい + くらい／ほど", "samples": ["痛い → 痛いくらい", "怖い → 怖いほど"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + くらい／ほど", "samples": ["不思議 → 不思議なほど", "嫌 → 嫌なくらい"] },
+    { "wordType": "Danh từ", "rule": "N + くらい／ほど", "samples": ["山 → 山ほど", "子供 → 子供くらい"] }
+  ],
+  "usage": [
+    "Phóng đại mức độ: 「死ぬほど疲れた」「涙が出るほど笑った」.",
+    "Bổ nghĩa danh từ: ～ほどの／くらいの + N: 「信じられないほどの量」.",
+    "Mức độ tối thiểu chỉ dùng くらい: 「電話くらいしてよ」 (ít ra gọi điện chứ)."
+  ],
+  "pitfalls": [
+    "Mức độ thấp, coi nhẹ không dùng ほど: ✗「挨拶ほどできる」 → ✓「挨拶くらいできる」.",
+    "Đây là so sánh mức độ, không phải số lượng xấp xỉ (３時間くらい — khoảng 3 tiếng) dù cùng hình thức."
+  ],
+  "comparisons": [
+    { "pattern": "～くらい～はない", "targetId": "b9-2", "difference": "Bài 9-2: dùng くらい／ほど trong câu phủ định để nói \"không gì bằng\"." },
+    { "pattern": "～ば～ほど", "targetId": "b8-4", "difference": "ほど trong ～ば～ほど chỉ thay đổi tương ứng (càng… càng), không phải so sánh mức độ." }
+  ],
+  "examples": [
+    { "japanese": "昨日は死ぬほど疲れて、何もできなかった。", "vietnamese": "Hôm qua tôi mệt muốn chết, chẳng làm được gì." },
+    { "japanese": "お腹が痛くなるくらい笑った。", "vietnamese": "Tôi cười đến mức đau cả bụng." },
+    { "japanese": "忙しくても、電話くらいしてくれればいいのに。", "vietnamese": "Dù bận thì ít ra cũng gọi điện cho tôi chứ." }
+  ]
+}

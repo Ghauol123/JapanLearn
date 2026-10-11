@@ -1,0 +1,26 @@
+{
+  "explanation": "X というより Y nghĩa là \"nói là X thì không đúng lắm, nói là Y thì chính xác hơn\". Người nói không phủ nhận hoàn toàn X, mà cho rằng Y diễn tả đúng bản chất hơn. Mẫu này dùng để điều chỉnh, làm rõ cách đánh giá.\n\nTrước Y hay có むしろ (đúng hơn là): 「暑いというより、むしろ痛い」. Mẫu này dùng cả văn nói và văn viết.",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + というより", "samples": ["忘れている → 忘れているというより", "寒い → 寒いというより"] },
+    { "wordType": "Tính từ な", "rule": "Aな (bỏ だ) + というより", "samples": ["きれい → きれいというより", "静か → 静かというより"] },
+    { "wordType": "Danh từ", "rule": "N + というより", "samples": ["友達 → 友達というより", "助け → 助けというより"] }
+  ],
+  "usage": [
+    "Điều chỉnh đánh giá: 「彼は先生というより、友達のような存在だ」.",
+    "Kết hợp むしろ: 「この料理は辛いというより、むしろ甘い」.",
+    "Văn nói hay kết thúc bằng ～って感じ: 「かわいいというより、きれいって感じ」."
+  ],
+  "pitfalls": [
+    "X và Y phải cùng loại (cùng là danh từ, cùng là tính từ…) để so sánh tương xứng.",
+    "Không dùng để phủ định hoàn toàn X; khi đó dùng ～ではなく."
+  ],
+  "comparisons": [
+    { "pattern": "～ではなく", "targetId": null, "difference": "～ではなく phủ định hoàn toàn X; ～というより chỉ cho rằng Y phù hợp hơn X." },
+    { "pattern": "～わけではない", "targetId": "b14-3", "difference": "～わけではない phủ định một phần suy luận; ～というより đưa ra cách nói thay thế chính xác hơn." }
+  ],
+  "examples": [
+    { "japanese": "今日は涼しいというより、寒いくらいだ。", "vietnamese": "Hôm nay nói là mát thì không đúng, phải nói là lạnh." },
+    { "japanese": "彼は上司というより、お兄さんのような人だ。", "vietnamese": "Anh ấy giống như anh trai hơn là cấp trên." },
+    { "japanese": "この映画は怖いというより、悲しい話だった。", "vietnamese": "Bộ phim này nói là đáng sợ thì không bằng nói là một câu chuyện buồn." }
+  ]
+}

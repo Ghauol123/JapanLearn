@@ -1,0 +1,26 @@
+{
+  "explanation": "～に対して (đối lập) dùng để so sánh hai sự vật, hai người, hai tình huống có tính chất trái ngược nhau: \"trong khi A là X thì B lại là Y\". Mẫu câu khách quan, hay dùng trong văn viết, báo cáo, bài đọc có số liệu.\n\nKhi đứng sau một mệnh đề (không phải danh từ) thì dùng ～のに対して. Dạng rút gọn ～に対し dùng trong văn viết trang trọng.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + に対して", "samples": ["兄 → 兄に対して", "課長 → 課長に対し"] },
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + のに対して", "samples": ["増えている → 増えているのに対して", "高い → 高いのに対して"] },
+    { "wordType": "Tính từ な／Danh từ (mệnh đề)", "rule": "Aな／N + な／である + のに対して", "samples": ["活発 → 活発なのに対して", "夏 → 夏であるのに対して"] }
+  ],
+  "usage": [
+    "So sánh hai đối tượng cùng loại có đặc điểm trái ngược: 「東京は人口が増えているのに対して、地方は減っている」.",
+    "Hay gặp trong bài đọc về thống kê, xã hội.",
+    "Hai vế thường có cấu trúc song song (A は X、B は Y)."
+  ],
+  "pitfalls": [
+    "Không dùng cho hai tính chất của CÙNG một đối tượng — khi đó dùng ～反面／～一方.",
+    "Đừng nhầm với ～に対して (hướng đến đối tượng) ở Bài 20: 「先生に対して失礼だ」."
+  ],
+  "comparisons": [
+    { "pattern": "～反面", "targetId": "b10-2", "difference": "～反面: hai mặt trái ngược của CÙNG một sự vật; ～に対して: so sánh HAI sự vật khác nhau." },
+    { "pattern": "～に対して（対象）", "targetId": "b20-1", "difference": "Bài 20: に対して nghĩa \"đối với, hướng về\" một đối tượng, không phải so sánh." }
+  ],
+  "examples": [
+    { "japanese": "都会は人が多いのに対して、田舎は静かで人が少ない。", "vietnamese": "Thành phố đông người, trong khi nông thôn yên tĩnh và ít người." },
+    { "japanese": "姉は外で遊ぶのが好きなのに対して、妹は家で本を読むのが好きだ。", "vietnamese": "Chị thì thích chơi ngoài trời, còn em lại thích ở nhà đọc sách." },
+    { "japanese": "去年は輸出が増えたのに対し、輸入は減った。", "vietnamese": "Năm ngoái xuất khẩu tăng, còn nhập khẩu thì giảm." }
+  ]
+}

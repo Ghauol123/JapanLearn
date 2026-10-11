@@ -2085,6 +2085,79 @@
               "ruby": "Ａ：この[部屋|へや]はシャワーだけでお[風呂|ふろ]がないんですが。Ｂ：シャワーがあれば、お[風呂|ふろ]はなくてもかまいません。"
             }
           ],
+          "enrichment": {
+            "explanation": "～てもかまわない nghĩa là \"làm… cũng không sao, cũng được\": người nói chấp nhận, cho phép một phương án dù đó không phải là phương án tốt nhất hay thông thường. Đây là cách nói lịch sự, hơi trang trọng hơn ～てもいい.\n\nDạng nghi vấn ～てもかまいませんか dùng để xin phép một cách lịch sự. Dạng ～なくてもかまわない nghĩa là \"không cần… cũng được\".",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vて + もかまわない",
+                "samples": [
+                  "座る → 座ってもかまわない",
+                  "使う → 使ってもかまわない"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい bỏ い + くても + かまわない",
+                "samples": [
+                  "高い → 高くてもかまわない",
+                  "古い → 古くてもかまわない"
+                ]
+              },
+              {
+                "wordType": "Tính từ な／Danh từ",
+                "rule": "Aな／N + でも + かまわない",
+                "samples": [
+                  "下手 → 下手でもかまわない",
+                  "英語 → 英語でもかまわない"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "Vない bỏ い + くても + かまわない",
+                "samples": [
+                  "来ない → 来なくてもかまわない"
+                ]
+              }
+            ],
+            "usage": [
+              "Cho phép, nhượng bộ: 「少しぐらい高くてもかまいません」.",
+              "Xin phép lịch sự: 「窓を開けてもかまいませんか」.",
+              "Nói không cần thiết: 「明日は来なくてもかまいません」."
+            ],
+            "pitfalls": [
+              "Với người trên, xin phép nên dùng ～てもよろしいでしょうか thay vì ～てもかまわない (nghe như người nói đang cho phép).",
+              "Câu trả lời phủ định cho câu xin phép không dùng かまいます; dùng 「すみません、ちょっと…」 hoặc ～てはいけません."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～てもいい",
+                "difference": "Cùng nghĩa cho phép; ～てもいい thân mật hơn, ～てもかまわない lịch sự và có chút sắc thái \"tôi không bận tâm\"."
+              },
+              {
+                "pattern": "～なければならない",
+                "targetId": "b6-2",
+                "difference": "Đối nghĩa: ～なくてもかまわない (không cần) đối lập với ～なければならない (phải)."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "ペンがなければ、鉛筆で書いてもかまいません。",
+                "vietnamese": "Nếu không có bút bi thì viết bằng bút chì cũng được.",
+                "ruby": "ペンがなければ、[鉛筆|えんぴつ]で[書|か]いてもかまいません。"
+              },
+              {
+                "japanese": "日本語が下手でもかまわないので、話してみてください。",
+                "vietnamese": "Tiếng Nhật kém cũng không sao, hãy thử nói đi.",
+                "ruby": "[日本語|にほんご]が[下手|へた]でもかまわないので、[話|はな]してみてください。"
+              },
+              {
+                "japanese": "忙しいなら、パーティーに来なくてもかまわないよ。",
+                "vietnamese": "Nếu bận thì không đến bữa tiệc cũng được mà.",
+                "ruby": "[忙|いそが]しいなら、パーティーに[来|こ]なくてもかまわないよ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -2127,6 +2200,80 @@
               "ruby": "Ａ：[自転車|じてんしゃ]は、[車道|しゃどう]を[走|はし]らなければなりませんか。Ｂ：いいえ、[歩道|ほどう]を[走|はし]ってもいいですよ。"
             }
           ],
+          "enrichment": {
+            "explanation": "～なければならない／～なくてはいけない đều nghĩa là \"phải…\" (cấu trúc phủ định kép: không làm thì không được). Sự khác biệt nằm ở nguồn của nghĩa vụ: ならない thiên về nghĩa vụ khách quan (luật, quy định, lẽ đương nhiên), いけない thiên về nghĩa vụ chủ quan (người nói thấy cần, lời khuyên cá nhân). Trong hội thoại thực tế hai dạng thường dùng thay thế nhau.\n\nVăn nói rút gọn rất hay gặp: ～なければ → ～なきゃ, ～なくては → ～なくちゃ, và thường bỏ luôn phần sau: 「もう帰らなきゃ」「勉強しなくちゃ」.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vない bỏ い + ければ／くては + ならない／いけない",
+                "samples": [
+                  "行く → 行かなければならない",
+                  "返す → 返さなくてはいけない"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい bỏ い + くなければならない",
+                "samples": [
+                  "新しい → 新しくなければならない"
+                ]
+              },
+              {
+                "wordType": "Tính từ な／Danh từ",
+                "rule": "Aな／N + でなければならない",
+                "samples": [
+                  "静か → 静かでなければならない",
+                  "日本人 → 日本人でなければならない"
+                ]
+              },
+              {
+                "wordType": "Văn nói",
+                "rule": "～なきゃ／～なくちゃ (+ いけない)",
+                "samples": [
+                  "帰る → 帰らなきゃ",
+                  "寝る → 寝なくちゃ"
+                ]
+              }
+            ],
+            "usage": [
+              "Quy định, luật lệ: 「日本では車は左側を走らなければならない」.",
+              "Việc cá nhân cần làm: 「明日までにレポートを書かなくてはいけない」.",
+              "Tự nhắc mình trong văn nói: 「あ、もう行かなきゃ」."
+            ],
+            "pitfalls": [
+              "Không có dạng ✗ なければいかない; chỉ có ならない hoặc いけない.",
+              "Câu hỏi \"có phải… không?\" trả lời phủ định bằng ～なくてもいい／かまわない, không phải ～なければならない ではない."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～べきだ",
+                "targetId": "b16-3",
+                "difference": "～べきだ: nên làm theo lẽ phải, đạo đức (khuyên); ～なければならない: bắt buộc phải làm."
+              },
+              {
+                "pattern": "～ないわけにはいかない",
+                "targetId": "b21-3",
+                "difference": "～ないわけにはいかない: không thể không làm vì lý do tình cảm, xã hội; ～なければならない là nghĩa vụ nói chung."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "日本で車を運転するには、免許を取らなければならない。",
+                "vietnamese": "Để lái xe ở Nhật thì phải lấy bằng lái.",
+                "ruby": "[日本|にほん]で[車|くるま]を[運転|うんてん]するには、[免許|めんきょ]を[取|と]らなければならない。"
+              },
+              {
+                "japanese": "明日は朝早いから、もう寝なくちゃ。",
+                "vietnamese": "Mai phải dậy sớm nên giờ phải đi ngủ thôi.",
+                "ruby": "[明日|あした]は[朝|あさ][早|はや]いから、もう[寝|ね]なくちゃ。"
+              },
+              {
+                "japanese": "この仕事に応募する人は、日本語が上手でなければなりません。",
+                "vietnamese": "Người ứng tuyển công việc này phải giỏi tiếng Nhật.",
+                "ruby": "この[仕事|しごと]に[応募|おうぼ]する[人|ひと]は、[日本語|にほんご]が[上手|じょうず]でなければなりません。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -2173,6 +2320,72 @@
               "ruby": "[休|やす]みの[日|ひ]は[何|なに]もせず、うちでのんびりしていた。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ずに là dạng văn viết của ～ないで: diễn tả hành động chính được thực hiện trong trạng thái KHÔNG làm một việc khác (\"mà không…\", \"thay vì…\"). ず là dạng phủ định cổ tương đương ない, nên ～ずに nghe trang trọng, cứng hơn và hay gặp trong văn bản, thông báo, tin tức.\n\nTrong hội thoại hằng ngày người Nhật dùng ～ないで nhiều hơn; dùng ～ずに khi nói tạo cảm giác nghiêm túc, chững chạc.",
+            "formation": [
+              {
+                "wordType": "Động từ nhóm 1",
+                "rule": "Vない bỏ ない + ずに",
+                "samples": [
+                  "書く → 書かずに",
+                  "使う → 使わずに"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 2",
+                "rule": "Vない bỏ ない + ずに",
+                "samples": [
+                  "食べる → 食べずに",
+                  "見る → 見ずに"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 3",
+                "rule": "する → せずに; 来る → 来ずに (こずに)",
+                "samples": [
+                  "勉強する → 勉強せずに",
+                  "来る → 来ずに"
+                ]
+              }
+            ],
+            "usage": [
+              "Hai hành động có cùng chủ ngữ: hành động sau được thực hiện mà không kèm hành động trước.",
+              "Hay dùng trong văn viết, thông báo, hướng dẫn: 「遠慮せずに言ってください」.",
+              "Bỏ に (～ず) khi nối câu thì nghĩa thường chuyển sang \"vì không… nên…\" (xem ～ず)."
+            ],
+            "pitfalls": [
+              "✗ しずに → ✓ せずに: する luôn chuyển thành せず.",
+              "Không dùng ～ずに để yêu cầu: ✗「食べずにください」→ ✓「食べないでください」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ないで",
+                "difference": "Cùng nghĩa \"mà không…\", nhưng ～ないで dùng tự nhiên trong văn nói và có dạng yêu cầu ～ないでください; ～ずに trang trọng hơn và không dùng để yêu cầu."
+              },
+              {
+                "pattern": "～ず",
+                "targetId": "b6-4",
+                "difference": "～ず (không có に) thường nối hai vế với nghĩa nguyên nhân \"vì không… nên…\" hoặc liệt kê phủ định."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "朝ご飯を食べずに学校へ行った。",
+                "vietnamese": "Tôi đã đến trường mà không ăn sáng.",
+                "ruby": "[朝|あさ]ご[飯|はん]を[食|た]べずに[学校|がっこう]へ[行|い]った。"
+              },
+              {
+                "japanese": "彼は何も言わずに部屋を出ていった。",
+                "vietnamese": "Anh ấy rời khỏi phòng mà không nói gì.",
+                "ruby": "[彼|かれ]は[何|なに]も[言|い]わずに[部屋|へや]を[出|で]ていった。"
+              },
+              {
+                "japanese": "傘を持たずに出かけたら、雨に降られた。",
+                "vietnamese": "Ra ngoài mà không mang ô nên tôi bị mắc mưa.",
+                "ruby": "[傘|かさ]を[持|も]たずに[出|で]かけたら、[雨|あめ]に[降|ふ]られた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2219,6 +2432,78 @@
               "ruby": "ナイキのシューズは[硬|かた]すぎず、[軟|やわ]らかすぎず、はきやすいです。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ず (không có に) là dạng văn viết của ～なくて. Nó nối hai vế câu với hai nghĩa chính: ① nguyên nhân — \"vì không… nên…\" (vế sau thường là cảm xúc, trạng thái không mong muốn: 困る, 心配する, 迷う); ② liệt kê phủ định — \"không… và cũng không…\".\n\nVì là văn viết, ～ず xuất hiện nhiều trong báo chí, văn bản, bài đọc JLPT. Một số cụm cố định: 思わず (bất giác), 相変わらず (vẫn như cũ), 少なからず (không ít).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vない bỏ ない + ず",
+                "samples": [
+                  "わかる → わからず",
+                  "眠れる → 眠れず",
+                  "取れる → 取れず"
+                ]
+              },
+              {
+                "wordType": "Động từ する／来る",
+                "rule": "する → せず; 来る → 来ず (こず)",
+                "samples": [
+                  "連絡する → 連絡せず",
+                  "来る → 来ず"
+                ]
+              },
+              {
+                "wordType": "Liệt kê",
+                "rule": "V1ず、V2ず ／ Aすぎず、Aすぎず",
+                "samples": [
+                  "暑すぎず、寒すぎず",
+                  "遅刻せず、休まず"
+                ]
+              }
+            ],
+            "usage": [
+              "Nguyên nhân dẫn đến kết quả không mong muốn: 「答えがわからず、困った」.",
+              "Liệt kê hai trạng thái phủ định: 「甘すぎず、辛すぎず、ちょうどいい」.",
+              "Trong văn nói thường thay bằng ～なくて."
+            ],
+            "pitfalls": [
+              "Vế sau không dùng ý chí, mệnh lệnh: ✗「時間がわからず、電話してください」 → ✓「時間がわからなかったら、電話してください」.",
+              "Khác ～ずに: 「かぎをかけずに出かけた」 (ra ngoài mà không khóa — cách thức) vs 「道がわからず、迷った」 (vì không biết đường nên lạc — nguyên nhân)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ずに",
+                "targetId": "b6-3",
+                "difference": "～ずに: \"mà không…\" (cách thức thực hiện hành động chính). ～ず: \"vì không…\" (nguyên nhân) hoặc liệt kê phủ định."
+              },
+              {
+                "pattern": "～なくて",
+                "difference": "Cùng nghĩa nguyên nhân; ～なくて dùng trong văn nói, ～ず cứng và trang trọng hơn."
+              },
+              {
+                "pattern": "Thể liên dụng trung chỉ",
+                "targetId": "b30-1",
+                "difference": "Bài 30 hệ thống lại: V1なくて／V1ないで trong văn viết đều chuyển thành V1ず."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "昨夜は暑くて眠れず、今日は一日中眠かった。",
+                "vietnamese": "Đêm qua nóng quá không ngủ được nên hôm nay buồn ngủ cả ngày.",
+                "ruby": "[昨夜|さくや]は[暑|あつ]くて[眠|ねむ]れず、[今日|きょう]は[一日中|いちにちじゅう][眠|ねむ]かった。"
+              },
+              {
+                "japanese": "彼から連絡が来ず、みんな心配している。",
+                "vietnamese": "Không có liên lạc từ anh ấy nên mọi người đang lo.",
+                "ruby": "[彼|かれ]から[連絡|れんらく]が[来|こ]ず、みんな[心配|しんぱい]している。"
+              },
+              {
+                "japanese": "このスープは甘すぎず、辛すぎず、ちょうどいい味だ。",
+                "vietnamese": "Món súp này không quá ngọt cũng không quá cay, vị vừa phải.",
+                "ruby": "このスープは[甘|あま]すぎず、[辛|つら]すぎず、ちょうどいい[味|あじ]だ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         }
       ],
@@ -2272,6 +2557,85 @@
               "ruby": "[独身|どくしん]のうちに、[世界中|せかいじゅう]を[旅行|りょこう]したい。"
             }
           ],
+          "enrichment": {
+            "explanation": "～うちに (1) diễn tả việc tranh thủ làm Y trong khoảng thời gian trạng thái X còn tồn tại, vì sau khi X thay đổi thì sẽ khó hoặc không thể làm Y được nữa: \"nhân lúc còn…, trong khi còn…\". Trọng tâm không phải là mốc thời gian mà là cơ hội sẽ mất.\n\nHay đi với các trạng thái sẽ thay đổi: 若い, 元気, 熱い, 明るい, 独身, 学生, 日本にいる, Vない (雨が降らないうちに — trước khi mưa).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる／Vている／Vない + うちに",
+                "samples": [
+                  "いる → 日本にいるうちに",
+                  "降らない → 雨が降らないうちに"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + うちに",
+                "samples": [
+                  "若い → 若いうちに",
+                  "熱い → 熱いうちに"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な + うちに",
+                "samples": [
+                  "元気 → 元気なうちに",
+                  "静か → 静かなうちに"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + うちに",
+                "samples": [
+                  "学生 → 学生のうちに",
+                  "午前 → 午前のうちに"
+                ]
+              }
+            ],
+            "usage": [
+              "Vế sau là hành động có ý chí: lời khuyên, mong muốn, ý định (～たい, ～てください, ～ましょう, ～ておく).",
+              "Vない + うちに = \"trước khi (điều không mong muốn) xảy ra\": 「暗くならないうちに帰ろう」.",
+              "Nhấn mạnh cơ hội: sau khi X thay đổi thì sẽ quá muộn."
+            ],
+            "pitfalls": [
+              "Không dùng khi trạng thái X không thay đổi hoặc có mốc rõ ràng: ✗「夏休みのうちに旅行した」 → ✓「夏休みの間に旅行した」.",
+              "Vế sau ở nghĩa này nên là hành động có ý chí; sự việc tự nhiên xảy ra là nghĩa (2)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～間に",
+                "targetId": "b7-3",
+                "difference": "～間に chỉ khoảng thời gian có điểm đầu và điểm cuối rõ ràng; ～うちに nhấn mạnh tranh thủ trước khi trạng thái thay đổi."
+              },
+              {
+                "pattern": "～前に",
+                "difference": "～前に chỉ thứ tự thời gian đơn thuần; Vないうちに mang sắc thái \"kẻo không kịp\"."
+              },
+              {
+                "pattern": "～うちに（２）",
+                "targetId": "b7-2",
+                "difference": "Nghĩa (2): trong lúc đang làm X thì Y xảy ra tự nhiên, không do ý chí."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "若いうちに、いろいろな国へ行ってみたい。",
+                "vietnamese": "Tôi muốn đi nhiều nước khi còn trẻ.",
+                "ruby": "[若|わか]いうちに、いろいろな[国|くに]へ[行|い]ってみたい。"
+              },
+              {
+                "japanese": "暗くならないうちに、家に帰りましょう。",
+                "vietnamese": "Mình về nhà trước khi trời tối thôi.",
+                "ruby": "[暗|くら]くならないうちに、[家|いえ]に[帰|かえ]りましょう。"
+              },
+              {
+                "japanese": "忘れないうちに、メモしておこう。",
+                "vietnamese": "Ghi chú lại kẻo quên.",
+                "ruby": "[忘|わす]れないうちに、メモしておこう。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2318,6 +2682,73 @@
               "ruby": "[知|し]らないうちに、[山田|やまだ]さんは[会社|かいしゃ]を[辞|や]めていた。"
             }
           ],
+          "enrichment": {
+            "explanation": "～うちに (2) diễn tả việc trong quá trình hành động/trạng thái X đang kéo dài thì một sự thay đổi Y xảy ra một cách tự nhiên, không chủ ý, thường là người nói không nhận ra khi nào: \"trong lúc…, đang… thì…\".\n\nVế sau thường là sự thay đổi: ～てしまった, ～てきた, ～ようになった, ～なった. Động từ ở vế trước thường là hành động kéo dài (Vている) hoặc lặp đi lặp lại (読むうちに, 会っているうちに).",
+            "formation": [
+              {
+                "wordType": "Động từ tiếp diễn",
+                "rule": "Vている + うちに",
+                "samples": [
+                  "見ている → テレビを見ているうちに",
+                  "話している → 話しているうちに"
+                ]
+              },
+              {
+                "wordType": "Động từ lặp lại",
+                "rule": "Vる + うちに",
+                "samples": [
+                  "読む → 何度も読むうちに",
+                  "使う → 使ううちに"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "Vない + うちに (\"trong lúc chưa kịp…\")",
+                "samples": [
+                  "知らない → 知らないうちに",
+                  "気づかない → 気がつかないうちに"
+                ]
+              }
+            ],
+            "usage": [
+              "Vế sau là thay đổi tự nhiên, không ý chí: 「話しているうちに、仲良くなった」.",
+              "知らないうちに／気がつかないうちに: \"chẳng biết từ lúc nào\".",
+              "Hay dùng để kể chuyện, hồi tưởng."
+            ],
+            "pitfalls": [
+              "Vế sau không dùng ý chí: ✗「テレビを見ているうちに、宿題をしよう」.",
+              "Không dùng cho hành động tức thời, một lần: ✗「ドアを開けるうちに」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～うちに（１）",
+                "targetId": "b7-1",
+                "difference": "Nghĩa (1): tranh thủ làm việc có chủ ý trước khi trạng thái thay đổi. Nghĩa (2): thay đổi xảy ra tự nhiên trong lúc đang làm."
+              },
+              {
+                "pattern": "～ているところに",
+                "targetId": "b7-4",
+                "difference": "～ているところに: đúng lúc đang làm thì có sự việc khác chen vào (một lần, đột ngột); ～ているうちに: thay đổi dần dần trong quá trình."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "本を読んでいるうちに、外が暗くなっていた。",
+                "vietnamese": "Đang đọc sách thì bên ngoài trời đã tối lúc nào không hay.",
+                "ruby": "[本|ほん]を[読|よ]んでいるうちに、[外|そと]が[暗|くら]くなっていた。"
+              },
+              {
+                "japanese": "毎日使っているうちに、この機械にも慣れてきた。",
+                "vietnamese": "Dùng mỗi ngày nên tôi đã dần quen với cái máy này.",
+                "ruby": "[毎日|まいにち][使|つか]っているうちに、この[機械|きかい]にも[慣|な]れてきた。"
+              },
+              {
+                "japanese": "知らないうちに、子供たちはこんなに大きくなっていた。",
+                "vietnamese": "Chẳng biết từ lúc nào lũ trẻ đã lớn thế này rồi.",
+                "ruby": "[知|し]らないうちに、[子供|こども]たちはこんなに[大|おお]きくなっていた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2388,6 +2819,72 @@
               "ruby": "シャワーを[浴|あ]びている[間|あいだ]に、[電話|でんわ]がありました。"
             }
           ],
+          "enrichment": {
+            "explanation": "～間 và ～間に cùng chỉ một khoảng thời gian có điểm đầu và điểm cuối, nhưng khác nhau về hành động ở vế sau. X間、Y: Y diễn ra liên tục suốt toàn bộ khoảng X (vế sau thường là ～ている, ずっと). X間に、Y: Y xảy ra tại một thời điểm nào đó bên trong khoảng X (hành động một lần, có kết thúc).\n\nMẹo phân biệt: nếu có thể thêm ずっと vào vế sau thì dùng 間; nếu vế sau là một sự việc xảy ra rồi xong thì dùng 間に.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + 間／間に",
+                "samples": [
+                  "夏休み → 夏休みの間",
+                  "留守 → 留守の間に"
+                ]
+              },
+              {
+                "wordType": "Động từ",
+                "rule": "Vている／Vる + 間／間に",
+                "samples": [
+                  "待っている → 待っている間",
+                  "寝ている → 寝ている間に"
+                ]
+              },
+              {
+                "wordType": "Phủ định／tính từ",
+                "rule": "Vない／Aい／Aな + な + 間(に)",
+                "samples": [
+                  "いない → 親がいない間に",
+                  "暇 → 暇な間に"
+                ]
+              }
+            ],
+            "usage": [
+              "間 + hành động kéo dài: 「電車に乗っている間、ずっと本を読んでいた」.",
+              "間に + sự việc một lần: 「留守の間に、泥棒に入られた」.",
+              "Chủ ngữ hai vế có thể khác nhau: 「私が寝ている間に、母が料理を作ってくれた」."
+            ],
+            "pitfalls": [
+              "✗「授業の間に、ずっと寝ていた」 → ✓「授業の間、ずっと寝ていた」.",
+              "✗「出かけている間、電話があった」 → ✓「出かけている間に、電話があった」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～うちに（１）",
+                "targetId": "b7-1",
+                "difference": "うちに nhấn mạnh tranh thủ trước khi trạng thái thay đổi; 間に chỉ khoảng thời gian khách quan có mốc rõ."
+              },
+              {
+                "pattern": "～中(に)",
+                "difference": "～中 (じゅう／ちゅう) gắn với danh từ chỉ thời gian hoặc hoạt động: 今日中に, 会議中 — phạm vi hẹp hơn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "母が買い物に行っている間、私は弟の世話をしていた。",
+                "vietnamese": "Trong suốt lúc mẹ đi chợ, tôi trông em trai.",
+                "ruby": "[母|はは]が[買|か]い[物|もの]に[行|い]っている[間|あいだ]、[私|わたし]は[弟|おとうと]の[世話|せわ]をしていた。"
+              },
+              {
+                "japanese": "寝ている間に、地震があったそうだ。",
+                "vietnamese": "Nghe nói trong lúc tôi ngủ đã có động đất.",
+                "ruby": "[寝|ね]ている[間|あいだ]に、[地震|じしん]があったそうだ。"
+              },
+              {
+                "japanese": "留守の間に、荷物が届いていた。",
+                "vietnamese": "Trong lúc tôi vắng nhà thì hàng đã được giao tới.",
+                "ruby": "[留守|るす]の[間|あいだ]に、[荷物|にもつ]が[届|とど]いていた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2448,6 +2945,72 @@
               "ruby": "[寝|ね]ようとしたところへ、[友達|ともだち]が[訪|たず]ねてきた。"
             }
           ],
+          "enrichment": {
+            "explanation": "ところ (\"thời điểm, giai đoạn\") kết hợp với trợ từ để chỉ chính xác hành động đang ở giai đoạn nào khi một sự việc khác xảy ra. ～ところを: đúng lúc đang làm thì bị (ai đó thấy, bắt gặp, cản) — vế sau thường là bị động. ～ところで: đúng lúc vừa làm xong một bước thì… ～ところに／へ: đúng lúc đang ở trạng thái đó thì có người/việc đến (thường là 来る, 帰る, 電話がある).\n\nNgoài ra ～ところを còn dùng trong câu cảm ơn, xin lỗi lịch sự: 「お忙しいところをすみません」 (xin lỗi vì làm phiền lúc anh/chị đang bận).",
+            "formation": [
+              {
+                "wordType": "～ところを",
+                "rule": "Vている／Vる + ところを + V bị động／見る",
+                "samples": [
+                  "寝ている → 寝ているところを起こされた",
+                  "逃げる → 逃げるところを捕まった"
+                ]
+              },
+              {
+                "wordType": "～ところで",
+                "rule": "Vた + ところで",
+                "samples": [
+                  "終わった → 話が終わったところで",
+                  "着いた → 駅に着いたところで"
+                ]
+              },
+              {
+                "wordType": "～ところに／へ",
+                "rule": "Vている／Vた／Vようとした + ところに／へ",
+                "samples": [
+                  "出かけようとした → 出かけようとしたところに",
+                  "食べている → 食べているところへ"
+                ]
+              }
+            ],
+            "usage": [
+              "～ところを + 見られる／見つかる: bị bắt gặp đang làm gì.",
+              "～ところに + 来る／電話がかかる: có người hoặc việc đến đúng lúc đó (thường ngoài ý muốn).",
+              "Lịch sự: 「お休みのところ、申し訳ありません」."
+            ],
+            "pitfalls": [
+              "～ところで với Vた nghĩa \"vừa xong thì\"; với V thể thường cuối câu như 「今から行ったところで間に合わない」 lại nghĩa là \"dù có… cũng vô ích\" — cần phân biệt.",
+              "Không nhầm với ～ところだ (đang định／đang／vừa mới — N4)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ところだ",
+                "difference": "～ところだ (N4) chỉ giai đoạn của hành động ở cuối câu; ～ところを／で／に nối sang một sự việc khác xảy ra đúng lúc đó."
+              },
+              {
+                "pattern": "～うちに（２）",
+                "targetId": "b7-2",
+                "difference": "～うちに: thay đổi xảy ra dần dần trong quá trình; ～ところに: sự việc chen vào ngay tại thời điểm cụ thể."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "授業中に寝ているところを、先生に見つかった。",
+                "vietnamese": "Tôi bị thầy bắt gặp đúng lúc đang ngủ trong giờ học.",
+                "ruby": "[授業|じゅぎょう][中|ちゅう]に[寝|ね]ているところを、[先生|せんせい]に[見|み]つかった。"
+              },
+              {
+                "japanese": "駅に着いたところで、雨が降り出した。",
+                "vietnamese": "Vừa đến ga thì trời bắt đầu mưa.",
+                "ruby": "[駅|えき]に[着|つ]いたところで、[雨|あめ]が[降|ふ]り[出|だ]した。"
+              },
+              {
+                "japanese": "お忙しいところをお邪魔して、申し訳ありません。",
+                "vietnamese": "Xin lỗi vì đã làm phiền lúc anh/chị đang bận.",
+                "ruby": "お[忙|いそが]しいところをお[邪魔|じゃま]して、[申|もう]し[訳|わけ]ありません。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2494,6 +3057,62 @@
               "ruby": "[実際|じっさい]に[実物|じつぶつ]を[見|み]てからでなければ、[買|か]うかどうか[決|き]められません。"
             }
           ],
+          "enrichment": {
+            "explanation": "～てからでないと／～てからでなければ diễn tả điều kiện tiên quyết: phải làm xong X trước thì mới làm được Y; nếu chưa X thì không thể/không nên Y. Nghĩa: \"nếu chưa… thì không…\", \"phải… rồi mới…\".\n\nVế sau luôn mang nghĩa phủ định hoặc khó khăn: ～できない, ～わからない, ～無理だ, ～決められない. ～てからでなければ cứng và trang trọng hơn ～てからでないと.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vて + からでないと／からでなければ",
+                "samples": [
+                  "確認する → 確認してからでないと",
+                  "相談する → 相談してからでなければ"
+                ]
+              },
+              {
+                "wordType": "Văn nói",
+                "rule": "Vて + からじゃないと",
+                "samples": [
+                  "見る → 見てからじゃないと"
+                ]
+              }
+            ],
+            "usage": [
+              "Vế sau là phủ định/không thể: 「親に聞いてからでないと、返事できません」.",
+              "Dùng để từ chối khéo, trì hoãn quyết định: 「実物を見てからでないと、何とも言えません」.",
+              "Nói về quy trình bắt buộc: 「手を洗ってからでないと、食事してはいけない」."
+            ],
+            "pitfalls": [
+              "Vế sau không dùng khẳng định thuận chiều: ✗「確認してからでないと、サインできる」.",
+              "Không nhầm với ～てから (sau khi): ～てから chỉ thứ tự, không mang nghĩa điều kiện bắt buộc."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～てから",
+                "difference": "～てから chỉ thứ tự thời gian (làm X rồi làm Y); ～てからでないと nhấn mạnh X là điều kiện bắt buộc."
+              },
+              {
+                "pattern": "～ないと…ない",
+                "difference": "～ないと…ない (勉強しないと合格できない) nói điều kiện chung; ～てからでないと nhấn mạnh thứ tự trước-sau."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "医者に相談してからでないと、この薬は飲めません。",
+                "vietnamese": "Phải hỏi ý kiến bác sĩ rồi mới được uống thuốc này.",
+                "ruby": "[医者|いしゃ]に[相談|そうだん]してからでないと、この[薬|くすり]は[飲|の]めません。"
+              },
+              {
+                "japanese": "宿題が終わってからでないと、遊びに行ってはいけないよ。",
+                "vietnamese": "Phải làm xong bài tập rồi mới được đi chơi đấy.",
+                "ruby": "[宿題|しゅくだい]が[終|お]わってからでないと、[遊|あそ]びに[行|い]ってはいけないよ。"
+              },
+              {
+                "japanese": "一度会って話してからでなければ、その人を信用できない。",
+                "vietnamese": "Phải gặp nói chuyện một lần rồi tôi mới tin được người đó.",
+                "ruby": "[一度|いちど][会|あ]って[話|はな]してからでなければ、その[人|ひと]を[信用|しんよう]できない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         }
       ],
@@ -2547,6 +3166,72 @@
               "ruby": "Ａ：[迷惑|めいわく]をかけて、すみません。Ｂ：いいの。ついでがあるから。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ついでに diễn tả việc nhân dịp làm hành động chính X, người nói tiện thể làm thêm việc phụ Y: \"tiện thể…, nhân tiện…\". X là mục đích chính, Y là việc phụ được làm thêm vì đằng nào cũng đang làm X.\n\nついで còn đứng một mình: 「ついでに～もお願い」 (tiện thì nhờ luôn cái này), 「ついでがある」 (có dịp tiện đường).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる／Vた + ついでに",
+                "samples": [
+                  "出かける → 出かけるついでに",
+                  "行った → 行ったついでに"
+                ]
+              },
+              {
+                "wordType": "Danh từ (Nする)",
+                "rule": "N + の + ついでに",
+                "samples": [
+                  "散歩 → 散歩のついでに",
+                  "買い物 → 買い物のついでに"
+                ]
+              },
+              {
+                "wordType": "Đứng riêng",
+                "rule": "ついでに + V",
+                "samples": [
+                  "ついでに買ってきて",
+                  "ついでに言うと"
+                ]
+              }
+            ],
+            "usage": [
+              "Vるついでに: tiện khi sắp làm X; Vたついでに: tiện khi đã làm X (thường là đi đâu đó).",
+              "Nhờ vả nhẹ nhàng: 「コンビニに行くなら、ついでに牛乳も買ってきて」.",
+              "Vế sau là hành động có ý chí của cùng chủ ngữ."
+            ],
+            "pitfalls": [
+              "Y phải là việc phụ, nhỏ; không dùng khi Y quan trọng hơn X.",
+              "Không dùng cho sự việc tự nhiên xảy ra: ✗「散歩のついでに、雨が降った」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～がてら",
+                "difference": "～がてら (N2) gần nghĩa nhưng hay dùng với 散歩, 買い物 và hai hành động diễn ra đồng thời; ～ついでに phổ biến hơn."
+              },
+              {
+                "pattern": "～たびに",
+                "targetId": "b8-3",
+                "difference": "～たびに: mỗi lần X thì Y (lặp lại); ～ついでに: nhân dịp X làm thêm Y (một lần)."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "郵便局へ行くついでに、銀行にも寄ってきます。",
+                "vietnamese": "Tiện đi bưu điện tôi ghé ngân hàng luôn.",
+                "ruby": "[郵便|ゆうびん][局|きょく]へ[行|い]くついでに、[銀行|ぎんこう]にも[寄|よ]ってきます。"
+              },
+              {
+                "japanese": "東京に出張したついでに、昔の友達に会った。",
+                "vietnamese": "Nhân chuyến công tác Tokyo, tôi gặp lại bạn cũ.",
+                "ruby": "[東京|とうきょう]に[出張|しゅっちょう]したついでに、[昔|むかし]の[友達|ともだち]に[会|あ]った。"
+              },
+              {
+                "japanese": "コンビニに行くなら、ついでにジュースも買ってきてくれない？",
+                "vietnamese": "Nếu đi cửa hàng tiện lợi thì tiện mua giúp tớ nước trái cây được không?",
+                "ruby": "コンビニに[行|い]くなら、ついでにジュースも[買|か]ってきてくれない？"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2588,6 +3273,76 @@
               "ruby": "[人|ひと]によっては１[日|にち]３[時間|じかん]しか[寝|ね]ない。"
             }
           ],
+          "enrichment": {
+            "explanation": "N + によって (ở nghĩa này) diễn tả sự đa dạng: tùy theo X khác nhau mà Y cũng khác nhau. Vế sau thường có các từ chỉ sự khác biệt: 違う, 異なる, さまざまだ, 変わる, いろいろ.\n\n～によっては là trường hợp đặc biệt: \"tùy trường hợp X, có khi…\". Nó nêu một khả năng đặc thù xảy ra với một số X, không phải tất cả. Vế sau thường có ～こともある, ～場合もある.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N + によって + 違う／異なる／さまざまだ",
+                "samples": [
+                  "国 → 国によって違う",
+                  "人 → 人によってさまざまだ"
+                ]
+              },
+              {
+                "wordType": "Danh từ (ngoại lệ)",
+                "rule": "N + によっては + ～こともある",
+                "samples": [
+                  "場合 → 場合によっては",
+                  "天気 → 天気によっては"
+                ]
+              },
+              {
+                "wordType": "Bổ nghĩa danh từ",
+                "rule": "N + による + N",
+                "samples": [
+                  "地域 → 地域による違い"
+                ]
+              }
+            ],
+            "usage": [
+              "Nêu sự khác biệt tổng quát: 「季節によって、景色が変わる」.",
+              "Nêu khả năng đặc biệt: 「場合によっては、手術が必要になる」.",
+              "Danh từ X thường là: 人, 国, 地域, 時代, 季節, 場合, 曜日, 天気."
+            ],
+            "pitfalls": [
+              "～によっては không đi với vế sau tổng quát: ✗「人によっては、考え方が違う」 → ✓「人によって考え方が違う」 hoặc 「人によっては反対する」.",
+              "Đừng nhầm với ～によって (nguyên nhân, phương tiện, tác nhân) ở Bài 11 và Bài 20."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～によって（原因）",
+                "targetId": "b11-1",
+                "difference": "Bài 11: によって chỉ nguyên nhân (地震によって橋が壊れた), không phải sự khác biệt."
+              },
+              {
+                "pattern": "～によって（受身）",
+                "targetId": "b20-2",
+                "difference": "Bài 20: によって chỉ tác giả trong câu bị động (ベルによって発明された)."
+              },
+              {
+                "pattern": "～次第で",
+                "difference": "～次第で (N2) nhấn mạnh X quyết định kết quả Y (努力次第で); ～によって chỉ sự khác biệt theo X."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "日本料理の味は、地域によって少しずつ違う。",
+                "vietnamese": "Vị món ăn Nhật khác nhau đôi chút tùy từng vùng.",
+                "ruby": "[日本|にほん][料理|りょうり]の[味|あじ]は、[地域|ちいき]によって[少|すこ]しずつ[違|ちが]う。"
+              },
+              {
+                "japanese": "考え方は人によってさまざまだ。",
+                "vietnamese": "Cách suy nghĩ mỗi người một khác.",
+                "ruby": "[考|かんが]え[方|かた]は[人|ひと]によってさまざまだ。"
+              },
+              {
+                "japanese": "天気によっては、明日の試合が中止になることもあります。",
+                "vietnamese": "Tùy thời tiết, cũng có khi trận đấu ngày mai bị hủy.",
+                "ruby": "[天気|てんき]によっては、[明日|あした]の[試合|しあい]が[中止|ちゅうし]になることもあります。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File03_Bai6b-8a.docx"
         },
         {
@@ -2634,6 +3389,71 @@
               "ruby": "あの[二人|ふたり]は[仲|なか]が[悪|わる]くて、[会|あ]うたびにけんかしている。"
             }
           ],
+          "enrichment": {
+            "explanation": "～たびに diễn tả mỗi lần X xảy ra thì Y cũng xảy ra, không có ngoại lệ: \"mỗi khi…, hễ… là…\". Y là sự việc lặp lại cùng với X, không nhất thiết là hệ quả logic của X.\n\nMẫu này nhấn mạnh tính lặp lại, thói quen, hoặc cảm xúc luôn nảy sinh (思い出す, 感動する, けんかする). Vế sau thường ở thì hiện tại để nói thói quen, hoặc ～ている.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる + たびに",
+                "samples": [
+                  "会う → 会うたびに",
+                  "見る → 見るたびに"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + たびに",
+                "samples": [
+                  "旅行 → 旅行のたびに",
+                  "出張 → 出張のたびに"
+                ]
+              },
+              {
+                "wordType": "Danh từ chỉ thời điểm",
+                "rule": "その + たびに",
+                "samples": [
+                  "そのたびに",
+                  "失敗するたびに"
+                ]
+              }
+            ],
+            "usage": [
+              "Thói quen gắn với sự kiện: 「帰国するたびに、家族におみやげを買う」.",
+              "Cảm xúc lặp lại: 「この写真を見るたびに、昔を思い出す」.",
+              "Danh từ đi kèm thường là danh từ chỉ hành động: 旅行, 出張, 引っ越し, 試験."
+            ],
+            "pitfalls": [
+              "Không dùng với Vた: ✗ 行ったたびに → ✓ 行くたびに.",
+              "Không dùng cho việc chỉ xảy ra một lần hoặc hiển nhiên: ✗「朝になるたびに、明るくなる」 (đương nhiên) — dùng ～と."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～と（条件）",
+                "difference": "～と diễn tả quy luật tự nhiên, hệ quả tất yếu (春になると暖かくなる); ～たびに nhấn mạnh sự lặp lại mỗi lần cụ thể."
+              },
+              {
+                "pattern": "～ごとに",
+                "difference": "～ごとに (N2) nghĩa là \"cứ mỗi (đơn vị)\" như 3時間ごとに; ～たびに gắn với sự kiện, hành động."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "この歌を聞くたびに、学生時代を思い出す。",
+                "vietnamese": "Mỗi lần nghe bài hát này tôi lại nhớ thời sinh viên.",
+                "ruby": "この[歌|うた]を[聞|き]くたびに、[学生|がくせい][時代|じだい]を[思|おも]い[出|だ]す。"
+              },
+              {
+                "japanese": "引っ越しのたびに、いらない物を捨てるようにしている。",
+                "vietnamese": "Mỗi lần chuyển nhà tôi đều cố vứt bỏ đồ không cần.",
+                "ruby": "[引|ひ]っ[越|こ]しのたびに、いらない[物|もの]を[捨|す]てるようにしている。"
+              },
+              {
+                "japanese": "祖母は会うたびに、「大きくなったね」と言う。",
+                "vietnamese": "Mỗi lần gặp bà tôi đều nói \"cháu lớn quá nhỉ\".",
+                "ruby": "[祖母|そぼ]は[会|あ]うたびに、「[大|おお]きくなったね」と[言|い]う。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -2703,6 +3523,80 @@
               "ruby": "[時計|とけい]は[古|ふる]いものほど[価値|かち]が[高|たか]いそうです。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ば～ほど diễn tả sự thay đổi tương ứng: mức độ của X càng tăng thì mức độ của Y cũng thay đổi theo (\"càng… càng…\"). Cấu trúc lặp lại cùng một từ: thể điều kiện + thể từ điển + ほど.\n\nPhần ～ば có thể lược bỏ, chỉ giữ ～ほど: 「時計は古いほど価値が高い」. Với tính từ な và danh từ dùng ～なら～ほど. Đây là cách nói trung tính, dùng được cả văn nói và văn viết.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vば + Vる + ほど",
+                "samples": [
+                  "練習する → 練習すればするほど",
+                  "読む → 読めば読むほど"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aければ + Aい + ほど",
+                "samples": [
+                  "安い → 安ければ安いほど",
+                  "早い → 早ければ早いほど"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aなら + Aな + ほど",
+                "samples": [
+                  "静か → 静かなら静かなほど",
+                  "便利 → 便利なら便利なほど"
+                ]
+              },
+              {
+                "wordType": "Dạng rút gọn",
+                "rule": "Vる／Aい／Aな + ほど",
+                "samples": [
+                  "考える → 考えるほど",
+                  "古い → 古いほど"
+                ]
+              }
+            ],
+            "usage": [
+              "Nêu quy luật tỷ lệ thuận/nghịch: 「練習すればするほど上手になる」.",
+              "Diễn tả cảm nhận cá nhân: 「考えれば考えるほど、わからなくなる」.",
+              "早ければ早いほどいい: càng sớm càng tốt (cụm rất hay dùng)."
+            ],
+            "pitfalls": [
+              "Phải lặp cùng một từ ở hai vị trí: ✗ 練習すれば上手になるほど.",
+              "Vế sau không dùng ở dạng quá khứ một lần cụ thể; thường là hiện tại hoặc ～てきた／～なる."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～くらい・～ほど（程度）",
+                "targetId": "b9-1",
+                "difference": "ほど ở Bài 9 chỉ mức độ so sánh (山ほど — nhiều như núi), không có nghĩa tỷ lệ \"càng… càng\"."
+              },
+              {
+                "pattern": "～につれて",
+                "difference": "～につれて (N2) cũng chỉ thay đổi tương ứng nhưng thiên về diễn biến theo thời gian, văn viết hơn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "日本語は勉強すればするほど、面白くなる。",
+                "vietnamese": "Tiếng Nhật càng học càng thấy thú vị.",
+                "ruby": "[日本語|にほんご]は[勉強|べんきょう]すればするほど、[面白|おもしろ]くなる。"
+              },
+              {
+                "japanese": "返事は早ければ早いほどいいです。",
+                "vietnamese": "Câu trả lời càng sớm càng tốt.",
+                "ruby": "[返事|へんじ]は[早|はや]ければ[早|はや]いほどいいです。"
+              },
+              {
+                "japanese": "考えれば考えるほど、どうしたらいいかわからなくなった。",
+                "vietnamese": "Càng nghĩ tôi càng không biết nên làm thế nào.",
+                "ruby": "[考|かんが]えれば[考|かんが]えるほど、どうしたらいいかわからなくなった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         }
       ],
@@ -2791,6 +3685,81 @@
               "ruby": "[元|もと]カノは[不思議|ふしぎ]なほど[美|うつく]しかった。"
             }
           ],
+          "enrichment": {
+            "explanation": "～くらい／ぐらい／ほど (mức độ) dùng để diễn tả mức độ của một trạng thái bằng cách so sánh với một hình ảnh cụ thể, thường là phóng đại: \"đến mức…, tới nỗi…\". Ví dụ 「泣きたいほど痛い」 — đau đến mức muốn khóc.\n\nほど thường dùng cho mức độ cao, trang trọng hơn; くらい／ぐらい dùng được cả mức độ cao và thấp (nhẹ nhàng, khiêm tốn), thân mật hơn. Với mức độ thấp chỉ dùng くらい: 「挨拶くらいできる」 (ít ra chào hỏi được).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + くらい／ほど",
+                "samples": [
+                  "泣きたい → 泣きたいくらい",
+                  "立てなくなる → 立てなくなるほど"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + くらい／ほど",
+                "samples": [
+                  "痛い → 痛いくらい",
+                  "怖い → 怖いほど"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な + くらい／ほど",
+                "samples": [
+                  "不思議 → 不思議なほど",
+                  "嫌 → 嫌なくらい"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + くらい／ほど",
+                "samples": [
+                  "山 → 山ほど",
+                  "子供 → 子供くらい"
+                ]
+              }
+            ],
+            "usage": [
+              "Phóng đại mức độ: 「死ぬほど疲れた」「涙が出るほど笑った」.",
+              "Bổ nghĩa danh từ: ～ほどの／くらいの + N: 「信じられないほどの量」.",
+              "Mức độ tối thiểu chỉ dùng くらい: 「電話くらいしてよ」 (ít ra gọi điện chứ)."
+            ],
+            "pitfalls": [
+              "Mức độ thấp, coi nhẹ không dùng ほど: ✗「挨拶ほどできる」 → ✓「挨拶くらいできる」.",
+              "Đây là so sánh mức độ, không phải số lượng xấp xỉ (３時間くらい — khoảng 3 tiếng) dù cùng hình thức."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～くらい～はない",
+                "targetId": "b9-2",
+                "difference": "Bài 9-2: dùng くらい／ほど trong câu phủ định để nói \"không gì bằng\"."
+              },
+              {
+                "pattern": "～ば～ほど",
+                "targetId": "b8-4",
+                "difference": "ほど trong ～ば～ほど chỉ thay đổi tương ứng (càng… càng), không phải so sánh mức độ."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "昨日は死ぬほど疲れて、何もできなかった。",
+                "vietnamese": "Hôm qua tôi mệt muốn chết, chẳng làm được gì.",
+                "ruby": "[昨日|きのう]は[死|し]ぬほど[疲|つか]れて、[何|なに]もできなかった。"
+              },
+              {
+                "japanese": "お腹が痛くなるくらい笑った。",
+                "vietnamese": "Tôi cười đến mức đau cả bụng.",
+                "ruby": "お[腹|なか]が[痛|いた]くなるくらい[笑|わら]った。"
+              },
+              {
+                "japanese": "忙しくても、電話くらいしてくれればいいのに。",
+                "vietnamese": "Dù bận thì ít ra cũng gọi điện cho tôi chứ.",
+                "ruby": "[忙|いそが]しくても、[電話|でんわ]くらいしてくれればいいのに。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -2837,6 +3806,70 @@
               "ruby": "ゲームをすることほど[楽|たの]しいことは[他|た]にないね。"
             }
           ],
+          "enrichment": {
+            "explanation": "X くらい／ほど ～はない nghĩa là \"không có gì (Y) bằng X\", tức X là nhất theo cảm nhận của người nói. Đây là cách nói so sánh nhất mang tính chủ quan, cảm xúc mạnh, thường dùng khi bày tỏ cảm nghĩ.\n\nY thường là danh từ chung chỉ loại: もの, こと, 人, 所, 季節. Với hành động, X là Vること: 「好きな人に告白することほど緊張することはない」.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N + くらい／ほど + (Aい／Aな) + N + はない",
+                "samples": [
+                  "母の料理 → 母の料理ほどおいしいものはない",
+                  "冬 → 冬くらい嫌な季節はない"
+                ]
+              },
+              {
+                "wordType": "Động từ",
+                "rule": "Vること + くらい／ほど + ～ことはない",
+                "samples": [
+                  "待つ → 待つことほどつらいことはない"
+                ]
+              },
+              {
+                "wordType": "Người",
+                "rule": "N + くらい／ほど + ～人はいない",
+                "samples": [
+                  "彼 → 彼ほど優しい人はいない"
+                ]
+              }
+            ],
+            "usage": [
+              "Bày tỏ cảm xúc: 「友達と話すことほど楽しいことはない」.",
+              "Khen ngợi người khác: 「田中さんほど真面目な人はいない」.",
+              "Có thể thêm 他に hoặc 世の中に để nhấn mạnh: 「これほど美しい景色は他にない」."
+            ],
+            "pitfalls": [
+              "Không dùng cho sự thật khách quan có số liệu: ✗「富士山くらい高い山は日本にない」 nên nói 「富士山は日本で一番高い山だ」.",
+              "Với người dùng いない, với vật/sự việc dùng ない."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～が一番",
+                "difference": "～が一番 là so sánh nhất trung tính, khách quan; ～くらい～はない mang cảm xúc chủ quan mạnh."
+              },
+              {
+                "pattern": "～に限る",
+                "targetId": "b9-4",
+                "difference": "～に限る: X là lựa chọn tốt nhất nên làm (khuyên); ～くらい～はない: X là nhất về mức độ cảm xúc."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "仕事の後に飲むビールほどおいしいものはない。",
+                "vietnamese": "Không có gì ngon bằng bia uống sau giờ làm.",
+                "ruby": "[仕事|しごと]の[後|のち]に[飲|の]むビールほどおいしいものはない。"
+              },
+              {
+                "japanese": "一人で病気になることくらい心細いことはない。",
+                "vietnamese": "Không gì cô đơn bằng việc bị ốm một mình.",
+                "ruby": "[一人|ひとり]で[病気|びょうき]になることくらい[心細|こころぼそ]いことはない。"
+              },
+              {
+                "japanese": "うちの父ほど心配性な人はいないと思う。",
+                "vietnamese": "Tôi nghĩ không ai hay lo bằng bố tôi.",
+                "ruby": "うちの[父|ちち]ほど[心配|しんぱい][性|せい]な[人|ひと]はいないと[思|おも]う。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -2883,6 +3916,64 @@
               "ruby": "あいつのまずい[料理|りょうり]を[食|た]べるぐらいなら、[道|みち]に[生|は]えてる[草|くさ]が[食|た]べたい。"
             }
           ],
+          "enrichment": {
+            "explanation": "X くらいなら Y nghĩa là \"nếu phải làm X thì thà làm Y còn hơn\". X là điều người nói rất ghét, không chấp nhận được; Y là phương án người nói cho là tốt hơn, dù bản thân Y có thể cũng không tốt. Mẫu câu mang cảm xúc mạnh, thường phóng đại.\n\nVế sau hay có ～ほうがいい, ～ほうがましだ (còn đỡ hơn), ～たい, hoặc mệnh lệnh/lời khuyên: 「途中でやめるくらいなら、最初からやるな」.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる + くらいなら／ぐらいなら",
+                "samples": [
+                  "謝る → 謝るくらいなら",
+                  "やめる → やめるぐらいなら"
+                ]
+              },
+              {
+                "wordType": "Vế sau thường gặp",
+                "rule": "～ほうがいい／～ほうがましだ／～たい",
+                "samples": [
+                  "死んだほうがましだ",
+                  "自分でやったほうがいい"
+                ]
+              }
+            ],
+            "usage": [
+              "Bày tỏ sự không chấp nhận mạnh mẽ: 「あの人に頼むくらいなら、自分でやる」.",
+              "Khuyên răn: 「後悔するくらいなら、今やってみなさい」.",
+              "ましだ (còn đỡ hơn) là từ rất hay đi kèm."
+            ],
+            "pitfalls": [
+              "X phải là điều người nói không muốn; với điều tốt dùng ～なら: ✗「合格するくらいなら、うれしい」.",
+              "Không dùng trong văn bản trang trọng vì sắc thái cảm xúc mạnh."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～より～ほうがいい",
+                "difference": "～より～ほうがいい so sánh trung tính hai lựa chọn; ～くらいなら nhấn mạnh sự ghét bỏ X."
+              },
+              {
+                "pattern": "～くらい（程度）",
+                "targetId": "b9-1",
+                "difference": "くらい chỉ mức độ (泣きたいくらい) khác với くらいなら chỉ sự lựa chọn \"thà… còn hơn\"."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "満員電車に乗るくらいなら、30分歩いたほうがいい。",
+                "vietnamese": "Thà đi bộ 30 phút còn hơn phải đi tàu chật cứng.",
+                "ruby": "[満員|まんいん][電車|でんしゃ]に[乗|の]るくらいなら、30[分|ふん][歩|ある]いたほうがいい。"
+              },
+              {
+                "japanese": "途中でやめるくらいなら、最初からやらないほうがいい。",
+                "vietnamese": "Nếu bỏ giữa chừng thì thà đừng làm từ đầu còn hơn.",
+                "ruby": "[途中|とちゅう]でやめるくらいなら、[最初|さいしょ]からやらないほうがいい。"
+              },
+              {
+                "japanese": "あの人に頭を下げるぐらいなら、会社を辞めたほうがましだ。",
+                "vietnamese": "Thà nghỉ việc còn hơn phải cúi đầu trước người đó.",
+                "ruby": "あの[人|ひと]に[頭|あたま]を[下|さ]げるぐらいなら、[会社|かいしゃ]を[辞|や]めたほうがましだ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -2930,6 +4021,64 @@
               "ruby": "[夏|なつ]の[仕事|しごと][終|お]わりはやっぱり[冷|ひ]えたビールに[限|かぎ]るよね。"
             }
           ],
+          "enrichment": {
+            "explanation": "～に限る nghĩa là \"tốt nhất là…, không gì bằng…\": người nói khẳng định X là lựa chọn tốt nhất trong một hoàn cảnh nhất định, dựa trên kinh nghiệm và cảm nhận cá nhân. Câu thường có điều kiện hoặc hoàn cảnh đi trước: 「疲れたときは寝るに限る」.\n\nVì mang tính chủ quan, ～に限る không dùng cho những điều hiển nhiên, mang tính khách quan, ai cũng phải làm (như đi bệnh viện khi bệnh nặng).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる／Vない + に限る",
+                "samples": [
+                  "寝る → 寝るに限る",
+                  "行かない → 行かないに限る"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + に限る",
+                "samples": [
+                  "ビール → 冷えたビールに限る",
+                  "温泉 → 冬は温泉に限る"
+                ]
+              }
+            ],
+            "usage": [
+              "Thường có hoàn cảnh đi trước: ～ときは, ～なら, 夏は, 冬は.",
+              "Hay đi với やっぱり／何といっても để nhấn mạnh: 「やっぱり夏はスイカに限る」.",
+              "Văn nói thân mật, chia sẻ kinh nghiệm."
+            ],
+            "pitfalls": [
+              "Không dùng cho điều khách quan/hiển nhiên: ✗「骨が折れたら、病院に行くに限る」.",
+              "Không dùng cho mong muốn của người khác: dùng để nói ý kiến của chính người nói."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～に限らず／～に限って",
+                "difference": "～に限らず (không chỉ…) và ～に限って (riêng… thì lại…) dùng 限る với nghĩa \"giới hạn\", khác nghĩa \"tốt nhất\"."
+              },
+              {
+                "pattern": "～たらいい（アドバイス）",
+                "targetId": "b15-4",
+                "difference": "～たらいい là lời khuyên trung tính; ～に限る khẳng định mạnh đó là cách tốt nhất."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "疲れたときは、何も考えずに寝るに限る。",
+                "vietnamese": "Khi mệt thì tốt nhất là đi ngủ, chẳng nghĩ gì cả.",
+                "ruby": "[疲|つか]れたときは、[何|なに]も[考|かんが]えずに[寝|ね]るに[限|かぎ]る。"
+              },
+              {
+                "japanese": "寒い冬は、やっぱり温泉に限るね。",
+                "vietnamese": "Mùa đông lạnh thì không gì bằng tắm suối nước nóng nhỉ.",
+                "ruby": "[寒|さむ]い[冬|ふゆ]は、やっぱり[温泉|おんせん]に[限|かぎ]るね。"
+              },
+              {
+                "japanese": "知らない人からのメールは、開けないに限る。",
+                "vietnamese": "Email từ người lạ thì tốt nhất là đừng mở.",
+                "ruby": "[知|し]らない[人|ひと]からのメールは、[開|あ]けないに[限|かぎ]る。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         }
       ],
@@ -2983,6 +4132,73 @@
               "ruby": "なんでも[指示|しじ]する[課長|かちょう]に[対|たい]し、[部長|ぶちょう]はほとんど[部下|ぶか]に[任|まか]せることが[多|おお]い。"
             }
           ],
+          "enrichment": {
+            "explanation": "～に対して (đối lập) dùng để so sánh hai sự vật, hai người, hai tình huống có tính chất trái ngược nhau: \"trong khi A là X thì B lại là Y\". Mẫu câu khách quan, hay dùng trong văn viết, báo cáo, bài đọc có số liệu.\n\nKhi đứng sau một mệnh đề (không phải danh từ) thì dùng ～のに対して. Dạng rút gọn ～に対し dùng trong văn viết trang trọng.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N + に対して",
+                "samples": [
+                  "兄 → 兄に対して",
+                  "課長 → 課長に対し"
+                ]
+              },
+              {
+                "wordType": "Động từ／Tính từ い",
+                "rule": "V／Aい (thể thường) + のに対して",
+                "samples": [
+                  "増えている → 増えているのに対して",
+                  "高い → 高いのに対して"
+                ]
+              },
+              {
+                "wordType": "Tính từ な／Danh từ (mệnh đề)",
+                "rule": "Aな／N + な／である + のに対して",
+                "samples": [
+                  "活発 → 活発なのに対して",
+                  "夏 → 夏であるのに対して"
+                ]
+              }
+            ],
+            "usage": [
+              "So sánh hai đối tượng cùng loại có đặc điểm trái ngược: 「東京は人口が増えているのに対して、地方は減っている」.",
+              "Hay gặp trong bài đọc về thống kê, xã hội.",
+              "Hai vế thường có cấu trúc song song (A は X、B は Y)."
+            ],
+            "pitfalls": [
+              "Không dùng cho hai tính chất của CÙNG một đối tượng — khi đó dùng ～反面／～一方.",
+              "Đừng nhầm với ～に対して (hướng đến đối tượng) ở Bài 20: 「先生に対して失礼だ」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～反面",
+                "targetId": "b10-2",
+                "difference": "～反面: hai mặt trái ngược của CÙNG một sự vật; ～に対して: so sánh HAI sự vật khác nhau."
+              },
+              {
+                "pattern": "～に対して（対象）",
+                "targetId": "b20-1",
+                "difference": "Bài 20: に対して nghĩa \"đối với, hướng về\" một đối tượng, không phải so sánh."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "都会は人が多いのに対して、田舎は静かで人が少ない。",
+                "vietnamese": "Thành phố đông người, trong khi nông thôn yên tĩnh và ít người.",
+                "ruby": "[都会|とかい]は[人|ひと]が[多|おお]いのに[対|たい]して、[田舎|いなか]は[静|しず]かで[人|ひと]が[少|すく]ない。"
+              },
+              {
+                "japanese": "姉は外で遊ぶのが好きなのに対して、妹は家で本を読むのが好きだ。",
+                "vietnamese": "Chị thì thích chơi ngoài trời, còn em lại thích ở nhà đọc sách.",
+                "ruby": "[姉|あね]は[外|そと]で[遊|あそ]ぶのが[好|す]きなのに[対|たい]して、[妹|いもうと]は[家|いえ]で[本|ほん]を[読|よ]むのが[好|す]きだ。"
+              },
+              {
+                "japanese": "去年は輸出が増えたのに対し、輸入は減った。",
+                "vietnamese": "Năm ngoái xuất khẩu tăng, còn nhập khẩu thì giảm.",
+                "ruby": "[去年|きょねん]は[輸出|ゆしゅつ]が[増|ふ]えたのに[対|たい]し、[輸入|ゆにゅう]は[減|へ]った。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -3029,6 +4245,80 @@
               "ruby": "あの[有名人|ゆうめいじん]の[発言|はつげん]には、[肯定|こうてい][的|てき]な[意見|いけん]が[多|おお]い[反面|はんめん]、[否定|ひてい][的|てき]な[意見|いけん]も[多|おお]い。"
             }
           ],
+          "enrichment": {
+            "explanation": "～反面 (\"mặt trái\") diễn tả một sự vật, sự việc có hai mặt trái ngược nhau cùng tồn tại: \"mặt khác…, nhưng ngược lại…\". Thường một vế là mặt tốt, vế kia là mặt xấu (便利な反面、危険もある).\n\nMẫu này khá trang trọng, hay dùng trong văn viết, bài luận, khi phân tích ưu nhược điểm. Chủ ngữ hai vế là cùng một đối tượng.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + 反面",
+                "samples": [
+                  "増えた → 収入が増えた反面",
+                  "便利になった → 便利になった反面"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + 反面",
+                "samples": [
+                  "安い → 安い反面",
+                  "嬉しい → 嬉しい反面"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な／である + 反面",
+                "samples": [
+                  "便利 → 便利な反面",
+                  "自由 → 自由である反面"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + である + 反面",
+                "samples": [
+                  "有名人 → 有名人である反面"
+                ]
+              }
+            ],
+            "usage": [
+              "Phân tích ưu – nhược điểm: 「都会の生活は便利な反面、ストレスも多い」.",
+              "Diễn tả cảm xúc lẫn lộn: 「卒業は嬉しい反面、寂しい」.",
+              "Vế sau thường có も để nhấn mạnh mặt ngược lại."
+            ],
+            "pitfalls": [
+              "Không dùng để so sánh hai đối tượng khác nhau: ✗「兄は背が高い反面、弟は低い」 → ✓「兄は背が高いのに対して、弟は低い」.",
+              "Danh từ phải có である: ✗ 学生反面 → ✓ 学生である反面."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～一方(で)",
+                "targetId": "b10-3",
+                "difference": "～一方 cũng nói hai mặt nhưng có thêm nghĩa bổ sung (không đối lập); ～反面 luôn là đối lập."
+              },
+              {
+                "pattern": "～に対して",
+                "targetId": "b10-1",
+                "difference": "～に対して so sánh hai đối tượng khác nhau; ～反面 nói hai mặt của một đối tượng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "スマホは便利な反面、使いすぎると目に悪い。",
+                "vietnamese": "Điện thoại thông minh tiện lợi, nhưng mặt khác dùng quá nhiều thì hại mắt.",
+                "ruby": "スマホは[便利|べんり]な[反面|はんめん]、[使|つか]いすぎると[目|め]に[悪|わる]い。"
+              },
+              {
+                "japanese": "一人暮らしは自由な反面、寂しいときもある。",
+                "vietnamese": "Sống một mình tự do, nhưng ngược lại cũng có lúc cô đơn.",
+                "ruby": "[一人暮|ひとりぐ]らしは[自由|じゆう]な[反面|はんめん]、[寂|さび]しいときもある。"
+              },
+              {
+                "japanese": "この仕事は給料がいい反面、休みが少ない。",
+                "vietnamese": "Công việc này lương tốt, nhưng mặt trái là ít ngày nghỉ.",
+                "ruby": "この[仕事|しごと]は[給料|きゅうりょう]がいい[反面|はんめん]、[休|やす]みが[少|すく]ない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -3075,6 +4365,79 @@
               "ruby": "[山田|やまだ]さんは[英語|えいご]が[話|はな]せる[一方|いっぽう]で、[中国|ちゅうごく][語|ご]も[話|はな]せる。"
             }
           ],
+          "enrichment": {
+            "explanation": "～一方(で) có hai cách dùng. ① Đối lập: một sự vật có hai mặt trái ngược (gần giống ～反面): \"mặt khác…\". ② Song song, bổ sung: bên cạnh X thì còn có Y (không đối lập): \"đồng thời…, bên cạnh đó…\".\n\n一方 cũng đứng đầu câu như một liên từ: 「一方、～」 (mặt khác, trong khi đó) để chuyển sang nói về đối tượng khác — rất hay gặp trong bài đọc.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + 一方(で)",
+                "samples": [
+                  "話せる → 話せる一方で",
+                  "楽しみにする → 楽しみにする一方"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + 一方(で)",
+                "samples": [
+                  "楽しい → 楽しい一方で"
+                ]
+              },
+              {
+                "wordType": "Tính từ な／Danh từ",
+                "rule": "Aな + な／である、N + である + 一方(で)",
+                "samples": [
+                  "便利 → 便利な一方で",
+                  "俳優 → 俳優である一方で"
+                ]
+              },
+              {
+                "wordType": "Liên từ đầu câu",
+                "rule": "一方、～",
+                "samples": [
+                  "一方、地方では…"
+                ]
+              }
+            ],
+            "usage": [
+              "Đối lập: 「この町は観光客が増えている一方で、住む人は減っている」.",
+              "Bổ sung: 「彼は医者である一方で、小説家としても有名だ」.",
+              "Đầu câu trong văn viết: 「一方、反対する人もいる」."
+            ],
+            "pitfalls": [
+              "Đừng nhầm với ～一方だ (cuối câu, N2): 「物価は上がる一方だ」 = ngày càng (chỉ một chiều).",
+              "Nghĩa bổ sung không dùng được với ～反面: ✗「医者である反面、小説家としても有名だ」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～反面",
+                "targetId": "b10-2",
+                "difference": "～反面 chỉ có nghĩa đối lập; ～一方 có cả nghĩa đối lập và bổ sung."
+              },
+              {
+                "pattern": "～に対して",
+                "targetId": "b10-1",
+                "difference": "～に対して so sánh hai đối tượng; ～一方 có thể dùng cho một hoặc hai đối tượng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "インターネットは便利な一方で、危険な面もある。",
+                "vietnamese": "Internet tiện lợi, nhưng mặt khác cũng có mặt nguy hiểm.",
+                "ruby": "インターネットは[便利|べんり]な[一方|いっぽう]で、[危険|きけん]な[面|めん]もある。"
+              },
+              {
+                "japanese": "彼女は会社で働く一方、夜は大学で勉強している。",
+                "vietnamese": "Cô ấy làm việc ở công ty, đồng thời buổi tối học ở đại học.",
+                "ruby": "[彼女|かのじょ]は[会社|かいしゃ]で[働|はたら]く[一方|いっぽう]、[夜|よる]は[大学|だいがく]で[勉強|べんきょう]している。"
+              },
+              {
+                "japanese": "都会では子供が増えている。一方、地方では減り続けている。",
+                "vietnamese": "Ở thành phố trẻ em đang tăng. Trong khi đó ở địa phương thì tiếp tục giảm.",
+                "ruby": "[都会|とかい]では[子供|こども]が[増|ふ]えている。[一方|いっぽう]、[地方|ちほう]では[減|へ]り[続|つづ]けている。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File04_Bai8b-10a.docx"
         },
         {
@@ -3121,6 +4484,72 @@
               "ruby": "[彼|かれ]は[単語|たんご]を[忘|わす]れているというより、[初|はじ]めから[覚|おぼ]えていないんだ。"
             }
           ],
+          "enrichment": {
+            "explanation": "X というより Y nghĩa là \"nói là X thì không đúng lắm, nói là Y thì chính xác hơn\". Người nói không phủ nhận hoàn toàn X, mà cho rằng Y diễn tả đúng bản chất hơn. Mẫu này dùng để điều chỉnh, làm rõ cách đánh giá.\n\nTrước Y hay có むしろ (đúng hơn là): 「暑いというより、むしろ痛い」. Mẫu này dùng cả văn nói và văn viết.",
+            "formation": [
+              {
+                "wordType": "Động từ／Tính từ い",
+                "rule": "V／Aい (thể thường) + というより",
+                "samples": [
+                  "忘れている → 忘れているというより",
+                  "寒い → 寒いというより"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな (bỏ だ) + というより",
+                "samples": [
+                  "きれい → きれいというより",
+                  "静か → 静かというより"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + というより",
+                "samples": [
+                  "友達 → 友達というより",
+                  "助け → 助けというより"
+                ]
+              }
+            ],
+            "usage": [
+              "Điều chỉnh đánh giá: 「彼は先生というより、友達のような存在だ」.",
+              "Kết hợp むしろ: 「この料理は辛いというより、むしろ甘い」.",
+              "Văn nói hay kết thúc bằng ～って感じ: 「かわいいというより、きれいって感じ」."
+            ],
+            "pitfalls": [
+              "X và Y phải cùng loại (cùng là danh từ, cùng là tính từ…) để so sánh tương xứng.",
+              "Không dùng để phủ định hoàn toàn X; khi đó dùng ～ではなく."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ではなく",
+                "difference": "～ではなく phủ định hoàn toàn X; ～というより chỉ cho rằng Y phù hợp hơn X."
+              },
+              {
+                "pattern": "～わけではない",
+                "targetId": "b14-3",
+                "difference": "～わけではない phủ định một phần suy luận; ～というより đưa ra cách nói thay thế chính xác hơn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "今日は涼しいというより、寒いくらいだ。",
+                "vietnamese": "Hôm nay nói là mát thì không đúng, phải nói là lạnh.",
+                "ruby": "[今日|きょう]は[涼|すず]しいというより、[寒|さむ]いくらいだ。"
+              },
+              {
+                "japanese": "彼は上司というより、お兄さんのような人だ。",
+                "vietnamese": "Anh ấy giống như anh trai hơn là cấp trên.",
+                "ruby": "[彼|かれ]は[上司|じょうし]というより、お[兄|にい]さんのような[人|ひと]だ。"
+              },
+              {
+                "japanese": "この映画は怖いというより、悲しい話だった。",
+                "vietnamese": "Bộ phim này nói là đáng sợ thì không bằng nói là một câu chuyện buồn.",
+                "ruby": "この[映画|えいが]は[怖|こわ]いというより、[悲|かな]しい[話|はなし]だった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File05_Bai10b-12a.docx"
         },
         {
@@ -3172,6 +4601,80 @@
               "ruby": "お[金|かね]がないので、[新車|しんしゃ]を[買|か]うかわりに、[中古|ちゅうこ][車|しゃ]にした。"
             }
           ],
+          "enrichment": {
+            "explanation": "～かわりに có ba nghĩa chính. ① Thay thế: không làm X mà làm Y thay vào (新車を買うかわりに中古車にした). ② Bù lại, đổi lại: X có mặt này thì Y có mặt khác tương xứng (給料が高いかわりに残業が多い). ③ Trao đổi: A làm X cho B, đổi lại B làm Y cho A (日本語を教えるかわりに英語を教えて).\n\nNgoài ra N + のかわりに còn nghĩa \"thay mặt cho ai\": 「父のかわりに私が行きます」.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + かわりに",
+                "samples": [
+                  "教える → 教えるかわりに",
+                  "行かない → 行かないかわりに"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + かわりに",
+                "samples": [
+                  "高い → 高いかわりに"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な + かわりに",
+                "samples": [
+                  "得意 → 得意なかわりに",
+                  "便利 → 便利なかわりに"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + かわりに",
+                "samples": [
+                  "父 → 父のかわりに",
+                  "肉 → 肉のかわりに"
+                ]
+              }
+            ],
+            "usage": [
+              "Thay thế đồ vật/người: 「バターのかわりに油を使う」「部長のかわりに会議に出る」.",
+              "Đổi lại, có qua có lại: 「手伝ってくれたかわりに、ご飯をおごる」.",
+              "Bù trừ ưu – nhược: 「この部屋は狭いかわりに、駅に近い」."
+            ],
+            "pitfalls": [
+              "Danh từ phải có の: ✗ 父かわりに → ✓ 父のかわりに.",
+              "Nghĩa bù trừ hai mặt phải tương xứng về mức độ; nếu chỉ đối lập đơn thuần thì dùng ～反面."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～反面",
+                "targetId": "b10-2",
+                "difference": "～反面 chỉ hai mặt trái ngược; ～かわりに nhấn mạnh sự bù trừ, đổi lại (được cái này thì mất cái kia)."
+              },
+              {
+                "pattern": "～ずに",
+                "targetId": "b6-3",
+                "difference": "～ずに: không làm X mà làm Y (cách thức); ～かわりに: chọn Y thay cho X (thay thế có chủ ý)."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "今日は社長のかわりに、私が会議に出席します。",
+                "vietnamese": "Hôm nay tôi sẽ dự họp thay giám đốc.",
+                "ruby": "[今日|きょう]は[社長|しゃちょう]のかわりに、[私|わたし]が[会議|かいぎ]に[出席|しゅっせき]します。"
+              },
+              {
+                "japanese": "この部屋は駅から遠いかわりに、家賃が安い。",
+                "vietnamese": "Căn phòng này xa ga, nhưng bù lại tiền thuê rẻ.",
+                "ruby": "この[部屋|へや]は[駅|えき]から[遠|とお]いかわりに、[家賃|やちん]が[安|やす]い。"
+              },
+              {
+                "japanese": "引っ越しを手伝うかわりに、晩ご飯をごちそうしてね。",
+                "vietnamese": "Tớ giúp cậu chuyển nhà, đổi lại cậu mời tớ bữa tối nhé.",
+                "ruby": "[引|ひ]っ[越|こ]しを[手伝|てつだ]うかわりに、[晩|ばん]ご[飯|はん]をごちそうしてね。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File05_Bai10b-12a.docx"
         }
       ],
@@ -7097,5 +8600,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-11T11:47:45.3947115+00:00"
+  "generatedAt": "2026-10-11T12:15:41.4489168+00:00"
 }

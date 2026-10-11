@@ -1,0 +1,26 @@
+{
+  "explanation": "～ついでに diễn tả việc nhân dịp làm hành động chính X, người nói tiện thể làm thêm việc phụ Y: \"tiện thể…, nhân tiện…\". X là mục đích chính, Y là việc phụ được làm thêm vì đằng nào cũng đang làm X.\n\nついで còn đứng một mình: 「ついでに～もお願い」 (tiện thì nhờ luôn cái này), 「ついでがある」 (có dịp tiện đường).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる／Vた + ついでに", "samples": ["出かける → 出かけるついでに", "行った → 行ったついでに"] },
+    { "wordType": "Danh từ (Nする)", "rule": "N + の + ついでに", "samples": ["散歩 → 散歩のついでに", "買い物 → 買い物のついでに"] },
+    { "wordType": "Đứng riêng", "rule": "ついでに + V", "samples": ["ついでに買ってきて", "ついでに言うと"] }
+  ],
+  "usage": [
+    "Vるついでに: tiện khi sắp làm X; Vたついでに: tiện khi đã làm X (thường là đi đâu đó).",
+    "Nhờ vả nhẹ nhàng: 「コンビニに行くなら、ついでに牛乳も買ってきて」.",
+    "Vế sau là hành động có ý chí của cùng chủ ngữ."
+  ],
+  "pitfalls": [
+    "Y phải là việc phụ, nhỏ; không dùng khi Y quan trọng hơn X.",
+    "Không dùng cho sự việc tự nhiên xảy ra: ✗「散歩のついでに、雨が降った」."
+  ],
+  "comparisons": [
+    { "pattern": "～がてら", "targetId": null, "difference": "～がてら (N2) gần nghĩa nhưng hay dùng với 散歩, 買い物 và hai hành động diễn ra đồng thời; ～ついでに phổ biến hơn." },
+    { "pattern": "～たびに", "targetId": "b8-3", "difference": "～たびに: mỗi lần X thì Y (lặp lại); ～ついでに: nhân dịp X làm thêm Y (một lần)." }
+  ],
+  "examples": [
+    { "japanese": "郵便局へ行くついでに、銀行にも寄ってきます。", "vietnamese": "Tiện đi bưu điện tôi ghé ngân hàng luôn." },
+    { "japanese": "東京に出張したついでに、昔の友達に会った。", "vietnamese": "Nhân chuyến công tác Tokyo, tôi gặp lại bạn cũ." },
+    { "japanese": "コンビニに行くなら、ついでにジュースも買ってきてくれない？", "vietnamese": "Nếu đi cửa hàng tiện lợi thì tiện mua giúp tớ nước trái cây được không?" }
+  ]
+}

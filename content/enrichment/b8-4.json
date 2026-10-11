@@ -1,0 +1,27 @@
+{
+  "explanation": "～ば～ほど diễn tả sự thay đổi tương ứng: mức độ của X càng tăng thì mức độ của Y cũng thay đổi theo (\"càng… càng…\"). Cấu trúc lặp lại cùng một từ: thể điều kiện + thể từ điển + ほど.\n\nPhần ～ば có thể lược bỏ, chỉ giữ ～ほど: 「時計は古いほど価値が高い」. Với tính từ な và danh từ dùng ～なら～ほど. Đây là cách nói trung tính, dùng được cả văn nói và văn viết.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vば + Vる + ほど", "samples": ["練習する → 練習すればするほど", "読む → 読めば読むほど"] },
+    { "wordType": "Tính từ い", "rule": "Aければ + Aい + ほど", "samples": ["安い → 安ければ安いほど", "早い → 早ければ早いほど"] },
+    { "wordType": "Tính từ な", "rule": "Aなら + Aな + ほど", "samples": ["静か → 静かなら静かなほど", "便利 → 便利なら便利なほど"] },
+    { "wordType": "Dạng rút gọn", "rule": "Vる／Aい／Aな + ほど", "samples": ["考える → 考えるほど", "古い → 古いほど"] }
+  ],
+  "usage": [
+    "Nêu quy luật tỷ lệ thuận/nghịch: 「練習すればするほど上手になる」.",
+    "Diễn tả cảm nhận cá nhân: 「考えれば考えるほど、わからなくなる」.",
+    "早ければ早いほどいい: càng sớm càng tốt (cụm rất hay dùng)."
+  ],
+  "pitfalls": [
+    "Phải lặp cùng một từ ở hai vị trí: ✗ 練習すれば上手になるほど.",
+    "Vế sau không dùng ở dạng quá khứ một lần cụ thể; thường là hiện tại hoặc ～てきた／～なる."
+  ],
+  "comparisons": [
+    { "pattern": "～くらい・～ほど（程度）", "targetId": "b9-1", "difference": "ほど ở Bài 9 chỉ mức độ so sánh (山ほど — nhiều như núi), không có nghĩa tỷ lệ \"càng… càng\"." },
+    { "pattern": "～につれて", "targetId": null, "difference": "～につれて (N2) cũng chỉ thay đổi tương ứng nhưng thiên về diễn biến theo thời gian, văn viết hơn." }
+  ],
+  "examples": [
+    { "japanese": "日本語は勉強すればするほど、面白くなる。", "vietnamese": "Tiếng Nhật càng học càng thấy thú vị." },
+    { "japanese": "返事は早ければ早いほどいいです。", "vietnamese": "Câu trả lời càng sớm càng tốt." },
+    { "japanese": "考えれば考えるほど、どうしたらいいかわからなくなった。", "vietnamese": "Càng nghĩ tôi càng không biết nên làm thế nào." }
+  ]
+}

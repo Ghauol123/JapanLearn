@@ -1,0 +1,27 @@
+{
+  "explanation": "～反面 (\"mặt trái\") diễn tả một sự vật, sự việc có hai mặt trái ngược nhau cùng tồn tại: \"mặt khác…, nhưng ngược lại…\". Thường một vế là mặt tốt, vế kia là mặt xấu (便利な反面、危険もある).\n\nMẫu này khá trang trọng, hay dùng trong văn viết, bài luận, khi phân tích ưu nhược điểm. Chủ ngữ hai vế là cùng một đối tượng.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + 反面", "samples": ["増えた → 収入が増えた反面", "便利になった → 便利になった反面"] },
+    { "wordType": "Tính từ い", "rule": "Aい + 反面", "samples": ["安い → 安い反面", "嬉しい → 嬉しい反面"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な／である + 反面", "samples": ["便利 → 便利な反面", "自由 → 自由である反面"] },
+    { "wordType": "Danh từ", "rule": "N + である + 反面", "samples": ["有名人 → 有名人である反面"] }
+  ],
+  "usage": [
+    "Phân tích ưu – nhược điểm: 「都会の生活は便利な反面、ストレスも多い」.",
+    "Diễn tả cảm xúc lẫn lộn: 「卒業は嬉しい反面、寂しい」.",
+    "Vế sau thường có も để nhấn mạnh mặt ngược lại."
+  ],
+  "pitfalls": [
+    "Không dùng để so sánh hai đối tượng khác nhau: ✗「兄は背が高い反面、弟は低い」 → ✓「兄は背が高いのに対して、弟は低い」.",
+    "Danh từ phải có である: ✗ 学生反面 → ✓ 学生である反面."
+  ],
+  "comparisons": [
+    { "pattern": "～一方(で)", "targetId": "b10-3", "difference": "～一方 cũng nói hai mặt nhưng có thêm nghĩa bổ sung (không đối lập); ～反面 luôn là đối lập." },
+    { "pattern": "～に対して", "targetId": "b10-1", "difference": "～に対して so sánh hai đối tượng khác nhau; ～反面 nói hai mặt của một đối tượng." }
+  ],
+  "examples": [
+    { "japanese": "スマホは便利な反面、使いすぎると目に悪い。", "vietnamese": "Điện thoại thông minh tiện lợi, nhưng mặt khác dùng quá nhiều thì hại mắt." },
+    { "japanese": "一人暮らしは自由な反面、寂しいときもある。", "vietnamese": "Sống một mình tự do, nhưng ngược lại cũng có lúc cô đơn." },
+    { "japanese": "この仕事は給料がいい反面、休みが少ない。", "vietnamese": "Công việc này lương tốt, nhưng mặt trái là ít ngày nghỉ." }
+  ]
+}

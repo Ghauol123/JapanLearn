@@ -1,0 +1,25 @@
+{
+  "explanation": "X くらいなら Y nghĩa là \"nếu phải làm X thì thà làm Y còn hơn\". X là điều người nói rất ghét, không chấp nhận được; Y là phương án người nói cho là tốt hơn, dù bản thân Y có thể cũng không tốt. Mẫu câu mang cảm xúc mạnh, thường phóng đại.\n\nVế sau hay có ～ほうがいい, ～ほうがましだ (còn đỡ hơn), ～たい, hoặc mệnh lệnh/lời khuyên: 「途中でやめるくらいなら、最初からやるな」.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる + くらいなら／ぐらいなら", "samples": ["謝る → 謝るくらいなら", "やめる → やめるぐらいなら"] },
+    { "wordType": "Vế sau thường gặp", "rule": "～ほうがいい／～ほうがましだ／～たい", "samples": ["死んだほうがましだ", "自分でやったほうがいい"] }
+  ],
+  "usage": [
+    "Bày tỏ sự không chấp nhận mạnh mẽ: 「あの人に頼むくらいなら、自分でやる」.",
+    "Khuyên răn: 「後悔するくらいなら、今やってみなさい」.",
+    "ましだ (còn đỡ hơn) là từ rất hay đi kèm."
+  ],
+  "pitfalls": [
+    "X phải là điều người nói không muốn; với điều tốt dùng ～なら: ✗「合格するくらいなら、うれしい」.",
+    "Không dùng trong văn bản trang trọng vì sắc thái cảm xúc mạnh."
+  ],
+  "comparisons": [
+    { "pattern": "～より～ほうがいい", "targetId": null, "difference": "～より～ほうがいい so sánh trung tính hai lựa chọn; ～くらいなら nhấn mạnh sự ghét bỏ X." },
+    { "pattern": "～くらい（程度）", "targetId": "b9-1", "difference": "くらい chỉ mức độ (泣きたいくらい) khác với くらいなら chỉ sự lựa chọn \"thà… còn hơn\"." }
+  ],
+  "examples": [
+    { "japanese": "満員電車に乗るくらいなら、30分歩いたほうがいい。", "vietnamese": "Thà đi bộ 30 phút còn hơn phải đi tàu chật cứng." },
+    { "japanese": "途中でやめるくらいなら、最初からやらないほうがいい。", "vietnamese": "Nếu bỏ giữa chừng thì thà đừng làm từ đầu còn hơn." },
+    { "japanese": "あの人に頭を下げるぐらいなら、会社を辞めたほうがましだ。", "vietnamese": "Thà nghỉ việc còn hơn phải cúi đầu trước người đó." }
+  ]
+}
