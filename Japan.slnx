@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Japan.Core/Japan.Core.csproj" />
+    <Project Path="src/Japan.Importer/Japan.Importer.csproj" />
+    <Project Path="src/Japan.Web/Japan.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Japan.Tests/Japan.Tests.csproj" />
+  </Folder>
+</Solution>
