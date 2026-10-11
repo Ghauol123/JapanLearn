@@ -50,7 +50,7 @@ Bài bị tách giữa hai file (vd Bài 6 phần 1/2 ở File02, phần 2/2 ở
 ## 3. Kiến trúc
 
 ```
-Japan.sln
+Japan.slnx
 src/
   Japan.Core/       mô hình dữ liệu + tìm kiếm + chuẩn hoá chuỗi (không phụ thuộc web)
   Japan.Importer/   console: đọc nguồn + enrichment → sinh data/grammar.json
@@ -94,8 +94,8 @@ record Section(IReadOnlyList<string> Paragraphs, IReadOnlyList<Table> Tables);
 
 record Table(IReadOnlyList<string> Header, IReadOnlyList<IReadOnlyList<string>> Rows);
 
-record Example(string Japanese, string Ruby, string Vietnamese);
-// Ruby: "[会社|かいしゃ]へ[行|い]かずに…" — chỉ kanji mới có cách đọc
+record Example(string Japanese, string Vietnamese, string? Ruby = null);
+// Ruby: "[会社|かいしゃ]へ[行|い]かずに…" — chỉ kanji mới có cách đọc; importer điền, file enrichment không ghi
 
 record GrammarEnrichment(
     string Explanation,                         // giải thích chi tiết, sắc thái
