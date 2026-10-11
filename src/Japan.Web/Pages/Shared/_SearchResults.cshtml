@@ -1,0 +1,22 @@
+@model SearchResultsViewModel
+@if (Model.Hits.Count > 0)
+{
+    <p class="small text-body-secondary">@Model.Hits.Count kết quả</p>
+    <div class="list-group mb-4">
+        @foreach (var hit in Model.Hits)
+        {
+            <a class="list-group-item list-group-item-action" asp-page="/Grammar" asp-route-id="@hit.Point.Id">
+                <div>
+                    <span class="fw-bold jp">@Highlight.Mark(hit.Point.Pattern, Model.Query)</span>
+                    <span class="badge text-bg-light">Bài @hit.Point.Lesson</span>
+                    <span class="badge text-bg-secondary">@hit.Field</span>
+                </div>
+                <div class="small jp">@Highlight.Mark(hit.Snippet, Model.Query)</div>
+            </a>
+        }
+    </div>
+}
+else if (!string.IsNullOrWhiteSpace(Model.Query) && Model.Query.Trim().Trim('～', '~', '〜').Length > 0)
+{
+    <p class="text-body-secondary">Không tìm thấy kết quả cho "@Model.Query".</p>
+}

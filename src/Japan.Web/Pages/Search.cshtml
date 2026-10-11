@@ -1,0 +1,10 @@
+@page "/timkiem"
+@model SearchModel
+@{
+    ViewData["Title"] = "Tìm kiếm";
+}
+<form method="get" class="mb-4" role="search">
+    <input name="q" value="@Model.Query" type="search" class="form-control form-control-lg"
+           placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autofocus />
+</form>
+<partial name="_SearchResults" model="Model.Results" />

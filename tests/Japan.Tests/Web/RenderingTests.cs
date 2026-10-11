@@ -21,4 +21,13 @@ public class RenderingTests
     [Fact]
     public void Render_PlainText_HasNoRuby() =>
         Assert.Equal("いいえ。", Html(RubyHtml.Render("いいえ。")));
+
+    [Fact]
+    public void Mark_HighlightsAllLiteralMatchesIgnoringCaseAndWaveDash() =>
+        Assert.Equal("<mark>Tranh</mark> thủ, <mark>tranh</mark> &lt;x&gt;",
+            Html(Highlight.Mark("Tranh thủ, tranh <x>", "～tranh")));
+
+    [Fact]
+    public void Mark_NoQuery_ReturnsEncodedText() =>
+        Assert.Equal("&lt;x&gt;", Html(Highlight.Mark("<x>", "  ")));
 }
