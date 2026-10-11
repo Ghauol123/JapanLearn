@@ -58,7 +58,8 @@ public static class BookAssembler
 
         if (lessons.Count > 0)
         {
-            var missing = Enumerable.Range(1, lessons.Keys.Max()).Where(n => !lessons.ContainsKey(n)).ToList();
+            var excluded = documents.SelectMany(d => d.ExcludedLessons).ToHashSet();
+            var missing = Enumerable.Range(1, lessons.Keys.Max()).Where(n => !lessons.ContainsKey(n) && !excluded.Contains(n)).ToList();
             if (missing.Count > 0) errors.Add($"Thiếu bài: {string.Join(", ", missing)}");
         }
 
@@ -85,8 +86,6 @@ public static class BookAssembler
     {
         var where = $"{file}: {id} ({p.Pattern})";
         if (p.Meaning.IsEmpty) yield return $"{where}: thiếu \"Ý nghĩa\"";
-        if (p.Structure.IsEmpty) yield return $"{where}: thiếu \"Cấu trúc\"";
-        if (p.Examples.Count == 0) yield return $"{where}: không có ví dụ";
         for (var i = 0; i < p.Examples.Count; i++)
         {
             if (string.IsNullOrWhiteSpace(p.Examples[i].Japanese) || string.IsNullOrWhiteSpace(p.Examples[i].Vietnamese))

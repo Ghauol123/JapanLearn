@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using Japan.Core;
 using NMeCab.Specialized;
 
@@ -30,6 +31,8 @@ public sealed class NMeCabFuriganaGenerator : IFuriganaGenerator, IDisposable
         var kana = Kana.ToHiragana(reading);
         var folded = Kana.ToHiragana(surface);
 
+        if (AlignRuns(surface, folded, kana) is { } aligned) return aligned;
+
         var prefix = 0;
         while (prefix < folded.Length && prefix < kana.Length && folded[prefix] == kana[prefix] && !Kana.IsKanji(surface[prefix]))
             prefix++;
@@ -49,6 +52,27 @@ public sealed class NMeCabFuriganaGenerator : IFuriganaGenerator, IDisposable
     }
 
     public void Dispose() => _tagger.Dispose();
+
+    private static List<RubySegment>? AlignRuns(string surface, string folded, string kana)
+    {
+        var runs = new List<(int Start, int Length, bool Kanji)>();
+        for (var i = 0; i < surface.Length; i++)
+        {
+            var kanji = Kana.IsKanji(surface[i]);
+            if (runs.Count > 0 && runs[^1].Kanji == kanji) runs[^1] = runs[^1] with { Length = runs[^1].Length + 1 };
+            else runs.Add((i, 1, kanji));
+        }
+
+        var pattern = "^" + string.Concat(runs.Select(r =>
+            r.Kanji ? "(.+?)" : Regex.Escape(folded.Substring(r.Start, r.Length)))) + "$";
+        var match = Regex.Match(kana, pattern);
+        if (!match.Success) return null;
+
+        var group = 1;
+        return runs.Select(r => r.Kanji
+            ? new RubySegment(surface.Substring(r.Start, r.Length), match.Groups[group++].Value)
+            : new RubySegment(surface.Substring(r.Start, r.Length), null)).ToList();
+    }
 
     private void AppendWithOverrides(string text, List<RubySegment> segments)
     {

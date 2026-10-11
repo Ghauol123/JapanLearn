@@ -42,6 +42,20 @@ public class DocumentBuilderTests
     }
 
     [Fact]
+    public void Build_ReadsLessonsDeclaredOutsideThe106Points()
+    {
+        var b = new DocumentBuilder("File08.docx");
+        b.Paragraph("FILE 8 — điểm 64–72/106 (Bài 17, Bài 18, Bài 20 phần 1)");
+        b.Paragraph("(Bài 19 — Trợ từ 1 — là bảng tổng hợp trợ từ riêng, không tính vào 106 điểm; sẽ gửi làm phụ lục riêng nếu cần)");
+        b.LessonHeading("BÀI 17: Ý định");
+
+        var doc = b.Build();
+
+        Assert.Equal([19], doc.ExcludedLessons);
+        Assert.Empty(doc.Warnings);
+    }
+
+    [Fact]
     public void Build_ParsesLessonsWithoutPartSuffix()
     {
         var doc = BuildFile03Sample();

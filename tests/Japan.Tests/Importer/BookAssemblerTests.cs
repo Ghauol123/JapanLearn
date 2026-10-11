@@ -12,7 +12,7 @@ public class BookAssemblerTests
     private static RawPoint Raw(int index, string pattern = "～x", string vietnamese = "Dịch.") =>
         new(index, pattern, new Section(["Nghĩa."], []), new Section(["Vる + x"], []), null, [new Example("例文。", vietnamese)]);
 
-    private static SourceDocument Doc(string file, PointRange? range, params RawLesson[] lessons) => new(file, range, lessons, []);
+    private static SourceDocument Doc(string file, PointRange? range, params RawLesson[] lessons) => new(file, range, lessons, [], []);
 
     private static RawLesson L(int number, params RawPoint[] points) => new(number, $"Bài {number}", points, []);
 
@@ -53,6 +53,28 @@ public class BookAssemblerTests
         Assert.Contains(result.Errors, e => e.Contains("Thiếu bài: 2"));
         Assert.Contains(result.Errors, e => e.Contains("mong đợi 106"));
         Assert.Contains(result.Errors, e => e.Contains("b3-1") && e.Contains("ví dụ 1"));
+    }
+
+    [Fact]
+    public void Assemble_LessonExcludedBySource_IsNotMissing()
+    {
+        var result = BookAssembler.Assemble(
+            [Doc("a.docx", null, L(1, Raw(1))) with { ExcludedLessons = [2] }, Doc("b.docx", null, L(3, Raw(1)))],
+            NoEnrichment, Now, expectedPointCount: 2);
+
+        Assert.Empty(result.Errors);
+        Assert.Equal([1, 3], result.Book!.Lessons.Select(l => l.Number));
+    }
+
+    [Fact]
+    public void Assemble_TechniquePointWithMeaningOnly_IsValid_ButMeaningIsRequired()
+    {
+        var technique = new RawPoint(1, "Tốc độ làm bài", new Section(["Mỗi câu tối đa 1 phút."], []), Section.Empty, null, []);
+        var noMeaning = new RawPoint(2, "～x", Section.Empty, Section.Empty, null, []);
+
+        var result = BookAssembler.Assemble([Doc("a.docx", null, L(1, technique, noMeaning))], NoEnrichment, Now, 2);
+
+        Assert.Equal([$"a.docx: b1-2 (～x): thiếu \"Ý nghĩa\""], result.Errors);
     }
 
     [Fact]

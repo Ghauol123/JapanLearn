@@ -14,6 +14,8 @@ public sealed class FuriganaTests : IDisposable
     [InlineData("お茶", "オチャ", "お[茶|ちゃ]")]
     [InlineData("会社", "カイシャ", "[会社|かいしゃ]")]
     [InlineData("一ヶ月", "イッカゲツ", "[一ヶ月|いっかげつ]")]
+    [InlineData("召し上がり", "メシアガリ", "[召|め]し[上|あ]がり")]
+    [InlineData("申し込み", "モウシコミ", "[申|もう]し[込|こ]み")]
     [InlineData("パソコン", "パソコン", "パソコン")]
     [InlineData("東京", null, "東京")]
     public void Split_PutsReadingOnKanjiOnly(string surface, string? reading, string expected) =>

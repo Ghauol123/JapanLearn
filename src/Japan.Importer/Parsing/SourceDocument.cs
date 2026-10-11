@@ -6,7 +6,8 @@ public sealed record SourceDocument(
     string FileName,
     PointRange? Range,
     IReadOnlyList<RawLesson> Lessons,
-    IReadOnlyList<string> Warnings);
+    IReadOnlyList<string> Warnings,
+    IReadOnlyList<int> ExcludedLessons);
 
 public readonly record struct PointRange(int First, int Last)
 {

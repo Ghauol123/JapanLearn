@@ -53,8 +53,12 @@ public sealed partial class DocumentBuilder(string fileName)
     [GeneratedRegex(@"^File\s*\d+\s*/\s*\d+", RegexOptions.IgnoreCase)]
     private static partial Regex FooterRegex();
 
+    [GeneratedRegex(@"B[àa]i\s*([0-9０-９]+)\b.*không tính vào\s*106 điểm", RegexOptions.IgnoreCase)]
+    private static partial Regex ExcludedLessonRegex();
+
     private readonly List<LessonBuilder> _lessons = [];
     private readonly List<string> _warnings = [];
+    private readonly List<int> _excludedLessons = [];
     private LessonBuilder? _lesson;
     private PointBuilder? _point;
     private Part _part;
@@ -115,7 +119,12 @@ public sealed partial class DocumentBuilder(string fileName)
             return;
         }
 
-        if (_lesson is null) return;
+        if (_lesson is null)
+        {
+            if (ExcludedLessonRegex().Match(text) is { Success: true } x)
+                _excludedLessons.Add(ParseNumber(x.Groups[1].Value));
+            return;
+        }
 
         if (_point is null)
         {
@@ -169,7 +178,7 @@ public sealed partial class DocumentBuilder(string fileName)
     public SourceDocument Build()
     {
         ClosePoint();
-        return new SourceDocument(fileName, _range, [.. _lessons.Select(l => l.Build())], [.. _warnings]);
+        return new SourceDocument(fileName, _range, [.. _lessons.Select(l => l.Build())], [.. _warnings], [.. _excludedLessons]);
     }
 
     private void AddToPart(string text)
