@@ -1,0 +1,26 @@
+{
+  "explanation": "N1 から N2 にかけて nghĩa là \"từ khoảng N1 đến khoảng N2\": chỉ một phạm vi thời gian hoặc không gian mà ranh giới đầu và cuối không rõ ràng, và sự việc diễn ra liên tục hoặc rải rác trong phạm vi đó.\n\nKhác với ～から～まで chỉ điểm đầu và điểm cuối chính xác (9時から5時まで), ～から～にかけて mang tính ước lượng, phù hợp với dự báo thời tiết, mùa, khu vực địa lý (関東から東北にかけて).",
+  "formation": [
+    { "wordType": "Thời gian", "rule": "N(thời gian) から + N(thời gian) にかけて", "samples": ["夜 → 今夜から明日の朝にかけて", "3月 → 3月から4月にかけて"] },
+    { "wordType": "Không gian", "rule": "N(địa điểm) から + N(địa điểm) にかけて", "samples": ["北海道 → 北海道から東北にかけて", "首 → 首から肩にかけて"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N から N にかけての + N", "samples": ["春 → 春から夏にかけての季節"] }
+  ],
+  "usage": [
+    "Dự báo thời tiết: 「今夜から明日にかけて、強い雨が降るでしょう」.",
+    "Mùa vụ: 「桜は3月末から4月にかけて咲く」.",
+    "Khu vực, cơ thể: 「肩から背中にかけて痛い」."
+  ],
+  "pitfalls": [
+    "Không dùng với thời điểm chính xác: ✗「9時から5時にかけて働く」 → ✓「9時から5時まで」.",
+    "Không dùng cho hành động có ý chí với điểm đầu-cuối rõ ràng của một người (✗「月曜から金曜にかけて学校に行く」)."
+  ],
+  "comparisons": [
+    { "pattern": "～から～まで", "targetId": null, "difference": "から～まで: điểm đầu, điểm cuối rõ ràng; から～にかけて: phạm vi ước lượng, ranh giới mờ." },
+    { "pattern": "～間・～間に", "targetId": "b7-3", "difference": "～間 chỉ khoảng thời gian của một sự việc khác; から～にかけて xác định phạm vi bằng hai mốc ước lượng." }
+  ],
+  "examples": [
+    { "japanese": "今夜から明日の朝にかけて、雪が降るでしょう。", "vietnamese": "Từ đêm nay đến sáng mai có lẽ sẽ có tuyết." },
+    { "japanese": "毎年、夏から秋にかけて台風が多くなる。", "vietnamese": "Hằng năm, từ mùa hè sang mùa thu bão nhiều lên." },
+    { "japanese": "長い時間パソコンを使ったので、首から肩にかけて痛い。", "vietnamese": "Dùng máy tính lâu nên đau từ cổ xuống vai." }
+  ]
+}

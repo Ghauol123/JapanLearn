@@ -1,0 +1,26 @@
+{
+  "explanation": "N1 はもちろん、N2 も nghĩa là \"N1 thì đương nhiên rồi, N2 cũng…\" hoặc \"không chỉ N1 mà cả N2…\". N1 là trường hợp hiển nhiên, ai cũng biết; N2 là trường hợp ít hiển nhiên hơn, được nêu ra để nhấn mạnh phạm vi rộng.\n\nTrang trọng hơn có ～はもとより (văn viết). Phần sau も có thể thay bằng まで hoặc さえ để nhấn mạnh hơn nữa: 「子供はもちろん、大人まで夢中になる」.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N1 + はもちろん、N2 + も", "samples": ["子供 → 子供はもちろん、大人も", "平日 → 平日はもちろん、週末も"] },
+    { "wordType": "Danh từ + trợ từ", "rule": "N1 + trợ từ + はもちろん、N2 + trợ từ + も", "samples": ["国内で → 国内ではもちろん、海外でも"] },
+    { "wordType": "Trang trọng", "rule": "N1 + はもとより、N2 + も", "samples": ["日本語 → 日本語はもとより、英語も"] }
+  ],
+  "usage": [
+    "Giới thiệu, quảng cáo: 「このホテルは部屋はもちろん、朝食も評判がいい」.",
+    "Nhấn mạnh phạm vi: 「彼は国内ではもちろん、海外でも有名だ」.",
+    "Khả năng: 「彼女は英語はもちろん、中国語も話せる」."
+  ],
+  "pitfalls": [
+    "Thứ tự: N1 phải là điều hiển nhiên hơn N2; đảo ngược sẽ mất tự nhiên: ✗「大人はもちろん、子供も楽しめるおもちゃ」.",
+    "Không dùng cho hai vế trái ngược nhau."
+  ],
+  "comparisons": [
+    { "pattern": "～も～ば～も", "targetId": "b23-5", "difference": "も～ば～も đặt hai vế ngang hàng; はもちろん coi N1 là hiển nhiên và nhấn mạnh N2." },
+    { "pattern": "～だけでなく", "targetId": null, "difference": "だけでなく～も: không chỉ… mà còn…, trung tính; はもちろん thêm ý \"N1 là đương nhiên\"." }
+  ],
+  "examples": [
+    { "japanese": "このアニメは子供はもちろん、大人にも人気がある。", "vietnamese": "Bộ anime này trẻ con thì đương nhiên rồi, người lớn cũng rất thích." },
+    { "japanese": "この店は平日はもちろん、週末もいつも混んでいる。", "vietnamese": "Quán này ngày thường đã đành, cuối tuần cũng luôn đông khách." },
+    { "japanese": "彼女は英語はもちろん、韓国語も話せる。", "vietnamese": "Cô ấy tiếng Anh thì khỏi nói, còn nói được cả tiếng Hàn." }
+  ]
+}

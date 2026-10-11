@@ -1,0 +1,27 @@
+{
+  "explanation": "Vます + そうもない／そうにない／そうにもない là dạng phủ định của Vますそうだ (có vẻ sắp…): \"có vẻ không thể…, chắc là không…, khó mà…\". Người nói phán đoán khả năng xảy ra rất thấp dựa trên tình hình trước mắt.\n\nBa dạng cùng nghĩa: そうにない là trung tính; そうもない／そうにもない nhấn mạnh hơn (も thêm sắc thái \"ngay cả… cũng không\"). Rất hay đi với động từ khả năng: 終わりそうにない, 間に合いそうもない, できそうにない.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vます + そうにない／そうもない／そうにもない", "samples": ["終わる → 終わりそうにない", "止む → 止みそうもない"] },
+    { "wordType": "Động từ khả năng", "rule": "V(可能)ます + そうにない", "samples": ["間に合える → 間に合いそうにない", "できる → できそうもない", "行ける → 行けそうにない"] },
+    { "wordType": "Lịch sự", "rule": "～そうにありません／そうもありません", "samples": ["来る → 来そうにありません"] }
+  ],
+  "usage": [
+    "Dự đoán dựa vào tình hình: 「この雨はなかなか止みそうにない」.",
+    "Từ chối khéo: 「すみません、今日は行けそうにありません」.",
+    "Công việc: 「この量では、今日中に終わりそうもない」."
+  ],
+  "pitfalls": [
+    "Không phải phủ định thông thường ✗「降りそうではない」; dạng đúng là 「降りそうにない」.",
+    "Không dùng cho tính từ; tính từ dùng ～なさそう (b30-4).",
+    "Chủ yếu là phán đoán khách quan, không diễn tả ý chí: ✗「私は行きそうにない」 (không muốn đi) → ✓「行けそうにない」 (chắc không đi được)."
+  ],
+  "comparisons": [
+    { "pattern": "～なさそう", "targetId": "b30-4", "difference": "～なさそう: phủ định của Aそう (trông không…); ～そうにない: phủ định của Vそう (chắc không xảy ra)." },
+    { "pattern": "～はずがない", "targetId": "b14-1", "difference": "はずがない: khẳng định chắc chắn không thể (dựa vào logic); そうにない: phán đoán khả năng thấp từ quan sát." }
+  ],
+  "examples": [
+    { "japanese": "道がとても混んでいて、約束の時間に間に合いそうにない。", "vietnamese": "Đường rất tắc, có vẻ không kịp giờ hẹn." },
+    { "japanese": "すみません、今日は熱があって、パーティーに行けそうにありません。", "vietnamese": "Xin lỗi, hôm nay tôi bị sốt nên chắc không đến bữa tiệc được." },
+    { "japanese": "この雪では、電車は当分動きそうもない。", "vietnamese": "Tuyết thế này thì có vẻ tàu sẽ không chạy trong một thời gian." }
+  ]
+}

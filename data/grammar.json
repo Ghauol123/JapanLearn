@@ -11053,6 +11053,50 @@
               "ruby": "[寝坊|ねぼう]して[遅|おそ]くなったせいで、[朝|あさ]ごはんを[食|た]べなかった。"
             }
           ],
+          "enrichment": {
+            "explanation": "Dạng bài sắp xếp câu (文の組み立て, ★) cho 4 mảnh câu và yêu cầu chọn mảnh đứng ở vị trí ★. Bước đầu tiên và quan trọng nhất là đọc toàn bộ câu (cả phần trước và sau chỗ trống) cùng 4 lựa chọn để đoán ý nghĩa tổng thể của câu.\n\nĐồng thời, hãy tìm \"ngữ pháp chính\" — mẫu ngữ pháp N3 nằm trong các mảnh (ví dụ はずがない, せいで, なきゃいけない). Mỗi mẫu có quy tắc nối cố định (đứng sau thể gì, đi với từ gì), nên chỉ cần nhận ra mẫu là đã xác định được vị trí của một hoặc hai mảnh.",
+            "formation": [],
+            "usage": [
+              "Bước 1: Đọc lướt cả câu và 4 mảnh, đoán câu đang nói gì.",
+              "Bước 2: Tìm mẫu ngữ pháp N3 trong các mảnh và nhớ lại quy tắc nối của nó (Vる＋はずがない, Nの＋せいで…).",
+              "Bước 3: Đặt mảnh chứa ngữ pháp chính vào vị trí hợp lý, thường là gần cuối câu nếu là vị ngữ.",
+              "Bước 4: Xếp các mảnh còn lại, đọc lại toàn câu để kiểm tra nghĩa."
+            ],
+            "pitfalls": [
+              "Đừng chọn đáp án chỉ dựa vào việc hai mảnh ghép được với nhau; phải đọc lại cả câu.",
+              "Chú ý trợ từ ở đầu/cuối mỗi mảnh (は, が, を, に, の) — đó là manh mối nối.",
+              "Đề hỏi mảnh ở vị trí ★, không phải mảnh đầu tiên; ghi rõ thứ tự 1–4 trước khi chọn."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Ráp từng cụm nhỏ",
+                "targetId": "b26-2",
+                "difference": "Bước tiếp theo: ghép các mảnh thành cụm ngữ pháp nhỏ rồi mới ráp cả câu."
+              },
+              {
+                "pattern": "Ngữ pháp hay gặp khi ráp câu",
+                "targetId": "b27-1",
+                "difference": "Bài 27 tổng hợp các mẫu hay xuất hiện trong dạng bài này (という, を～として, から～にかけて…)."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "毎日練習しているのだから、試合に負けるはずがない。",
+                "vietnamese": "Vì ngày nào cũng luyện tập nên không thể nào thua trận được. (Ngữ pháp chính: はずがない — đứng sau Vる)",
+                "ruby": "[毎日|まいにち][練習|れんしゅう]しているのだから、[試合|しあい]に[負|ま]けるはずがない。"
+              },
+              {
+                "japanese": "雨が降ったせいで、運動会が中止になった。",
+                "vietnamese": "Vì trời mưa mà hội thao bị hủy. (Ngữ pháp chính: せいで — đứng sau thể thường／Nの)",
+                "ruby": "[雨|あめ]が[降|ふ]ったせいで、[運動会|うんどうかい]が[中止|ちゅうし]になった。"
+              },
+              {
+                "japanese": "明日までにこのレポートを書かなければならない。",
+                "vietnamese": "Phải viết xong báo cáo này trước ngày mai. (Ngữ pháp chính: なければならない — đứng sau Vない bỏ い)",
+                "ruby": "[明日|あした]までにこのレポートを[書|か]かなければならない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -11087,6 +11131,50 @@
               "ruby": "[書類|しょるい]を１[枚|まい]もらうのに１[時間|じかん]も[待|ま]たされることもある。"
             }
           ],
+          "enrichment": {
+            "explanation": "Sau khi đã nắm ý chính và nhận ra ngữ pháp trọng tâm, đừng cố xếp cả 4 mảnh cùng lúc. Hãy ghép từng cặp mảnh có quan hệ chặt chẽ thành cụm nhỏ trước: động từ + mẫu ngữ pháp đi sau nó, danh từ + trợ từ + động từ, từ bổ nghĩa + danh từ.\n\nKhi đã có 2 cụm, việc ghép chúng lại và nối với phần trước/sau chỗ trống trở nên đơn giản hơn nhiều. Cách này giảm số khả năng phải thử từ 24 xuống chỉ còn vài trường hợp.",
+            "formation": [],
+            "usage": [
+              "Ghép cặp chắc chắn trước: mảnh kết thúc bằng Vる + mảnh bắt đầu bằng しかない／わけにはいかない….",
+              "Ghép cụm bổ nghĩa: mảnh có động từ thể thường đứng trước mảnh danh từ (社長から伺った + の).",
+              "Ghép các cụm lại, sau đó nối với phần cố định trước và sau chỗ trống.",
+              "Đọc lại toàn câu một lần để chắc nghĩa tự nhiên."
+            ],
+            "pitfalls": [
+              "Một mảnh có thể ghép được với nhiều mảnh khác về ngữ pháp; chọn theo nghĩa của cả câu.",
+              "Những mảnh chỉ có trợ từ hoặc từ ngắn (の, こと, も) thường là chìa khóa — xác định nó đi với cụm nào.",
+              "Đừng quên phần câu đã cho sẵn sau chỗ trống quyết định mảnh cuối cùng."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Nắm ý nghĩa tổng quát",
+                "targetId": "b26-1",
+                "difference": "Bước 1 là đọc ý chính và tìm ngữ pháp chính; bước 2 này là ráp cụm nhỏ."
+              },
+              {
+                "pattern": "Trợ từ + の",
+                "targetId": "b27-4",
+                "difference": "Cụm 「trợ từ + の」 (への, からの, との) thường là manh mối để ghép mảnh với danh từ phía sau."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "終電がなくなったので、タクシーで帰るしかない。",
+                "vietnamese": "Hết chuyến tàu cuối nên chỉ còn cách về bằng taxi. (Cụm nhỏ: タクシーで帰る + しかない)",
+                "ruby": "[終電|しゅうでん]がなくなったので、タクシーで[帰|かえ]るしかない。"
+              },
+              {
+                "japanese": "先生からいただいた本を、今も大切にしている。",
+                "vietnamese": "Cuốn sách nhận được từ thầy, đến giờ tôi vẫn giữ gìn cẩn thận. (Cụm nhỏ: 先生から + いただいた + 本を)",
+                "ruby": "[先生|せんせい]からいただいた[本|ほん]を、[今|いま]も[大切|たいせつ]にしている。"
+              },
+              {
+                "japanese": "チケットを一枚買うのに、２時間も並ばされた。",
+                "vietnamese": "Chỉ để mua một vé mà bị bắt xếp hàng tới 2 tiếng. (Cụm nhỏ: 買う + のに; ２時間も + 並ばされた)",
+                "ruby": "チケットを[一|いち][枚|まい][買|か]うのに、２[時間|じかん]も[並|なら]ばされた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -11105,6 +11193,34 @@
             "tables": []
           },
           "examples": [],
+          "enrichment": {
+            "explanation": "Phần sắp xếp câu (文の組み立て) trong đề N3 thường có 5 câu. Mục tiêu thời gian: tối đa khoảng 1 phút mỗi câu, tổng cả phần không quá 5 phút, để dành thời gian cho phần đọc hiểu vốn tốn nhiều thời gian hơn.\n\nNếu một câu khó và đã quá 1 phút mà vẫn chưa ra, hãy chọn đáp án có khả năng nhất, đánh dấu lại và chuyển sang câu tiếp theo. Quay lại câu đó nếu cuối giờ còn thời gian.",
+            "formation": [],
+            "usage": [
+              "Đặt mốc: 5 câu ráp câu ≈ 5 phút.",
+              "Câu nào nhận ra ngữ pháp chính ngay thì làm nhanh để tiết kiệm thời gian cho câu khó.",
+              "Luôn tô một đáp án trước khi bỏ qua — không để trống (không bị trừ điểm khi sai).",
+              "Luyện tập bằng cách bấm giờ khi làm đề thử."
+            ],
+            "pitfalls": [
+              "Sa lầy vào một câu khó làm mất thời gian của cả phần đọc hiểu phía sau.",
+              "Làm quá nhanh mà không đọc lại cả câu dễ chọn nhầm vị trí ★.",
+              "Quên ghi lại thứ tự đã xếp, khi quay lại phải làm từ đầu."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Tốc độ làm bài đoạn văn",
+                "targetId": "b28-3",
+                "difference": "Bài 28 áp dụng nguyên tắc thời gian tương tự cho dạng ngữ pháp đoạn văn (文章の文法)."
+              },
+              {
+                "pattern": "Nắm ý nghĩa tổng quát",
+                "targetId": "b26-1",
+                "difference": "Áp dụng đúng các bước ở b26-1 và b26-2 là cách chính để làm nhanh."
+              }
+            ],
+            "examples": []
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         }
       ],
@@ -11217,6 +11333,78 @@
               "ruby": "[彼|かれ]は[赤|あか]とかピンクといったような[派手|はで]な[色|いろ]の[服|ふく]が[似合|にあ]いますよね。"
             }
           ],
+          "enrichment": {
+            "explanation": "～という và ～といった có ba cách dùng chính.\n\n① N1 + という + N2: giới thiệu tên gọi của người, vật, địa danh mà người nghe (hoặc người nói) có thể chưa biết: \"(cái) tên là…, gọi là…\".\n\n② Nội dung (câu thể thường) + という + N: nêu nội dung cụ thể của danh từ chỉ thông tin như うわさ, ニュース, 話, 意見, 連絡, 知らせ, こと: \"(tin đồn) rằng…\".\n\n③ X、Y(、Z) + といった + N: đưa ra vài ví dụ tiêu biểu trong một nhóm: \"chẳng hạn như…, như là…\". Gần nghĩa với など nhưng trang trọng hơn.",
+            "formation": [
+              {
+                "wordType": "Tên gọi",
+                "rule": "N1 + という + N2",
+                "samples": [
+                  "さくら → さくらという店",
+                  "ハノイ → ハノイという町"
+                ]
+              },
+              {
+                "wordType": "Nội dung",
+                "rule": "Thể thường + という + N (うわさ／話／こと…)",
+                "samples": [
+                  "結婚する → 結婚するといううわさ",
+                  "中止だ → 中止だという連絡"
+                ]
+              },
+              {
+                "wordType": "Ví dụ",
+                "rule": "N1、N2 + といった + N",
+                "samples": [
+                  "寿司、天ぷら → 寿司や天ぷらといった日本料理",
+                  "英語、中国語 → 英語、中国語といった外国語"
+                ]
+              }
+            ],
+            "usage": [
+              "Giới thiệu: 「『千と千尋』というアニメを知っていますか」.",
+              "Nội dung tin tức: 「明日、台風が来るというニュースを見た」.",
+              "Ví dụ: 「サッカーや野球といったスポーツが好きだ」."
+            ],
+            "pitfalls": [
+              "Ở cách dùng ②, nếu nội dung kết thúc bằng danh từ/tính từ な thì thường thêm だ: 「中止だという知らせ」.",
+              "といった chỉ dùng trước danh từ; không dùng といった ở cuối câu.",
+              "Với danh từ chỉ cảm giác, sự việc trực tiếp (におい, 音) thì nối trực tiếp, không cần という: 「魚を焼くにおい」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～など",
+                "difference": "など liệt kê không hết, văn nói/viết đều dùng; といった đứng trước danh từ chung bao quát các ví dụ, trang trọng hơn."
+              },
+              {
+                "pattern": "～って",
+                "targetId": "b13-4",
+                "difference": "って là dạng văn nói của という (～っていう店)."
+              },
+              {
+                "pattern": "～ということだ",
+                "targetId": "b13-1",
+                "difference": "ということだ ở cuối câu dùng để truyền đạt lại thông tin; という + N ở giữa câu bổ nghĩa danh từ."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "駅の近くに「ひまわり」というカフェがあります。",
+                "vietnamese": "Gần ga có một quán cà phê tên là \"Himawari\".",
+                "ruby": "[駅|えき]の[近|ちか]くに「ひまわり」というカフェがあります。"
+              },
+              {
+                "japanese": "来月から電気代が上がるという話を聞きました。",
+                "vietnamese": "Tôi nghe nói rằng từ tháng sau giá điện sẽ tăng.",
+                "ruby": "[来月|らいげつ]から[電気|でんき][代|だい]が[上|あ]がるという[話|はなし]を[聞|き]きました。"
+              },
+              {
+                "japanese": "京都や奈良といった古い町には、お寺がたくさんある。",
+                "vietnamese": "Những thành phố cổ như Kyoto hay Nara có rất nhiều chùa.",
+                "ruby": "[京都|きょうと]や[奈良|なら]といった[古|ふる]い[町|まち]には、お[寺|てら]がたくさんある。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11278,6 +11466,74 @@
               "ruby": "[日本|にほん]の[世界|せかい][地図|ちず]は[日本|にほん]を[中心|ちゅうしん]に[描|えが]かれている。"
             }
           ],
+          "enrichment": {
+            "explanation": "N1 を N2 として／N1 を N2 に đều có nghĩa \"lấy N1 làm N2, coi N1 là N2, dùng N1 như N2\". N1 là đối tượng, N2 là vai trò, mục đích, tiêu chuẩn, chủ đề được gán cho N1.\n\n～を～として trang trọng hơn và hay dùng với các danh từ trừu tượng: 目的, 目標, 中心, テーマ, 条件, 基準, 日課. ～を～に ngắn gọn, hay dùng trong văn nói và với ý \"dùng như\": 本を枕に (dùng sách làm gối). Cả hai đều có dạng bổ nghĩa danh từ: ～を～とした N／～を～にした N.",
+            "formation": [
+              {
+                "wordType": "Động từ phía sau",
+                "rule": "N1 を N2 として + V ／ N1 を N2 に(して) + V",
+                "samples": [
+                  "留学 → 留学を目的として",
+                  "駅 → 駅を中心に"
+                ]
+              },
+              {
+                "wordType": "Vị ngữ",
+                "rule": "N1 を N2 とする／N2 にする",
+                "samples": [
+                  "散歩 → 散歩を日課とする",
+                  "箱 → 箱をいすにする"
+                ]
+              },
+              {
+                "wordType": "Bổ nghĩa danh từ",
+                "rule": "N1 を N2 とした／にした + N",
+                "samples": [
+                  "子供 → 子供を対象とした本",
+                  "実話 → 実話をもとにした映画"
+                ]
+              }
+            ],
+            "usage": [
+              "Mục đích, mục tiêu: 「合格を目標として、毎日勉強している」.",
+              "Trung tâm, tiêu chuẩn: 「駅を中心に、店が集まっている」.",
+              "Đối tượng hướng đến: 「この講座は初心者を対象としている」.",
+              "Dùng làm: 「段ボールを机にして勉強した」."
+            ],
+            "pitfalls": [
+              "Không nhầm với Nとして (với tư cách là) ở Bài 20; ở đây có cấu trúc hai danh từ với を.",
+              "Cụm cố định ～をもとに(して) (dựa trên) và ～をきっかけに (nhân dịp) cũng cùng họ, rất hay gặp trong đề."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～として",
+                "targetId": "b20-4",
+                "difference": "Nとして: chủ ngữ với tư cách N; N1をN2として: người nói gán vai trò N2 cho N1."
+              },
+              {
+                "pattern": "～によって／による（作者）",
+                "targetId": "b20-2",
+                "difference": "による nêu tác giả; をもとにした nêu nguồn gốc nội dung."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "この大学は、留学生の受け入れを目標の一つとしている。",
+                "vietnamese": "Trường đại học này lấy việc tiếp nhận du học sinh làm một trong các mục tiêu.",
+                "ruby": "この[大学|だいがく]は、[留学生|りゅうがくせい]の[受|う]け[入|い]れを[目標|もくひょう]の[一|ひと]つとしている。"
+              },
+              {
+                "japanese": "この映画は、実際にあった事件をもとにして作られた。",
+                "vietnamese": "Bộ phim này được làm dựa trên một vụ việc có thật.",
+                "ruby": "この[映画|えいが]は、[実際|じっさい]にあった[事件|じけん]をもとにして[作|つく]られた。"
+              },
+              {
+                "japanese": "これは子供を対象とした日本語の本です。",
+                "vietnamese": "Đây là sách tiếng Nhật dành cho đối tượng trẻ em.",
+                "ruby": "これは[子供|こども]を[対象|たいしょう]とした[日本語|にほんご]の[本|ほん]です。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11319,6 +11575,71 @@
               "ruby": "[私|わたし]の[家|いえ]から[駅|えき]にかけてたくさんお[店|みせ]があります。"
             }
           ],
+          "enrichment": {
+            "explanation": "N1 から N2 にかけて nghĩa là \"từ khoảng N1 đến khoảng N2\": chỉ một phạm vi thời gian hoặc không gian mà ranh giới đầu và cuối không rõ ràng, và sự việc diễn ra liên tục hoặc rải rác trong phạm vi đó.\n\nKhác với ～から～まで chỉ điểm đầu và điểm cuối chính xác (9時から5時まで), ～から～にかけて mang tính ước lượng, phù hợp với dự báo thời tiết, mùa, khu vực địa lý (関東から東北にかけて).",
+            "formation": [
+              {
+                "wordType": "Thời gian",
+                "rule": "N(thời gian) から + N(thời gian) にかけて",
+                "samples": [
+                  "夜 → 今夜から明日の朝にかけて",
+                  "3月 → 3月から4月にかけて"
+                ]
+              },
+              {
+                "wordType": "Không gian",
+                "rule": "N(địa điểm) から + N(địa điểm) にかけて",
+                "samples": [
+                  "北海道 → 北海道から東北にかけて",
+                  "首 → 首から肩にかけて"
+                ]
+              },
+              {
+                "wordType": "Bổ nghĩa danh từ",
+                "rule": "N から N にかけての + N",
+                "samples": [
+                  "春 → 春から夏にかけての季節"
+                ]
+              }
+            ],
+            "usage": [
+              "Dự báo thời tiết: 「今夜から明日にかけて、強い雨が降るでしょう」.",
+              "Mùa vụ: 「桜は3月末から4月にかけて咲く」.",
+              "Khu vực, cơ thể: 「肩から背中にかけて痛い」."
+            ],
+            "pitfalls": [
+              "Không dùng với thời điểm chính xác: ✗「9時から5時にかけて働く」 → ✓「9時から5時まで」.",
+              "Không dùng cho hành động có ý chí với điểm đầu-cuối rõ ràng của một người (✗「月曜から金曜にかけて学校に行く」)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～から～まで",
+                "difference": "から～まで: điểm đầu, điểm cuối rõ ràng; から～にかけて: phạm vi ước lượng, ranh giới mờ."
+              },
+              {
+                "pattern": "～間・～間に",
+                "targetId": "b7-3",
+                "difference": "～間 chỉ khoảng thời gian của một sự việc khác; から～にかけて xác định phạm vi bằng hai mốc ước lượng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "今夜から明日の朝にかけて、雪が降るでしょう。",
+                "vietnamese": "Từ đêm nay đến sáng mai có lẽ sẽ có tuyết.",
+                "ruby": "[今夜|こんや]から[明日|あした]の[朝|あさ]にかけて、[雪|ゆき]が[降|ふ]るでしょう。"
+              },
+              {
+                "japanese": "毎年、夏から秋にかけて台風が多くなる。",
+                "vietnamese": "Hằng năm, từ mùa hè sang mùa thu bão nhiều lên.",
+                "ruby": "[毎年|まいとし]、[夏|なつ]から[秋|あき]にかけて[台風|たいふう]が[多|おお]くなる。"
+              },
+              {
+                "japanese": "長い時間パソコンを使ったので、首から肩にかけて痛い。",
+                "vietnamese": "Dùng máy tính lâu nên đau từ cổ xuống vai.",
+                "ruby": "[長|なが]い[時間|じかん]パソコンを[使|つか]ったので、[首|くび]から[肩|かた]にかけて[痛|いた]い。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11378,6 +11699,81 @@
             ]
           },
           "examples": [],
+          "enrichment": {
+            "explanation": "Trong tiếng Nhật, trợ từ thông thường (に, へ, と, から, まで, で, について…) chỉ nối với động từ. Muốn dùng chúng để bổ nghĩa cho danh từ, ta có thể dùng động từ bổ nghĩa (恋人とする約束), hoặc lược bỏ động từ và gắn thêm の sau trợ từ (恋人との約束). Cách thứ hai ngắn gọn, rất phổ biến trong văn viết và tiêu đề.\n\nLưu ý: に và が, を không đi với の. に đổi thành への (hướng đến) hoặc での (địa điểm), hoặc bỏ hẳn; を／が thì phải dùng lại động từ hoặc dùng の đơn thuần (日本語の勉強).",
+            "formation": [
+              {
+                "wordType": "と／から／まで／で",
+                "rule": "N + trợ từ + の + N",
+                "samples": [
+                  "友達と → 友達との旅行",
+                  "母から → 母からの手紙",
+                  "駅まで → 駅までの道",
+                  "日本で → 日本での生活"
+                ]
+              },
+              {
+                "wordType": "に (hướng đến)",
+                "rule": "N + への + N",
+                "samples": [
+                  "先生に → 先生へのお礼",
+                  "東京に → 東京への出張"
+                ]
+              },
+              {
+                "wordType": "Cụm trợ từ phức",
+                "rule": "について／に対して／として／によって → についての／に対する／としての／による",
+                "samples": [
+                  "環境について → 環境についての本",
+                  "客に対して → 客に対する態度"
+                ]
+              }
+            ],
+            "usage": [
+              "Thư từ, quà tặng: 「先生へのプレゼント」「両親からの手紙」.",
+              "Tiêu đề, báo chí: 「留学生の日本での生活」.",
+              "Trong bài ráp câu: mảnh có 「～への」「～からの」 phải đứng ngay trước danh từ."
+            ],
+            "pitfalls": [
+              "✗「先生にのプレゼント」 → ✓「先生へのプレゼント」.",
+              "✗「日本語をの勉強」 → ✓「日本語の勉強」 (bỏ を).",
+              "Dạng に対して → に対する (không phải に対しての trong văn chuẩn, tuy văn nói vẫn gặp)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～に対して／に対する",
+                "targetId": "b20-1",
+                "difference": "に対する là dạng bổ nghĩa danh từ của に対して."
+              },
+              {
+                "pattern": "～として／としての",
+                "targetId": "b20-4",
+                "difference": "としての là dạng bổ nghĩa danh từ của として."
+              },
+              {
+                "pattern": "～によって／による",
+                "targetId": "b20-2",
+                "difference": "による là dạng bổ nghĩa danh từ của によって."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "これは日本にいる友達からのプレゼントです。",
+                "vietnamese": "Đây là món quà từ người bạn ở Nhật.",
+                "ruby": "これは[日本|にほん]にいる[友達|ともだち]からのプレゼントです。"
+              },
+              {
+                "japanese": "家から学校までの道は、桜がきれいだ。",
+                "vietnamese": "Con đường từ nhà đến trường có hoa anh đào rất đẹp.",
+                "ruby": "[家|いえ]から[学校|がっこう]までの[道|みち]は、[桜|さくら]がきれいだ。"
+              },
+              {
+                "japanese": "来週、大阪への出張が決まった。",
+                "vietnamese": "Chuyến công tác tới Osaka tuần sau đã được quyết định.",
+                "ruby": "[来週|らいしゅう]、[大阪|おおさか]への[出張|しゅっちょう]が[決|き]まった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11419,6 +11815,70 @@
               "ruby": "KOSEIセンターでは、[日本語|にほんご]はもちろん、[日本|にほん]の[文化|ぶんか]についても[教|おし]えている。"
             }
           ],
+          "enrichment": {
+            "explanation": "N1 はもちろん、N2 も nghĩa là \"N1 thì đương nhiên rồi, N2 cũng…\" hoặc \"không chỉ N1 mà cả N2…\". N1 là trường hợp hiển nhiên, ai cũng biết; N2 là trường hợp ít hiển nhiên hơn, được nêu ra để nhấn mạnh phạm vi rộng.\n\nTrang trọng hơn có ～はもとより (văn viết). Phần sau も có thể thay bằng まで hoặc さえ để nhấn mạnh hơn nữa: 「子供はもちろん、大人まで夢中になる」.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N1 + はもちろん、N2 + も",
+                "samples": [
+                  "子供 → 子供はもちろん、大人も",
+                  "平日 → 平日はもちろん、週末も"
+                ]
+              },
+              {
+                "wordType": "Danh từ + trợ từ",
+                "rule": "N1 + trợ từ + はもちろん、N2 + trợ từ + も",
+                "samples": [
+                  "国内で → 国内ではもちろん、海外でも"
+                ]
+              },
+              {
+                "wordType": "Trang trọng",
+                "rule": "N1 + はもとより、N2 + も",
+                "samples": [
+                  "日本語 → 日本語はもとより、英語も"
+                ]
+              }
+            ],
+            "usage": [
+              "Giới thiệu, quảng cáo: 「このホテルは部屋はもちろん、朝食も評判がいい」.",
+              "Nhấn mạnh phạm vi: 「彼は国内ではもちろん、海外でも有名だ」.",
+              "Khả năng: 「彼女は英語はもちろん、中国語も話せる」."
+            ],
+            "pitfalls": [
+              "Thứ tự: N1 phải là điều hiển nhiên hơn N2; đảo ngược sẽ mất tự nhiên: ✗「大人はもちろん、子供も楽しめるおもちゃ」.",
+              "Không dùng cho hai vế trái ngược nhau."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～も～ば～も",
+                "targetId": "b23-5",
+                "difference": "も～ば～も đặt hai vế ngang hàng; はもちろん coi N1 là hiển nhiên và nhấn mạnh N2."
+              },
+              {
+                "pattern": "～だけでなく",
+                "difference": "だけでなく～も: không chỉ… mà còn…, trung tính; はもちろん thêm ý \"N1 là đương nhiên\"."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "このアニメは子供はもちろん、大人にも人気がある。",
+                "vietnamese": "Bộ anime này trẻ con thì đương nhiên rồi, người lớn cũng rất thích.",
+                "ruby": "このアニメは[子供|こども]はもちろん、[大人|おとな]にも[人気|にんき]がある。"
+              },
+              {
+                "japanese": "この店は平日はもちろん、週末もいつも混んでいる。",
+                "vietnamese": "Quán này ngày thường đã đành, cuối tuần cũng luôn đông khách.",
+                "ruby": "この[店|みせ]は[平日|へいじつ]はもちろん、[週末|しゅうまつ]もいつも[混|こ]んでいる。"
+              },
+              {
+                "japanese": "彼女は英語はもちろん、韓国語も話せる。",
+                "vietnamese": "Cô ấy tiếng Anh thì khỏi nói, còn nói được cả tiếng Hàn.",
+                "ruby": "[彼女|かのじょ]は[英語|えいご]はもちろん、[韓国|かんこく][語|ご]も[話|はな]せる。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         }
       ],
@@ -11450,6 +11910,50 @@
             "tables": []
           },
           "examples": [],
+          "enrichment": {
+            "explanation": "Dạng bài ngữ pháp đoạn văn (文章の文法) cho một đoạn văn có nhiều chỗ trống. Hai loại câu hỏi hay gặp nhất là chọn liên từ (接続詞) và chọn vị ngữ, mẫu câu cuối câu.\n\nVới liên từ: đọc kỹ câu ngay trước và ngay sau chỗ trống để xác định quan hệ giữa chúng — nguyên nhân/kết quả (それで, だから), tương phản (しかし, ところが), bổ sung (それに, また), chuyển ý (ところで), giải thích lại (つまり), ví dụ (例えば).\n\nVới vị ngữ: xem chủ ngữ là ai, thì gì, mức độ lịch sự của toàn đoạn (thư trang trọng hay nhật ký), và sắc thái người viết muốn diễn đạt (quyết định, phỏng đoán, mong muốn, nhờ vả).",
+            "formation": [],
+            "usage": [
+              "Liên từ: xác định quan hệ ý nghĩa giữa câu trước và câu sau rồi mới chọn.",
+              "Vị ngữ: kiểm tra chủ ngữ, thì, và giọng văn (です／ます hay thể thường, kính ngữ).",
+              "Đọc cả đoạn để nắm mục đích của người viết (thư cảm ơn, xin lỗi, thông báo…).",
+              "Liên từ phân biệt thường thi: それで (kết quả tự nhiên) vs そこで (vì thế nên chủ động làm); しかし vs ところが (bất ngờ)."
+            ],
+            "pitfalls": [
+              "Chỉ đọc câu chứa chỗ trống mà bỏ qua câu trước/sau là lỗi phổ biến nhất.",
+              "Trong thư trang trọng, vị ngữ phải dùng kính ngữ đúng chủ thể: 「お聞かせください」 (người đọc làm), 「ご報告いたします」 (người viết làm).",
+              "ところで dùng để chuyển sang chủ đề mới, không dùng để nối hai ý liên quan."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Bị động, sai khiến, cho nhận",
+                "targetId": "b28-2",
+                "difference": "Một loại câu hỏi khác của cùng dạng bài: chọn thể động từ theo vai trò chủ ngữ."
+              },
+              {
+                "pattern": "Kính ngữ",
+                "targetId": "b18-1",
+                "difference": "Vị ngữ trong thư trang trọng thường đòi hỏi nắm vững 尊敬語／謙譲語 ở Bài 18."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "昨日は大雨でした。それで、試合は中止になりました。",
+                "vietnamese": "Hôm qua mưa to. Vì thế trận đấu bị hủy. (それで: kết quả tự nhiên)",
+                "ruby": "[昨日|きのう]は[大雨|おおあめ]でした。それで、[試合|しあい]は[中止|ちゅうし]になりました。"
+              },
+              {
+                "japanese": "一生懸命勉強しました。しかし、試験には合格できませんでした。",
+                "vietnamese": "Tôi đã học hết sức. Nhưng vẫn không thi đỗ. (しかし: tương phản)",
+                "ruby": "[一生懸命|いっしょうけんめい][勉強|べんきょう]しました。しかし、[試験|しけん]には[合格|ごうかく]できませんでした。"
+              },
+              {
+                "japanese": "お元気ですか。ところで、来月日本へ行くことになりました。",
+                "vietnamese": "Bạn khỏe không? À nhân tiện, tháng sau tôi sẽ sang Nhật. (ところで: chuyển chủ đề)",
+                "ruby": "お[元気|げんき]ですか。ところで、[来月|らいげつ][日本|にほん]へ[行|い]くことになりました。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11474,6 +11978,55 @@
             "tables": []
           },
           "examples": [],
+          "enrichment": {
+            "explanation": "Trong bài ngữ pháp đoạn văn, nhiều câu hỏi yêu cầu chọn đúng thể của động từ: chủ động, bị động (～られる), sai khiến (～させる), bị động sai khiến (～させられる), hoặc cho nhận (～てあげる／～てくれる／～てもらう).\n\nChìa khóa là xác định ai là chủ ngữ của câu (thường là người viết, có thể bị lược bỏ) và ai thực hiện hành động. Nếu người viết là chủ ngữ nhưng người khác làm hành động có lợi cho mình → ～てもらう／～ていただく; người khác làm và mình chịu ảnh hưởng xấu → bị động; mình bị bắt làm → bị động sai khiến; mình được cho phép làm → ～させてもらう.",
+            "formation": [],
+            "usage": [
+              "Bước 1: Tìm chủ ngữ (nếu không có, thường là người viết \"私\").",
+              "Bước 2: Xác định ai thực hiện hành động trong chỗ trống.",
+              "Bước 3: Xác định người viết đánh giá việc đó là có lợi (cho nhận), bất lợi (bị động), hay bị ép (bị động sai khiến).",
+              "Bước 4: Kiểm tra trợ từ đi kèm: に (người làm trong bị động/てもらう), を／に (người bị sai khiến)."
+            ],
+            "pitfalls": [
+              "Nhầm ～させてもらう (được cho phép làm — tích cực) với ～させられる (bị bắt làm — miễn cưỡng).",
+              "Nhầm ～てくれる (người khác làm cho mình, chủ ngữ là người làm) với ～てもらう (chủ ngữ là mình, nhận hành động).",
+              "Quên rằng trong văn kể, người viết thường không nói 私 nhưng vẫn là chủ ngữ ngầm."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Bị động sai khiến",
+                "targetId": "b1-3",
+                "difference": "Ôn lại cách chia ～させられる (Bài 1)."
+              },
+              {
+                "pattern": "～させてもらいたい",
+                "targetId": "b15-2",
+                "difference": "Ôn lại ～させてもらう (xin phép được làm) ở Bài 15."
+              },
+              {
+                "pattern": "Liên từ, vị ngữ chính",
+                "targetId": "b28-1",
+                "difference": "Loại câu hỏi còn lại của dạng bài đoạn văn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "ボランティア活動に参加させてもらって、いい経験になった。",
+                "vietnamese": "Được cho tham gia hoạt động tình nguyện, đó là một trải nghiệm tốt. (させてもらう: được cho phép — tích cực)",
+                "ruby": "ボランティア[活動|かつどう]に[参加|さんか]させてもらって、いい[経験|けいけん]になった。"
+              },
+              {
+                "japanese": "子供のころ、毎日ピアノを練習させられた。",
+                "vietnamese": "Hồi nhỏ ngày nào tôi cũng bị bắt tập piano. (させられる: bị ép)",
+                "ruby": "[子供|こども]のころ、[毎日|まいにち]ピアノを[練習|れんしゅう]させられた。"
+              },
+              {
+                "japanese": "地元の人が、村の古い写真を見せてくれた。",
+                "vietnamese": "Người dân địa phương đã cho tôi xem những bức ảnh cũ của làng. (てくれる: người khác làm cho mình)",
+                "ruby": "[地元|じもと]の[人|ひと]が、[村|むら]の[古|ふる]い[写真|しゃしん]を[見|み]せてくれた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         },
         {
@@ -11492,6 +12045,34 @@
             "tables": []
           },
           "examples": [],
+          "enrichment": {
+            "explanation": "Phần ngữ pháp đoạn văn (文章の文法) thường có một đoạn văn với 4–5 chỗ trống. Khác với ráp câu, các chỗ trống liên quan đến mạch văn, nên cần đọc lướt toàn bộ đoạn trước để nắm chủ đề, người viết và mục đích, rồi mới quay lại từng chỗ trống.\n\nMục tiêu thời gian: mỗi chỗ trống tối đa khoảng 1 phút, tổng cả phần không quá 5 phút. Chỗ trống nào khó thì chọn tạm, đánh dấu và làm tiếp — thông tin ở các câu sau đôi khi giúp giải quyết chỗ trống phía trước.",
+            "formation": [],
+            "usage": [
+              "Đọc lướt cả đoạn (30–60 giây) để biết đây là thư, bài luận hay câu chuyện.",
+              "Làm lần lượt từng chỗ trống, đọc kỹ câu trước và sau.",
+              "Chỗ trống khó: chọn đáp án có khả năng nhất, quay lại sau khi đọc hết đoạn.",
+              "Không để trống đáp án nào."
+            ],
+            "pitfalls": [
+              "Bỏ qua bước đọc lướt khiến chọn sai giọng văn (lịch sự hay thân mật).",
+              "Dành quá nhiều thời gian cho phần này làm thiếu thời gian đọc hiểu.",
+              "Chọn liên từ dựa vào một câu mà không xét cả mạch đoạn."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Tốc độ làm bài ráp câu",
+                "targetId": "b26-3",
+                "difference": "Cùng nguyên tắc 1 phút/câu, 5 phút/phần; nhưng bài đoạn văn cần thêm bước đọc lướt toàn đoạn."
+              },
+              {
+                "pattern": "Liên từ, vị ngữ chính",
+                "targetId": "b28-1",
+                "difference": "Kỹ thuật cụ thể cho từng loại chỗ trống."
+              }
+            ],
+            "examples": []
+          },
           "sourceFile": "NguPhap_N3_File11_Bai26b-28.docx"
         }
       ],
@@ -11595,6 +12176,74 @@
               "ruby": "ああ、またお[腹|なか]が[空|あ]いてきた。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vて + くる／いく có ba nhóm nghĩa.\n\n① Di chuyển: てくる = làm gì rồi quay về/đi về phía người nói (買ってくる — đi mua về); ていく = làm gì rồi đi xa khỏi chỗ người nói (飛んでいく — bay đi). Câu 「行ってきます」 là ví dụ quen thuộc.\n\n② Thay đổi theo thời gian, lấy hiện tại làm mốc: てきた = thay đổi từ quá khứ đến bây giờ (増えてきた — đã tăng lên); ていく = thay đổi từ bây giờ về sau (変わっていく — sẽ thay đổi).\n\n③ Bắt đầu xuất hiện, người nói nhận ra một trạng thái mới đang xảy ra: chỉ dùng てくる (雨が降ってきた — trời bắt đầu mưa, お腹が空いてきた — bắt đầu thấy đói).",
+            "formation": [
+              {
+                "wordType": "Di chuyển",
+                "rule": "Vて + くる／いく",
+                "samples": [
+                  "買う → 買ってくる",
+                  "持つ → 持っていく",
+                  "走る → 走ってくる"
+                ]
+              },
+              {
+                "wordType": "Thay đổi",
+                "rule": "Vて + きた (đến nay)／いく (về sau)",
+                "samples": [
+                  "増える → 増えてきた",
+                  "変わる → 変わっていく"
+                ]
+              },
+              {
+                "wordType": "Bắt đầu xuất hiện",
+                "rule": "Vて + くる",
+                "samples": [
+                  "降る → 降ってきた",
+                  "疲れる → 疲れてきた"
+                ]
+              }
+            ],
+            "usage": [
+              "Đi làm việc gì rồi quay lại: 「ちょっと飲み物を買ってきます」.",
+              "Xu hướng: 「日本で働く外国人が増えてきた」「これからも人口は減っていくだろう」.",
+              "Cảm nhận thay đổi: 「だんだん寒くなってきましたね」."
+            ],
+            "pitfalls": [
+              "Nghĩa ③ không dùng ていく: ✗「雨が降っていった」.",
+              "Nghĩa ② chọn くる hay いく theo mốc hiện tại: quá khứ → nay dùng てきた; nay → tương lai dùng ていく.",
+              "Đừng nhầm với ～てくる trong bị động ngữ cảnh: 「話しかけてきた」 (ai đó bắt chuyện với mình) — hướng hành động về người nói."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ばかりだ（変化）",
+                "targetId": "b22-3",
+                "difference": "ばかりだ: thay đổi chỉ theo chiều xấu; てくる／ていく trung tính."
+              },
+              {
+                "pattern": "～ようになる",
+                "difference": "ようになる: chuyển từ không thành có (khả năng, thói quen); てくる: quá trình thay đổi dần dần."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "ちょっと郵便局に行って、荷物を出してきます。",
+                "vietnamese": "Tôi đi bưu điện gửi đồ một chút rồi về.",
+                "ruby": "ちょっと[郵便|ゆうびん][局|きょく]に[行|い]って、[荷物|にもつ]を[出|だ]してきます。"
+              },
+              {
+                "japanese": "最近、日本語を勉強する人が増えてきた。",
+                "vietnamese": "Gần đây số người học tiếng Nhật đã tăng lên.",
+                "ruby": "[最近|さいきん]、[日本語|にほんご]を[勉強|べんきょう]する[人|ひと]が[増|ふ]えてきた。"
+              },
+              {
+                "japanese": "長い時間歩いたので、足が痛くなってきた。",
+                "vietnamese": "Đi bộ lâu nên chân bắt đầu đau.",
+                "ruby": "[長|なが]い[時間|じかん][歩|ある]いたので、[足|あし]が[痛|いた]くなってきた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         },
         {
@@ -11679,6 +12328,92 @@
               "ruby": "[明日|あした][雨|あめ]が[降|ふ]りませんように。"
             }
           ],
+          "enrichment": {
+            "explanation": "Khi kể lại lời nhờ vả, chỉ thị hay mệnh lệnh của người khác, tiếng Nhật dùng các mẫu trích dẫn gián tiếp sau:\n\n① Nhờ vả (依頼): Vて／Vないで + くれと + 言う／頼む (\"nhờ… hãy…\"). Lịch sự hơn: Vてください → Vてくださいと言われた.\n② Chỉ thị, lời khuyên (指示): Vる／Vない + ように(と) + 言う／注意する／伝える／頼む (\"bảo… hãy/đừng…\") — dạng mềm, rất hay dùng.\n③ Mệnh lệnh (命令): Vろ／Vるな + と + 言う (\"bảo… làm/đừng làm\") — giữ nguyên thể mệnh lệnh nên nghe mạnh.\n④ Cầu nguyện, mong ước: Vます／Vません + ように (\"mong sao…\"), thường dùng khi cầu nguyện ở đền chùa.",
+            "formation": [
+              {
+                "wordType": "Nhờ vả",
+                "rule": "Vて／Vないで + くれと + 言う／頼む",
+                "samples": [
+                  "手伝う → 手伝ってくれと頼まれた",
+                  "言う → 言わないでくれと言われた"
+                ]
+              },
+              {
+                "wordType": "Chỉ thị",
+                "rule": "Vる／Vない + ように(と) + 言う／注意する／伝える",
+                "samples": [
+                  "来る → 来るように言う",
+                  "遅れる → 遅れないように注意する"
+                ]
+              },
+              {
+                "wordType": "Mệnh lệnh",
+                "rule": "Vろ／Vるな + と + 言う",
+                "samples": [
+                  "急ぐ → 急げと言われた",
+                  "触る → 触るなと言われた"
+                ]
+              },
+              {
+                "wordType": "Cầu nguyện",
+                "rule": "Vます／Vません + ように",
+                "samples": [
+                  "合格する → 合格しますように",
+                  "降る → 降りませんように"
+                ]
+              }
+            ],
+            "usage": [
+              "Truyền lời nhắn: 「田中さんに、明日電話するように伝えてください」.",
+              "Kể lại bị nhắc nhở: 「先生に授業中しゃべらないように注意された」.",
+              "Cầu nguyện: 「家族がみんな元気でいられますように」."
+            ],
+            "pitfalls": [
+              "Với chỉ thị dùng ように thì động từ ở thể từ điển/ない, không dùng thể て: ✗「来てように言った」.",
+              "Mệnh lệnh trích dẫn (Vろと) không thô vì chỉ là kể lại, nhưng vẫn cho thấy lời gốc mạnh.",
+              "Người được nhờ/nhắc dùng に: 「部下に」; khi bị động thì người ra lệnh dùng に: 「部長に～ように言われた」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Thể mệnh lệnh／cấm đoán",
+                "targetId": "b16-1",
+                "difference": "Bài 16 dạy cách nói mệnh lệnh trực tiếp; Bài 29 dạy cách trích dẫn lại."
+              },
+              {
+                "pattern": "～てもらいたい／ほしい",
+                "targetId": "b15-1",
+                "difference": "てもらいたい là mong muốn của chính người nói; くれと頼む là kể lại lời nhờ của người khác."
+              },
+              {
+                "pattern": "～ということだ",
+                "targetId": "b13-1",
+                "difference": "ということだ truyền đạt thông tin; ように言う truyền đạt yêu cầu."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "母に、早く帰ってくるように言われた。",
+                "vietnamese": "Tôi bị mẹ dặn phải về sớm.",
+                "ruby": "[母|はは]に、[早|はや]く[帰|かえ]ってくるように[言|い]われた。"
+              },
+              {
+                "japanese": "友達に、このことは誰にも言わないでくれと頼まれた。",
+                "vietnamese": "Bạn nhờ tôi đừng nói chuyện này với ai.",
+                "ruby": "[友達|ともだち]に、このことは[誰|だれ]にも[言|い]わないでくれと[頼|たの]まれた。"
+              },
+              {
+                "japanese": "コーチに「最後まで走れ」と言われて、頑張った。",
+                "vietnamese": "Được huấn luyện viên bảo \"chạy đến cùng\", tôi đã cố gắng.",
+                "ruby": "コーチに「[最後|さいご]まで[走|はし]れ」と[言|い]われて、[頑張|がんば]った。"
+              },
+              {
+                "japanese": "明日の面接がうまくいきますように。",
+                "vietnamese": "Mong buổi phỏng vấn ngày mai suôn sẻ.",
+                "ruby": "[明日|あした]の[面接|めんせつ]がうまくいきますように。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         },
         {
@@ -11725,6 +12460,70 @@
               "ruby": "[彼|かれ]は[犯人|はんにん]のはずがないです。どうしてかというと、[彼|かれ]はその[時|とき][私|わたし]と[一緒|いっしょ]にいたからです。"
             }
           ],
+          "enrichment": {
+            "explanation": "なぜ～かというと、～からだ dùng để nêu lý do một cách nổi bật: người nói đặt câu hỏi \"tại sao…\" rồi tự trả lời \"đó là vì…\". Cấu trúc này giúp nhấn mạnh lý do và hay gặp trong bài luận, thuyết trình, đoạn văn giải thích.\n\nCó ba cách sắp xếp: ① なぜ + (sự việc) + かというと、(lý do) + からだ (cả câu); ② (Sự việc). なぜかというと、(lý do) + からだ (tách câu); ③ (Sự việc). なぜなら、(lý do) + からだ (trang trọng, văn viết). なぜ có thể thay bằng どうして hoặc なんで (văn nói).",
+            "formation": [
+              {
+                "wordType": "Một câu",
+                "rule": "なぜ／どうして + thể thường + かというと、thể thường + からだ",
+                "samples": [
+                  "遅れた → なぜ遅れたかというと、電車が止まったからだ"
+                ]
+              },
+              {
+                "wordType": "Tách câu",
+                "rule": "～。なぜかというと／どうしてかというと、～からだ",
+                "samples": [
+                  "好きだ → ～が好きだ。なぜかというと、～からだ"
+                ]
+              },
+              {
+                "wordType": "Trang trọng",
+                "rule": "～。なぜなら、～からだ",
+                "samples": [
+                  "反対だ → 私は反対だ。なぜなら、～からだ"
+                ]
+              }
+            ],
+            "usage": [
+              "Bài luận, phát biểu ý kiến: 「私は制服に賛成だ。なぜなら、毎朝服を選ぶ必要がないからだ」.",
+              "Giải thích trong hội thoại: 「どうして日本語を勉強しているかというと、アニメが好きだからです」.",
+              "Thường gặp trong bài ngữ pháp đoạn văn, chỗ trống cuối câu thường là ～からだ."
+            ],
+            "pitfalls": [
+              "Câu chứa なぜ／なぜなら phải kết thúc bằng ～からだ (hoặc ～ためだ); quên からだ là lỗi phổ biến.",
+              "Trước かというと dùng thể thường; với danh từ/tính từ な có thể thêm な／なの: 「なぜ好きなのかというと」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～のだから",
+                "targetId": "b11-4",
+                "difference": "のだから: lý do đã biết, dùng để thuyết phục; なぜ～かというと: nhấn mạnh, giải thích lý do."
+              },
+              {
+                "pattern": "～おかげ／～せい",
+                "targetId": "b11-3",
+                "difference": "おかげ／せい kèm đánh giá tốt/xấu về nguyên nhân; なぜ～からだ trung tính."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "なぜ遅刻したかというと、電車が事故で止まったからです。",
+                "vietnamese": "Lý do tôi đến muộn là vì tàu bị dừng do sự cố.",
+                "ruby": "なぜ[遅刻|ちこく]したかというと、[電車|でんしゃ]が[事故|じこ]で[止|と]まったからです。"
+              },
+              {
+                "japanese": "私は田舎の生活が好きだ。なぜかというと、空気がきれいで静かだからだ。",
+                "vietnamese": "Tôi thích cuộc sống ở quê. Lý do là vì không khí trong lành và yên tĩnh.",
+                "ruby": "[私|わたし]は[田舎|いなか]の[生活|せいかつ]が[好|す]きだ。なぜかというと、[空気|くうき]がきれいで[静|しず]かだからだ。"
+              },
+              {
+                "japanese": "この計画には反対です。なぜなら、費用がかかりすぎるからです。",
+                "vietnamese": "Tôi phản đối kế hoạch này. Bởi vì chi phí quá tốn kém.",
+                "ruby": "この[計画|けいかく]には[反対|はんたい]です。なぜなら、[費用|ひよう]がかかりすぎるからです。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         }
       ],
@@ -11822,6 +12621,82 @@
               "ruby": "[若|わか]いころはお[金|かね]も[仕事|しごと]もなく、[生活|せいかつ]は[苦|くる]しかった。"
             }
           ],
+          "enrichment": {
+            "explanation": "Thể liên dụng trung chỉ (連用中止形) là cách nối câu trong văn viết, thay cho thể て. Thay vì 「朝起きて、顔を洗った」 thì viết 「朝起き、顔を洗った」. Ý nghĩa giống thể て (liệt kê, trình tự, nguyên nhân nhẹ), nhưng sắc thái trang trọng, gọn gàng, đặc trưng cho báo chí, bài luận, văn bản chính thức.\n\nCác biến đổi chính: Vて → Vます bỏ ます; Vないで／Vなくて → Vず; Aくて → Aく; Aなで → Aであり; Nで → Nであり; いて → おり; して → し.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vて → Vます bỏ ます",
+                "samples": [
+                  "集まって → 集まり",
+                  "開けて → 開け",
+                  "して → し"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "Vないで／Vなくて → Vず",
+                "samples": [
+                  "知らないで → 知らず",
+                  "わからなくて → わからず"
+                ]
+              },
+              {
+                "wordType": "Tính từ",
+                "rule": "Aくて → Aく; Aなで → Aであり",
+                "samples": [
+                  "安くて → 安く",
+                  "静かで → 静かであり"
+                ]
+              },
+              {
+                "wordType": "Danh từ／ている",
+                "rule": "Nで → Nであり; ～ていて → ～ており",
+                "samples": [
+                  "学生で → 学生であり",
+                  "住んでいて → 住んでおり"
+                ]
+              }
+            ],
+            "usage": [
+              "Báo chí: 「首相は会議に出席し、新しい政策を発表した」.",
+              "Bài luận: 「この町は交通が便利であり、物価も安い」.",
+              "Hướng dẫn: 「材料を切り、鍋に入れ、10分煮る」."
+            ],
+            "pitfalls": [
+              "Không dùng trong hội thoại thân mật; nghe sẽ cứng như đọc báo.",
+              "いる → おり (không phải い), vì い đứng một mình khó đọc: ✗「住んでい、」.",
+              "Trong một câu nên thống nhất: dùng 連用中止形 thì vị ngữ cuối thường là thể thường／である."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ずに／～ず",
+                "targetId": "b6-4",
+                "difference": "～ず (Bài 6) chính là dạng phủ định của 連用中止形."
+              },
+              {
+                "pattern": "Thể て",
+                "difference": "Thể て dùng được cả văn nói và viết; 連用中止形 chỉ trong văn viết trang trọng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "駅前に新しいビルが建ち、町の様子が大きく変わった。",
+                "vietnamese": "Tòa nhà mới mọc lên trước ga, diện mạo thị trấn thay đổi lớn.",
+                "ruby": "[駅前|えきまえ]に[新|あたら]しいビルが[建|た]ち、[町|まち]の[様子|ようす]が[大|おお]きく[変|か]わった。"
+              },
+              {
+                "japanese": "彼は何も言わず、部屋を出ていった。",
+                "vietnamese": "Anh ấy không nói gì, rời khỏi phòng.",
+                "ruby": "[彼|かれ]は[何|なに]も[言|い]わず、[部屋|へや]を[出|で]ていった。"
+              },
+              {
+                "japanese": "この部屋は広く、日当たりもよく、とても快適だ。",
+                "vietnamese": "Căn phòng này rộng, nắng chiếu tốt, rất dễ chịu.",
+                "ruby": "この[部屋|へや]は[広|ひろ]く、[日当|ひあ]たりもよく、とても[快適|かいてき]だ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         },
         {
@@ -11868,6 +12743,81 @@
               "ruby": "[隣|となり]のうちに[怖|こわ]そうな[犬|いぬ]がいますね。"
             }
           ],
+          "enrichment": {
+            "explanation": "～そう (có vẻ, trông như) có thể chia như tính từ な để bổ nghĩa: ～そうに + động từ/tính từ (trạng từ: \"một cách có vẻ…\") và ～そうな + danh từ (\"… trông có vẻ…\").\n\nCó hai loại そう: ① dáng vẻ, ấn tượng từ bề ngoài với tính từ (楽しそうに, おいしそうなケーキ); ② dự đoán sắp xảy ra với động từ (雨が降りそうな空 — bầu trời như sắp mưa, 死にそうに — như sắp chết). Lưu ý các dạng đặc biệt: いい → よさそう, ない → なさそう.",
+            "formation": [
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい bỏ い + そうに + V ／ そうな + N",
+                "samples": [
+                  "楽しい → 楽しそうに話す",
+                  "おいしい → おいしそうなケーキ",
+                  "いい → よさそうな店"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + そうに + V ／ そうな + N",
+                "samples": [
+                  "元気 → 元気そうに見える",
+                  "親切 → 親切そうな人"
+                ]
+              },
+              {
+                "wordType": "Động từ",
+                "rule": "Vます + そうに + V ／ そうな + N",
+                "samples": [
+                  "泣く → 泣きそうになる",
+                  "降る → 降りそうな天気"
+                ]
+              }
+            ],
+            "usage": [
+              "Miêu tả biểu cảm: 「子供たちがうれしそうに笑っている」.",
+              "Miêu tả vật, người: 「優しそうな先生」「高そうな時計」.",
+              "Trạng thái sắp xảy ra: 「今にも雨が降りそうな空」.",
+              "Cụm hay gặp: 「泣きそうになる」 (suýt khóc), 「倒れそうになる」 (suýt ngã)."
+            ],
+            "pitfalls": [
+              "Danh từ không dùng với そう (dáng vẻ): ✗「学生そうな人」 → ✓「学生のような人／学生らしい人」.",
+              "Tính từ chỉ màu sắc, hình dáng thấy ngay (赤い, きれい khi đã thấy rõ) thường không dùng そう: ✗「赤そうな花」.",
+              "Không nhầm với そうだ truyền đạt (nghe nói), vốn đi với thể thường: 「おいしいそうだ」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～そうもない／そうにない",
+                "targetId": "b30-3",
+                "difference": "Dạng phủ định của Vますそう (khả năng thấp)."
+              },
+              {
+                "pattern": "～なさそう",
+                "targetId": "b30-4",
+                "difference": "Dạng phủ định của Aそう (có vẻ không…)."
+              },
+              {
+                "pattern": "～よう／みたい（推量）",
+                "targetId": "b2-1",
+                "difference": "そう dựa vào ấn tượng trực tiếp bằng mắt; ようだ dựa vào nhiều thông tin, phán đoán tổng hợp."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "子供たちは公園で楽しそうに遊んでいる。",
+                "vietnamese": "Bọn trẻ đang chơi đùa có vẻ rất vui ở công viên.",
+                "ruby": "[子供|こども]たちは[公園|こうえん]で[楽|たの]しそうに[遊|あそ]んでいる。"
+              },
+              {
+                "japanese": "駅前においしそうなパン屋ができた。",
+                "vietnamese": "Trước ga mới mở một tiệm bánh mì trông rất ngon.",
+                "ruby": "[駅前|えきまえ]においしそうなパン[屋|や]ができた。"
+              },
+              {
+                "japanese": "映画の最後の場面で、泣きそうになった。",
+                "vietnamese": "Ở cảnh cuối phim, tôi suýt khóc.",
+                "ruby": "[映画|えいが]の[最後|さいご]の[場面|ばめん]で、[泣|な]きそうになった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         },
         {
@@ -11914,6 +12864,74 @@
               "ruby": "この[問題|もんだい]は[複雑|ふくざつ]で、[今日中|きょうじゅう]には[解決|かいけつ]できそうもない。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vます + そうもない／そうにない／そうにもない là dạng phủ định của Vますそうだ (có vẻ sắp…): \"có vẻ không thể…, chắc là không…, khó mà…\". Người nói phán đoán khả năng xảy ra rất thấp dựa trên tình hình trước mắt.\n\nBa dạng cùng nghĩa: そうにない là trung tính; そうもない／そうにもない nhấn mạnh hơn (も thêm sắc thái \"ngay cả… cũng không\"). Rất hay đi với động từ khả năng: 終わりそうにない, 間に合いそうもない, できそうにない.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vます + そうにない／そうもない／そうにもない",
+                "samples": [
+                  "終わる → 終わりそうにない",
+                  "止む → 止みそうもない"
+                ]
+              },
+              {
+                "wordType": "Động từ khả năng",
+                "rule": "V(可能)ます + そうにない",
+                "samples": [
+                  "間に合える → 間に合いそうにない",
+                  "できる → できそうもない",
+                  "行ける → 行けそうにない"
+                ]
+              },
+              {
+                "wordType": "Lịch sự",
+                "rule": "～そうにありません／そうもありません",
+                "samples": [
+                  "来る → 来そうにありません"
+                ]
+              }
+            ],
+            "usage": [
+              "Dự đoán dựa vào tình hình: 「この雨はなかなか止みそうにない」.",
+              "Từ chối khéo: 「すみません、今日は行けそうにありません」.",
+              "Công việc: 「この量では、今日中に終わりそうもない」."
+            ],
+            "pitfalls": [
+              "Không phải phủ định thông thường ✗「降りそうではない」; dạng đúng là 「降りそうにない」.",
+              "Không dùng cho tính từ; tính từ dùng ～なさそう (b30-4).",
+              "Chủ yếu là phán đoán khách quan, không diễn tả ý chí: ✗「私は行きそうにない」 (không muốn đi) → ✓「行けそうにない」 (chắc không đi được)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～なさそう",
+                "targetId": "b30-4",
+                "difference": "～なさそう: phủ định của Aそう (trông không…); ～そうにない: phủ định của Vそう (chắc không xảy ra)."
+              },
+              {
+                "pattern": "～はずがない",
+                "targetId": "b14-1",
+                "difference": "はずがない: khẳng định chắc chắn không thể (dựa vào logic); そうにない: phán đoán khả năng thấp từ quan sát."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "道がとても混んでいて、約束の時間に間に合いそうにない。",
+                "vietnamese": "Đường rất tắc, có vẻ không kịp giờ hẹn.",
+                "ruby": "[道|みち]がとても[混|こ]んでいて、[約束|やくそく]の[時間|じかん]に[間|ま]に[合|あ]いそうにない。"
+              },
+              {
+                "japanese": "すみません、今日は熱があって、パーティーに行けそうにありません。",
+                "vietnamese": "Xin lỗi, hôm nay tôi bị sốt nên chắc không đến bữa tiệc được.",
+                "ruby": "すみません、[今日|きょう]は[熱|ねつ]があって、パーティーに[行|い]けそうにありません。"
+              },
+              {
+                "japanese": "この雪では、電車は当分動きそうもない。",
+                "vietnamese": "Tuyết thế này thì có vẻ tàu sẽ không chạy trong một thời gian.",
+                "ruby": "この[雪|ゆき]では、[電車|でんしゃ]は[当分|とうぶん][動|うご]きそうもない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         },
         {
@@ -11965,6 +12983,83 @@
               "ruby": "[彼女|かのじょ]はどう[見|み]ても[東大|とうだい]を[出|で]た[学生|がくせい]じゃなさそうだ。"
             }
           ],
+          "enrichment": {
+            "explanation": "～なさそう là dạng phủ định của Aそう (trông có vẻ…): \"trông có vẻ không…\". Người nói nhìn bề ngoài, thái độ hoặc tình hình và phán đoán rằng tính chất đó không có.\n\nCách tạo: Aい → Aくなさそう (高い → 高くなさそう); Aな／N → Aな／N じゃなさそう／ではなさそう (元気じゃなさそう). Dạng đặc biệt: いい → よくなさそう, ない → なさそう (お金がなさそう). Với động từ phủ định, dạng chuẩn là Vなそう (「彼は来なそうだ」 — anh ấy có vẻ không đến); văn nói cũng hay dùng Vなさそう.",
+            "formation": [
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい bỏ い + くなさそう",
+                "samples": [
+                  "楽しい → 楽しくなさそう",
+                  "高い → 高くなさそう",
+                  "いい → よくなさそう"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + じゃ／では + なさそう",
+                "samples": [
+                  "元気 → 元気じゃなさそう",
+                  "簡単 → 簡単ではなさそう"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + じゃ／では + なさそう",
+                "samples": [
+                  "学生 → 学生じゃなさそう",
+                  "本物 → 本物ではなさそう"
+                ]
+              },
+              {
+                "wordType": "ない／Vない",
+                "rule": "ない → なさそう; Vない → Vなさそう",
+                "samples": [
+                  "時間がない → 時間がなさそう",
+                  "知らない → 知らなさそう"
+                ]
+              }
+            ],
+            "usage": [
+              "Nhận xét người khác: 「彼女は今日、元気がなさそうだ」.",
+              "Đánh giá đồ vật: 「この料理はあまり辛くなさそうだ」.",
+              "Bổ nghĩa: 「興味がなさそうな顔」 (vẻ mặt không có hứng thú)."
+            ],
+            "pitfalls": [
+              "✗「高いなさそう」, ✗「高そうじゃない」 (dạng sau có tồn tại nhưng nghĩa khác nhẹ: phủ định ấn tượng \"trông không có vẻ đắt\") — dạng chuẩn của bài là 高くなさそう.",
+              "Danh từ có thể dùng ～じゃなさそう dù dạng khẳng định ✗「学生そう」 không tồn tại.",
+              "Với động từ thông thường muốn nói \"chắc sẽ không xảy ra\" thì dùng ～そうにない (b30-3)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～そうもない／そうにない",
+                "targetId": "b30-3",
+                "difference": "そうにない: động từ, khả năng thấp; なさそう: tính từ/danh từ, trông không có tính chất đó."
+              },
+              {
+                "pattern": "～そうに／～そうな",
+                "targetId": "b30-2",
+                "difference": "Dạng khẳng định tương ứng: 楽しそうな ↔ 楽しくなさそうな."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "田中さんは最近、あまり元気がなさそうですね。",
+                "vietnamese": "Dạo này anh Tanaka trông có vẻ không được khỏe lắm nhỉ.",
+                "ruby": "[田中|たなか]さんは[最近|さいきん]、あまり[元気|げんき]がなさそうですね。"
+              },
+              {
+                "japanese": "この問題はそんなに難しくなさそうだ。",
+                "vietnamese": "Bài này trông có vẻ không khó lắm.",
+                "ruby": "この[問題|もんだい]はそんなに[難|むずか]しくなさそうだ。"
+              },
+              {
+                "japanese": "彼は話を聞いているが、興味がなさそうな顔をしている。",
+                "vietnamese": "Anh ấy có nghe nhưng mặt trông không có vẻ hứng thú.",
+                "ruby": "[彼|かれ]は[話|はなし]を[聞|き]いているが、[興味|きょうみ]がなさそうな[顔|かお]をしている。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File12_Bai29-30.docx"
         }
       ],
@@ -12016,5 +13111,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-11T12:25:15.2394008+00:00"
+  "generatedAt": "2026-10-11T12:28:57.6907186+00:00"
 }

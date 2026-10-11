@@ -1,0 +1,23 @@
+{
+  "explanation": "Dạng bài ngữ pháp đoạn văn (文章の文法) cho một đoạn văn có nhiều chỗ trống. Hai loại câu hỏi hay gặp nhất là chọn liên từ (接続詞) và chọn vị ngữ, mẫu câu cuối câu.\n\nVới liên từ: đọc kỹ câu ngay trước và ngay sau chỗ trống để xác định quan hệ giữa chúng — nguyên nhân/kết quả (それで, だから), tương phản (しかし, ところが), bổ sung (それに, また), chuyển ý (ところで), giải thích lại (つまり), ví dụ (例えば).\n\nVới vị ngữ: xem chủ ngữ là ai, thì gì, mức độ lịch sự của toàn đoạn (thư trang trọng hay nhật ký), và sắc thái người viết muốn diễn đạt (quyết định, phỏng đoán, mong muốn, nhờ vả).",
+  "usage": [
+    "Liên từ: xác định quan hệ ý nghĩa giữa câu trước và câu sau rồi mới chọn.",
+    "Vị ngữ: kiểm tra chủ ngữ, thì, và giọng văn (です／ます hay thể thường, kính ngữ).",
+    "Đọc cả đoạn để nắm mục đích của người viết (thư cảm ơn, xin lỗi, thông báo…).",
+    "Liên từ phân biệt thường thi: それで (kết quả tự nhiên) vs そこで (vì thế nên chủ động làm); しかし vs ところが (bất ngờ)."
+  ],
+  "pitfalls": [
+    "Chỉ đọc câu chứa chỗ trống mà bỏ qua câu trước/sau là lỗi phổ biến nhất.",
+    "Trong thư trang trọng, vị ngữ phải dùng kính ngữ đúng chủ thể: 「お聞かせください」 (người đọc làm), 「ご報告いたします」 (người viết làm).",
+    "ところで dùng để chuyển sang chủ đề mới, không dùng để nối hai ý liên quan."
+  ],
+  "comparisons": [
+    { "pattern": "Bị động, sai khiến, cho nhận", "targetId": "b28-2", "difference": "Một loại câu hỏi khác của cùng dạng bài: chọn thể động từ theo vai trò chủ ngữ." },
+    { "pattern": "Kính ngữ", "targetId": "b18-1", "difference": "Vị ngữ trong thư trang trọng thường đòi hỏi nắm vững 尊敬語／謙譲語 ở Bài 18." }
+  ],
+  "examples": [
+    { "japanese": "昨日は大雨でした。それで、試合は中止になりました。", "vietnamese": "Hôm qua mưa to. Vì thế trận đấu bị hủy. (それで: kết quả tự nhiên)" },
+    { "japanese": "一生懸命勉強しました。しかし、試験には合格できませんでした。", "vietnamese": "Tôi đã học hết sức. Nhưng vẫn không thi đỗ. (しかし: tương phản)" },
+    { "japanese": "お元気ですか。ところで、来月日本へ行くことになりました。", "vietnamese": "Bạn khỏe không? À nhân tiện, tháng sau tôi sẽ sang Nhật. (ところで: chuyển chủ đề)" }
+  ]
+}

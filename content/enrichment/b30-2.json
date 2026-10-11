@@ -1,0 +1,29 @@
+{
+  "explanation": "～そう (có vẻ, trông như) có thể chia như tính từ な để bổ nghĩa: ～そうに + động từ/tính từ (trạng từ: \"một cách có vẻ…\") và ～そうな + danh từ (\"… trông có vẻ…\").\n\nCó hai loại そう: ① dáng vẻ, ấn tượng từ bề ngoài với tính từ (楽しそうに, おいしそうなケーキ); ② dự đoán sắp xảy ra với động từ (雨が降りそうな空 — bầu trời như sắp mưa, 死にそうに — như sắp chết). Lưu ý các dạng đặc biệt: いい → よさそう, ない → なさそう.",
+  "formation": [
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + そうに + V ／ そうな + N", "samples": ["楽しい → 楽しそうに話す", "おいしい → おいしそうなケーキ", "いい → よさそうな店"] },
+    { "wordType": "Tính từ な", "rule": "Aな + そうに + V ／ そうな + N", "samples": ["元気 → 元気そうに見える", "親切 → 親切そうな人"] },
+    { "wordType": "Động từ", "rule": "Vます + そうに + V ／ そうな + N", "samples": ["泣く → 泣きそうになる", "降る → 降りそうな天気"] }
+  ],
+  "usage": [
+    "Miêu tả biểu cảm: 「子供たちがうれしそうに笑っている」.",
+    "Miêu tả vật, người: 「優しそうな先生」「高そうな時計」.",
+    "Trạng thái sắp xảy ra: 「今にも雨が降りそうな空」.",
+    "Cụm hay gặp: 「泣きそうになる」 (suýt khóc), 「倒れそうになる」 (suýt ngã)."
+  ],
+  "pitfalls": [
+    "Danh từ không dùng với そう (dáng vẻ): ✗「学生そうな人」 → ✓「学生のような人／学生らしい人」.",
+    "Tính từ chỉ màu sắc, hình dáng thấy ngay (赤い, きれい khi đã thấy rõ) thường không dùng そう: ✗「赤そうな花」.",
+    "Không nhầm với そうだ truyền đạt (nghe nói), vốn đi với thể thường: 「おいしいそうだ」."
+  ],
+  "comparisons": [
+    { "pattern": "～そうもない／そうにない", "targetId": "b30-3", "difference": "Dạng phủ định của Vますそう (khả năng thấp)." },
+    { "pattern": "～なさそう", "targetId": "b30-4", "difference": "Dạng phủ định của Aそう (có vẻ không…)." },
+    { "pattern": "～よう／みたい（推量）", "targetId": "b2-1", "difference": "そう dựa vào ấn tượng trực tiếp bằng mắt; ようだ dựa vào nhiều thông tin, phán đoán tổng hợp." }
+  ],
+  "examples": [
+    { "japanese": "子供たちは公園で楽しそうに遊んでいる。", "vietnamese": "Bọn trẻ đang chơi đùa có vẻ rất vui ở công viên." },
+    { "japanese": "駅前においしそうなパン屋ができた。", "vietnamese": "Trước ga mới mở một tiệm bánh mì trông rất ngon." },
+    { "japanese": "映画の最後の場面で、泣きそうになった。", "vietnamese": "Ở cảnh cuối phim, tôi suýt khóc." }
+  ]
+}

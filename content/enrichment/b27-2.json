@@ -1,0 +1,27 @@
+{
+  "explanation": "N1 を N2 として／N1 を N2 に đều có nghĩa \"lấy N1 làm N2, coi N1 là N2, dùng N1 như N2\". N1 là đối tượng, N2 là vai trò, mục đích, tiêu chuẩn, chủ đề được gán cho N1.\n\n～を～として trang trọng hơn và hay dùng với các danh từ trừu tượng: 目的, 目標, 中心, テーマ, 条件, 基準, 日課. ～を～に ngắn gọn, hay dùng trong văn nói và với ý \"dùng như\": 本を枕に (dùng sách làm gối). Cả hai đều có dạng bổ nghĩa danh từ: ～を～とした N／～を～にした N.",
+  "formation": [
+    { "wordType": "Động từ phía sau", "rule": "N1 を N2 として + V ／ N1 を N2 に(して) + V", "samples": ["留学 → 留学を目的として", "駅 → 駅を中心に"] },
+    { "wordType": "Vị ngữ", "rule": "N1 を N2 とする／N2 にする", "samples": ["散歩 → 散歩を日課とする", "箱 → 箱をいすにする"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N1 を N2 とした／にした + N", "samples": ["子供 → 子供を対象とした本", "実話 → 実話をもとにした映画"] }
+  ],
+  "usage": [
+    "Mục đích, mục tiêu: 「合格を目標として、毎日勉強している」.",
+    "Trung tâm, tiêu chuẩn: 「駅を中心に、店が集まっている」.",
+    "Đối tượng hướng đến: 「この講座は初心者を対象としている」.",
+    "Dùng làm: 「段ボールを机にして勉強した」."
+  ],
+  "pitfalls": [
+    "Không nhầm với Nとして (với tư cách là) ở Bài 20; ở đây có cấu trúc hai danh từ với を.",
+    "Cụm cố định ～をもとに(して) (dựa trên) và ～をきっかけに (nhân dịp) cũng cùng họ, rất hay gặp trong đề."
+  ],
+  "comparisons": [
+    { "pattern": "～として", "targetId": "b20-4", "difference": "Nとして: chủ ngữ với tư cách N; N1をN2として: người nói gán vai trò N2 cho N1." },
+    { "pattern": "～によって／による（作者）", "targetId": "b20-2", "difference": "による nêu tác giả; をもとにした nêu nguồn gốc nội dung." }
+  ],
+  "examples": [
+    { "japanese": "この大学は、留学生の受け入れを目標の一つとしている。", "vietnamese": "Trường đại học này lấy việc tiếp nhận du học sinh làm một trong các mục tiêu." },
+    { "japanese": "この映画は、実際にあった事件をもとにして作られた。", "vietnamese": "Bộ phim này được làm dựa trên một vụ việc có thật." },
+    { "japanese": "これは子供を対象とした日本語の本です。", "vietnamese": "Đây là sách tiếng Nhật dành cho đối tượng trẻ em." }
+  ]
+}

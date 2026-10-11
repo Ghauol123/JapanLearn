@@ -1,0 +1,28 @@
+{
+  "explanation": "Thể liên dụng trung chỉ (連用中止形) là cách nối câu trong văn viết, thay cho thể て. Thay vì 「朝起きて、顔を洗った」 thì viết 「朝起き、顔を洗った」. Ý nghĩa giống thể て (liệt kê, trình tự, nguyên nhân nhẹ), nhưng sắc thái trang trọng, gọn gàng, đặc trưng cho báo chí, bài luận, văn bản chính thức.\n\nCác biến đổi chính: Vて → Vます bỏ ます; Vないで／Vなくて → Vず; Aくて → Aく; Aなで → Aであり; Nで → Nであり; いて → おり; して → し.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vて → Vます bỏ ます", "samples": ["集まって → 集まり", "開けて → 開け", "して → し"] },
+    { "wordType": "Phủ định", "rule": "Vないで／Vなくて → Vず", "samples": ["知らないで → 知らず", "わからなくて → わからず"] },
+    { "wordType": "Tính từ", "rule": "Aくて → Aく; Aなで → Aであり", "samples": ["安くて → 安く", "静かで → 静かであり"] },
+    { "wordType": "Danh từ／ている", "rule": "Nで → Nであり; ～ていて → ～ており", "samples": ["学生で → 学生であり", "住んでいて → 住んでおり"] }
+  ],
+  "usage": [
+    "Báo chí: 「首相は会議に出席し、新しい政策を発表した」.",
+    "Bài luận: 「この町は交通が便利であり、物価も安い」.",
+    "Hướng dẫn: 「材料を切り、鍋に入れ、10分煮る」."
+  ],
+  "pitfalls": [
+    "Không dùng trong hội thoại thân mật; nghe sẽ cứng như đọc báo.",
+    "いる → おり (không phải い), vì い đứng một mình khó đọc: ✗「住んでい、」.",
+    "Trong một câu nên thống nhất: dùng 連用中止形 thì vị ngữ cuối thường là thể thường／である."
+  ],
+  "comparisons": [
+    { "pattern": "～ずに／～ず", "targetId": "b6-4", "difference": "～ず (Bài 6) chính là dạng phủ định của 連用中止形." },
+    { "pattern": "Thể て", "targetId": null, "difference": "Thể て dùng được cả văn nói và viết; 連用中止形 chỉ trong văn viết trang trọng." }
+  ],
+  "examples": [
+    { "japanese": "駅前に新しいビルが建ち、町の様子が大きく変わった。", "vietnamese": "Tòa nhà mới mọc lên trước ga, diện mạo thị trấn thay đổi lớn." },
+    { "japanese": "彼は何も言わず、部屋を出ていった。", "vietnamese": "Anh ấy không nói gì, rời khỏi phòng." },
+    { "japanese": "この部屋は広く、日当たりもよく、とても快適だ。", "vietnamese": "Căn phòng này rộng, nắng chiếu tốt, rất dễ chịu." }
+  ]
+}

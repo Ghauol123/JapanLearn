@@ -1,0 +1,28 @@
+{
+  "explanation": "Trong tiếng Nhật, trợ từ thông thường (に, へ, と, から, まで, で, について…) chỉ nối với động từ. Muốn dùng chúng để bổ nghĩa cho danh từ, ta có thể dùng động từ bổ nghĩa (恋人とする約束), hoặc lược bỏ động từ và gắn thêm の sau trợ từ (恋人との約束). Cách thứ hai ngắn gọn, rất phổ biến trong văn viết và tiêu đề.\n\nLưu ý: に và が, を không đi với の. に đổi thành への (hướng đến) hoặc での (địa điểm), hoặc bỏ hẳn; を／が thì phải dùng lại động từ hoặc dùng の đơn thuần (日本語の勉強).",
+  "formation": [
+    { "wordType": "と／から／まで／で", "rule": "N + trợ từ + の + N", "samples": ["友達と → 友達との旅行", "母から → 母からの手紙", "駅まで → 駅までの道", "日本で → 日本での生活"] },
+    { "wordType": "に (hướng đến)", "rule": "N + への + N", "samples": ["先生に → 先生へのお礼", "東京に → 東京への出張"] },
+    { "wordType": "Cụm trợ từ phức", "rule": "について／に対して／として／によって → についての／に対する／としての／による", "samples": ["環境について → 環境についての本", "客に対して → 客に対する態度"] }
+  ],
+  "usage": [
+    "Thư từ, quà tặng: 「先生へのプレゼント」「両親からの手紙」.",
+    "Tiêu đề, báo chí: 「留学生の日本での生活」.",
+    "Trong bài ráp câu: mảnh có 「～への」「～からの」 phải đứng ngay trước danh từ."
+  ],
+  "pitfalls": [
+    "✗「先生にのプレゼント」 → ✓「先生へのプレゼント」.",
+    "✗「日本語をの勉強」 → ✓「日本語の勉強」 (bỏ を).",
+    "Dạng に対して → に対する (không phải に対しての trong văn chuẩn, tuy văn nói vẫn gặp)."
+  ],
+  "comparisons": [
+    { "pattern": "～に対して／に対する", "targetId": "b20-1", "difference": "に対する là dạng bổ nghĩa danh từ của に対して." },
+    { "pattern": "～として／としての", "targetId": "b20-4", "difference": "としての là dạng bổ nghĩa danh từ của として." },
+    { "pattern": "～によって／による", "targetId": "b20-2", "difference": "による là dạng bổ nghĩa danh từ của によって." }
+  ],
+  "examples": [
+    { "japanese": "これは日本にいる友達からのプレゼントです。", "vietnamese": "Đây là món quà từ người bạn ở Nhật." },
+    { "japanese": "家から学校までの道は、桜がきれいだ。", "vietnamese": "Con đường từ nhà đến trường có hoa anh đào rất đẹp." },
+    { "japanese": "来週、大阪への出張が決まった。", "vietnamese": "Chuyến công tác tới Osaka tuần sau đã được quyết định." }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "explanation": "Dạng bài sắp xếp câu (文の組み立て, ★) cho 4 mảnh câu và yêu cầu chọn mảnh đứng ở vị trí ★. Bước đầu tiên và quan trọng nhất là đọc toàn bộ câu (cả phần trước và sau chỗ trống) cùng 4 lựa chọn để đoán ý nghĩa tổng thể của câu.\n\nĐồng thời, hãy tìm \"ngữ pháp chính\" — mẫu ngữ pháp N3 nằm trong các mảnh (ví dụ はずがない, せいで, なきゃいけない). Mỗi mẫu có quy tắc nối cố định (đứng sau thể gì, đi với từ gì), nên chỉ cần nhận ra mẫu là đã xác định được vị trí của một hoặc hai mảnh.",
+  "usage": [
+    "Bước 1: Đọc lướt cả câu và 4 mảnh, đoán câu đang nói gì.",
+    "Bước 2: Tìm mẫu ngữ pháp N3 trong các mảnh và nhớ lại quy tắc nối của nó (Vる＋はずがない, Nの＋せいで…).",
+    "Bước 3: Đặt mảnh chứa ngữ pháp chính vào vị trí hợp lý, thường là gần cuối câu nếu là vị ngữ.",
+    "Bước 4: Xếp các mảnh còn lại, đọc lại toàn câu để kiểm tra nghĩa."
+  ],
+  "pitfalls": [
+    "Đừng chọn đáp án chỉ dựa vào việc hai mảnh ghép được với nhau; phải đọc lại cả câu.",
+    "Chú ý trợ từ ở đầu/cuối mỗi mảnh (は, が, を, に, の) — đó là manh mối nối.",
+    "Đề hỏi mảnh ở vị trí ★, không phải mảnh đầu tiên; ghi rõ thứ tự 1–4 trước khi chọn."
+  ],
+  "comparisons": [
+    { "pattern": "Ráp từng cụm nhỏ", "targetId": "b26-2", "difference": "Bước tiếp theo: ghép các mảnh thành cụm ngữ pháp nhỏ rồi mới ráp cả câu." },
+    { "pattern": "Ngữ pháp hay gặp khi ráp câu", "targetId": "b27-1", "difference": "Bài 27 tổng hợp các mẫu hay xuất hiện trong dạng bài này (という, を～として, から～にかけて…)." }
+  ],
+  "examples": [
+    { "japanese": "毎日練習しているのだから、試合に負けるはずがない。", "vietnamese": "Vì ngày nào cũng luyện tập nên không thể nào thua trận được. (Ngữ pháp chính: はずがない — đứng sau Vる)" },
+    { "japanese": "雨が降ったせいで、運動会が中止になった。", "vietnamese": "Vì trời mưa mà hội thao bị hủy. (Ngữ pháp chính: せいで — đứng sau thể thường／Nの)" },
+    { "japanese": "明日までにこのレポートを書かなければならない。", "vietnamese": "Phải viết xong báo cáo này trước ngày mai. (Ngữ pháp chính: なければならない — đứng sau Vない bỏ い)" }
+  ]
+}

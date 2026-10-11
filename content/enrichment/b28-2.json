@@ -1,0 +1,24 @@
+{
+  "explanation": "Trong bài ngữ pháp đoạn văn, nhiều câu hỏi yêu cầu chọn đúng thể của động từ: chủ động, bị động (～られる), sai khiến (～させる), bị động sai khiến (～させられる), hoặc cho nhận (～てあげる／～てくれる／～てもらう).\n\nChìa khóa là xác định ai là chủ ngữ của câu (thường là người viết, có thể bị lược bỏ) và ai thực hiện hành động. Nếu người viết là chủ ngữ nhưng người khác làm hành động có lợi cho mình → ～てもらう／～ていただく; người khác làm và mình chịu ảnh hưởng xấu → bị động; mình bị bắt làm → bị động sai khiến; mình được cho phép làm → ～させてもらう.",
+  "usage": [
+    "Bước 1: Tìm chủ ngữ (nếu không có, thường là người viết \"私\").",
+    "Bước 2: Xác định ai thực hiện hành động trong chỗ trống.",
+    "Bước 3: Xác định người viết đánh giá việc đó là có lợi (cho nhận), bất lợi (bị động), hay bị ép (bị động sai khiến).",
+    "Bước 4: Kiểm tra trợ từ đi kèm: に (người làm trong bị động/てもらう), を／に (người bị sai khiến)."
+  ],
+  "pitfalls": [
+    "Nhầm ～させてもらう (được cho phép làm — tích cực) với ～させられる (bị bắt làm — miễn cưỡng).",
+    "Nhầm ～てくれる (người khác làm cho mình, chủ ngữ là người làm) với ～てもらう (chủ ngữ là mình, nhận hành động).",
+    "Quên rằng trong văn kể, người viết thường không nói 私 nhưng vẫn là chủ ngữ ngầm."
+  ],
+  "comparisons": [
+    { "pattern": "Bị động sai khiến", "targetId": "b1-3", "difference": "Ôn lại cách chia ～させられる (Bài 1)." },
+    { "pattern": "～させてもらいたい", "targetId": "b15-2", "difference": "Ôn lại ～させてもらう (xin phép được làm) ở Bài 15." },
+    { "pattern": "Liên từ, vị ngữ chính", "targetId": "b28-1", "difference": "Loại câu hỏi còn lại của dạng bài đoạn văn." }
+  ],
+  "examples": [
+    { "japanese": "ボランティア活動に参加させてもらって、いい経験になった。", "vietnamese": "Được cho tham gia hoạt động tình nguyện, đó là một trải nghiệm tốt. (させてもらう: được cho phép — tích cực)" },
+    { "japanese": "子供のころ、毎日ピアノを練習させられた。", "vietnamese": "Hồi nhỏ ngày nào tôi cũng bị bắt tập piano. (させられる: bị ép)" },
+    { "japanese": "地元の人が、村の古い写真を見せてくれた。", "vietnamese": "Người dân địa phương đã cho tôi xem những bức ảnh cũ của làng. (てくれる: người khác làm cho mình)" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "explanation": "～なさそう là dạng phủ định của Aそう (trông có vẻ…): \"trông có vẻ không…\". Người nói nhìn bề ngoài, thái độ hoặc tình hình và phán đoán rằng tính chất đó không có.\n\nCách tạo: Aい → Aくなさそう (高い → 高くなさそう); Aな／N → Aな／N じゃなさそう／ではなさそう (元気じゃなさそう). Dạng đặc biệt: いい → よくなさそう, ない → なさそう (お金がなさそう). Với động từ phủ định, dạng chuẩn là Vなそう (「彼は来なそうだ」 — anh ấy có vẻ không đến); văn nói cũng hay dùng Vなさそう.",
+  "formation": [
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + くなさそう", "samples": ["楽しい → 楽しくなさそう", "高い → 高くなさそう", "いい → よくなさそう"] },
+    { "wordType": "Tính từ な", "rule": "Aな + じゃ／では + なさそう", "samples": ["元気 → 元気じゃなさそう", "簡単 → 簡単ではなさそう"] },
+    { "wordType": "Danh từ", "rule": "N + じゃ／では + なさそう", "samples": ["学生 → 学生じゃなさそう", "本物 → 本物ではなさそう"] },
+    { "wordType": "ない／Vない", "rule": "ない → なさそう; Vない → Vなそう (văn nói: Vなさそう)", "samples": ["時間がない → 時間がなさそう", "知らない → 知らなそう"] }
+  ],
+  "usage": [
+    "Nhận xét người khác: 「彼女は今日、元気がなさそうだ」.",
+    "Đánh giá đồ vật: 「この料理はあまり辛くなさそうだ」.",
+    "Bổ nghĩa: 「興味がなさそうな顔」 (vẻ mặt không có hứng thú)."
+  ],
+  "pitfalls": [
+    "Sai: ✗「高いなさそう」 → đúng: 「高くなさそう」 (phải chuyển い thành く trước なさそう).",
+    "Danh từ có thể dùng ～じゃなさそう dù dạng khẳng định ✗「学生そう」 không tồn tại.",
+    "Với động từ thông thường muốn nói \"chắc sẽ không xảy ra\" thì dùng ～そうにない (b30-3)."
+  ],
+  "comparisons": [
+    { "pattern": "～そうもない／そうにない", "targetId": "b30-3", "difference": "そうにない: động từ, khả năng thấp; なさそう: tính từ/danh từ, trông không có tính chất đó." },
+    { "pattern": "～そうに／～そうな", "targetId": "b30-2", "difference": "Dạng khẳng định tương ứng: 楽しそうな ↔ 楽しくなさそうな." }
+  ],
+  "examples": [
+    { "japanese": "田中さんは最近、あまり元気がなさそうですね。", "vietnamese": "Dạo này anh Tanaka trông có vẻ không được khỏe lắm nhỉ." },
+    { "japanese": "この問題はそんなに難しくなさそうだ。", "vietnamese": "Bài này trông có vẻ không khó lắm." },
+    { "japanese": "彼は話を聞いているが、興味がなさそうな顔をしている。", "vietnamese": "Anh ấy có nghe nhưng mặt trông không có vẻ hứng thú." }
+  ]
+}
