@@ -1,0 +1,28 @@
+{
+  "explanation": "～ようだ／～みたいだ diễn tả phán đoán của người nói dựa trên những gì CHÍNH MÌNH quan sát, cảm nhận được (nhìn, nghe, ngửi, sờ, tình huống trước mắt): \"hình như…, có vẻ như…\". Mức độ chắc chắn ở mức trung bình — người nói có căn cứ nhưng không khẳng định.\n\nみたいだ có nghĩa giống hệt ようだ nhưng là dạng văn nói thân mật; ようだ dùng trong văn viết và hội thoại lịch sự. Trạng từ どうやら hay đi kèm để nhấn mạnh sự suy đoán.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + ようだ／みたいだ", "samples": ["降る → 降ったようだ", "いない → いないみたいだ"] },
+    { "wordType": "Tính từ い", "rule": "Aい + ようだ／みたいだ", "samples": ["忙しい → 忙しいようだ", "寒い → 寒いみたいだ"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + ようだ ／ Aな + みたいだ", "samples": ["暇 → 暇なようだ", "暇 → 暇みたいだ"] },
+    { "wordType": "Danh từ", "rule": "N + の + ようだ ／ N + みたいだ", "samples": ["留守 → 留守のようだ", "風邪 → 風邪みたいだ"] }
+  ],
+  "usage": [
+    "Dùng cho phán đoán dựa trên quan sát trực tiếp: 「電気が消えている。だれもいないようだ」.",
+    "Dùng để nói giảm, tránh khẳng định thẳng về bản thân: 「熱があるようです」 (hình như tôi bị sốt).",
+    "Cuối câu văn nói thường có ね／よ: 「疲れているみたいだね」."
+  ],
+  "pitfalls": [
+    "Danh từ và Aな khác nhau giữa hai dạng: ✓ 学生のようだ／学生みたいだ — ✗ 学生のみたいだ.",
+    "Không dùng khi thấy rõ ràng đúng sự thật trước mắt (đã biết chắc) — khi đó nói khẳng định: ✗「(nhìn trời đang mưa) 雨が降っているようだ」 chỉ dùng khi chưa chắc, ví dụ nghe tiếng mưa từ trong phòng."
+  ],
+  "comparisons": [
+    { "pattern": "～らしい（推量）", "targetId": "b2-2", "difference": "らしい dựa trên thông tin nghe/đọc từ người khác, mang tính khách quan, gián tiếp; ようだ dựa trên quan sát, cảm nhận của chính người nói." },
+    { "pattern": "～そうだ（様態）", "targetId": null, "difference": "Vます／Aそうだ là ấn tượng tức thì từ vẻ bề ngoài (おいしそう — trông ngon), chưa có căn cứ suy luận; ようだ là phán đoán đã có căn cứ tổng hợp." },
+    { "pattern": "～よう／みたい（比喩）", "targetId": "b3-1", "difference": "Cùng hình thức nhưng ví von là so sánh với điều KHÔNG thật (まるで夢のようだ), còn suy đoán là đoán điều có thể đúng." }
+  ],
+  "examples": [
+    { "japanese": "道がぬれている。夜中に雨が降ったようだ。", "vietnamese": "Đường ướt. Hình như đêm qua trời mưa." },
+    { "japanese": "田中さんは最近忙しいみたいで、全然会えない。", "vietnamese": "Dạo này anh Tanaka có vẻ bận nên tôi chẳng gặp được." },
+    { "japanese": "この店はいつも人がいっぱいだ。人気があるようだね。", "vietnamese": "Quán này lúc nào cũng đông người. Có vẻ được yêu thích nhỉ." }
+  ]
+}

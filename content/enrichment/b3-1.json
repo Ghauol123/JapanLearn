@@ -1,0 +1,26 @@
+{
+  "explanation": "～よう／みたい (ví von, 比喩) dùng để so sánh một sự vật với một hình ảnh khác có đặc điểm tương tự, dù thực tế chúng KHÔNG phải là một: \"giống như…, cứ như là…\". Người nói biết rõ điều so sánh không có thật, chỉ dùng để miêu tả sinh động.\n\nTrạng từ まるで hay đứng trước để nhấn mạnh tính ví von (\"cứ như thể là\"). Hình thức biến đổi theo vị trí: ～ようだ (cuối câu), ～ように + V/A (bổ nghĩa cho động từ, tính từ), ～ような + N (bổ nghĩa cho danh từ).",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "Nのようだ／ように／ような; Nみたいだ／みたいに／みたいな", "samples": ["夢 → 夢のようだ", "子供 → 子供みたいに", "天使 → 天使みたいな人"] },
+    { "wordType": "Động từ", "rule": "V (thể thường) + ようだ／ように／ような", "samples": ["知っている → 知っているように話す", "死んだ → 死んだように眠る"] },
+    { "wordType": "Tính từ", "rule": "Aい／Aな + ようだ (ít gặp hơn)", "samples": ["汚い → 何か月も掃除していないように汚い"] }
+  ],
+  "usage": [
+    "Thường kèm まるで để nhấn mạnh: 「まるで夢のようだ」.",
+    "ように + động từ/tính từ: 「雪のように白い」「魚のように泳ぐ」.",
+    "ような + danh từ: 「お城のような家」 (ngôi nhà như lâu đài)."
+  ],
+  "pitfalls": [
+    "Không dùng まるで với suy đoán: ✗「まるで雨が降ったようだ」 khi đang đoán trời đã mưa; まるで chỉ dùng khi so sánh với điều không thật.",
+    "みたい sau danh từ không có の: ✗ 子供のみたい → ✓ 子供みたい."
+  ],
+  "comparisons": [
+    { "pattern": "～よう／みたい（推量）", "targetId": "b2-1", "difference": "Suy đoán: điều được nói có thể đúng (留守のようだ). Ví von: biết chắc là không đúng, chỉ so sánh (夢のようだ)." },
+    { "pattern": "～よう／みたい（例示）", "targetId": "b3-2", "difference": "Ví dụ: đưa ra một ví dụ tiêu biểu thuộc nhóm (京都のような古い町). Ví von: so sánh với thứ khác loại." }
+  ],
+  "examples": [
+    { "japanese": "彼女の手は氷のように冷たかった。", "vietnamese": "Tay cô ấy lạnh như băng." },
+    { "japanese": "疲れていたので、死んだように眠ってしまった。", "vietnamese": "Mệt quá nên tôi ngủ say như chết." },
+    { "japanese": "このケーキは本物の花みたいに見える。", "vietnamese": "Chiếc bánh này trông như hoa thật vậy." }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "explanation": "～ように (đầu câu) dùng để dẫn một thông tin mà người nghe đã biết, đã thấy, đã nghe: \"như… đã…\". Nó tạo cảm giác người nói và người nghe có chung một nền thông tin, từ đó đưa ra nội dung chính ở vế sau.\n\nご存知のように (\"như quý vị đã biết\") là cụm cố định rất hay gặp trong phát biểu, thông báo, thư từ công việc. Các dạng thường gặp khác: 前にも言ったように, ご覧のように, 皆さんもご存知のように.",
+  "formation": [
+    { "wordType": "Động từ (る)", "rule": "Vる + ように", "samples": ["わかる → グラフからわかるように", "知る → ご存知のように"] },
+    { "wordType": "Động từ (た)", "rule": "Vた + ように", "samples": ["話した → 昨日話したように", "言った → 前にも言ったように"] },
+    { "wordType": "Động từ (ている)", "rule": "Vている + ように", "samples": ["書いてある → ここに書いてあるように", "注意している → いつも注意しているように"] }
+  ],
+  "usage": [
+    "Đứng đầu câu hoặc đầu đoạn, nhắc lại thông tin chung rồi mới nói ý chính.",
+    "ご存知のように／ご覧のように là kính ngữ, dùng với khách hàng, cấp trên, đám đông.",
+    "Với bạn bè có thể nói 知ってると思うけど… thay cho ご存知のように."
+  ],
+  "pitfalls": [
+    "Không dùng khi người nghe chưa biết thông tin: ✗ ご存知のように (thông báo tin mới hoàn toàn).",
+    "Đừng nhầm với ～ように (mục đích: để…) như 「忘れないようにメモする」 — mục đích nằm giữa câu và đi với Vる／Vない chỉ trạng thái mong muốn."
+  ],
+  "comparisons": [
+    { "pattern": "～ように（目的）", "targetId": null, "difference": "～ように chỉ mục đích (để cho…, sao cho…) đứng trước hành động chính; ～ように dẫn thông tin (như đã…) đứng đầu câu và đi với động từ nhận thức (わかる, 言う, 書く)." },
+    { "pattern": "～通り", "targetId": null, "difference": "～通り(に) nhấn mạnh làm đúng y như (説明の通りに作る); ～ように chỉ dẫn lại thông tin chung để làm nền." }
+  ],
+  "examples": [
+    { "japanese": "ご覧のように、新しい工場はとても広いです。", "vietnamese": "Như quý vị thấy, nhà máy mới rất rộng." },
+    { "japanese": "前にも言ったように、明日の会議は10時からです。", "vietnamese": "Như tôi đã nói trước đây, cuộc họp ngày mai bắt đầu từ 10 giờ." },
+    { "japanese": "皆さんもご存知のように、来月から新しいシステムが始まります。", "vietnamese": "Như mọi người đều đã biết, từ tháng sau hệ thống mới sẽ bắt đầu." }
+  ]
+}

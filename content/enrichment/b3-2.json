@@ -1,0 +1,25 @@
+{
+  "explanation": "～よう／みたい (ví dụ, 例示) dùng để đưa ra một ví dụ cụ thể, tiêu biểu cho một nhóm hay một loại: \"như là…, chẳng hạn như…, kiểu như…\". Khác với ví von, sự vật được nêu THẬT SỰ thuộc nhóm đang nói đến.\n\nMẫu này rất hay dùng khi muốn nói về mong muốn, sở thích theo kiểu \"tôi muốn một thứ như X\" — X là hình mẫu, không nhất thiết phải chính là X.",
+  "formation": [
+    { "wordType": "Danh từ + danh từ", "rule": "N1 + のような + N2 ／ N1 + みたいな + N2", "samples": ["ナムさん → ナムさんのような人", "東京 → 東京みたいな大きい町"] },
+    { "wordType": "Danh từ + động từ／tính từ", "rule": "N + のように ／ N + みたいに + V／A", "samples": ["ＳＯＮＹ → ＳＯＮＹのように有名な会社", "今回 → 今回みたいに失敗しない"] }
+  ],
+  "usage": [
+    "Nêu ví dụ tiêu biểu khi mô tả mong muốn: 「優しい母のような人と結婚したい」.",
+    "Nêu ví dụ để giải thích một nhóm: 「すしやてんぷらのような日本料理」.",
+    "Văn nói thân mật dùng みたいな／みたいに."
+  ],
+  "pitfalls": [
+    "Không dùng khi chỉ chính xác một thứ duy nhất: muốn chính anh Nam thì nói ナムさんと付き合いたい, còn ナムさんのような人 là \"người giống như anh Nam\".",
+    "✗ 京都のみたいな町 → ✓ 京都みたいな町 hoặc 京都のような町."
+  ],
+  "comparisons": [
+    { "pattern": "～よう／みたい（比喩）", "targetId": "b3-1", "difference": "Ví von so sánh với thứ khác loại để miêu tả (氷のように冷たい); ví dụ đưa ra một thành viên tiêu biểu của nhóm (京都のような古い町)." },
+    { "pattern": "～といった", "targetId": "b27-1", "difference": "～といった liệt kê nhiều ví dụ (数学、物理といった科目), ～ような thường nêu một ví dụ tiêu biểu." }
+  ],
+  "examples": [
+    { "japanese": "将来は東京のような大きな町に住んでみたい。", "vietnamese": "Sau này tôi muốn thử sống ở một thành phố lớn như Tokyo." },
+    { "japanese": "母みたいに料理が上手な人になりたい。", "vietnamese": "Tôi muốn trở thành người nấu ăn giỏi như mẹ." },
+    { "japanese": "すしや天ぷらのような日本料理が好きです。", "vietnamese": "Tôi thích các món Nhật như sushi hay tempura." }
+  ]
+}

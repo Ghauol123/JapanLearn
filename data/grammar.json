@@ -63,6 +63,78 @@
               "ruby": "[窓|まど]の[前|まえ]に[高|たか]いビルを[建|た]てられて、[日当|ひあ]たりが[悪|わる]くなった。"
             }
           ],
+          "enrichment": {
+            "explanation": "Bị động gián tiếp (còn gọi là \"bị động chịu thiệt\" — 迷惑の受身) là đặc trưng riêng của tiếng Nhật: chủ ngữ KHÔNG phải là đối tượng trực tiếp của hành động, mà là người bị hành động đó gây phiền, gây thiệt hại. Câu chủ động gốc thường không có chỗ cho chủ ngữ này: 「雨が降った」→「(私は)雨に降られた」 (tôi bị mưa ướt, mắc mưa).\n\nVì vậy bị động gián tiếp dùng được cả với tự động từ (降る, 来る, 死ぬ, 泣く, やめる...), điều mà tiếng Việt và tiếng Anh không có. Sắc thái luôn là khó chịu, phiền toái hoặc đáng tiếc đối với chủ ngữ.",
+            "formation": [
+              {
+                "wordType": "Động từ nhóm 1",
+                "rule": "Vない (đuôi あ) + れる",
+                "samples": [
+                  "降る → 降られる",
+                  "死ぬ → 死なれる",
+                  "置く → 置かれる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 2",
+                "rule": "Vる bỏ る + られる",
+                "samples": [
+                  "見る → 見られる",
+                  "やめる → やめられる",
+                  "建てる → 建てられる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 3",
+                "rule": "する → される; 来る → 来られる (こられる)",
+                "samples": [
+                  "反対する → 反対される",
+                  "来る → 来られる"
+                ]
+              }
+            ],
+            "usage": [
+              "Người gây ra hành động đánh dấu bằng に: 「子供に泣かれる」「隣の人にピアノを弾かれる」.",
+              "Nếu hành động tác động lên đồ vật thuộc về chủ ngữ, đồ vật giữ trợ từ を: 「(私は)弟にケーキを食べられた」.",
+              "Chủ ngữ thường là 私 và hay được lược bỏ; câu thường đi với ～て、困った／～てしまった để nói rõ hậu quả."
+            ],
+            "pitfalls": [
+              "✗「私のケーキは弟に食べられた」 vẫn đúng ngữ pháp nhưng là bị động trực tiếp lên đồ vật; muốn nhấn mạnh \"tôi bị thiệt\" thì nói ✓「私は弟にケーキを食べられた」.",
+              "Không dùng khi chủ ngữ được lợi: ✗「先生に褒められて困った」 nghe kỳ; việc có lợi thì dùng ～てもらう: ✓「友達に手伝ってもらった」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Bị động trực tiếp (直接受身)",
+                "difference": "Bị động trực tiếp: chủ ngữ là đối tượng chịu hành động (先生に叱られた — bị thầy mắng), không nhất thiết mang nghĩa phiền toái. Bị động gián tiếp: chủ ngữ không bị tác động trực tiếp nhưng chịu hậu quả xấu."
+              },
+              {
+                "pattern": "～てもらう",
+                "difference": "～てもらう diễn tả việc người khác làm và mình được lợi; bị động gián tiếp diễn tả việc người khác làm và mình bị thiệt."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "夜中に隣の赤ちゃんに泣かれて、よく眠れなかった。",
+                "vietnamese": "Nửa đêm em bé nhà bên khóc nên tôi không ngủ ngon được.",
+                "ruby": "[夜中|やちゅう]に[隣|となり]の[赤|あか]ちゃんに[泣|な]かれて、よく[眠|ねむ]れなかった。"
+              },
+              {
+                "japanese": "電車の中で隣の人に足を踏まれた。",
+                "vietnamese": "Trên tàu tôi bị người bên cạnh giẫm vào chân.",
+                "ruby": "[電車|でんしゃ]の[中|なか]で[隣|となり]の[人|ひと]に[足|あし]を[踏|ふ]まれた。"
+              },
+              {
+                "japanese": "大切な試験の前の日に、父に死なれてしまった。",
+                "vietnamese": "Đúng ngày trước kỳ thi quan trọng thì bố tôi qua đời (để lại cú sốc lớn cho tôi).",
+                "ruby": "[大切|たいせつ]な[試験|しけん]の[前|まえ]の[日|ひ]に、[父|ちち]に[死|し]なれてしまった。"
+              },
+              {
+                "japanese": "妹に日記を読まれて、恥ずかしかった。",
+                "vietnamese": "Bị em gái đọc nhật ký, tôi xấu hổ quá.",
+                "ruby": "[妹|いもうと]に[日記|にっき]を[読|よ]まれて、[恥|は]ずかしかった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -115,6 +187,73 @@
               "ruby": "[兄|あに]はみんなを[怖|こわ]がらせるのが[上手|じょうず]だ。"
             }
           ],
+          "enrichment": {
+            "explanation": "Sai khiến cảm xúc dùng thể sai khiến của các động từ chỉ cảm xúc (泣く, 笑う, 怒る, 喜ぶ, 驚く, 心配する, 安心する, がっかりする, 困る...) để nói rằng một người/việc LÀM CHO ai đó có cảm xúc ấy. Ở đây không có ý \"ra lệnh\" hay \"cho phép\" — người bị tác động không hề tự nguyện chọn cảm xúc đó.\n\nVì không phải là ra lệnh, mẫu này dùng được với cả người trên: 「両親を喜ばせたい」「先生を驚かせた」. Người chịu cảm xúc luôn đánh dấu bằng を.",
+            "formation": [
+              {
+                "wordType": "Động từ nhóm 1",
+                "rule": "Vない (đuôi あ) + せる",
+                "samples": [
+                  "泣く → 泣かせる",
+                  "笑う → 笑わせる",
+                  "困る → 困らせる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 2",
+                "rule": "Vる bỏ る + させる",
+                "samples": [
+                  "呆れる → 呆れさせる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 3",
+                "rule": "N する → N させる",
+                "samples": [
+                  "安心する → 安心させる",
+                  "心配する → 心配させる",
+                  "がっかりする → がっかりさせる"
+                ]
+              }
+            ],
+            "usage": [
+              "Cấu trúc cố định: [người/việc gây ra] が [người có cảm xúc] を Vさせる.",
+              "Hay đi với ～たい／～ないように／～てしまった để nói mong muốn hoặc sự áy náy: 「親を心配させないように」「彼女を怒らせてしまった」.",
+              "Chủ thể gây cảm xúc có thể là sự việc: 「そのニュースは国民を驚かせた」."
+            ],
+            "pitfalls": [
+              "✗「弟に泣かせた」 → ✓「弟を泣かせた」: người có cảm xúc dùng を, không dùng に.",
+              "Muốn diễn tả cảm xúc của người khác thì dùng ～がる (母は不安がる), còn sai khiến cảm xúc là MÌNH (hoặc việc gì đó) làm cho họ có cảm xúc."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Sai khiến cưỡng chế / cho phép",
+                "difference": "Sai khiến thông thường (子供に野菜を食べさせる) là ra lệnh hay cho phép, chỉ dùng với người dưới. Sai khiến cảm xúc chỉ là gây ra cảm xúc, dùng được với mọi đối tượng."
+              },
+              {
+                "pattern": "～がる",
+                "targetId": "b4-3",
+                "difference": "～がる miêu tả cảm xúc của ngôi thứ ba từ bên ngoài; sai khiến cảm xúc nói ai/cái gì gây ra cảm xúc ấy."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "彼はいつも面白い話をして、みんなを笑わせる。",
+                "vietnamese": "Anh ấy lúc nào cũng kể chuyện vui làm mọi người cười.",
+                "ruby": "[彼|かれ]はいつも[面白|おもしろ]い[話|はなし]をして、みんなを[笑|わら]わせる。"
+              },
+              {
+                "japanese": "遅くまで連絡しないで、母を心配させてしまった。",
+                "vietnamese": "Không liên lạc đến khuya khiến mẹ tôi lo lắng.",
+                "ruby": "[遅|おそ]くまで[連絡|れんらく]しないで、[母|はは]を[心配|しんぱい]させてしまった。"
+              },
+              {
+                "japanese": "急に会社を辞めると言って、上司を驚かせた。",
+                "vietnamese": "Tôi đột ngột nói sẽ nghỉ việc làm cấp trên giật mình.",
+                "ruby": "[急|きゅう]に[会社|かいしゃ]を[辞|や]めると[言|い]って、[上司|じょうし]を[驚|おどろ]かせた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -200,6 +339,88 @@
               "ruby": "この[事件|じけん]のことを[聞|き]いて、[親|おや]と[子|こ]の[関係|かんけい]について[考|かんが]えさせられた。"
             }
           ],
+          "enrichment": {
+            "explanation": "Bị động sai khiến (使役受身) là thể sai khiến được chuyển tiếp sang bị động: \"bị (ai đó) bắt làm\". Chủ ngữ là người phải làm hành động, người ra lệnh đánh dấu bằng に. Mẫu này luôn mang cảm giác KHÔNG tự nguyện, miễn cưỡng, hoặc bất mãn.\n\nKhi đi với động từ cảm xúc (感心する, 考える, 驚く...), nghĩa chuyển thành \"tự nhiên bị khiến cho phải...\": 「考えさせられた」 = (sự việc đó) khiến tôi phải suy nghĩ nhiều. Cách dùng này không có ý bất mãn mà diễn tả cảm xúc nảy sinh ngoài ý muốn.",
+            "formation": [
+              {
+                "wordType": "Động từ nhóm 1",
+                "rule": "Vない (đuôi あ) + される (dạng rút gọn), hoặc + せられる",
+                "samples": [
+                  "書く → 書かされる",
+                  "飲む → 飲まされる",
+                  "待つ → 待たされる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 1 đuôi す",
+                "rule": "Vさ + せられる (không rút gọn)",
+                "samples": [
+                  "話す → 話させられる",
+                  "直す → 直させられる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 2",
+                "rule": "Vる bỏ る + させられる",
+                "samples": [
+                  "食べる → 食べさせられる",
+                  "覚える → 覚えさせられる"
+                ]
+              },
+              {
+                "wordType": "Động từ nhóm 3",
+                "rule": "する → させられる; 来る → 来させられる (こさせられる)",
+                "samples": [
+                  "掃除する → 掃除させられる",
+                  "来る → 来させられる"
+                ]
+              }
+            ],
+            "usage": [
+              "Cấu trúc: [người phải làm] は [người ra lệnh] に Vさせられる.",
+              "Rất hay dùng để kể lại trải nghiệm vất vả khi đi học, đi làm: 「部活で毎日走らされた」.",
+              "Với động từ cảm xúc/suy nghĩ: 「考えさせられる」「感心させられる」「驚かされる」 diễn tả cảm xúc mạnh tự nhiên nảy sinh."
+            ],
+            "pitfalls": [
+              "Nhóm 1 đuôi す không rút gọn: ✗ 話さされる → ✓ 話させられる.",
+              "Không dùng với sai khiến cho phép: muốn nói \"được cho phép làm\" thì dùng ～させてもらう, không dùng ～させられる.",
+              "Người ra lệnh dùng に: ✗「先生を作文を書かされた」 → ✓「先生に作文を書かされた」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～させてもらう",
+                "targetId": "b15-2",
+                "difference": "～させてもらう: được (người khác) cho phép làm điều mình muốn — sắc thái biết ơn. ～させられる: bị bắt làm điều mình không muốn."
+              },
+              {
+                "pattern": "Bị động gián tiếp",
+                "targetId": "b1-1",
+                "difference": "Bị động gián tiếp: người khác làm gì đó và mình chịu phiền. Bị động sai khiến: chính mình bị bắt phải làm."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "飲み会で先輩にお酒をたくさん飲まされた。",
+                "vietnamese": "Ở buổi nhậu tôi bị đàn anh bắt uống rất nhiều rượu.",
+                "ruby": "[飲|の]み[会|かい]で[先輩|せんぱい]にお[酒|さけ]をたくさん[飲|の]まされた。"
+              },
+              {
+                "japanese": "病院で２時間も待たされて、疲れてしまった。",
+                "vietnamese": "Bị bắt chờ ở bệnh viện tận 2 tiếng nên tôi mệt rã rời.",
+                "ruby": "[病院|びょういん]で２[時間|じかん]も[待|ま]たされて、[疲|つか]れてしまった。"
+              },
+              {
+                "japanese": "子供のころ、毎日ピアノを練習させられたのが嫌だった。",
+                "vietnamese": "Hồi nhỏ tôi ghét việc bị bắt tập đàn piano mỗi ngày.",
+                "ruby": "[子供|こども]のころ、[毎日|まいにち]ピアノを[練習|れんしゅう]させられたのが[嫌|いや]だった。"
+              },
+              {
+                "japanese": "彼のスピーチには本当に感動させられた。",
+                "vietnamese": "Bài phát biểu của anh ấy thật sự khiến tôi xúc động.",
+                "ruby": "[彼|かれ]のスピーチには[本当|ほんとう]に[感動|かんどう]させられた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         }
       ],
@@ -276,6 +497,85 @@
               "ruby": "あれ？[車|くるま]が[動|うご]かない。どうやらガソリンがなくなったみたいだ。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ようだ／～みたいだ diễn tả phán đoán của người nói dựa trên những gì CHÍNH MÌNH quan sát, cảm nhận được (nhìn, nghe, ngửi, sờ, tình huống trước mắt): \"hình như…, có vẻ như…\". Mức độ chắc chắn ở mức trung bình — người nói có căn cứ nhưng không khẳng định.\n\nみたいだ có nghĩa giống hệt ようだ nhưng là dạng văn nói thân mật; ようだ dùng trong văn viết và hội thoại lịch sự. Trạng từ どうやら hay đi kèm để nhấn mạnh sự suy đoán.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + ようだ／みたいだ",
+                "samples": [
+                  "降る → 降ったようだ",
+                  "いない → いないみたいだ"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + ようだ／みたいだ",
+                "samples": [
+                  "忙しい → 忙しいようだ",
+                  "寒い → 寒いみたいだ"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な + ようだ ／ Aな + みたいだ",
+                "samples": [
+                  "暇 → 暇なようだ",
+                  "暇 → 暇みたいだ"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + ようだ ／ N + みたいだ",
+                "samples": [
+                  "留守 → 留守のようだ",
+                  "風邪 → 風邪みたいだ"
+                ]
+              }
+            ],
+            "usage": [
+              "Dùng cho phán đoán dựa trên quan sát trực tiếp: 「電気が消えている。だれもいないようだ」.",
+              "Dùng để nói giảm, tránh khẳng định thẳng về bản thân: 「熱があるようです」 (hình như tôi bị sốt).",
+              "Cuối câu văn nói thường có ね／よ: 「疲れているみたいだね」."
+            ],
+            "pitfalls": [
+              "Danh từ và Aな khác nhau giữa hai dạng: ✓ 学生のようだ／学生みたいだ — ✗ 学生のみたいだ.",
+              "Không dùng khi thấy rõ ràng đúng sự thật trước mắt (đã biết chắc) — khi đó nói khẳng định: ✗「(nhìn trời đang mưa) 雨が降っているようだ」 chỉ dùng khi chưa chắc, ví dụ nghe tiếng mưa từ trong phòng."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～らしい（推量）",
+                "targetId": "b2-2",
+                "difference": "らしい dựa trên thông tin nghe/đọc từ người khác, mang tính khách quan, gián tiếp; ようだ dựa trên quan sát, cảm nhận của chính người nói."
+              },
+              {
+                "pattern": "～そうだ（様態）",
+                "difference": "Vます／Aそうだ là ấn tượng tức thì từ vẻ bề ngoài (おいしそう — trông ngon), chưa có căn cứ suy luận; ようだ là phán đoán đã có căn cứ tổng hợp."
+              },
+              {
+                "pattern": "～よう／みたい（比喩）",
+                "targetId": "b3-1",
+                "difference": "Cùng hình thức nhưng ví von là so sánh với điều KHÔNG thật (まるで夢のようだ), còn suy đoán là đoán điều có thể đúng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "道がぬれている。夜中に雨が降ったようだ。",
+                "vietnamese": "Đường ướt. Hình như đêm qua trời mưa.",
+                "ruby": "[道|みち]がぬれている。[夜中|やちゅう]に[雨|あめ]が[降|ふ]ったようだ。"
+              },
+              {
+                "japanese": "田中さんは最近忙しいみたいで、全然会えない。",
+                "vietnamese": "Dạo này anh Tanaka có vẻ bận nên tôi chẳng gặp được.",
+                "ruby": "[田中|たなか]さんは[最近|さいきん][忙|いそが]しいみたいで、[全然|ぜんぜん][会|あ]えない。"
+              },
+              {
+                "japanese": "この店はいつも人がいっぱいだ。人気があるようだね。",
+                "vietnamese": "Quán này lúc nào cũng đông người. Có vẻ được yêu thích nhỉ.",
+                "ruby": "この[店|みせ]はいつも[人|ひと]がいっぱいだ。[人気|にんき]があるようだね。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -322,6 +622,85 @@
               "ruby": "[東大|とうだい]に[入|はい]るのは[大変|たいへん]だとわかるけど、[卒業|そつぎょう]するのはもっと[大変|たいへん]らしい。"
             }
           ],
+          "enrichment": {
+            "explanation": "～らしい (suy đoán) dùng khi người nói đưa ra phán đoán dựa trên thông tin nghe được, đọc được từ nguồn bên ngoài (tin đồn, báo chí, lời người khác), chứ không phải tự mình quan sát. Nghĩa gần với \"nghe nói…, nghe đâu…, có vẻ là…\".\n\nらしい mang tính khách quan, người nói giữ khoảng cách với thông tin: không chịu trách nhiệm hoàn toàn về độ chính xác. Vì thế hay dùng khi kể lại chuyện của người khác.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + らしい",
+                "samples": [
+                  "来る → 来るらしい",
+                  "辞めた → 辞めたらしい"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + らしい",
+                "samples": [
+                  "おいしい → おいしいらしい",
+                  "難しい → 難しいらしい"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな (bỏ だ) + らしい",
+                "samples": [
+                  "有名 → 有名らしい",
+                  "大変 → 大変らしい"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + らしい",
+                "samples": [
+                  "病気 → 病気らしい",
+                  "うそ → うそらしい"
+                ]
+              }
+            ],
+            "usage": [
+              "Dùng khi truyền lại thông tin không chắc chắn từ nguồn khác: 「ニュースによると、明日は台風が来るらしい」.",
+              "Hay đi với ～によると／～の話では để nêu nguồn.",
+              "Danh từ và Aな gắn trực tiếp, không cần な／の."
+            ],
+            "pitfalls": [
+              "Không dùng らしい cho cảm nhận trực tiếp của mình: ✗「(sờ trán) 熱があるらしい」 → ✓「熱があるようだ」.",
+              "Đừng nhầm với らしい điển hình (Nらしい: 春らしい) — suy đoán có thể thay bằng ようだ, điển hình thì không."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～よう／みたい（推量）",
+                "targetId": "b2-1",
+                "difference": "ようだ: căn cứ là quan sát trực tiếp của người nói. らしい: căn cứ là thông tin gián tiếp từ bên ngoài."
+              },
+              {
+                "pattern": "～そうだ（伝聞）",
+                "difference": "V thể thường + そうだ chỉ đơn thuần truyền đạt lại lời người khác (nghe nói rằng…), không có phán đoán; らしい có chút phán đoán, độ tin cậy thấp hơn."
+              },
+              {
+                "pattern": "～らしい（典型）",
+                "targetId": "b3-3",
+                "difference": "Nらしい điển hình nghĩa là \"đúng chất N\" (男らしい), không phải suy đoán."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "あの二人は来月結婚するらしいよ。",
+                "vietnamese": "Nghe nói hai người đó tháng sau sẽ cưới đấy.",
+                "ruby": "あの[二人|ふたり]は[来月|らいげつ][結婚|けっこん]するらしいよ。"
+              },
+              {
+                "japanese": "天気予報によると、週末は雪が降るらしい。",
+                "vietnamese": "Theo dự báo thời tiết thì cuối tuần có vẻ sẽ có tuyết.",
+                "ruby": "[天気|てんき][予報|よほう]によると、[週末|しゅうまつ]は[雪|ゆき]が[降|ふ]るらしい。"
+              },
+              {
+                "japanese": "山田先生は昔、プロのサッカー選手だったらしい。",
+                "vietnamese": "Nghe đâu thầy Yamada hồi xưa từng là cầu thủ bóng đá chuyên nghiệp.",
+                "ruby": "[山田|やまだ][先生|せんせい]は[昔|むかし]、プロのサッカー[選手|せんしゅ]だったらしい。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -368,6 +747,71 @@
               "ruby": "(trước toàn thể nhân viên) ご[存知|ぞんじ]のように、[来年|らいねん]から[海外|かいがい]にも[支店|してん]を[出|だ]します。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ように (đầu câu) dùng để dẫn một thông tin mà người nghe đã biết, đã thấy, đã nghe: \"như… đã…\". Nó tạo cảm giác người nói và người nghe có chung một nền thông tin, từ đó đưa ra nội dung chính ở vế sau.\n\nご存知のように (\"như quý vị đã biết\") là cụm cố định rất hay gặp trong phát biểu, thông báo, thư từ công việc. Các dạng thường gặp khác: 前にも言ったように, ご覧のように, 皆さんもご存知のように.",
+            "formation": [
+              {
+                "wordType": "Động từ (る)",
+                "rule": "Vる + ように",
+                "samples": [
+                  "わかる → グラフからわかるように",
+                  "知る → ご存知のように"
+                ]
+              },
+              {
+                "wordType": "Động từ (た)",
+                "rule": "Vた + ように",
+                "samples": [
+                  "話した → 昨日話したように",
+                  "言った → 前にも言ったように"
+                ]
+              },
+              {
+                "wordType": "Động từ (ている)",
+                "rule": "Vている + ように",
+                "samples": [
+                  "書いてある → ここに書いてあるように",
+                  "注意している → いつも注意しているように"
+                ]
+              }
+            ],
+            "usage": [
+              "Đứng đầu câu hoặc đầu đoạn, nhắc lại thông tin chung rồi mới nói ý chính.",
+              "ご存知のように／ご覧のように là kính ngữ, dùng với khách hàng, cấp trên, đám đông.",
+              "Với bạn bè có thể nói 知ってると思うけど… thay cho ご存知のように."
+            ],
+            "pitfalls": [
+              "Không dùng khi người nghe chưa biết thông tin: ✗ ご存知のように (thông báo tin mới hoàn toàn).",
+              "Đừng nhầm với ～ように (mục đích: để…) như 「忘れないようにメモする」 — mục đích nằm giữa câu và đi với Vる／Vない chỉ trạng thái mong muốn."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ように（目的）",
+                "difference": "～ように chỉ mục đích (để cho…, sao cho…) đứng trước hành động chính; ～ように dẫn thông tin (như đã…) đứng đầu câu và đi với động từ nhận thức (わかる, 言う, 書く)."
+              },
+              {
+                "pattern": "～通り",
+                "difference": "～通り(に) nhấn mạnh làm đúng y như (説明の通りに作る); ～ように chỉ dẫn lại thông tin chung để làm nền."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "ご覧のように、新しい工場はとても広いです。",
+                "vietnamese": "Như quý vị thấy, nhà máy mới rất rộng.",
+                "ruby": "ご[覧|らん]のように、[新|あたら]しい[工場|こうじょう]はとても[広|ひろ]いです。"
+              },
+              {
+                "japanese": "前にも言ったように、明日の会議は10時からです。",
+                "vietnamese": "Như tôi đã nói trước đây, cuộc họp ngày mai bắt đầu từ 10 giờ.",
+                "ruby": "[前|まえ]にも[言|い]ったように、[明日|あした]の[会議|かいぎ]は10[時|じ]からです。"
+              },
+              {
+                "japanese": "皆さんもご存知のように、来月から新しいシステムが始まります。",
+                "vietnamese": "Như mọi người đều đã biết, từ tháng sau hệ thống mới sẽ bắt đầu.",
+                "ruby": "[皆|みな]さんもご[存知|ぞんじ]のように、[来月|らいげつ]から[新|あたら]しいシステムが[始|はじ]まります。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         }
       ],
@@ -436,6 +880,73 @@
               "ruby": "トムさんとのデートはまるで[夢|ゆめ]みたいな[時間|じかん]だった。"
             }
           ],
+          "enrichment": {
+            "explanation": "～よう／みたい (ví von, 比喩) dùng để so sánh một sự vật với một hình ảnh khác có đặc điểm tương tự, dù thực tế chúng KHÔNG phải là một: \"giống như…, cứ như là…\". Người nói biết rõ điều so sánh không có thật, chỉ dùng để miêu tả sinh động.\n\nTrạng từ まるで hay đứng trước để nhấn mạnh tính ví von (\"cứ như thể là\"). Hình thức biến đổi theo vị trí: ～ようだ (cuối câu), ～ように + V/A (bổ nghĩa cho động từ, tính từ), ～ような + N (bổ nghĩa cho danh từ).",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "Nのようだ／ように／ような; Nみたいだ／みたいに／みたいな",
+                "samples": [
+                  "夢 → 夢のようだ",
+                  "子供 → 子供みたいに",
+                  "天使 → 天使みたいな人"
+                ]
+              },
+              {
+                "wordType": "Động từ",
+                "rule": "V (thể thường) + ようだ／ように／ような",
+                "samples": [
+                  "知っている → 知っているように話す",
+                  "死んだ → 死んだように眠る"
+                ]
+              },
+              {
+                "wordType": "Tính từ",
+                "rule": "Aい／Aな + ようだ (ít gặp hơn)",
+                "samples": [
+                  "汚い → 何か月も掃除していないように汚い"
+                ]
+              }
+            ],
+            "usage": [
+              "Thường kèm まるで để nhấn mạnh: 「まるで夢のようだ」.",
+              "ように + động từ/tính từ: 「雪のように白い」「魚のように泳ぐ」.",
+              "ような + danh từ: 「お城のような家」 (ngôi nhà như lâu đài)."
+            ],
+            "pitfalls": [
+              "Không dùng まるで với suy đoán: ✗「まるで雨が降ったようだ」 khi đang đoán trời đã mưa; まるで chỉ dùng khi so sánh với điều không thật.",
+              "みたい sau danh từ không có の: ✗ 子供のみたい → ✓ 子供みたい."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～よう／みたい（推量）",
+                "targetId": "b2-1",
+                "difference": "Suy đoán: điều được nói có thể đúng (留守のようだ). Ví von: biết chắc là không đúng, chỉ so sánh (夢のようだ)."
+              },
+              {
+                "pattern": "～よう／みたい（例示）",
+                "targetId": "b3-2",
+                "difference": "Ví dụ: đưa ra một ví dụ tiêu biểu thuộc nhóm (京都のような古い町). Ví von: so sánh với thứ khác loại."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "彼女の手は氷のように冷たかった。",
+                "vietnamese": "Tay cô ấy lạnh như băng.",
+                "ruby": "[彼女|かのじょ]の[手|て]は[氷|こおり]のように[冷|つめ]たかった。"
+              },
+              {
+                "japanese": "疲れていたので、死んだように眠ってしまった。",
+                "vietnamese": "Mệt quá nên tôi ngủ say như chết.",
+                "ruby": "[疲|つか]れていたので、[死|し]んだように[眠|ねむ]ってしまった。"
+              },
+              {
+                "japanese": "このケーキは本物の花みたいに見える。",
+                "vietnamese": "Chiếc bánh này trông như hoa thật vậy.",
+                "ruby": "このケーキは[本物|ほんもの]の[花|はな]みたいに[見|み]える。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -482,6 +993,65 @@
               "ruby": "[地球|ちきゅう]みたいに[水|みず]がある[惑星|わくせい]があまりないと[思|おも]う。"
             }
           ],
+          "enrichment": {
+            "explanation": "～よう／みたい (ví dụ, 例示) dùng để đưa ra một ví dụ cụ thể, tiêu biểu cho một nhóm hay một loại: \"như là…, chẳng hạn như…, kiểu như…\". Khác với ví von, sự vật được nêu THẬT SỰ thuộc nhóm đang nói đến.\n\nMẫu này rất hay dùng khi muốn nói về mong muốn, sở thích theo kiểu \"tôi muốn một thứ như X\" — X là hình mẫu, không nhất thiết phải chính là X.",
+            "formation": [
+              {
+                "wordType": "Danh từ + danh từ",
+                "rule": "N1 + のような + N2 ／ N1 + みたいな + N2",
+                "samples": [
+                  "ナムさん → ナムさんのような人",
+                  "東京 → 東京みたいな大きい町"
+                ]
+              },
+              {
+                "wordType": "Danh từ + động từ／tính từ",
+                "rule": "N + のように ／ N + みたいに + V／A",
+                "samples": [
+                  "ＳＯＮＹ → ＳＯＮＹのように有名な会社",
+                  "今回 → 今回みたいに失敗しない"
+                ]
+              }
+            ],
+            "usage": [
+              "Nêu ví dụ tiêu biểu khi mô tả mong muốn: 「優しい母のような人と結婚したい」.",
+              "Nêu ví dụ để giải thích một nhóm: 「すしやてんぷらのような日本料理」.",
+              "Văn nói thân mật dùng みたいな／みたいに."
+            ],
+            "pitfalls": [
+              "Không dùng khi chỉ chính xác một thứ duy nhất: muốn chính anh Nam thì nói ナムさんと付き合いたい, còn ナムさんのような人 là \"người giống như anh Nam\".",
+              "✗ 京都のみたいな町 → ✓ 京都みたいな町 hoặc 京都のような町."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～よう／みたい（比喩）",
+                "targetId": "b3-1",
+                "difference": "Ví von so sánh với thứ khác loại để miêu tả (氷のように冷たい); ví dụ đưa ra một thành viên tiêu biểu của nhóm (京都のような古い町)."
+              },
+              {
+                "pattern": "～といった",
+                "targetId": "b27-1",
+                "difference": "～といった liệt kê nhiều ví dụ (数学、物理といった科目), ～ような thường nêu một ví dụ tiêu biểu."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "将来は東京のような大きな町に住んでみたい。",
+                "vietnamese": "Sau này tôi muốn thử sống ở một thành phố lớn như Tokyo.",
+                "ruby": "[将来|しょうらい]は[東京|とうきょう]のような[大|おお]きな[町|まち]に[住|す]んでみたい。"
+              },
+              {
+                "japanese": "母みたいに料理が上手な人になりたい。",
+                "vietnamese": "Tôi muốn trở thành người nấu ăn giỏi như mẹ.",
+                "ruby": "[母|はは]みたいに[料理|りょうり]が[上手|じょうず]な[人|ひと]になりたい。"
+              },
+              {
+                "japanese": "すしや天ぷらのような日本料理が好きです。",
+                "vietnamese": "Tôi thích các món Nhật như sushi hay tempura.",
+                "ruby": "すしや[天|てん]ぷらのような[日本|にほん][料理|りょうり]が[好|す]きです。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         },
         {
@@ -528,6 +1098,73 @@
               "ruby": "お[母|かあ]さん：[太郎|たろう]、[男|おとこ]らしく[正直|しょうじき]に[言|い]いなさい。"
             }
           ],
+          "enrichment": {
+            "explanation": "N + らしい (điển hình) diễn tả việc sự vật/con người mang đầy đủ những đặc điểm, tính chất tiêu biểu mà N vốn nên có: \"đúng chất N, ra dáng N, mang phong thái N\". Câu 「春らしい天気」 nghĩa là thời tiết đúng kiểu mùa xuân.\n\nらしい ở đây biến đổi như tính từ đuôi い: らしい + N, らしく + V, らしくない. Dạng 「Nらしい N」 với cùng một danh từ lặp lại (病気らしい病気) nghĩa là \"một cái N cho ra hồn\", thường đi với phủ định.",
+            "formation": [
+              {
+                "wordType": "Danh từ",
+                "rule": "N + らしい (+ N)",
+                "samples": [
+                  "春 → 春らしい天気",
+                  "男 → 男らしい人"
+                ]
+              },
+              {
+                "wordType": "Bổ nghĩa động từ",
+                "rule": "N + らしく + V",
+                "samples": [
+                  "学生 → 学生らしく勉強する",
+                  "子供 → 子供らしく遊ぶ"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "N + らしくない",
+                "samples": [
+                  "あなた → あなたらしくない",
+                  "彼 → 彼らしくない"
+                ]
+              }
+            ],
+            "usage": [
+              "Khen ngợi khi thấy đúng tính chất: 「彼女らしい優しい手紙だ」.",
+              "Phê bình khi không đúng tính chất: 「今日の君は君らしくないね」.",
+              "Nらしい N + phủ định: 「休みらしい休みがない」 (không có ngày nghỉ nào ra hồn)."
+            ],
+            "pitfalls": [
+              "Không nhầm với らしい suy đoán: 「男らしい」 = nam tính, còn 「男らしい (suy đoán)」 = hình như là đàn ông — ngữ cảnh quyết định; dạng らしく／らしくない hầu như luôn là điển hình.",
+              "Cảm giác \"giống mà không phải\" dùng っぽい hoặc みたい: 子供っぽい (trẻ con, dù là người lớn) khác với 子供らしい (hồn nhiên đúng kiểu trẻ con)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～っぽい",
+                "targetId": "b25-2",
+                "difference": "っぽい: có vẻ giống N dù thực ra không phải (thường chê: 子供っぽい). らしい: thật sự là N và có đủ phẩm chất tiêu biểu (thường khen)."
+              },
+              {
+                "pattern": "～らしい（推量）",
+                "targetId": "b2-2",
+                "difference": "Suy đoán dựa trên thông tin nghe được; điển hình nói về tính chất đặc trưng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "今日は暖かくて、春らしい一日だった。",
+                "vietnamese": "Hôm nay ấm áp, đúng là một ngày mùa xuân.",
+                "ruby": "[今日|きょう]は[暖|あたた]かくて、[春|はる]らしい[一|いち][日|にち]だった。"
+              },
+              {
+                "japanese": "学生なら学生らしく、もっと勉強しなさい。",
+                "vietnamese": "Đã là học sinh thì hãy học hành cho ra dáng học sinh.",
+                "ruby": "[学生|がくせい]なら[学生|がくせい]らしく、もっと[勉強|べんきょう]しなさい。"
+              },
+              {
+                "japanese": "忙しくて、最近は休みらしい休みがない。",
+                "vietnamese": "Bận quá, dạo này chẳng có ngày nghỉ nào ra hồn.",
+                "ruby": "[忙|いそが]しくて、[最近|さいきん]は[休|やす]みらしい[休|やす]みがない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File01_Bai1-3.docx"
         }
       ],
@@ -611,6 +1248,71 @@
               "ruby": "Ａ：１[週間|しゅうかん]ぐらい[休|やす]みを[取|と]りますか。Ｂ：いいえ、そのつもりはありません。"
             }
           ],
+          "enrichment": {
+            "explanation": "～つもりはない là cách phủ định mạnh ý định: \"hoàn toàn không có ý định…\". Trợ từ は nhấn mạnh và đối lập, nên câu thể hiện ý chí kiên quyết, thường là để phản bác điều người khác nghĩ hoặc đề nghị.\n\nDạng quá khứ ～つもりはなかった dùng để biện minh, xin lỗi: \"tôi đã không hề có ý…\" (nhưng kết quả lại thành ra như vậy).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる + つもりはない",
+                "samples": [
+                  "変える → 変えるつもりはない",
+                  "結婚する → 結婚するつもりはない"
+                ]
+              },
+              {
+                "wordType": "Quá khứ",
+                "rule": "Vる + つもりはなかった",
+                "samples": [
+                  "言う → 言うつもりはなかった",
+                  "傷つける → 傷つけるつもりはなかった"
+                ]
+              },
+              {
+                "wordType": "Lịch sự",
+                "rule": "Vる + つもりはありません",
+                "samples": [
+                  "辞める → 辞めるつもりはありません"
+                ]
+              }
+            ],
+            "usage": [
+              "Từ chối, phản bác dứt khoát: 「謝るつもりはない」.",
+              "Xin lỗi, giải thích khi làm tổn thương ai đó: 「傷つけるつもりはなかったんです」.",
+              "Trả lời câu hỏi về dự định: 「いいえ、そのつもりはありません」."
+            ],
+            "pitfalls": [
+              "Sắc thái rất mạnh; nói với cấp trên dễ gây mất lòng — có thể dùng mềm hơn: 「今のところ、～予定はありません」.",
+              "Phân biệt: Vないつもりだ (định là sẽ không làm — kế hoạch) khác ～つもりはない (bác bỏ hoàn toàn ý định)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Vないつもりだ",
+                "difference": "Vないつもりだ là trình bày kế hoạch không làm một cách bình thường; ～つもりはない phủ định mạnh, mang tính phản bác."
+              },
+              {
+                "pattern": "～つもりだった",
+                "targetId": "b4-2",
+                "difference": "～つもりだった nói về ý định đã có nhưng không thực hiện được; ～つもりはなかった nói rằng mình không hề có ý định đó."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "何と言われても、私は謝るつもりはない。",
+                "vietnamese": "Dù bị nói gì đi nữa, tôi cũng không có ý định xin lỗi.",
+                "ruby": "[何|なに]と[言|い]われても、[私|わたし]は[謝|あやま]るつもりはない。"
+              },
+              {
+                "japanese": "あなたを傷つけるつもりはなかったんです。ごめんなさい。",
+                "vietnamese": "Tôi không hề có ý làm tổn thương bạn. Xin lỗi.",
+                "ruby": "あなたを[傷|きず]つけるつもりはなかったんです。ごめんなさい。"
+              },
+              {
+                "japanese": "今は仕事が楽しいので、会社を辞めるつもりはありません。",
+                "vietnamese": "Bây giờ công việc vui nên tôi không có ý định nghỉ việc.",
+                "ruby": "[今|いま]は[仕事|しごと]が[楽|たの]しいので、[会社|かいしゃ]を[辞|や]めるつもりはありません。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -652,6 +1354,71 @@
               "ruby": "Ａ：どうして[遅|おそ]くなったの？[今日|きょう]は[早|はや]く[帰|かえ]ってくると[言|い]っていたのに。Ｂ：そのつもりだったけど、[帰|かえ]ろうとしたとき、お[客|きゃく]さんが[来|き]て……。"
             }
           ],
+          "enrichment": {
+            "explanation": "～つもりだった diễn tả một ý định đã có trong quá khứ nhưng thực tế không được thực hiện, hoặc bị thay đổi: \"đã định là…, (nhưng)…\". Vế sau thường bắt đầu bằng が／けど／のに và nêu lý do hoặc kết quả trái với dự định.\n\nMẫu này rất hay dùng để giải thích, xin lỗi, hoặc than thở. Câu thường bị bỏ lửng sau が／けど để lời nói mềm hơn: 「行くつもりだったんですが…」.",
+            "formation": [
+              {
+                "wordType": "Khẳng định",
+                "rule": "Vる + つもりだった",
+                "samples": [
+                  "行く → 行くつもりだった",
+                  "勉強する → 勉強するつもりだった"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "Vない + つもりだった",
+                "samples": [
+                  "買わない → 買わないつもりだった",
+                  "食べない → 食べないつもりだった"
+                ]
+              },
+              {
+                "wordType": "Lịch sự",
+                "rule": "Vる／Vない + つもりでした",
+                "samples": [
+                  "行く → 行くつもりでした"
+                ]
+              }
+            ],
+            "usage": [
+              "Giải thích vì sao không làm được việc đã hứa: 「今日中に終わらせるつもりだったんですが、間に合いませんでした」.",
+              "Nói về sự thay đổi quyết định: 「買わないつもりだったけど、安かったので買ってしまった」.",
+              "Câu bỏ lửng với が／けど giúp lời xin lỗi lịch sự hơn."
+            ],
+            "pitfalls": [
+              "Không dùng つもりだった cho kế hoạch vẫn đang tiếp tục: kế hoạch hiện tại thì nói つもりだ.",
+              "Đừng nhầm với V た + つもり (tưởng là đã làm — Bài 17): 「書いたつもりだった」 = tưởng đã viết rồi, khác 「書くつもりだった」 = đã định viết."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～つもりだ（思い込み）",
+                "targetId": "b17-3",
+                "difference": "Vたつもり là tưởng rằng mình đã làm (thực tế chưa); Vるつもりだった là đã định làm nhưng không làm."
+              },
+              {
+                "pattern": "～予定だった",
+                "difference": "予定 là lịch trình đã được sắp xếp, khách quan hơn; つもり là ý định cá nhân."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "今朝は早く起きるつもりだったが、寝坊してしまった。",
+                "vietnamese": "Sáng nay tôi định dậy sớm nhưng lại ngủ quên mất.",
+                "ruby": "[今朝|けさ]は[早|はや]く[起|お]きるつもりだったが、[寝坊|ねぼう]してしまった。"
+              },
+              {
+                "japanese": "今日は飲まないつもりだったのに、結局飲んでしまった。",
+                "vietnamese": "Hôm nay đã định không uống mà rốt cuộc vẫn uống.",
+                "ruby": "[今日|きょう]は[飲|の]まないつもりだったのに、[結局|けっきょく][飲|の]んでしまった。"
+              },
+              {
+                "japanese": "すぐ返事をするつもりでしたが、遅くなってすみません。",
+                "vietnamese": "Tôi đã định trả lời ngay, xin lỗi vì đã muộn.",
+                "ruby": "すぐ[返事|へんじ]をするつもりでしたが、[遅|おそ]くなってすみません。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -703,6 +1470,74 @@
               "ruby": "[何|なに]か[問題|もんだい]があったら、[聞|き]いてね。[恥|は]ずかしがらないでね。"
             }
           ],
+          "enrichment": {
+            "explanation": "Trong tiếng Nhật, cảm xúc và mong muốn bên trong (寂しい, 怖い, ほしい, ～たい) vốn chỉ dùng trực tiếp cho người nói. Khi nói về cảm xúc của ngôi thứ ba, người nói chỉ có thể quan sát biểu hiện bên ngoài, nên dùng ～がる: \"(ai đó) tỏ ra…, có vẻ…\".\n\n～がる biến tính từ thành động từ nhóm 1; thường dùng ở dạng ～がっている để miêu tả trạng thái đang thấy. Với ～たい và ほしい: ～たがる, ほしがる.",
+            "formation": [
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい bỏ い + がる",
+                "samples": [
+                  "寂しい → 寂しがる",
+                  "怖い → 怖がる",
+                  "ほしい → ほしがる"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + がる",
+                "samples": [
+                  "嫌 → 嫌がる",
+                  "残念 → 残念がる"
+                ]
+              },
+              {
+                "wordType": "Mong muốn",
+                "rule": "Vます bỏ ます + たがる",
+                "samples": [
+                  "買う → 買いたがる",
+                  "行く → 行きたがる"
+                ]
+              }
+            ],
+            "usage": [
+              "Miêu tả cảm xúc của người khác: 「弟は暗いところを怖がる」.",
+              "Đối tượng của cảm xúc chuyển từ が sang を: 「犬が怖い」→「犬を怖がる」, 「車がほしい」→「車をほしがる」.",
+              "Dạng phủ định mệnh lệnh ～がらないで dùng để khuyên ngôi thứ hai: 「恥ずかしがらないで」."
+            ],
+            "pitfalls": [
+              "Không dùng cho chính mình: ✗「私は寂しがっている」 → ✓「私は寂しい」.",
+              "Không dùng trực tiếp với người trên trước mặt họ vì nghe như đang nhận xét họ: ✗「先生は帰りたがっています」 nghe thiếu lịch sự.",
+              "Trợ từ: ✗ 子供は犬が怖がる → ✓ 子供は犬を怖がる."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～そうだ（様態）",
+                "difference": "寂しそうだ: trông có vẻ buồn (ấn tượng tức thời); 寂しがる: tỏ ra buồn qua hành động, lời nói (thường là xu hướng, tính cách)."
+              },
+              {
+                "pattern": "Sai khiến cảm xúc",
+                "targetId": "b1-2",
+                "difference": "Sai khiến cảm xúc: ai đó LÀM CHO người khác có cảm xúc; ～がる: miêu tả cảm xúc đang biểu hiện ở người khác."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "娘は暗いところを怖がって、一人で寝られない。",
+                "vietnamese": "Con gái tôi sợ chỗ tối nên không ngủ một mình được.",
+                "ruby": "[娘|むすめ]は[暗|くら]いところを[怖|こわ]がって、[一人|ひとり]で[寝|ね]られない。"
+              },
+              {
+                "japanese": "子供は何でも新しい物をほしがる。",
+                "vietnamese": "Trẻ con cái gì mới cũng muốn có.",
+                "ruby": "[子供|こども]は[何|なに]でも[新|あたら]しい[物|もの]をほしがる。"
+              },
+              {
+                "japanese": "妹は留学に行きたがっているが、両親は反対している。",
+                "vietnamese": "Em gái tôi muốn đi du học nhưng bố mẹ phản đối.",
+                "ruby": "[妹|いもうと]は[留学|りゅうがく]に[行|い]きたがっているが、[両親|りょうしん]は[反対|はんたい]している。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         }
       ],
@@ -756,6 +1591,71 @@
               "ruby": "しばらく、[入院|にゅういん]することになるかもしれません。"
             }
           ],
+          "enrichment": {
+            "explanation": "～ことになる diễn tả việc một sự việc được quyết định, sắp xếp mà không do ý chí của người nói (do công ty, tổ chức, hoàn cảnh, kết quả bàn bạc): \"(đã) được quyết định là…, thành ra là…\". Dạng ～ことになった rất hay dùng để thông báo tin: kết hôn, chuyển công tác, nghỉ việc.\n\nNgay cả khi chính mình quyết định, người Nhật vẫn hay dùng ～ことになりました để nói khiêm tốn, mềm mỏng, tránh tạo cảm giác áp đặt. Dạng ～ことになっている chỉ quy định, lịch trình đã định sẵn.",
+            "formation": [
+              {
+                "wordType": "Khẳng định",
+                "rule": "Vる + ことになる／ことになった",
+                "samples": [
+                  "転勤する → 転勤することになった",
+                  "結婚する → 結婚することになりました"
+                ]
+              },
+              {
+                "wordType": "Phủ định",
+                "rule": "Vない + ことになる",
+                "samples": [
+                  "行かない → 行かないことになった"
+                ]
+              },
+              {
+                "wordType": "Quy định",
+                "rule": "Vる／Vない + ことになっている",
+                "samples": [
+                  "休む → 連絡することになっている",
+                  "吸わない → 吸わないことになっている"
+                ]
+              }
+            ],
+            "usage": [
+              "Thông báo quyết định chính thức: 「来月から大阪支店で働くことになりました」.",
+              "Nói quy định: 「この寮では10時までに帰ることになっている」.",
+              "Diễn tả kết quả tất yếu: 「このまま続けると、失敗することになる」."
+            ],
+            "pitfalls": [
+              "Đừng nhầm với ～ことにする (Bài 17): ことにする là tự mình quyết định; ことになる là được quyết định/thành ra.",
+              "Khi thông báo tin vui của mình, dùng ことになりました lịch sự hơn ことにしました."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ことにする",
+                "targetId": "b17-1",
+                "difference": "ことにする: người nói chủ động quyết định. ことになる: quyết định đến từ bên ngoài hoặc người nói muốn nói khiêm tốn."
+              },
+              {
+                "pattern": "～ようになる",
+                "difference": "～ようになる: thay đổi về khả năng, thói quen (話せるようになった); ～ことになる: một quyết định, sự sắp xếp."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "４月から東京本社で働くことになりました。",
+                "vietnamese": "Từ tháng 4 tôi sẽ làm việc ở trụ sở chính tại Tokyo.",
+                "ruby": "[４月|しがつ]から[東京|とうきょう][本社|ほんしゃ]で[働|はたら]くことになりました。"
+              },
+              {
+                "japanese": "雨のため、運動会は来週に延期することになった。",
+                "vietnamese": "Vì mưa nên hội thao được quyết định hoãn sang tuần sau.",
+                "ruby": "[雨|あめ]のため、[運動会|うんどうかい]は[来週|らいしゅう]に[延期|えんき]することになった。"
+              },
+              {
+                "japanese": "この会社では、休むときは必ず上司に連絡することになっている。",
+                "vietnamese": "Ở công ty này, quy định là khi nghỉ phải liên lạc với cấp trên.",
+                "ruby": "この[会社|かいしゃ]では、[休|やす]むときは[必|かなら]ず[上司|じょうし]に[連絡|れんらく]することになっている。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -825,6 +1725,82 @@
               "ruby": "アイロンをかけ[終|お]わったら、[棚|たな]にしまっておいて。"
             }
           ],
+          "enrichment": {
+            "explanation": "Động từ ghép chỉ giai đoạn gắn sau Vます để cho biết hành động đang ở giai đoạn nào: bắt đầu (～始める, ～出す), tiếp diễn (～続ける), kết thúc (～終わる). Động từ ghép đều được chia như động từ nhóm 2 (始める, 続ける) hoặc nhóm 1 (出す, 終わる).\n\n～始める là bắt đầu một cách bình thường, có thể có ý chí; ～出す nhấn mạnh sự bắt đầu đột ngột, bất ngờ, thường không do ý chí (泣き出す, 降り出す, 笑い出す). Vì vậy ～出す không dùng cho lời mời, lời nhờ hay ý định.",
+            "formation": [
+              {
+                "wordType": "Bắt đầu",
+                "rule": "Vます + 始める",
+                "samples": [
+                  "読む → 読み始める",
+                  "住む → 住み始める"
+                ]
+              },
+              {
+                "wordType": "Bắt đầu đột ngột",
+                "rule": "Vます + 出す",
+                "samples": [
+                  "泣く → 泣き出す",
+                  "降る → 降り出す",
+                  "走る → 走り出す"
+                ]
+              },
+              {
+                "wordType": "Tiếp tục",
+                "rule": "Vます + 続ける",
+                "samples": [
+                  "働く → 働き続ける",
+                  "待つ → 待ち続ける"
+                ]
+              },
+              {
+                "wordType": "Kết thúc",
+                "rule": "Vます + 終わる",
+                "samples": [
+                  "食べる → 食べ終わる",
+                  "書く → 書き終わる"
+                ]
+              }
+            ],
+            "usage": [
+              "～始める／～終わる dùng với hành động có ý chí: 「レポートを書き始めた」「本を読み終わった」.",
+              "～出す hay đi với hiện tượng tự nhiên và cảm xúc bột phát: 「急に雨が降り出した」.",
+              "～続ける nói về hành động kéo dài: 「10年間日記をつけ続けている」."
+            ],
+            "pitfalls": [
+              "～出す không dùng cho ý chí: ✗「明日から勉強し出そう」 → ✓「明日から勉強し始めよう」.",
+              "～終わる chỉ dùng với hành động có điểm kết thúc rõ (ăn, viết, đọc); không dùng với động từ trạng thái như ✗ 住み終わる.",
+              "Ghép với する: 勉強する → 勉強し始める (giữ し), không phải ✗ 勉強始める."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～かける・～きる・～通す",
+                "targetId": "b25-1",
+                "difference": "Bài 25 bổ sung các giai đoạn khác: dở dang (～かける), làm trọn (～きる), làm liên tục tới cùng (～通す)."
+              },
+              {
+                "pattern": "～ている",
+                "difference": "～ている chỉ hành động đang diễn ra tại một thời điểm; ～続ける nhấn mạnh việc duy trì kéo dài, không dừng lại."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "映画の途中で、隣の子供が急に泣き出した。",
+                "vietnamese": "Giữa phim, đứa trẻ bên cạnh đột nhiên òa khóc.",
+                "ruby": "[映画|えいが]の[途中|とちゅう]で、[隣|となり]の[子供|こども]が[急|きゅう]に[泣|な]き[出|だ]した。"
+              },
+              {
+                "japanese": "去年からジョギングを始めて、今も毎朝走り続けている。",
+                "vietnamese": "Tôi bắt đầu chạy bộ từ năm ngoái và đến giờ vẫn chạy mỗi sáng.",
+                "ruby": "[去年|きょねん]からジョギングを[始|はじ]めて、[今|いま]も[毎朝|まいあさ][走|はし]り[続|つづ]けている。"
+              },
+              {
+                "japanese": "この本は難しくて、読み終わるまで１か月かかった。",
+                "vietnamese": "Cuốn sách này khó nên tôi mất một tháng mới đọc xong.",
+                "ruby": "この[本|ほん]は[難|むずか]しくて、[読|よ]み[終|お]わるまで１か[月|げつ]かかった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -871,6 +1847,82 @@
               "ruby": "これは[生|なま]のまま[食|た]べられますか。"
             }
           ],
+          "enrichment": {
+            "explanation": "～まま diễn tả một trạng thái được giữ nguyên, không thay đổi, và hành động tiếp theo diễn ra trong trạng thái đó: \"cứ để nguyên…, vẫn còn…\". Thường trạng thái đó là bất thường so với hành động phía sau (mặc nguyên quần áo mà bơi, đi giày vào nhà).\n\nDạng Vたまま rất phổ biến: hành động X đã xảy ra và trạng thái kết quả vẫn còn, rồi Y xảy ra. Ngoài ra ～まま cũng dùng cuối câu (～ままだ) để nói một thứ vẫn còn nguyên như cũ.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vた／Vない + まま",
+                "samples": [
+                  "つける → つけたまま",
+                  "開ける → 開けたまま",
+                  "しない → 何もしないまま"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "Aい + まま",
+                "samples": [
+                  "若い → 若いまま",
+                  "新しい → 新しいまま"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な + まま",
+                "samples": [
+                  "きれい → きれいなまま",
+                  "元気 → 元気なまま"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + の + まま",
+                "samples": [
+                  "生 → 生のまま",
+                  "昔 → 昔のまま"
+                ]
+              }
+            ],
+            "usage": [
+              "Vたまま + V: 「電気をつけたまま寝てしまった」 (để nguyên đèn mà ngủ).",
+              "～ままにする: cố ý để nguyên: 「窓を開けたままにしておいてください」.",
+              "N／Aのまま: giữ nguyên tính chất: 「この町は昔のままだ」."
+            ],
+            "pitfalls": [
+              "Không dùng Vているまま với động từ trạng thái kết quả: ✗ 座っているまま → ✓ 座ったまま.",
+              "Hành động sau phải do cùng chủ thể và diễn ra trong lúc trạng thái còn đó; chuỗi hành động bình thường thì dùng ～て: ✗ 手を洗ったまま食べる (nghĩa lạ)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～っぱなし",
+                "targetId": "b5-4",
+                "difference": "～っぱなし nhấn mạnh việc bỏ mặc không xử lý và thường mang ý phàn nàn; ～まま trung tính hơn, chỉ trạng thái không đổi."
+              },
+              {
+                "pattern": "～ずに／～ないで",
+                "targetId": "b6-3",
+                "difference": "～ないで chỉ việc không làm X mà làm Y (傘を持たないで出かける); ～まま nhấn mạnh trạng thái được giữ nguyên."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "テレビをつけたまま寝てしまった。",
+                "vietnamese": "Tôi để nguyên ti vi bật mà ngủ quên.",
+                "ruby": "テレビをつけたまま[寝|ね]てしまった。"
+              },
+              {
+                "japanese": "日本では、靴をはいたまま家に入ってはいけない。",
+                "vietnamese": "Ở Nhật không được mang nguyên giày đi vào nhà.",
+                "ruby": "[日本|にほん]では、[靴|くつ]をはいたまま[家|いえ]に[入|はい]ってはいけない。"
+              },
+              {
+                "japanese": "この町は30年前と同じで、昔のままだ。",
+                "vietnamese": "Thị trấn này vẫn như 30 năm trước, vẫn nguyên như xưa.",
+                "ruby": "この[町|まち]は30[年|ねん][前|まえ]と[同|おな]じで、[昔|むかし]のままだ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         },
         {
@@ -917,6 +1969,74 @@
               "ruby": "トイレの[電気|でんき]をつけっぱなしにして、[母|はは]に[注意|ちゅうい]された。"
             }
           ],
+          "enrichment": {
+            "explanation": "～っぱなし (từ 放す — buông ra) diễn tả việc làm một hành động rồi bỏ mặc đó, không làm tiếp bước lẽ ra phải làm (tắt, đóng, cất dọn): \"cứ để nguyên…, bỏ mặc…\". Người nói thường không hài lòng, trách móc.\n\nNghĩa thứ hai: một trạng thái kéo dài liên tục quá lâu: 立ちっぱなし (đứng suốt), 負けっぱなし (thua liên tục), 働きっぱなし (làm việc liên tục không nghỉ). Ở nghĩa này cũng thường có sắc thái mệt mỏi, than phiền.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vます bỏ ます + っぱなし",
+                "samples": [
+                  "つける → つけっぱなし",
+                  "出す → 出しっぱなし",
+                  "開ける → 開けっぱなし"
+                ]
+              },
+              {
+                "wordType": "Cuối câu",
+                "rule": "Vます + っぱなしだ",
+                "samples": [
+                  "立つ → 立ちっぱなしだ",
+                  "負ける → 負けっぱなしだ"
+                ]
+              },
+              {
+                "wordType": "Với する／bổ nghĩa",
+                "rule": "Vっぱなしにする／Vっぱなしの + N",
+                "samples": [
+                  "出す → 出しっぱなしにする",
+                  "置く → 置きっぱなしの本"
+                ]
+              }
+            ],
+            "usage": [
+              "Phàn nàn việc không tắt, không dọn: 「エアコンをつけっぱなしにしないで」.",
+              "Than phiền trạng thái kéo dài: 「今日は一日中立ちっぱなしで、足が痛い」.",
+              "Văn nói thân mật, ít dùng trong văn bản trang trọng."
+            ],
+            "pitfalls": [
+              "Sắc thái tiêu cực; với việc tốt, có chủ ý thì dùng ～まま: 「ドアを開けたままにしておいてください」 (lịch sự), ✗ 開けっぱなしにしておいてください nghe như trách.",
+              "Gắn với Vます, không gắn với Vた: ✗ つけたっぱなし."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～まま",
+                "targetId": "b5-3",
+                "difference": "～まま trung tính, chỉ trạng thái được giữ nguyên; ～っぱなし nhấn mạnh sự cẩu thả, bỏ mặc, thường có ý chê."
+              },
+              {
+                "pattern": "～続ける",
+                "targetId": "b5-2",
+                "difference": "～続ける: chủ động duy trì hành động; ～っぱなし: trạng thái kéo dài ngoài mong muốn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "弟はいつも部屋の電気をつけっぱなしにして出かける。",
+                "vietnamese": "Em trai tôi lúc nào cũng để đèn phòng bật nguyên rồi đi ra ngoài.",
+                "ruby": "[弟|おとうと]はいつも[部屋|へや]の[電気|でんき]をつけっぱなしにして[出|で]かける。"
+              },
+              {
+                "japanese": "机の上に本が出しっぱなしになっているよ。片付けて。",
+                "vietnamese": "Sách vẫn bày bừa trên bàn kìa. Dọn đi.",
+                "ruby": "[机|つくえ]の[上|うえ]に[本|ほん]が[出|だ]しっぱなしになっているよ。[片付|かたづ]けて。"
+              },
+              {
+                "japanese": "新幹線が混んでいて、東京までずっと立ちっぱなしだった。",
+                "vietnamese": "Tàu Shinkansen đông nên tôi phải đứng suốt đến Tokyo.",
+                "ruby": "[新幹線|しんかんせん]が[混|こ]んでいて、[東京|とうきょう]までずっと[立|た]ちっぱなしだった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File02_Bai4-6a.md"
         }
       ],
@@ -5977,5 +7097,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-11T11:39:18.0047481+00:00"
+  "generatedAt": "2026-10-11T11:47:45.3947115+00:00"
 }

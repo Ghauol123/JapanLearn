@@ -1,0 +1,26 @@
+{
+  "explanation": "～つもりだった diễn tả một ý định đã có trong quá khứ nhưng thực tế không được thực hiện, hoặc bị thay đổi: \"đã định là…, (nhưng)…\". Vế sau thường bắt đầu bằng が／けど／のに và nêu lý do hoặc kết quả trái với dự định.\n\nMẫu này rất hay dùng để giải thích, xin lỗi, hoặc than thở. Câu thường bị bỏ lửng sau が／けど để lời nói mềm hơn: 「行くつもりだったんですが…」.",
+  "formation": [
+    { "wordType": "Khẳng định", "rule": "Vる + つもりだった", "samples": ["行く → 行くつもりだった", "勉強する → 勉強するつもりだった"] },
+    { "wordType": "Phủ định", "rule": "Vない + つもりだった", "samples": ["買わない → 買わないつもりだった", "食べない → 食べないつもりだった"] },
+    { "wordType": "Lịch sự", "rule": "Vる／Vない + つもりでした", "samples": ["行く → 行くつもりでした"] }
+  ],
+  "usage": [
+    "Giải thích vì sao không làm được việc đã hứa: 「今日中に終わらせるつもりだったんですが、間に合いませんでした」.",
+    "Nói về sự thay đổi quyết định: 「買わないつもりだったけど、安かったので買ってしまった」.",
+    "Câu bỏ lửng với が／けど giúp lời xin lỗi lịch sự hơn."
+  ],
+  "pitfalls": [
+    "Không dùng つもりだった cho kế hoạch vẫn đang tiếp tục: kế hoạch hiện tại thì nói つもりだ.",
+    "Đừng nhầm với V た + つもり (tưởng là đã làm — Bài 17): 「書いたつもりだった」 = tưởng đã viết rồi, khác 「書くつもりだった」 = đã định viết."
+  ],
+  "comparisons": [
+    { "pattern": "～つもりだ（思い込み）", "targetId": "b17-3", "difference": "Vたつもり là tưởng rằng mình đã làm (thực tế chưa); Vるつもりだった là đã định làm nhưng không làm." },
+    { "pattern": "～予定だった", "targetId": null, "difference": "予定 là lịch trình đã được sắp xếp, khách quan hơn; つもり là ý định cá nhân." }
+  ],
+  "examples": [
+    { "japanese": "今朝は早く起きるつもりだったが、寝坊してしまった。", "vietnamese": "Sáng nay tôi định dậy sớm nhưng lại ngủ quên mất." },
+    { "japanese": "今日は飲まないつもりだったのに、結局飲んでしまった。", "vietnamese": "Hôm nay đã định không uống mà rốt cuộc vẫn uống." },
+    { "japanese": "すぐ返事をするつもりでしたが、遅くなってすみません。", "vietnamese": "Tôi đã định trả lời ngay, xin lỗi vì đã muộn." }
+  ]
+}

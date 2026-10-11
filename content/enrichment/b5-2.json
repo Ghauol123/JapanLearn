@@ -1,0 +1,28 @@
+{
+  "explanation": "Động từ ghép chỉ giai đoạn gắn sau Vます để cho biết hành động đang ở giai đoạn nào: bắt đầu (～始める, ～出す), tiếp diễn (～続ける), kết thúc (～終わる). Động từ ghép đều được chia như động từ nhóm 2 (始める, 続ける) hoặc nhóm 1 (出す, 終わる).\n\n～始める là bắt đầu một cách bình thường, có thể có ý chí; ～出す nhấn mạnh sự bắt đầu đột ngột, bất ngờ, thường không do ý chí (泣き出す, 降り出す, 笑い出す). Vì vậy ～出す không dùng cho lời mời, lời nhờ hay ý định.",
+  "formation": [
+    { "wordType": "Bắt đầu", "rule": "Vます + 始める", "samples": ["読む → 読み始める", "住む → 住み始める"] },
+    { "wordType": "Bắt đầu đột ngột", "rule": "Vます + 出す", "samples": ["泣く → 泣き出す", "降る → 降り出す", "走る → 走り出す"] },
+    { "wordType": "Tiếp tục", "rule": "Vます + 続ける", "samples": ["働く → 働き続ける", "待つ → 待ち続ける"] },
+    { "wordType": "Kết thúc", "rule": "Vます + 終わる", "samples": ["食べる → 食べ終わる", "書く → 書き終わる"] }
+  ],
+  "usage": [
+    "～始める／～終わる dùng với hành động có ý chí: 「レポートを書き始めた」「本を読み終わった」.",
+    "～出す hay đi với hiện tượng tự nhiên và cảm xúc bột phát: 「急に雨が降り出した」.",
+    "～続ける nói về hành động kéo dài: 「10年間日記をつけ続けている」."
+  ],
+  "pitfalls": [
+    "～出す không dùng cho ý chí: ✗「明日から勉強し出そう」 → ✓「明日から勉強し始めよう」.",
+    "～終わる chỉ dùng với hành động có điểm kết thúc rõ (ăn, viết, đọc); không dùng với động từ trạng thái như ✗ 住み終わる.",
+    "Ghép với する: 勉強する → 勉強し始める (giữ し), không phải ✗ 勉強始める."
+  ],
+  "comparisons": [
+    { "pattern": "～かける・～きる・～通す", "targetId": "b25-1", "difference": "Bài 25 bổ sung các giai đoạn khác: dở dang (～かける), làm trọn (～きる), làm liên tục tới cùng (～通す)." },
+    { "pattern": "～ている", "targetId": null, "difference": "～ている chỉ hành động đang diễn ra tại một thời điểm; ～続ける nhấn mạnh việc duy trì kéo dài, không dừng lại." }
+  ],
+  "examples": [
+    { "japanese": "映画の途中で、隣の子供が急に泣き出した。", "vietnamese": "Giữa phim, đứa trẻ bên cạnh đột nhiên òa khóc." },
+    { "japanese": "去年からジョギングを始めて、今も毎朝走り続けている。", "vietnamese": "Tôi bắt đầu chạy bộ từ năm ngoái và đến giờ vẫn chạy mỗi sáng." },
+    { "japanese": "この本は難しくて、読み終わるまで１か月かかった。", "vietnamese": "Cuốn sách này khó nên tôi mất một tháng mới đọc xong." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "explanation": "Bị động sai khiến (使役受身) là thể sai khiến được chuyển tiếp sang bị động: \"bị (ai đó) bắt làm\". Chủ ngữ là người phải làm hành động, người ra lệnh đánh dấu bằng に. Mẫu này luôn mang cảm giác KHÔNG tự nguyện, miễn cưỡng, hoặc bất mãn.\n\nKhi đi với động từ cảm xúc (感心する, 考える, 驚く...), nghĩa chuyển thành \"tự nhiên bị khiến cho phải...\": 「考えさせられた」 = (sự việc đó) khiến tôi phải suy nghĩ nhiều. Cách dùng này không có ý bất mãn mà diễn tả cảm xúc nảy sinh ngoài ý muốn.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Vない (đuôi あ) + される (dạng rút gọn), hoặc + せられる", "samples": ["書く → 書かされる", "飲む → 飲まされる", "待つ → 待たされる"] },
+    { "wordType": "Động từ nhóm 1 đuôi す", "rule": "Vさ + せられる (không rút gọn)", "samples": ["話す → 話させられる", "直す → 直させられる"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + させられる", "samples": ["食べる → 食べさせられる", "覚える → 覚えさせられる"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → させられる; 来る → 来させられる (こさせられる)", "samples": ["掃除する → 掃除させられる", "来る → 来させられる"] }
+  ],
+  "usage": [
+    "Cấu trúc: [người phải làm] は [người ra lệnh] に Vさせられる.",
+    "Rất hay dùng để kể lại trải nghiệm vất vả khi đi học, đi làm: 「部活で毎日走らされた」.",
+    "Với động từ cảm xúc/suy nghĩ: 「考えさせられる」「感心させられる」「驚かされる」 diễn tả cảm xúc mạnh tự nhiên nảy sinh."
+  ],
+  "pitfalls": [
+    "Nhóm 1 đuôi す không rút gọn: ✗ 話さされる → ✓ 話させられる.",
+    "Không dùng với sai khiến cho phép: muốn nói \"được cho phép làm\" thì dùng ～させてもらう, không dùng ～させられる.",
+    "Người ra lệnh dùng に: ✗「先生を作文を書かされた」 → ✓「先生に作文を書かされた」."
+  ],
+  "comparisons": [
+    { "pattern": "～させてもらう", "targetId": "b15-2", "difference": "～させてもらう: được (người khác) cho phép làm điều mình muốn — sắc thái biết ơn. ～させられる: bị bắt làm điều mình không muốn." },
+    { "pattern": "Bị động gián tiếp", "targetId": "b1-1", "difference": "Bị động gián tiếp: người khác làm gì đó và mình chịu phiền. Bị động sai khiến: chính mình bị bắt phải làm." }
+  ],
+  "examples": [
+    { "japanese": "飲み会で先輩にお酒をたくさん飲まされた。", "vietnamese": "Ở buổi nhậu tôi bị đàn anh bắt uống rất nhiều rượu." },
+    { "japanese": "病院で２時間も待たされて、疲れてしまった。", "vietnamese": "Bị bắt chờ ở bệnh viện tận 2 tiếng nên tôi mệt rã rời." },
+    { "japanese": "子供のころ、毎日ピアノを練習させられたのが嫌だった。", "vietnamese": "Hồi nhỏ tôi ghét việc bị bắt tập đàn piano mỗi ngày." },
+    { "japanese": "彼のスピーチには本当に感動させられた。", "vietnamese": "Bài phát biểu của anh ấy thật sự khiến tôi xúc động." }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "explanation": "N + らしい (điển hình) diễn tả việc sự vật/con người mang đầy đủ những đặc điểm, tính chất tiêu biểu mà N vốn nên có: \"đúng chất N, ra dáng N, mang phong thái N\". Câu 「春らしい天気」 nghĩa là thời tiết đúng kiểu mùa xuân.\n\nらしい ở đây biến đổi như tính từ đuôi い: らしい + N, らしく + V, らしくない. Dạng 「Nらしい N」 với cùng một danh từ lặp lại (病気らしい病気) nghĩa là \"một cái N cho ra hồn\", thường đi với phủ định.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + らしい (+ N)", "samples": ["春 → 春らしい天気", "男 → 男らしい人"] },
+    { "wordType": "Bổ nghĩa động từ", "rule": "N + らしく + V", "samples": ["学生 → 学生らしく勉強する", "子供 → 子供らしく遊ぶ"] },
+    { "wordType": "Phủ định", "rule": "N + らしくない", "samples": ["あなた → あなたらしくない", "彼 → 彼らしくない"] }
+  ],
+  "usage": [
+    "Khen ngợi khi thấy đúng tính chất: 「彼女らしい優しい手紙だ」.",
+    "Phê bình khi không đúng tính chất: 「今日の君は君らしくないね」.",
+    "Nらしい N + phủ định: 「休みらしい休みがない」 (không có ngày nghỉ nào ra hồn)."
+  ],
+  "pitfalls": [
+    "Không nhầm với らしい suy đoán: 「男らしい」 = nam tính, còn 「男らしい (suy đoán)」 = hình như là đàn ông — ngữ cảnh quyết định; dạng らしく／らしくない hầu như luôn là điển hình.",
+    "Cảm giác \"giống mà không phải\" dùng っぽい hoặc みたい: 子供っぽい (trẻ con, dù là người lớn) khác với 子供らしい (hồn nhiên đúng kiểu trẻ con)."
+  ],
+  "comparisons": [
+    { "pattern": "～っぽい", "targetId": "b25-2", "difference": "っぽい: có vẻ giống N dù thực ra không phải (thường chê: 子供っぽい). らしい: thật sự là N và có đủ phẩm chất tiêu biểu (thường khen)." },
+    { "pattern": "～らしい（推量）", "targetId": "b2-2", "difference": "Suy đoán dựa trên thông tin nghe được; điển hình nói về tính chất đặc trưng." }
+  ],
+  "examples": [
+    { "japanese": "今日は暖かくて、春らしい一日だった。", "vietnamese": "Hôm nay ấm áp, đúng là một ngày mùa xuân." },
+    { "japanese": "学生なら学生らしく、もっと勉強しなさい。", "vietnamese": "Đã là học sinh thì hãy học hành cho ra dáng học sinh." },
+    { "japanese": "忙しくて、最近は休みらしい休みがない。", "vietnamese": "Bận quá, dạo này chẳng có ngày nghỉ nào ra hồn." }
+  ]
+}

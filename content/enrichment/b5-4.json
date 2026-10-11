@@ -1,0 +1,26 @@
+{
+  "explanation": "～っぱなし (từ 放す — buông ra) diễn tả việc làm một hành động rồi bỏ mặc đó, không làm tiếp bước lẽ ra phải làm (tắt, đóng, cất dọn): \"cứ để nguyên…, bỏ mặc…\". Người nói thường không hài lòng, trách móc.\n\nNghĩa thứ hai: một trạng thái kéo dài liên tục quá lâu: 立ちっぱなし (đứng suốt), 負けっぱなし (thua liên tục), 働きっぱなし (làm việc liên tục không nghỉ). Ở nghĩa này cũng thường có sắc thái mệt mỏi, than phiền.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vます bỏ ます + っぱなし", "samples": ["つける → つけっぱなし", "出す → 出しっぱなし", "開ける → 開けっぱなし"] },
+    { "wordType": "Cuối câu", "rule": "Vます + っぱなしだ", "samples": ["立つ → 立ちっぱなしだ", "負ける → 負けっぱなしだ"] },
+    { "wordType": "Với する／bổ nghĩa", "rule": "Vっぱなしにする／Vっぱなしの + N", "samples": ["出す → 出しっぱなしにする", "置く → 置きっぱなしの本"] }
+  ],
+  "usage": [
+    "Phàn nàn việc không tắt, không dọn: 「エアコンをつけっぱなしにしないで」.",
+    "Than phiền trạng thái kéo dài: 「今日は一日中立ちっぱなしで、足が痛い」.",
+    "Văn nói thân mật, ít dùng trong văn bản trang trọng."
+  ],
+  "pitfalls": [
+    "Sắc thái tiêu cực; với việc tốt, có chủ ý thì dùng ～まま: 「ドアを開けたままにしておいてください」 (lịch sự), ✗ 開けっぱなしにしておいてください nghe như trách.",
+    "Gắn với Vます, không gắn với Vた: ✗ つけたっぱなし."
+  ],
+  "comparisons": [
+    { "pattern": "～まま", "targetId": "b5-3", "difference": "～まま trung tính, chỉ trạng thái được giữ nguyên; ～っぱなし nhấn mạnh sự cẩu thả, bỏ mặc, thường có ý chê." },
+    { "pattern": "～続ける", "targetId": "b5-2", "difference": "～続ける: chủ động duy trì hành động; ～っぱなし: trạng thái kéo dài ngoài mong muốn." }
+  ],
+  "examples": [
+    { "japanese": "弟はいつも部屋の電気をつけっぱなしにして出かける。", "vietnamese": "Em trai tôi lúc nào cũng để đèn phòng bật nguyên rồi đi ra ngoài." },
+    { "japanese": "机の上に本が出しっぱなしになっているよ。片付けて。", "vietnamese": "Sách vẫn bày bừa trên bàn kìa. Dọn đi." },
+    { "japanese": "新幹線が混んでいて、東京までずっと立ちっぱなしだった。", "vietnamese": "Tàu Shinkansen đông nên tôi phải đứng suốt đến Tokyo." }
+  ]
+}

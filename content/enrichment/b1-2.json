@@ -1,0 +1,26 @@
+{
+  "explanation": "Sai khiến cảm xúc dùng thể sai khiến của các động từ chỉ cảm xúc (泣く, 笑う, 怒る, 喜ぶ, 驚く, 心配する, 安心する, がっかりする, 困る...) để nói rằng một người/việc LÀM CHO ai đó có cảm xúc ấy. Ở đây không có ý \"ra lệnh\" hay \"cho phép\" — người bị tác động không hề tự nguyện chọn cảm xúc đó.\n\nVì không phải là ra lệnh, mẫu này dùng được với cả người trên: 「両親を喜ばせたい」「先生を驚かせた」. Người chịu cảm xúc luôn đánh dấu bằng を.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Vない (đuôi あ) + せる", "samples": ["泣く → 泣かせる", "笑う → 笑わせる", "困る → 困らせる"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + させる", "samples": ["呆れる → 呆れさせる"] },
+    { "wordType": "Động từ nhóm 3", "rule": "N する → N させる", "samples": ["安心する → 安心させる", "心配する → 心配させる", "がっかりする → がっかりさせる"] }
+  ],
+  "usage": [
+    "Cấu trúc cố định: [người/việc gây ra] が [người có cảm xúc] を Vさせる.",
+    "Hay đi với ～たい／～ないように／～てしまった để nói mong muốn hoặc sự áy náy: 「親を心配させないように」「彼女を怒らせてしまった」.",
+    "Chủ thể gây cảm xúc có thể là sự việc: 「そのニュースは国民を驚かせた」."
+  ],
+  "pitfalls": [
+    "✗「弟に泣かせた」 → ✓「弟を泣かせた」: người có cảm xúc dùng を, không dùng に.",
+    "Muốn diễn tả cảm xúc của người khác thì dùng ～がる (母は不安がる), còn sai khiến cảm xúc là MÌNH (hoặc việc gì đó) làm cho họ có cảm xúc."
+  ],
+  "comparisons": [
+    { "pattern": "Sai khiến cưỡng chế / cho phép", "targetId": null, "difference": "Sai khiến thông thường (子供に野菜を食べさせる) là ra lệnh hay cho phép, chỉ dùng với người dưới. Sai khiến cảm xúc chỉ là gây ra cảm xúc, dùng được với mọi đối tượng." },
+    { "pattern": "～がる", "targetId": "b4-3", "difference": "～がる miêu tả cảm xúc của ngôi thứ ba từ bên ngoài; sai khiến cảm xúc nói ai/cái gì gây ra cảm xúc ấy." }
+  ],
+  "examples": [
+    { "japanese": "彼はいつも面白い話をして、みんなを笑わせる。", "vietnamese": "Anh ấy lúc nào cũng kể chuyện vui làm mọi người cười." },
+    { "japanese": "遅くまで連絡しないで、母を心配させてしまった。", "vietnamese": "Không liên lạc đến khuya khiến mẹ tôi lo lắng." },
+    { "japanese": "急に会社を辞めると言って、上司を驚かせた。", "vietnamese": "Tôi đột ngột nói sẽ nghỉ việc làm cấp trên giật mình." }
+  ]
+}
