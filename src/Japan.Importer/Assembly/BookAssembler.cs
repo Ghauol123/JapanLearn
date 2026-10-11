@@ -9,6 +9,10 @@ public static class BookAssembler
 {
     public const int ExpectedPointCount = 106;
 
+    // Exam-technique points in the source only have a meaning; every other point needs structure and examples.
+    public static readonly IReadOnlySet<string> TechniquePoints =
+        new HashSet<string>(["b26-1", "b26-2", "b26-3", "b27-4", "b28-1", "b28-2", "b28-3"], StringComparer.Ordinal);
+
     private sealed record LessonParts(string Title, List<GrammarPoint> Points, List<Table> QuickComparisons);
 
     public static AssemblyResult Assemble(
@@ -86,6 +90,12 @@ public static class BookAssembler
     {
         var where = $"{file}: {id} ({p.Pattern})";
         if (p.Meaning.IsEmpty) yield return $"{where}: thiếu \"Ý nghĩa\"";
+        if (!TechniquePoints.Contains(id))
+        {
+            if (p.Structure.IsEmpty) yield return $"{where}: thiếu \"Cấu trúc\"";
+            if (p.Examples.Count == 0) yield return $"{where}: thiếu \"Ví dụ\"";
+        }
+
         for (var i = 0; i < p.Examples.Count; i++)
         {
             if (string.IsNullOrWhiteSpace(p.Examples[i].Japanese) || string.IsNullOrWhiteSpace(p.Examples[i].Vietnamese))

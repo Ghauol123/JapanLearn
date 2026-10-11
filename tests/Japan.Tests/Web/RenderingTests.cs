@@ -27,6 +27,12 @@ public class RenderingTests
         Assert.Equal("<mark>Tranh</mark> thủ, <mark>tranh</mark> &lt;x&gt;",
             Html(Highlight.Mark("Tranh thủ, tranh <x>", "～tranh")));
 
+    [Theory]
+    [InlineData("Tranh thủ làm", "tranh thu", "<mark>Tranh thủ</mark> làm")]
+    [InlineData("熱いうちに", "ウチニ", "熱い<mark>うちに</mark>")]
+    public void Mark_UsesSearchNormalization(string text, string query, string expected) =>
+        Assert.Equal(expected, Html(Highlight.Mark(text, query)));
+
     [Fact]
     public void Mark_NoQuery_ReturnsEncodedText() =>
         Assert.Equal("&lt;x&gt;", Html(Highlight.Mark("<x>", "  ")));

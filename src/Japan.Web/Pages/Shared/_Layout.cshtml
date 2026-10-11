@@ -23,7 +23,7 @@
         @if (!Repo.IsLoaded)
         {
             <div class="alert alert-warning">
-                <strong>Chưa có dữ liệu.</strong> Không tìm thấy <code>@Repo.DataPath</code>.
+                <strong>Chưa có dữ liệu.</strong> <code>@Repo.LoadError</code>.
                 Hãy chạy <code>dotnet run --project src/Japan.Importer</code> trong thư mục repo rồi tải lại trang.
             </div>
         }

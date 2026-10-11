@@ -69,12 +69,27 @@ public class BookAssemblerTests
     [Fact]
     public void Assemble_TechniquePointWithMeaningOnly_IsValid_ButMeaningIsRequired()
     {
-        var technique = new RawPoint(1, "Tốc độ làm bài", new Section(["Mỗi câu tối đa 1 phút."], []), Section.Empty, null, []);
-        var noMeaning = new RawPoint(2, "～x", Section.Empty, Section.Empty, null, []);
+        var technique = new RawPoint(3, "Tốc độ làm bài", new Section(["Mỗi câu tối đa 1 phút."], []), Section.Empty, null, []);
+        var noMeaning = new RawPoint(3, "～x", Section.Empty, new Section(["Vる + x"], []), null, [new Example("例文。", "Dịch.")]);
 
-        var result = BookAssembler.Assemble([Doc("a.docx", null, L(1, technique, noMeaning))], NoEnrichment, Now, 2);
+        var result = BookAssembler.Assemble(
+            [Doc("a.docx", null, L(1, noMeaning)) with { ExcludedLessons = [.. Enumerable.Range(2, 25)] },
+             Doc("b.docx", null, L(26, technique))],
+            NoEnrichment, Now, 2);
 
-        Assert.Equal([$"a.docx: b1-2 (～x): thiếu \"Ý nghĩa\""], result.Errors);
+        Assert.Equal([$"a.docx: b1-3 (～x): thiếu \"Ý nghĩa\""], result.Errors);
+    }
+
+    [Fact]
+    public void Assemble_RegularPointWithoutStructureOrExamples_IsError()
+    {
+        var bare = new RawPoint(1, "～x", new Section(["Nghĩa."], []), Section.Empty, null, []);
+
+        var result = BookAssembler.Assemble([Doc("a.docx", null, L(1, bare))], NoEnrichment, Now, 1);
+
+        Assert.Equal(
+            [$"a.docx: b1-1 (～x): thiếu \"Cấu trúc\"", $"a.docx: b1-1 (～x): thiếu \"Ví dụ\""],
+            result.Errors);
     }
 
     [Fact]

@@ -49,6 +49,31 @@ public class GrammarSearchTests
         Assert.Contains("富士山", hit.Snippet);
     }
 
+    [Fact]
+    public void Search_LongField_SnippetContainsMatchPastTheStart()
+    {
+        var meaning = new string('a', 300) + " điểm mấu chốt " + new string('b', 300);
+        var book = new GrammarBook([new Lesson(1, "Bài 1", [TestBooks.Point(1, 1, "～x", meaning)], [])], DateTimeOffset.UnixEpoch);
+
+        var hit = Assert.Single(new GrammarSearch(book).Search("diem mau chot"));
+
+        Assert.Contains("điểm mấu chốt", hit.Snippet);
+        Assert.StartsWith("…", hit.Snippet);
+        Assert.EndsWith("…", hit.Snippet);
+        Assert.Equal(160, hit.Snippet.Length);
+    }
+
+    [Theory]
+    [InlineData("Tranh thủ làm", "tranh thu", 0, 9)]
+    [InlineData("Hãy ăn khi CÒN nóng", "con nong", 11, 8)]
+    [InlineData("熱いうちに食べて", "ウチニ", 2, 3)]
+    [InlineData("A  B", "a b", 0, 4)]
+    public void FindIn_ReturnsRangeInRawText(string raw, string query, int start, int length) =>
+        Assert.Equal((start, length), TextNormalizer.FindIn(raw, TextNormalizer.Normalize(query)));
+
+    [Fact]
+    public void FindIn_NoMatch_ReturnsNull() => Assert.Null(TextNormalizer.FindIn("abc", "xyz"));
+
     [Theory]
     [InlineData(null)]
     [InlineData("")]

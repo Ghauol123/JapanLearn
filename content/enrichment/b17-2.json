@@ -17,7 +17,7 @@
   ],
   "comparisons": [
     { "pattern": "～ところに（直前）", "targetId": "b7-4", "difference": "～ようとしたところに: đúng lúc định làm thì có người/việc đến — nhấn mạnh thời điểm." },
-    { "pattern": "～つもりだ", "targetId": "b4-2", "difference": "～つもり là ý định trong đầu; ～ようとする là ý định đã chuyển thành hành động (hoặc sắp)." }
+    { "pattern": "Vるつもりだ（予定）", "targetId": null, "difference": "～つもり là ý định trong đầu; ～ようとする là ý định đã chuyển thành hành động (hoặc sắp)." }
   ],
   "examples": [
     { "japanese": "電話をかけようとしたら、ちょうど彼から電話がかかってきた。", "vietnamese": "Vừa định gọi điện thì đúng lúc anh ấy gọi đến." },

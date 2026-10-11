@@ -13,10 +13,9 @@ public sealed class GrammarModel(GrammarRepository repo) : PageModel
 
     public IActionResult OnGet(string id)
     {
-        var point = repo.Find(id);
+        var (point, previous, next) = repo.Locate(id);
         if (point is null) return NotFound();
-        Point = point;
-        (Previous, Next) = repo.Neighbors(id);
+        (Point, Previous, Next) = (point, previous, next);
         return Page();
     }
 }

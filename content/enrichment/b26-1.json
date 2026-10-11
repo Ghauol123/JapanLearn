@@ -13,7 +13,7 @@
   ],
   "comparisons": [
     { "pattern": "Ráp từng cụm nhỏ", "targetId": "b26-2", "difference": "Bước tiếp theo: ghép các mảnh thành cụm ngữ pháp nhỏ rồi mới ráp cả câu." },
-    { "pattern": "Ngữ pháp hay gặp khi ráp câu", "targetId": "b27-1", "difference": "Bài 27 tổng hợp các mẫu hay xuất hiện trong dạng bài này (という, を～として, から～にかけて…)." }
+    { "pattern": "～という・～といった", "targetId": "b27-1", "difference": "Mẫu đầu tiên của Bài 27 — bài tổng hợp các mẫu hay xuất hiện trong dạng ráp câu (という, を～として, から～にかけて…)." }
   ],
   "examples": [
     { "japanese": "毎日練習しているのだから、試合に負けるはずがない。", "vietnamese": "Vì ngày nào cũng luyện tập nên không thể nào thua trận được. (Ngữ pháp chính: はずがない — đứng sau Vる)" },

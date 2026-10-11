@@ -31,17 +31,19 @@
     clearTimeout(timer);
     timer = setTimeout(async () => {
       const q = box.value.trim();
+      controller?.abort();
       if (!q) {
         results.innerHTML = '';
         list.hidden = false;
         return;
       }
-      controller?.abort();
       controller = new AbortController();
       try {
         const res = await fetch(`${box.dataset.searchUrl}&q=${encodeURIComponent(q)}`, { signal: controller.signal });
-        results.innerHTML = await res.text();
-        list.hidden = true;
+        if (!res.ok) return;
+        const html = (await res.text()).trim();
+        results.innerHTML = html;
+        list.hidden = html.length > 0;
       } catch (e) {
         if (e.name !== 'AbortError') throw e;
       }
