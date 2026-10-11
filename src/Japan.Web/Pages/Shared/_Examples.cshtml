@@ -1,0 +1,10 @@
+@model IReadOnlyList<Example>
+<ol class="examples">
+    @foreach (var e in Model)
+    {
+        <li>
+            <div class="jp">@Html.Ruby(e)</div>
+            <div class="text-body-secondary">→ @e.Vietnamese</div>
+        </li>
+    }
+</ol>

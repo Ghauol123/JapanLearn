@@ -1,4 +1,20 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿(() => {
+  const key = 'furigana';
+  const button = document.getElementById('furigana-toggle');
+  let on = localStorage.getItem(key) !== 'off';
 
-// Write your JavaScript code.
+  const apply = () => {
+    document.body.classList.toggle('hide-furigana', !on);
+    if (button) {
+      button.classList.toggle('active', on);
+      button.setAttribute('aria-pressed', String(on));
+    }
+  };
+
+  apply();
+  button?.addEventListener('click', () => {
+    on = !on;
+    localStorage.setItem(key, on ? 'on' : 'off');
+    apply();
+  });
+})();

@@ -1,10 +1,29 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Mục lục";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<form method="get" action="/timkiem" class="mb-4" role="search">
+    <input id="search-box" name="q" type="search" class="form-control form-control-lg"
+           placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autocomplete="off"
+           data-search-url="@Url.Page("/Search", "Partial")" />
+</form>
+<div id="search-results"></div>
+<div id="lesson-list" class="row row-cols-1 row-cols-md-2 g-3">
+    @foreach (var lesson in Model.Lessons)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="h5 card-title"><a asp-page="/Lesson" asp-route-n="@lesson.Number">Bài @lesson.Number: @lesson.Title</a></h2>
+                    <ul class="list-unstyled mb-0">
+                        @foreach (var p in lesson.Points)
+                        {
+                            <li><a asp-page="/Grammar" asp-route-id="@p.Id" class="jp">@p.Pattern</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
 </div>

@@ -1,0 +1,123 @@
+@page "/nguphap/{id}"
+@model GrammarModel
+@{
+    var p = Model.Point;
+    var e = p.Enrichment;
+    ViewData["Title"] = p.Pattern;
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+        <li class="breadcrumb-item"><a asp-page="/Lesson" asp-route-n="@p.Lesson">Bài @p.Lesson</a></li>
+        <li class="breadcrumb-item active jp" aria-current="page">@p.Pattern</li>
+    </ol>
+</nav>
+<h1 class="jp mb-4">@p.Pattern</h1>
+
+<section class="card mb-4">
+    <div class="card-body">
+        <h2 class="h6 text-uppercase text-body-secondary">Giáo trình</h2>
+        <h3 class="h5">Ý nghĩa</h3>
+        <partial name="_Section" model="p.Meaning" />
+        @if (!p.Structure.IsEmpty)
+        {
+            <h3 class="h5">Cấu trúc</h3>
+            <partial name="_Section" model="p.Structure" />
+        }
+        @if (p.Note is { } note)
+        {
+            <h3 class="h5">Lưu ý</h3>
+            <partial name="_Section" model="note" />
+        }
+        @if (p.Examples.Count > 0)
+        {
+            <h3 class="h5">Ví dụ</h3>
+            <partial name="_Examples" model="p.Examples" />
+        }
+    </div>
+</section>
+
+@if (e is not null)
+{
+    <section class="card mb-4 enrichment">
+        <div class="card-body">
+            <h2 class="h6 text-uppercase text-info-emphasis">Bổ sung <span class="badge text-bg-info">không có trong giáo trình</span></h2>
+
+            <h3 class="h5">Giải thích chi tiết</h3>
+            @foreach (var para in e.Explanation.Split("\n\n", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+            {
+                <p class="jp">@para</p>
+            }
+
+            @if (e.Formation.Count > 0)
+            {
+                <h3 class="h5">Công thức theo loại từ</h3>
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered align-middle">
+                        <thead class="table-light"><tr><th>Loại từ</th><th>Cách ghép</th><th>Ví dụ</th></tr></thead>
+                        <tbody>
+                            @foreach (var f in e.Formation)
+                            {
+                                <tr><td>@f.WordType</td><td class="jp">@f.Rule</td><td class="jp">@string.Join("、", f.Samples)</td></tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+
+            @if (e.Usage.Count > 0)
+            {
+                <h3 class="h5">Cách dùng</h3>
+                <ul>@foreach (var u in e.Usage) { <li class="jp">@u</li> }</ul>
+            }
+
+            @if (e.Pitfalls.Count > 0)
+            {
+                <h3 class="h5">Lưu ý &amp; lỗi hay gặp</h3>
+                <ul>@foreach (var u in e.Pitfalls) { <li class="jp">@u</li> }</ul>
+            }
+
+            @if (e.Comparisons.Count > 0)
+            {
+                <h3 class="h5">So sánh</h3>
+                <ul>
+                    @foreach (var c in e.Comparisons)
+                    {
+                        <li class="jp">
+                            @if (c.TargetId is not null)
+                            {
+                                <a asp-page="/Grammar" asp-route-id="@c.TargetId">@c.Pattern</a>
+                            }
+                            else
+                            {
+                                <strong>@c.Pattern</strong>
+                            }
+                            : @c.Difference
+                        </li>
+                    }
+                </ul>
+            }
+
+            @if (e.Examples.Count > 0)
+            {
+                <h3 class="h5">Ví dụ thêm</h3>
+                <partial name="_Examples" model="e.Examples" />
+            }
+        </div>
+    </section>
+}
+
+<nav class="d-flex justify-content-between">
+    @if (Model.Previous is { } prev)
+    {
+        <a class="btn btn-outline-primary" asp-page="/Grammar" asp-route-id="@prev.Id">← <span class="jp">@prev.Pattern</span></a>
+    }
+    else
+    {
+        <span></span>
+    }
+    @if (Model.Next is { } next)
+    {
+        <a class="btn btn-outline-primary" asp-page="/Grammar" asp-route-id="@next.Id"><span class="jp">@next.Pattern</span> →</a>
+    }
+</nav>

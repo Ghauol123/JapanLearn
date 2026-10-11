@@ -1,0 +1,26 @@
+@page "/bai/{n:int}"
+@model LessonModel
+@{
+    ViewData["Title"] = $"Bài {Model.Lesson.Number}";
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Bài @Model.Lesson.Number</li>
+    </ol>
+</nav>
+<h1 class="h3 mb-3">Bài @Model.Lesson.Number: @Model.Lesson.Title</h1>
+<div class="list-group mb-4">
+    @foreach (var p in Model.Lesson.Points)
+    {
+        <a class="list-group-item list-group-item-action" asp-page="/Grammar" asp-route-id="@p.Id">
+            <div class="fw-bold jp">@p.Index. @p.Pattern</div>
+            <div class="small text-body-secondary">@string.Join(" ", p.Meaning.Paragraphs)</div>
+        </a>
+    }
+</div>
+@foreach (var table in Model.Lesson.QuickComparisons)
+{
+    <h2 class="h5">Bảng so sánh nhanh</h2>
+    <partial name="_Table" model="table" />
+}

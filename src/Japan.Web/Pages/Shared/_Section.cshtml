@@ -1,0 +1,9 @@
+@model Japan.Core.Section
+@foreach (var paragraph in Model.Paragraphs)
+{
+    <p class="jp">@paragraph</p>
+}
+@foreach (var table in Model.Tables)
+{
+    <partial name="_Table" model="table" />
+}

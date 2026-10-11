@@ -1,26 +1,28 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+using Japan.Web.Services;
+using Microsoft.Extensions.WebEncoders;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.Configure<WebEncoderOptions>(o => o.TextEncoderSettings = new TextEncoderSettings(UnicodeRanges.All));
+builder.Services.Configure<GrammarDataOptions>(builder.Configuration.GetSection(GrammarDataOptions.Section));
+builder.Services.AddSingleton<GrammarRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-
 app.UseRouting();
-
-app.UseAuthorization();
-
 app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+app.MapRazorPages().WithStaticAssets();
 
 app.Run();
+
+public partial class Program
+{
+}

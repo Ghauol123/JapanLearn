@@ -1,12 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
+using Japan.Core;
+using Japan.Web.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Japan.Web.Pages;
 
-public class IndexModel : PageModel
+public sealed class IndexModel(GrammarRepository repo) : PageModel
 {
-    public void OnGet()
-    {
-
-    }
+    public IReadOnlyList<Lesson> Lessons => repo.Lessons;
 }
