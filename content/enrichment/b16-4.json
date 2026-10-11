@@ -1,0 +1,27 @@
+{
+  "explanation": "～たらどう(か) là cách gợi ý, khuyên nhủ đối phương dưới dạng câu hỏi: \"thử… xem sao?, sao không…?\". Vì là câu hỏi nên nghe nhẹ nhàng hơn mệnh lệnh hay ～べきだ, nhưng giữa bạn bè, người thân đôi khi mang sắc thái hơi thúc giục, sốt ruột.\n\nCác mức độ lịch sự: 「～たら？」 (thân mật, bỏ どう) < 「～たらどう？」 < 「～たらどうですか」 < 「～たらいかがですか」 < 「～たらいかがでしょうか」 (rất lịch sự).",
+  "formation": [
+    { "wordType": "Thân mật", "rule": "Vたら(どう)？", "samples": ["休む → 休んだら？", "聞く → 聞いたらどう？"] },
+    { "wordType": "Lịch sự", "rule": "Vたら + どうですか／いかがですか", "samples": ["相談する → 相談したらどうですか", "帰る → 帰ったらいかがですか"] },
+    { "wordType": "Rất lịch sự", "rule": "Vたら + いかがでしょうか", "samples": ["試す → 試してみたらいかがでしょうか"] }
+  ],
+  "usage": [
+    "Gợi ý cho bạn bè: 「そんなに疲れているなら、少し休んだら？」.",
+    "Đề xuất trong công việc: 「一度、部長に相談してみたらいかがでしょうか」.",
+    "Hay đi với ～てみたら (thử làm xem)."
+  ],
+  "pitfalls": [
+    "Với cấp trên, tránh dạng ～たらどう？ vì nghe như ra lệnh; dùng いかがでしょうか.",
+    "Giọng điệu thúc giục có thể nghe như trách: 「少しは勉強したらどう？」 (học chút đi chứ)."
+  ],
+  "comparisons": [
+    { "pattern": "～といい（アドバイス）", "targetId": "b15-4", "difference": "～といい khuyên dạng khẳng định; ～たらどう gợi ý dạng câu hỏi." },
+    { "pattern": "～べきだ", "targetId": "b16-3", "difference": "べきだ khẳng định mạnh theo lẽ phải; ～たらどう chỉ gợi ý, để đối phương tự quyết." },
+    { "pattern": "～ほうがいい", "targetId": null, "difference": "～たほうがいい mạnh hơn, có ý \"nếu không thì không tốt\"." }
+  ],
+  "examples": [
+    { "japanese": "そんなに悩んでいるなら、先生に相談してみたらどう？", "vietnamese": "Nếu đang băn khoăn đến thế thì thử hỏi ý kiến thầy xem sao?" },
+    { "japanese": "顔色が悪いですね。今日はもう帰ったらいかがですか。", "vietnamese": "Sắc mặt anh không tốt. Hôm nay về sớm thì sao ạ?" },
+    { "japanese": "ゲームばかりしていないで、たまには外で遊んだら？", "vietnamese": "Đừng chỉ chơi game nữa, thỉnh thoảng ra ngoài chơi đi chứ?" }
+  ]
+}

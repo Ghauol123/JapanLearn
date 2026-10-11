@@ -1,0 +1,26 @@
+{
+  "explanation": "N + にとって nghĩa là \"đối với (ai)…, xét từ góc độ của (ai)…\": nêu lập trường, quan điểm của một người hay một nhóm để đưa ra đánh giá. Vế sau luôn là một nhận định, đánh giá: 大切だ, 難しい, 便利だ, 問題だ, 必要だ, うれしい.\n\nDạng にとっての + N bổ nghĩa danh từ: 「私にとっての幸せ」 (hạnh phúc đối với tôi). Mẫu này dùng được cả văn nói và văn viết.",
+  "formation": [
+    { "wordType": "Danh từ (người／tổ chức)", "rule": "N + にとって + (đánh giá)", "samples": ["私 → 私にとって大切だ", "子供 → 子供にとって危ない"] },
+    { "wordType": "Nhấn mạnh", "rule": "N + にとっては／にとっても", "samples": ["学生 → 学生にとっては高い", "親 → 親にとっても"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N + にとっての + N", "samples": ["私 → 私にとっての幸せ"] }
+  ],
+  "usage": [
+    "Đánh giá theo góc nhìn: 「この問題は外国人にとって難しい」.",
+    "Bày tỏ giá trị cá nhân: 「家族は私にとって一番大切なものだ」.",
+    "So sánh góc nhìn: 「大人にとっては簡単でも、子供にとっては難しい」."
+  ],
+  "pitfalls": [
+    "Vế sau không dùng hành động, thái độ: ✗「先生にとって丁寧に話す」 → ✓「先生に対して丁寧に話す」.",
+    "Không dùng với vế sau là ý kiến thuần túy như 賛成する, 反対する: ✗「私にとって賛成です」 → ✓「私は賛成です」."
+  ],
+  "comparisons": [
+    { "pattern": "～に対して（対象）", "targetId": "b20-1", "difference": "に対して: thái độ, hành động hướng đến ai; にとって: đánh giá từ góc nhìn của ai." },
+    { "pattern": "～として", "targetId": "b20-4", "difference": "として: với tư cách, vai trò là gì; にとって: từ lập trường của ai." }
+  ],
+  "examples": [
+    { "japanese": "このネックレスは、私にとって母の形見で大切な物だ。", "vietnamese": "Chiếc vòng cổ này là kỷ vật của mẹ, đối với tôi rất quý giá." },
+    { "japanese": "お年寄りにとって、この階段は少し危ない。", "vietnamese": "Đối với người già, cầu thang này hơi nguy hiểm." },
+    { "japanese": "留学生にとって、アルバイトは大切な収入だ。", "vietnamese": "Đối với du học sinh, việc làm thêm là nguồn thu nhập quan trọng." }
+  ]
+}

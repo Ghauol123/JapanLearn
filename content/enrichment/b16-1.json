@@ -1,0 +1,28 @@
+{
+  "explanation": "Thể mệnh lệnh (命令形) là cách ra lệnh trực tiếp, mạnh mẽ: \"làm đi!\". Thể cấm đoán Vる + な nghĩa là \"không được…!\". Cả hai đều rất mạnh, thô và chỉ dùng trong những tình huống đặc biệt: người trên nói với người dưới (bố với con, huấn luyện viên với cầu thủ), giữa bạn bè nam thân thiết, khi cổ vũ (頑張れ!), khi khẩn cấp (逃げろ!), hoặc trên biển báo (止まれ, 入るな).\n\nKhi trích dẫn lời người khác thì thể mệnh lệnh không mang sắc thái thô: 「医者に酒を飲むなと言われた」 (bị bác sĩ dặn không được uống rượu) — cách này rất hay dùng.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Chuyển đuôi う → え", "samples": ["行く → 行け", "待つ → 待て", "頑張る → 頑張れ"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + ろ", "samples": ["食べる → 食べろ", "起きる → 起きろ", "寝る → 寝ろ"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → しろ; 来る → 来い (こい)", "samples": ["勉強する → 勉強しろ", "来る → 来い"] },
+    { "wordType": "Cấm đoán", "rule": "Vる + な", "samples": ["入る → 入るな", "忘れる → 忘れるな", "触る → 触るな"] }
+  ],
+  "usage": [
+    "Cổ vũ, khẩn cấp: 「頑張れ！」「危ない、逃げろ！」.",
+    "Biển báo, khẩu hiệu: 「止まれ」「スピード出すな」.",
+    "Trích dẫn: 「早く寝ろと言われた」「遅刻するなと注意された」."
+  ],
+  "pitfalls": [
+    "Tuyệt đối không dùng với người trên, khách hàng; nữ giới hầu như không dùng trực tiếp.",
+    "Không nhầm Vるな (cấm) với Vな (mời, văn nói nữ: 食べな — ăn đi) hay なさい."
+  ],
+  "comparisons": [
+    { "pattern": "～なさい", "targetId": null, "difference": "～なさい là mệnh lệnh nhẹ hơn, dùng với trẻ con, học sinh (bố mẹ, thầy cô)." },
+    { "pattern": "～こと", "targetId": "b16-2", "difference": "～こと là chỉ thị bằng văn bản, trang trọng; thể mệnh lệnh là lời nói trực tiếp, thô." },
+    { "pattern": "Truyền đạt mệnh lệnh", "targetId": "b29-2", "difference": "Bài 29 hệ thống cách trích dẫn mệnh lệnh: Vろと／Vるなと言われる." }
+  ],
+  "examples": [
+    { "japanese": "がんばれ！あと少しでゴールだ！", "vietnamese": "Cố lên! Còn chút nữa là về đích rồi!" },
+    { "japanese": "危ないから、ここで遊ぶな。", "vietnamese": "Nguy hiểm đấy, không được chơi ở đây." },
+    { "japanese": "父に「早く起きろ」と言われて、目が覚めた。", "vietnamese": "Bị bố bảo \"dậy nhanh lên\" nên tôi tỉnh giấc." }
+  ]
+}

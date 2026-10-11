@@ -1,0 +1,28 @@
+{
+  "explanation": "尊敬語 (tôn kính ngữ) dùng để nói về hành động, trạng thái của người trên hoặc người cần tôn trọng (cấp trên, khách hàng, thầy cô, người lớn tuổi), nhằm nâng cao họ. Chủ ngữ của câu luôn là người được tôn kính, KHÔNG BAO GIỜ là bản thân người nói.\n\nCó ba cách tạo: ① công thức お＋Vます＋になる (お読みになる); ② dạng bị động ～れる／～られる (読まれる) — nhẹ hơn; ③ động từ đặc biệt (いらっしゃる, なさる, 召し上がる, おっしゃる, ご覧になる). Với động từ có dạng đặc biệt thì ưu tiên dùng dạng đặc biệt.",
+  "formation": [
+    { "wordType": "Công thức chung", "rule": "お + Vます + になる ／ ご + N(する) + になる", "samples": ["読む → お読みになる", "帰る → お帰りになる", "利用する → ご利用になる"] },
+    { "wordType": "Dạng bị động", "rule": "Vれる／Vられる", "samples": ["書く → 書かれる", "来る → 来られる"] },
+    { "wordType": "Yêu cầu lịch sự", "rule": "お + Vます + ください", "samples": ["待つ → お待ちください", "座る → おかけください"] },
+    { "wordType": "Động từ đặc biệt", "rule": "Dạng riêng", "samples": ["いる → いらっしゃる", "する → なさる", "見る → ご覧になる", "食べる → 召し上がる"] }
+  ],
+  "usage": [
+    "Hỏi khách hàng: 「何になさいますか」 (quý khách dùng gì ạ).",
+    "Nói về cấp trên với người khác: 「部長はもうお帰りになりました」.",
+    "Yêu cầu lịch sự: 「こちらにお名前をお書きください」."
+  ],
+  "pitfalls": [
+    "Không dùng tôn kính ngữ cho hành động của mình hay người trong công ty mình khi nói với khách: ✗「社長はいらっしゃいません」 (nói với khách) → ✓「社長はおりません」.",
+    "Không dùng chồng hai lớp kính ngữ: ✗ お読みになられる (二重敬語).",
+    "Động từ 1 âm tiết (見る, 寝る) không dùng お～になる: ✗ お見になる → ✓ ご覧になる."
+  ],
+  "comparisons": [
+    { "pattern": "謙譲語１", "targetId": "b18-2", "difference": "尊敬語 nâng người trên (chủ ngữ là họ); 謙譲語 hạ mình (chủ ngữ là mình)." },
+    { "pattern": "丁寧語", "targetId": "b18-4", "difference": "丁寧語 chỉ làm lời nói lịch sự chung (です／ます／ございます), không gắn với chủ thể hành động." }
+  ],
+  "examples": [
+    { "japanese": "先生は何時ごろ大学にいらっしゃいますか。", "vietnamese": "Mấy giờ thầy đến trường đại học ạ?" },
+    { "japanese": "こちらの資料をご覧になってください。", "vietnamese": "Xin mời xem tài liệu này ạ." },
+    { "japanese": "社長はもうお帰りになりました。", "vietnamese": "Giám đốc đã về rồi ạ." }
+  ]
+}

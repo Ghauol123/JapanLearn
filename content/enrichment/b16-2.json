@@ -1,0 +1,25 @@
+{
+  "explanation": "Vる／Vない + こと ở cuối câu là cách đưa ra chỉ thị, quy định, nội quy một cách ngắn gọn và khách quan: \"phải…, không được…\". Nó không nhắm đến một người cụ thể mà áp dụng cho tất cả, nên thường xuất hiện trong văn bản: nội quy, hướng dẫn thi, thông báo, bảng tin, đề bài.\n\nKhi nói trực tiếp, giáo viên hoặc cấp trên cũng dùng để nhắc nhở, nhưng giọng điệu rất nghiêm.",
+  "formation": [
+    { "wordType": "Khẳng định", "rule": "Vる + こと", "samples": ["出す → 必ず出すこと", "書く → 名前を書くこと"] },
+    { "wordType": "Phủ định", "rule": "Vない + こと", "samples": ["遅れない → 遅れないこと", "使わない → 携帯を使わないこと"] }
+  ],
+  "usage": [
+    "Nội quy: 「室内でたばこを吸わないこと」.",
+    "Hướng dẫn thi, nộp bài: 「解答は鉛筆で書くこと」.",
+    "Hay đi với 必ず, 絶対に để nhấn mạnh."
+  ],
+  "pitfalls": [
+    "Không dùng với người trên hoặc trong hội thoại lịch sự.",
+    "Đừng nhầm với ～ことにする／～ことになる hay ～ことがある — こと ở đây đứng một mình cuối câu."
+  ],
+  "comparisons": [
+    { "pattern": "Thể mệnh lệnh", "targetId": "b16-1", "difference": "Thể mệnh lệnh là lời nói trực tiếp, cảm xúc; ～こと là văn bản, khách quan, áp dụng chung." },
+    { "pattern": "～ように", "targetId": "b29-2", "difference": "～ように (注意する／言う) dùng để truyền đạt chỉ thị; ～こと là chính câu chỉ thị." }
+  ],
+  "examples": [
+    { "japanese": "図書館の中では、大きな声で話さないこと。", "vietnamese": "Trong thư viện không được nói to." },
+    { "japanese": "レポートは来週の金曜日までに必ず提出すること。", "vietnamese": "Báo cáo phải nộp trước thứ Sáu tuần sau." },
+    { "japanese": "ゴミは決められた日に出すこと。", "vietnamese": "Rác phải được bỏ ra vào đúng ngày quy định." }
+  ]
+}

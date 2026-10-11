@@ -1,0 +1,27 @@
+{
+  "explanation": "謙譲語１ (khiêm nhường ngữ 1) dùng cho hành động của bản thân (hoặc người phía mình) có liên quan, hướng đến người trên: thăm, hỏi, gửi, giúp, gặp… người đó. Bằng cách hạ thấp hành động của mình, người nói gián tiếp tôn trọng đối phương.\n\nCông thức chung: お＋Vます＋する (お持ちする) hoặc ご＋N＋する (ご案内する). Một số động từ có dạng đặc biệt: 伺う (hỏi/thăm), 拝見する (xem), 申し上げる (nói), お目にかかる (gặp), さしあげる (tặng), いただく (nhận). Điều kiện bắt buộc: phải có người trên làm đối tượng của hành động.",
+  "formation": [
+    { "wordType": "Công thức chung", "rule": "お + Vます + する ／ ご + N + する", "samples": ["持つ → お持ちします", "送る → お送りします", "案内する → ご案内します"] },
+    { "wordType": "Khả năng", "rule": "お + Vます + できる", "samples": ["届ける → お届けできます", "答える → お答えできません"] },
+    { "wordType": "Nhận hành động", "rule": "Vて + いただく", "samples": ["教える → 教えていただく", "来る → 来ていただく"] },
+    { "wordType": "Động từ đặc biệt", "rule": "Dạng riêng", "samples": ["聞く／訪ねる → 伺う", "見る → 拝見する", "会う → お目にかかる"] }
+  ],
+  "usage": [
+    "Đề nghị giúp đỡ: 「お荷物をお持ちしましょうか」.",
+    "Thăm hỏi cấp trên: 「明日、事務所に伺います」.",
+    "Nhận được giúp đỡ: 「先生に推薦状を書いていただきました」."
+  ],
+  "pitfalls": [
+    "Không dùng khi hành động không liên quan đến người trên: ✗「私は毎朝お散歩します」 → dùng 謙譲語２ hoặc 丁寧語.",
+    "Không dùng お～する cho hành động của người trên: ✗「先生がお読みしました」 → ✓「先生がお読みになりました」."
+  ],
+  "comparisons": [
+    { "pattern": "尊敬語", "targetId": "b18-1", "difference": "尊敬語: người trên làm; 謙譲語１: mình làm hướng đến người trên." },
+    { "pattern": "謙譲語２", "targetId": "b18-3", "difference": "謙譲語２ (丁重語) lịch sự hóa hành động của mình với người nghe, không cần có đối tượng là người trên." }
+  ],
+  "examples": [
+    { "japanese": "重そうですね。その荷物、お持ちしましょうか。", "vietnamese": "Trông nặng quá. Để tôi mang hành lý đó giúp nhé." },
+    { "japanese": "会議の資料は、明日メールでお送りします。", "vietnamese": "Tài liệu cuộc họp tôi sẽ gửi qua email vào ngày mai ạ." },
+    { "japanese": "先日、社長にお目にかかる機会がありました。", "vietnamese": "Hôm trước tôi đã có dịp được gặp giám đốc." }
+  ]
+}
