@@ -1,0 +1,28 @@
+{
+  "explanation": "～という và ～といった có ba cách dùng chính.\n\n① N1 + という + N2: giới thiệu tên gọi của người, vật, địa danh mà người nghe (hoặc người nói) có thể chưa biết: \"(cái) tên là…, gọi là…\".\n\n② Nội dung (câu thể thường) + という + N: nêu nội dung cụ thể của danh từ chỉ thông tin như うわさ, ニュース, 話, 意見, 連絡, 知らせ, こと: \"(tin đồn) rằng…\".\n\n③ X、Y(、Z) + といった + N: đưa ra vài ví dụ tiêu biểu trong một nhóm: \"chẳng hạn như…, như là…\". Gần nghĩa với など nhưng trang trọng hơn.",
+  "formation": [
+    { "wordType": "Tên gọi", "rule": "N1 + という + N2", "samples": ["さくら → さくらという店", "ハノイ → ハノイという町"] },
+    { "wordType": "Nội dung", "rule": "Thể thường + という + N (うわさ／話／こと…)", "samples": ["結婚する → 結婚するといううわさ", "中止だ → 中止だという連絡"] },
+    { "wordType": "Ví dụ", "rule": "N1、N2 + といった + N", "samples": ["寿司、天ぷら → 寿司や天ぷらといった日本料理", "英語、中国語 → 英語、中国語といった外国語"] }
+  ],
+  "usage": [
+    "Giới thiệu: 「『千と千尋』というアニメを知っていますか」.",
+    "Nội dung tin tức: 「明日、台風が来るというニュースを見た」.",
+    "Ví dụ: 「サッカーや野球といったスポーツが好きだ」."
+  ],
+  "pitfalls": [
+    "Ở cách dùng ②, nếu nội dung kết thúc bằng danh từ/tính từ な thì thường thêm だ: 「中止だという知らせ」.",
+    "といった chỉ dùng trước danh từ; không dùng といった ở cuối câu.",
+    "Với danh từ chỉ cảm giác, sự việc trực tiếp (におい, 音) thì nối trực tiếp, không cần という: 「魚を焼くにおい」."
+  ],
+  "comparisons": [
+    { "pattern": "～など", "targetId": null, "difference": "など liệt kê không hết, văn nói/viết đều dùng; といった đứng trước danh từ chung bao quát các ví dụ, trang trọng hơn." },
+    { "pattern": "～って", "targetId": "b13-4", "difference": "って là dạng văn nói của という (～っていう店)." },
+    { "pattern": "～ということだ", "targetId": "b13-1", "difference": "ということだ ở cuối câu dùng để truyền đạt lại thông tin; という + N ở giữa câu bổ nghĩa danh từ." }
+  ],
+  "examples": [
+    { "japanese": "駅の近くに「ひまわり」というカフェがあります。", "vietnamese": "Gần ga có một quán cà phê tên là \"Himawari\"." },
+    { "japanese": "来月から電気代が上がるという話を聞きました。", "vietnamese": "Tôi nghe nói rằng từ tháng sau giá điện sẽ tăng." },
+    { "japanese": "京都や奈良といった古い町には、お寺がたくさんある。", "vietnamese": "Những thành phố cổ như Kyoto hay Nara có rất nhiều chùa." }
+  ]
+}

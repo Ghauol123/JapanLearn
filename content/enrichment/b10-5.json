@@ -1,0 +1,27 @@
+{
+  "explanation": "～かわりに có ba nghĩa chính. ① Thay thế: không làm X mà làm Y thay vào (新車を買うかわりに中古車にした). ② Bù lại, đổi lại: X có mặt này thì Y có mặt khác tương xứng (給料が高いかわりに残業が多い). ③ Trao đổi: A làm X cho B, đổi lại B làm Y cho A (日本語を教えるかわりに英語を教えて).\n\nNgoài ra N + のかわりに còn nghĩa \"thay mặt cho ai\": 「父のかわりに私が行きます」.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + かわりに", "samples": ["教える → 教えるかわりに", "行かない → 行かないかわりに"] },
+    { "wordType": "Tính từ い", "rule": "Aい + かわりに", "samples": ["高い → 高いかわりに"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + かわりに", "samples": ["得意 → 得意なかわりに", "便利 → 便利なかわりに"] },
+    { "wordType": "Danh từ", "rule": "N + の + かわりに", "samples": ["父 → 父のかわりに", "肉 → 肉のかわりに"] }
+  ],
+  "usage": [
+    "Thay thế đồ vật/người: 「バターのかわりに油を使う」「部長のかわりに会議に出る」.",
+    "Đổi lại, có qua có lại: 「手伝ってくれたかわりに、ご飯をおごる」.",
+    "Bù trừ ưu – nhược: 「この部屋は狭いかわりに、駅に近い」."
+  ],
+  "pitfalls": [
+    "Danh từ phải có の: ✗ 父かわりに → ✓ 父のかわりに.",
+    "Nghĩa bù trừ hai mặt phải tương xứng về mức độ; nếu chỉ đối lập đơn thuần thì dùng ～反面."
+  ],
+  "comparisons": [
+    { "pattern": "～反面", "targetId": "b10-2", "difference": "～反面 chỉ hai mặt trái ngược; ～かわりに nhấn mạnh sự bù trừ, đổi lại (được cái này thì mất cái kia)." },
+    { "pattern": "～ずに", "targetId": "b6-3", "difference": "～ずに: không làm X mà làm Y (cách thức); ～かわりに: chọn Y thay cho X (thay thế có chủ ý)." }
+  ],
+  "examples": [
+    { "japanese": "今日は社長のかわりに、私が会議に出席します。", "vietnamese": "Hôm nay tôi sẽ dự họp thay giám đốc." },
+    { "japanese": "この部屋は駅から遠いかわりに、家賃が安い。", "vietnamese": "Căn phòng này xa ga, nhưng bù lại tiền thuê rẻ." },
+    { "japanese": "引っ越しを手伝うかわりに、晩ご飯をごちそうしてね。", "vietnamese": "Tớ giúp cậu chuyển nhà, đổi lại cậu mời tớ bữa tối nhé." }
+  ]
+}

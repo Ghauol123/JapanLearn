@@ -1,0 +1,23 @@
+{
+  "explanation": "Sau khi đã nắm ý chính và nhận ra ngữ pháp trọng tâm, đừng cố xếp cả 4 mảnh cùng lúc. Hãy ghép từng cặp mảnh có quan hệ chặt chẽ thành cụm nhỏ trước: động từ + mẫu ngữ pháp đi sau nó, danh từ + trợ từ + động từ, từ bổ nghĩa + danh từ.\n\nKhi đã có 2 cụm, việc ghép chúng lại và nối với phần trước/sau chỗ trống trở nên đơn giản hơn nhiều. Cách này giảm số khả năng phải thử từ 24 xuống chỉ còn vài trường hợp.",
+  "usage": [
+    "Ghép cặp chắc chắn trước: mảnh kết thúc bằng Vる + mảnh bắt đầu bằng しかない／わけにはいかない….",
+    "Ghép cụm bổ nghĩa: mảnh có động từ thể thường đứng trước mảnh danh từ (社長から伺った + の).",
+    "Ghép các cụm lại, sau đó nối với phần cố định trước và sau chỗ trống.",
+    "Đọc lại toàn câu một lần để chắc nghĩa tự nhiên."
+  ],
+  "pitfalls": [
+    "Một mảnh có thể ghép được với nhiều mảnh khác về ngữ pháp; chọn theo nghĩa của cả câu.",
+    "Những mảnh chỉ có trợ từ hoặc từ ngắn (の, こと, も) thường là chìa khóa — xác định nó đi với cụm nào.",
+    "Đừng quên phần câu đã cho sẵn sau chỗ trống quyết định mảnh cuối cùng."
+  ],
+  "comparisons": [
+    { "pattern": "Nắm ý nghĩa tổng quát", "targetId": "b26-1", "difference": "Bước 1 là đọc ý chính và tìm ngữ pháp chính; bước 2 này là ráp cụm nhỏ." },
+    { "pattern": "Trợ từ + の", "targetId": "b27-4", "difference": "Cụm 「trợ từ + の」 (への, からの, との) thường là manh mối để ghép mảnh với danh từ phía sau." }
+  ],
+  "examples": [
+    { "japanese": "終電がなくなったので、タクシーで帰るしかない。", "vietnamese": "Hết chuyến tàu cuối nên chỉ còn cách về bằng taxi. (Cụm nhỏ: タクシーで帰る + しかない)" },
+    { "japanese": "先生からいただいた本を、今も大切にしている。", "vietnamese": "Cuốn sách nhận được từ thầy, đến giờ tôi vẫn giữ gìn cẩn thận. (Cụm nhỏ: 先生から + いただいた + 本を)" },
+    { "japanese": "チケットを一枚買うのに、２時間も並ばされた。", "vietnamese": "Chỉ để mua một vé mà bị bắt xếp hàng tới 2 tiếng. (Cụm nhỏ: 買う + のに; ２時間も + 並ばされた)" }
+  ]
+}

@@ -1,0 +1,183 @@
+@page "/nguphap/{id}"
+@model GrammarModel
+@{
+    var p = Model.Point;
+    var e = p.Enrichment;
+    ViewData["Title"] = p.Pattern;
+
+    var toc = new List<(string Id, string Title, bool Extra)> { ("y-nghia", "Ý nghĩa", false) };
+    if (!p.Structure.IsEmpty) toc.Add(("cau-truc", "Cấu trúc", false));
+    if (p.Note is not null) toc.Add(("luu-y", "Lưu ý", false));
+    if (p.Examples.Count > 0) toc.Add(("vi-du", "Ví dụ", false));
+    if (e is not null)
+    {
+        toc.Add(("giai-thich", "Giải thích chi tiết", true));
+        if (e.Formation.Count > 0) toc.Add(("cong-thuc", "Công thức", true));
+        if (e.Usage.Count > 0) toc.Add(("cach-dung", "Cách dùng", true));
+        if (e.Pitfalls.Count > 0) toc.Add(("loi-hay-gap", "Lỗi hay gặp", true));
+        if (e.Comparisons.Count > 0) toc.Add(("so-sanh", "So sánh", true));
+        if (e.Examples.Count > 0) toc.Add(("vi-du-them", "Ví dụ thêm", true));
+    }
+}
+<div class="point-layout">
+    <aside class="toc" aria-label="Mục lục trang">
+        <p class="toc-label">Trong trang này</p>
+        <ul>
+            @foreach (var item in toc)
+            {
+                <li><a href="#@item.Id" class="@(item.Extra ? "toc-extra" : null)">@item.Title</a></li>
+            }
+        </ul>
+    </aside>
+
+    <article class="point-main">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+                <li class="breadcrumb-item"><a asp-page="/Lesson" asp-route-n="@p.Lesson">Bài @p.Lesson</a></li>
+                <li class="breadcrumb-item active ja" aria-current="page">@p.Pattern</li>
+            </ol>
+        </nav>
+        <header class="point-head">
+            <p class="eyebrow">Bài @p.Lesson · Điểm @p.Index</p>
+            <h1 class="point-title ja">@p.Pattern</h1>
+        </header>
+
+        <section id="y-nghia" class="block">
+            <h2 class="block-title">Ý nghĩa</h2>
+            <div class="lead-text"><partial name="_Section" model="p.Meaning" /></div>
+        </section>
+
+        @if (!p.Structure.IsEmpty)
+        {
+            <section id="cau-truc" class="block">
+                <h2 class="block-title">Cấu trúc</h2>
+                <div class="formula"><partial name="_Section" model="p.Structure" /></div>
+            </section>
+        }
+
+        @if (p.Note is { } note)
+        {
+            <section id="luu-y" class="block block-note">
+                <h2 class="block-title">Lưu ý</h2>
+                <partial name="_Section" model="note" />
+            </section>
+        }
+
+        @if (p.Examples.Count > 0)
+        {
+            <section id="vi-du" class="block">
+                <h2 class="block-title">Ví dụ</h2>
+                <partial name="_Examples" model="p.Examples" />
+            </section>
+        }
+
+        @if (e is not null)
+        {
+            <div id="bo-sung" class="extra">
+                <div class="extra-head">
+                    <span class="badge-extra">Bổ sung</span>
+                    <span class="extra-note">Phần mở rộng, không có trong giáo trình gốc</span>
+                </div>
+
+                <section id="giai-thich" class="block">
+                    <h2 class="block-title">Giải thích chi tiết</h2>
+                    @foreach (var para in e.Explanation.Split("\n\n", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+                    {
+                        <p class="jp">@para</p>
+                    }
+                </section>
+
+                @if (e.Formation.Count > 0)
+                {
+                    <section id="cong-thuc" class="block">
+                        <h2 class="block-title">Công thức theo loại từ</h2>
+                        <div class="formation">
+                            @foreach (var f in e.Formation)
+                            {
+                                <div class="formation-row">
+                                    <div class="formation-type">@f.WordType</div>
+                                    <div class="formation-rule jp">@f.Rule</div>
+                                    <div class="formation-samples">
+                                        @foreach (var s in f.Samples)
+                                        {
+                                            <span class="sample ja">@s</span>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </section>
+                }
+
+                @if (e.Usage.Count > 0)
+                {
+                    <section id="cach-dung" class="block">
+                        <h2 class="block-title">Cách dùng</h2>
+                        <ul class="bullets">@foreach (var u in e.Usage) { <li class="jp">@u</li> }</ul>
+                    </section>
+                }
+
+                @if (e.Pitfalls.Count > 0)
+                {
+                    <section id="loi-hay-gap" class="block block-warn">
+                        <h2 class="block-title">Lưu ý &amp; lỗi hay gặp</h2>
+                        <ul class="bullets">@foreach (var u in e.Pitfalls) { <li class="jp">@u</li> }</ul>
+                    </section>
+                }
+
+                @if (e.Comparisons.Count > 0)
+                {
+                    <section id="so-sanh" class="block">
+                        <h2 class="block-title">So sánh</h2>
+                        <div class="compare-grid">
+                            @foreach (var c in e.Comparisons)
+                            {
+                                <div class="compare-card">
+                                    @if (c.TargetId is not null)
+                                    {
+                                        <a class="compare-pattern ja" asp-page="/Grammar" asp-route-id="@c.TargetId">@c.Pattern <span aria-hidden="true">→</span></a>
+                                    }
+                                    else
+                                    {
+                                        <span class="compare-pattern ja">@c.Pattern</span>
+                                    }
+                                    <p class="jp mb-0">@c.Difference</p>
+                                </div>
+                            }
+                        </div>
+                    </section>
+                }
+
+                @if (e.Examples.Count > 0)
+                {
+                    <section id="vi-du-them" class="block">
+                        <h2 class="block-title">Ví dụ thêm</h2>
+                        <partial name="_Examples" model="e.Examples" />
+                    </section>
+                }
+            </div>
+        }
+
+        <nav class="pager" aria-label="Điểm ngữ pháp trước và sau">
+            @if (Model.Previous is { } prev)
+            {
+                <a class="pager-link" rel="prev" asp-page="/Grammar" asp-route-id="@prev.Id">
+                    <span class="pager-dir">← Trước</span>
+                    <span class="pager-pattern ja">@prev.Pattern</span>
+                </a>
+            }
+            else
+            {
+                <span></span>
+            }
+            @if (Model.Next is { } next)
+            {
+                <a class="pager-link pager-next" rel="next" asp-page="/Grammar" asp-route-id="@next.Id">
+                    <span class="pager-dir">Sau →</span>
+                    <span class="pager-pattern ja">@next.Pattern</span>
+                </a>
+            }
+        </nav>
+    </article>
+</div>

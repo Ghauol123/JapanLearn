@@ -1,0 +1,25 @@
+{
+  "explanation": "～とは限らない nghĩa là \"không hẳn là…, chưa chắc đã…\": người nói phủ nhận việc một điều được cho là đương nhiên luôn đúng; vẫn có ngoại lệ. Đây là phủ định một phần, không phủ định hoàn toàn.\n\nMẫu này rất hay đi với các từ chỉ tính tuyệt đối ở vế trước: 必ずしも, いつも, 誰でも, みんな, 全部, ～からといって (chỉ vì… mà…).",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + とは限らない", "samples": ["勝つ → 勝つとは限らない", "おいしい → おいしいとは限らない"] },
+    { "wordType": "Danh từ／Tính từ な", "rule": "N／Aな + (だ) + とは限らない", "samples": ["本当 → 本当だとは限らない", "安全 → 安全だとは限らない"] }
+  ],
+  "usage": [
+    "Bác bỏ định kiến: 「高いものが必ずしもいいとは限らない」.",
+    "Với ～からといって: 「日本人だからといって、敬語が上手だとは限らない」.",
+    "Lời nhắc nhở cẩn thận: 「天気予報が当たるとは限らないから、傘を持って行こう」."
+  ],
+  "pitfalls": [
+    "Không dùng để phủ định hoàn toàn: muốn nói \"tuyệt đối không\" thì dùng ～はずがない.",
+    "Không có dạng ✗ とは限る trong câu khẳng định với nghĩa này."
+  ],
+  "comparisons": [
+    { "pattern": "～わけではない", "targetId": "b14-3", "difference": "～わけではない phủ định một suy luận cụ thể từ tình huống; ～とは限らない phủ định tính tuyệt đối của một quy luật chung." },
+    { "pattern": "～はずがない", "targetId": "b14-1", "difference": "～はずがない: hoàn toàn không thể; ～とは限らない: có thể không." }
+  ],
+  "examples": [
+    { "japanese": "値段が高い料理がおいしいとは限らない。", "vietnamese": "Món ăn đắt chưa chắc đã ngon." },
+    { "japanese": "先生の言うことがいつも正しいとは限らないよ。", "vietnamese": "Lời thầy nói không hẳn lúc nào cũng đúng đâu." },
+    { "japanese": "日本に住んでいるからといって、日本語が話せるとは限らない。", "vietnamese": "Không phải cứ sống ở Nhật là nói được tiếng Nhật." }
+  ]
+}

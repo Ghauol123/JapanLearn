@@ -1,0 +1,27 @@
+{
+  "explanation": "Bị động gián tiếp (còn gọi là \"bị động chịu thiệt\" — 迷惑の受身) là đặc trưng riêng của tiếng Nhật: chủ ngữ KHÔNG phải là đối tượng trực tiếp của hành động, mà là người bị hành động đó gây phiền, gây thiệt hại. Câu chủ động gốc thường không có chỗ cho chủ ngữ này: 「雨が降った」→「(私は)雨に降られた」 (tôi bị mưa ướt, mắc mưa).\n\nVì vậy bị động gián tiếp dùng được cả với tự động từ (降る, 来る, 死ぬ, 泣く, やめる...), điều mà tiếng Việt và tiếng Anh không có. Sắc thái luôn là khó chịu, phiền toái hoặc đáng tiếc đối với chủ ngữ.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Vない (đuôi あ) + れる", "samples": ["降る → 降られる", "死ぬ → 死なれる", "置く → 置かれる"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + られる", "samples": ["見る → 見られる", "やめる → やめられる", "建てる → 建てられる"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → される; 来る → 来られる (こられる)", "samples": ["反対する → 反対される", "来る → 来られる"] }
+  ],
+  "usage": [
+    "Người gây ra hành động đánh dấu bằng に: 「子供に泣かれる」「隣の人にピアノを弾かれる」.",
+    "Nếu hành động tác động lên đồ vật thuộc về chủ ngữ, đồ vật giữ trợ từ を: 「(私は)弟にケーキを食べられた」.",
+    "Chủ ngữ thường là 私 và hay được lược bỏ; câu thường đi với ～て、困った／～てしまった để nói rõ hậu quả."
+  ],
+  "pitfalls": [
+    "✗「私のケーキは弟に食べられた」 vẫn đúng ngữ pháp nhưng là bị động trực tiếp lên đồ vật; muốn nhấn mạnh \"tôi bị thiệt\" thì nói ✓「私は弟にケーキを食べられた」.",
+    "Không dùng khi chủ ngữ được lợi: ✗「先生に褒められて困った」 nghe kỳ; việc có lợi thì dùng ～てもらう: ✓「友達に手伝ってもらった」."
+  ],
+  "comparisons": [
+    { "pattern": "Bị động trực tiếp (直接受身)", "targetId": null, "difference": "Bị động trực tiếp: chủ ngữ là đối tượng chịu hành động (先生に叱られた — bị thầy mắng), không nhất thiết mang nghĩa phiền toái. Bị động gián tiếp: chủ ngữ không bị tác động trực tiếp nhưng chịu hậu quả xấu." },
+    { "pattern": "～てもらう", "targetId": null, "difference": "～てもらう diễn tả việc người khác làm và mình được lợi; bị động gián tiếp diễn tả việc người khác làm và mình bị thiệt." }
+  ],
+  "examples": [
+    { "japanese": "夜中に隣の赤ちゃんに泣かれて、よく眠れなかった。", "vietnamese": "Nửa đêm em bé nhà bên khóc nên tôi không ngủ ngon được." },
+    { "japanese": "電車の中で隣の人に足を踏まれた。", "vietnamese": "Trên tàu tôi bị người bên cạnh giẫm vào chân." },
+    { "japanese": "大切な試験の前の日に、父に死なれてしまった。", "vietnamese": "Đúng ngày trước kỳ thi quan trọng thì bố tôi qua đời (để lại cú sốc lớn cho tôi)." },
+    { "japanese": "妹に日記を読まれて、恥ずかしかった。", "vietnamese": "Bị em gái đọc nhật ký, tôi xấu hổ quá." }
+  ]
+}

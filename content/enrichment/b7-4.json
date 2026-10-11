@@ -1,0 +1,26 @@
+{
+  "explanation": "ところ (\"thời điểm, giai đoạn\") kết hợp với trợ từ để chỉ chính xác hành động đang ở giai đoạn nào khi một sự việc khác xảy ra. ～ところを: đúng lúc đang làm thì bị (ai đó thấy, bắt gặp, cản) — vế sau thường là bị động. ～ところで: đúng lúc vừa làm xong một bước thì… ～ところに／へ: đúng lúc đang ở trạng thái đó thì có người/việc đến (thường là 来る, 帰る, 電話がある).\n\nNgoài ra ～ところを còn dùng trong câu cảm ơn, xin lỗi lịch sự: 「お忙しいところをすみません」 (xin lỗi vì làm phiền lúc anh/chị đang bận).",
+  "formation": [
+    { "wordType": "～ところを", "rule": "Vている／Vる + ところを + V bị động／見る",  "samples": ["寝ている → 寝ているところを起こされた", "逃げる → 逃げるところを捕まった"] },
+    { "wordType": "～ところで", "rule": "Vた + ところで", "samples": ["終わった → 話が終わったところで", "着いた → 駅に着いたところで"] },
+    { "wordType": "～ところに／へ", "rule": "Vている／Vた／Vようとした + ところに／へ", "samples": ["出かけようとした → 出かけようとしたところに", "食べている → 食べているところへ"] }
+  ],
+  "usage": [
+    "～ところを + 見られる／見つかる: bị bắt gặp đang làm gì.",
+    "～ところに + 来る／電話がかかる: có người hoặc việc đến đúng lúc đó (thường ngoài ý muốn).",
+    "Lịch sự: 「お休みのところ、申し訳ありません」."
+  ],
+  "pitfalls": [
+    "～ところで với Vた nghĩa \"vừa xong thì\"; với V thể thường cuối câu như 「今から行ったところで間に合わない」 lại nghĩa là \"dù có… cũng vô ích\" — cần phân biệt.",
+    "Không nhầm với ～ところだ (đang định／đang／vừa mới — N4)."
+  ],
+  "comparisons": [
+    { "pattern": "～ところだ", "targetId": null, "difference": "～ところだ (N4) chỉ giai đoạn của hành động ở cuối câu; ～ところを／で／に nối sang một sự việc khác xảy ra đúng lúc đó." },
+    { "pattern": "～うちに（２）", "targetId": "b7-2", "difference": "～うちに: thay đổi xảy ra dần dần trong quá trình; ～ところに: sự việc chen vào ngay tại thời điểm cụ thể." }
+  ],
+  "examples": [
+    { "japanese": "授業中に寝ているところを、先生に見つかった。", "vietnamese": "Tôi bị thầy bắt gặp đúng lúc đang ngủ trong giờ học." },
+    { "japanese": "駅に着いたところで、雨が降り出した。", "vietnamese": "Vừa đến ga thì trời bắt đầu mưa." },
+    { "japanese": "お忙しいところをお邪魔して、申し訳ありません。", "vietnamese": "Xin lỗi vì đã làm phiền lúc anh/chị đang bận." }
+  ]
+}

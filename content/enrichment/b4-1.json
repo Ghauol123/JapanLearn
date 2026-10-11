@@ -1,0 +1,26 @@
+{
+  "explanation": "～つもりはない là cách phủ định mạnh ý định: \"hoàn toàn không có ý định…\". Trợ từ は nhấn mạnh và đối lập, nên câu thể hiện ý chí kiên quyết, thường là để phản bác điều người khác nghĩ hoặc đề nghị.\n\nDạng quá khứ ～つもりはなかった dùng để biện minh, xin lỗi: \"tôi đã không hề có ý…\" (nhưng kết quả lại thành ra như vậy).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる + つもりはない", "samples": ["変える → 変えるつもりはない", "結婚する → 結婚するつもりはない"] },
+    { "wordType": "Quá khứ", "rule": "Vる + つもりはなかった", "samples": ["言う → 言うつもりはなかった", "傷つける → 傷つけるつもりはなかった"] },
+    { "wordType": "Lịch sự", "rule": "Vる + つもりはありません", "samples": ["辞める → 辞めるつもりはありません"] }
+  ],
+  "usage": [
+    "Từ chối, phản bác dứt khoát: 「謝るつもりはない」.",
+    "Xin lỗi, giải thích khi làm tổn thương ai đó: 「傷つけるつもりはなかったんです」.",
+    "Trả lời câu hỏi về dự định: 「いいえ、そのつもりはありません」."
+  ],
+  "pitfalls": [
+    "Sắc thái rất mạnh; nói với cấp trên dễ gây mất lòng — có thể dùng mềm hơn: 「今のところ、～予定はありません」.",
+    "Phân biệt: Vないつもりだ (định là sẽ không làm — kế hoạch) khác ～つもりはない (bác bỏ hoàn toàn ý định)."
+  ],
+  "comparisons": [
+    { "pattern": "Vないつもりだ", "targetId": null, "difference": "Vないつもりだ là trình bày kế hoạch không làm một cách bình thường; ～つもりはない phủ định mạnh, mang tính phản bác." },
+    { "pattern": "～つもりだった", "targetId": "b4-2", "difference": "～つもりだった nói về ý định đã có nhưng không thực hiện được; ～つもりはなかった nói rằng mình không hề có ý định đó." }
+  ],
+  "examples": [
+    { "japanese": "何と言われても、私は謝るつもりはない。", "vietnamese": "Dù bị nói gì đi nữa, tôi cũng không có ý định xin lỗi." },
+    { "japanese": "あなたを傷つけるつもりはなかったんです。ごめんなさい。", "vietnamese": "Tôi không hề có ý làm tổn thương bạn. Xin lỗi." },
+    { "japanese": "今は仕事が楽しいので、会社を辞めるつもりはありません。", "vietnamese": "Bây giờ công việc vui nên tôi không có ý định nghỉ việc." }
+  ]
+}

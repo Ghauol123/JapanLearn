@@ -1,0 +1,27 @@
+{
+  "explanation": "Thể ý chí (V意向形) + とする có hai nghĩa. ① \"Vừa định… thì…\": hành động sắp bắt đầu thì bị một sự việc khác chen vào (dạng ～ようとしたとき／～ようとしたら／～ようとしたところ). ② \"Cố gắng…, nỗ lực để…\": diễn tả nỗ lực thực hiện (dạng ～ようとしている, ～ようとした).\n\nDạng phủ định ～ようとしない nghĩa là \"không chịu…, không có ý định…\" và chỉ dùng cho người khác: 「子供が野菜を食べようとしない」.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Đuôi う → お + う + とする", "samples": ["行く → 行こうとする", "帰る → 帰ろうとする"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vる bỏ る + よう + とする", "samples": ["寝る → 寝ようとする", "出かける → 出かけようとする"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → しようとする; 来る → 来ようとする", "samples": ["電話する → 電話しようとした"] },
+    { "wordType": "Phủ định (người khác)", "rule": "V意向形 + としない", "samples": ["聞く → 聞こうとしない", "認める → 認めようとしない"] }
+  ],
+  "usage": [
+    "Vừa định thì bị cắt ngang: 「家を出ようとしたら、雨が降ってきた」.",
+    "Nỗ lực: 「赤ちゃんが立とうとしている」.",
+    "Không chịu: 「彼は自分の間違いを認めようとしない」."
+  ],
+  "pitfalls": [
+    "～ようとしない không dùng cho chính mình: ✗「私は食べようとしない」.",
+    "Không dùng với hiện tượng tự nhiên mà người nói muốn nói \"sắp\": dùng ～そうだ (雨が降りそうだ); tuy nhiên văn viết có 「日が沈もうとしている」 (mặt trời sắp lặn)."
+  ],
+  "comparisons": [
+    { "pattern": "～ところに（直前）", "targetId": "b7-4", "difference": "～ようとしたところに: đúng lúc định làm thì có người/việc đến — nhấn mạnh thời điểm." },
+    { "pattern": "Vるつもりだ（予定）", "targetId": null, "difference": "～つもり là ý định trong đầu; ～ようとする là ý định đã chuyển thành hành động (hoặc sắp)." }
+  ],
+  "examples": [
+    { "japanese": "電話をかけようとしたら、ちょうど彼から電話がかかってきた。", "vietnamese": "Vừa định gọi điện thì đúng lúc anh ấy gọi đến." },
+    { "japanese": "思い出そうとしても、彼の名前が出てこない。", "vietnamese": "Dù cố nhớ lại nhưng tên anh ấy không hiện ra." },
+    { "japanese": "息子は何度言っても、部屋を片付けようとしない。", "vietnamese": "Con trai tôi nói bao nhiêu lần cũng không chịu dọn phòng." }
+  ]
+}

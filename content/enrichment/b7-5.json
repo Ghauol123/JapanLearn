@@ -1,0 +1,25 @@
+{
+  "explanation": "～てからでないと／～てからでなければ diễn tả điều kiện tiên quyết: phải làm xong X trước thì mới làm được Y; nếu chưa X thì không thể/không nên Y. Nghĩa: \"nếu chưa… thì không…\", \"phải… rồi mới…\".\n\nVế sau luôn mang nghĩa phủ định hoặc khó khăn: ～できない, ～わからない, ～無理だ, ～決められない. ～てからでなければ cứng và trang trọng hơn ～てからでないと.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vて + からでないと／からでなければ", "samples": ["確認する → 確認してからでないと", "相談する → 相談してからでなければ"] },
+    { "wordType": "Văn nói", "rule": "Vて + からじゃないと", "samples": ["見る → 見てからじゃないと"] }
+  ],
+  "usage": [
+    "Vế sau là phủ định/không thể: 「親に聞いてからでないと、返事できません」.",
+    "Dùng để từ chối khéo, trì hoãn quyết định: 「実物を見てからでないと、何とも言えません」.",
+    "Nói về quy trình bắt buộc: 「手を洗ってからでないと、食事してはいけない」."
+  ],
+  "pitfalls": [
+    "Vế sau không dùng khẳng định thuận chiều: ✗「確認してからでないと、サインできる」.",
+    "Không nhầm với ～てから (sau khi): ～てから chỉ thứ tự, không mang nghĩa điều kiện bắt buộc."
+  ],
+  "comparisons": [
+    { "pattern": "～てから", "targetId": null, "difference": "～てから chỉ thứ tự thời gian (làm X rồi làm Y); ～てからでないと nhấn mạnh X là điều kiện bắt buộc." },
+    { "pattern": "～ないと…ない", "targetId": null, "difference": "～ないと…ない (勉強しないと合格できない) nói điều kiện chung; ～てからでないと nhấn mạnh thứ tự trước-sau." }
+  ],
+  "examples": [
+    { "japanese": "医者に相談してからでないと、この薬は飲めません。", "vietnamese": "Phải hỏi ý kiến bác sĩ rồi mới được uống thuốc này." },
+    { "japanese": "宿題が終わってからでないと、遊びに行ってはいけないよ。", "vietnamese": "Phải làm xong bài tập rồi mới được đi chơi đấy." },
+    { "japanese": "一度会って話してからでなければ、その人を信用できない。", "vietnamese": "Phải gặp nói chuyện một lần rồi tôi mới tin được người đó." }
+  ]
+}

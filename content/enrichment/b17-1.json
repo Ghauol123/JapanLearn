@@ -1,0 +1,26 @@
+{
+  "explanation": "～ことにする diễn tả quyết định do chính người nói đưa ra một cách chủ động: \"quyết định là…\". Dạng ～ことにした rất hay dùng để thông báo quyết định vừa đưa ra. ～ことにしている diễn tả một quyết định đã có từ trước và được duy trì như một nguyên tắc, thói quen cá nhân: \"(tôi) luôn giữ thói quen…\".\n\nNgoài ra ～ことにする còn có nghĩa \"coi như là…\": 「今の話は聞かなかったことにする」 (coi như tôi chưa nghe chuyện vừa rồi).",
+  "formation": [
+    { "wordType": "Quyết định", "rule": "Vる／Vない + ことにする／ことにした", "samples": ["留学する → 留学することにした", "飲まない → 飲まないことにした"] },
+    { "wordType": "Thói quen, nguyên tắc", "rule": "Vる／Vない + ことにしている", "samples": ["歩く → 毎日歩くことにしている", "食べない → 夜は食べないことにしている"] },
+    { "wordType": "Coi như", "rule": "Vた／Vなかった + ことにする", "samples": ["聞かなかった → 聞かなかったことにする"] }
+  ],
+  "usage": [
+    "Thông báo quyết định của mình: 「来年、日本に留学することにしました」.",
+    "Nguyên tắc cá nhân: 「健康のために、エレベーターを使わないことにしている」.",
+    "Giả định coi như: 「このことは、なかったことにしよう」."
+  ],
+  "pitfalls": [
+    "Quyết định do tổ chức, hoàn cảnh thì dùng ことになる, không phải ことにする.",
+    "ことにしている là thói quen do ý chí; thói quen tự nhiên thì dùng Vるようにしている hoặc chỉ ～ている."
+  ],
+  "comparisons": [
+    { "pattern": "～ことになる", "targetId": "b5-1", "difference": "ことにする: tự mình quyết định; ことになる: được quyết định bởi bên ngoài hoặc nói khiêm tốn." },
+    { "pattern": "～ようにしている", "targetId": null, "difference": "～ようにしている: cố gắng duy trì (nỗ lực); ～ことにしている: đã quyết định là nguyên tắc." }
+  ],
+  "examples": [
+    { "japanese": "健康のために、今日からたばこをやめることにした。", "vietnamese": "Vì sức khỏe, tôi quyết định bỏ thuốc lá từ hôm nay." },
+    { "japanese": "私は寝る前にスマホを見ないことにしている。", "vietnamese": "Tôi giữ nguyên tắc không xem điện thoại trước khi ngủ." },
+    { "japanese": "今の話は、聞かなかったことにします。", "vietnamese": "Chuyện vừa rồi, tôi coi như chưa nghe." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "～ということだ／～とのことだ dùng để truyền đạt lại thông tin nghe được hoặc đọc được: \"nghe nói là…, được biết là…\". Nghĩa gần với ～そうだ (伝聞) nhưng trang trọng hơn, thường nêu rõ nguồn tin bằng ～によると／～の話では.\n\n～とのことだ đặc biệt lịch sự, hay dùng khi truyền lời nhắn trong công việc (「部長は３時に戻るとのことです」) hoặc trong thư từ, lời chúc (「ご結婚されたとのこと、おめでとうございます」).",
+  "formation": [
+    { "wordType": "Động từ／Tính từ", "rule": "V／A (thể thường) + ということだ", "samples": ["来る → 来るということだ", "高い → 高いということだ"] },
+    { "wordType": "Danh từ／Tính từ な", "rule": "N／Aな + だ + ということだ", "samples": ["休み → 休みだということだ", "有名 → 有名だということだ"] },
+    { "wordType": "Lời nhắn lịch sự", "rule": "V／A (thể thường) + とのことです", "samples": ["遅れる → 遅れるとのことです", "元気だ → 元気だとのこと"] }
+  ],
+  "usage": [
+    "Truyền đạt tin từ nguồn cụ thể: 「ニュースによると、明日は雪が降るということだ」.",
+    "Nhắn lại lời người khác trong công việc: 「田中さんから、少し遅れるとのことです」.",
+    "Mở đầu lời chúc trong thư: 「ご入学されたとのこと、おめでとうございます」."
+  ],
+  "pitfalls": [
+    "Đừng nhầm với ～ということだ (giải thích, kết luận): 「つまり、来ないということだ」 = nghĩa là không đến.",
+    "とのこと chỉ dùng cho thông tin nghe từ người khác, không dùng cho ý kiến của mình."
+  ],
+  "comparisons": [
+    { "pattern": "～そうだ（伝聞）", "targetId": null, "difference": "～そうだ là cách truyền đạt thông dụng nhất; ということだ／とのことだ trang trọng hơn, hay dùng trong công việc." },
+    { "pattern": "～と言われている", "targetId": "b13-2", "difference": "～と言われている là điều nhiều người nói (thông tin chung của xã hội); ということだ là thông tin từ một nguồn cụ thể." },
+    { "pattern": "～って", "targetId": "b13-4", "difference": "～って là dạng truyền đạt suồng sã trong văn nói." }
+  ],
+  "examples": [
+    { "japanese": "天気予報によると、今年の夏はとても暑くなるということだ。", "vietnamese": "Theo dự báo thời tiết thì mùa hè năm nay sẽ rất nóng." },
+    { "japanese": "山田さんから電話があって、会議に少し遅れるとのことです。", "vietnamese": "Anh Yamada gọi điện báo là sẽ đến họp muộn một chút." },
+    { "japanese": "お子さんが生まれたとのこと、本当におめでとうございます。", "vietnamese": "Được biết anh chị đã có em bé, xin chúc mừng." }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "explanation": "～ないことはない là phủ định kép, nghĩa đen \"không phải là không…\" = \"cũng có thể…, cũng được nhưng…\". Người nói thừa nhận một khả năng nhưng một cách miễn cưỡng, không hoàn toàn tích cực, và thường kèm điều kiện hoặc lý do ở vế sau (～が、～けど).\n\nMẫu này là cách trả lời khéo léo, tránh khẳng định thẳng thừng: 「辛いものは食べられないことはないけど、あまり好きじゃない」 (không phải không ăn được đồ cay, nhưng không thích lắm).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vない + ことはない", "samples": ["行ける → 行けないことはない", "わかる → わからないことはない"] },
+    { "wordType": "Tính từ い", "rule": "Aくない + ことはない", "samples": ["おいしい → おいしくないことはない", "高い → 高くないことはない"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + でない + ことはない", "samples": ["好き → 好きでないことはない", "いい人 → いい人でないことはない"] }
+  ],
+  "usage": [
+    "Trả lời miễn cưỡng: 「Ａ：明日来られる？ Ｂ：行けないことはないけど…」.",
+    "Thừa nhận khả năng nhưng nêu trở ngại: 「歩けないことはないが、遠い」.",
+    "Văn nói: ～ないこともない (mềm hơn nữa)."
+  ],
+  "pitfalls": [
+    "Đừng nhầm với Vることはない (không cần phải…): 「心配することはない」 = không cần lo.",
+    "Không dùng khi muốn khẳng định mạnh mẽ; mẫu này luôn có sắc thái dè dặt."
+  ],
+  "comparisons": [
+    { "pattern": "～ことは～が", "targetId": "b14-5", "difference": "～ことは～が thừa nhận một sự thật nhưng hạn chế mức độ; ～ないことはない thừa nhận một khả năng." },
+    { "pattern": "～わけではない", "targetId": "b14-3", "difference": "わけではない phủ định suy luận; ないことはない thừa nhận khả năng một cách dè dặt." }
+  ],
+  "examples": [
+    { "japanese": "納豆は食べられないことはないけど、あまり好きじゃない。", "vietnamese": "Không phải là tôi không ăn được natto, nhưng không thích lắm." },
+    { "japanese": "急げば間に合わないことはないが、少し難しい。", "vietnamese": "Nếu vội thì không phải là không kịp, nhưng hơi khó." },
+    { "japanese": "彼の気持ちもわからないことはない。", "vietnamese": "Tôi cũng không phải là không hiểu cảm giác của anh ấy." }
+  ]
+}

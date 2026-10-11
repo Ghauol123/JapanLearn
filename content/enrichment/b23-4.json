@@ -1,0 +1,24 @@
+{
+  "explanation": "Vる + と、…た (liên tiếp): cùng một chủ thể (thường là ngôi thứ ba) làm hành động X, và ngay sau đó làm hành động Y: \"vừa… là (liền)…\". Khác với các cách dùng (1)–(3), ở đây vế sau là hành động có ý chí, và chủ ngữ hai vế giống nhau.\n\nCách dùng này chủ yếu xuất hiện trong văn kể chuyện, tiểu thuyết, tường thuật. Hay đi với すぐ, すぐに để nhấn mạnh tính liên tục.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "(Chủ ngữ は) Vる + と、(すぐ) V2た", "samples": ["帰る → 家に帰ると、すぐ寝た", "聞く → 話を聞くと、笑い出した"] }
+  ],
+  "usage": [
+    "Văn kể chuyện: 「彼は部屋に入ると、窓を開けた」.",
+    "Thói quen trong một lần cụ thể: 「父は家に着くと、すぐにテレビをつけた」.",
+    "Hành động phản ứng: 「彼女はその手紙を読むと、泣き出した」."
+  ],
+  "pitfalls": [
+    "Ít dùng với ngôi thứ nhất trong hội thoại; khi nói về mình thường dùng ～て、すぐ／～てから.",
+    "Không thay bằng たら được: たら với cùng chủ ngữ và hành động ý chí ở quá khứ nghe không tự nhiên."
+  ],
+  "comparisons": [
+    { "pattern": "～と…た（きっかけ）", "targetId": "b23-3", "difference": "(3) khác chủ ngữ, Y không ý chí; (4) cùng chủ ngữ, Y là hành động ý chí." },
+    { "pattern": "～とすぐ／～たとたん", "targetId": null, "difference": "～たとたん nhấn mạnh bất ngờ, ngoài ý muốn; ～と…た kể hai hành động liên tiếp tự nhiên." }
+  ],
+  "examples": [
+    { "japanese": "彼は電車に乗ると、すぐに寝てしまった。", "vietnamese": "Anh ấy vừa lên tàu là ngủ ngay." },
+    { "japanese": "子供たちは学校から帰ると、かばんを置いて遊びに行った。", "vietnamese": "Bọn trẻ vừa đi học về là đặt cặp xuống rồi đi chơi." },
+    { "japanese": "彼女は手紙を読むと、黙って部屋を出ていった。", "vietnamese": "Cô ấy đọc xong lá thư là lặng lẽ rời khỏi phòng." }
+  ]
+}

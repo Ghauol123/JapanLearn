@@ -1,0 +1,25 @@
+{
+  "explanation": "N + によって (tác nhân) chỉ người tạo ra, phát minh, viết, xây dựng, phát hiện ra một thứ trong câu bị động: \"bởi…, do… (làm ra)\". Thường đi với các động từ sáng tạo: 発明する, 書く, 作る, 建てる, 描く, 発見する, 設計する.\n\nTrong câu bị động thông thường, tác nhân dùng に (先生に褒められた). Nhưng với động từ tạo ra sản phẩm, nếu dùng に sẽ bị hiểu nhầm là \"cho ai\", nên phải dùng によって: 「この本は夏目漱石によって書かれた」.",
+  "formation": [
+    { "wordType": "Câu bị động", "rule": "N(sản phẩm) は + N(người) + によって + V(bị động)", "samples": ["ベル → ベルによって発明された", "母 → 母によって撮られた"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N(người) + による + N", "samples": ["ピカソ → ピカソによる絵", "学生 → 学生による発表"] }
+  ],
+  "usage": [
+    "Giới thiệu tác phẩm, phát minh: 「この寺は600年前に将軍によって建てられた」.",
+    "Bài đọc lịch sử, khoa học rất hay dùng.",
+    "Bổ nghĩa: 「専門家による説明会」 (buổi giải thích do chuyên gia thực hiện)."
+  ],
+  "pitfalls": [
+    "Với động từ thông thường (叱る, 褒める, 頼む) dùng に, không dùng によって: ✗「先生によって叱られた」 (nghe cứng, không tự nhiên).",
+    "Không nhầm với によって nguyên nhân/phương tiện (Bài 11) hay sự khác biệt (Bài 8)."
+  ],
+  "comparisons": [
+    { "pattern": "Bị động với に", "targetId": null, "difference": "に dùng cho bị động thông thường (người tác động trực tiếp); によって dùng cho tác giả tạo ra sản phẩm hoặc văn viết trang trọng." },
+    { "pattern": "～によって（原因・手段）", "targetId": "b11-1", "difference": "Bài 11: によって chỉ nguyên nhân (地震によって) hoặc phương tiện (選挙によって), không phải tác giả." }
+  ],
+  "examples": [
+    { "japanese": "この小説は、有名な作家によって書かれた。", "vietnamese": "Cuốn tiểu thuyết này được viết bởi một nhà văn nổi tiếng." },
+    { "japanese": "東京タワーは1958年に多くの人によって建てられた。", "vietnamese": "Tháp Tokyo được nhiều người xây dựng vào năm 1958." },
+    { "japanese": "今日は学生による発表会が行われます。", "vietnamese": "Hôm nay sẽ diễn ra buổi thuyết trình do sinh viên thực hiện." }
+  ]
+}

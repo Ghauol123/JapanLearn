@@ -1,0 +1,30 @@
+{
+  "explanation": "Khi kể lại lời nhờ vả, chỉ thị hay mệnh lệnh của người khác, tiếng Nhật dùng các mẫu trích dẫn gián tiếp sau:\n\n① Nhờ vả (依頼): Vて／Vないで + くれと + 言う／頼む (\"nhờ… hãy…\"). Lịch sự hơn: Vてください → Vてくださいと言われた.\n② Chỉ thị, lời khuyên (指示): Vる／Vない + ように(と) + 言う／注意する／伝える／頼む (\"bảo… hãy/đừng…\") — dạng mềm, rất hay dùng.\n③ Mệnh lệnh (命令): Vろ／Vるな + と + 言う (\"bảo… làm/đừng làm\") — giữ nguyên thể mệnh lệnh nên nghe mạnh.\n④ Cầu nguyện, mong ước: Vます／Vません + ように (\"mong sao…\"), thường dùng khi cầu nguyện ở đền chùa.",
+  "formation": [
+    { "wordType": "Nhờ vả", "rule": "Vて／Vないで + くれと + 言う／頼む", "samples": ["手伝う → 手伝ってくれと頼まれた", "言う → 言わないでくれと言われた"] },
+    { "wordType": "Chỉ thị", "rule": "Vる／Vない + ように(と) + 言う／注意する／伝える", "samples": ["来る → 来るように言う", "遅れる → 遅れないように注意する"] },
+    { "wordType": "Mệnh lệnh", "rule": "Vろ／Vるな + と + 言う", "samples": ["急ぐ → 急げと言われた", "触る → 触るなと言われた"] },
+    { "wordType": "Cầu nguyện", "rule": "Vます／Vません + ように", "samples": ["合格する → 合格しますように", "降る → 降りませんように"] }
+  ],
+  "usage": [
+    "Truyền lời nhắn: 「田中さんに、明日電話するように伝えてください」.",
+    "Kể lại bị nhắc nhở: 「先生に授業中しゃべらないように注意された」.",
+    "Cầu nguyện: 「家族がみんな元気でいられますように」."
+  ],
+  "pitfalls": [
+    "Với chỉ thị dùng ように thì động từ ở thể từ điển/ない, không dùng thể て: ✗「来てように言った」.",
+    "Mệnh lệnh trích dẫn (Vろと) không thô vì chỉ là kể lại, nhưng vẫn cho thấy lời gốc mạnh.",
+    "Người được nhờ/nhắc dùng に: 「部下に」; khi bị động thì người ra lệnh dùng に: 「部長に～ように言われた」."
+  ],
+  "comparisons": [
+    { "pattern": "Thể mệnh lệnh／cấm đoán", "targetId": "b16-1", "difference": "Bài 16 dạy cách nói mệnh lệnh trực tiếp; Bài 29 dạy cách trích dẫn lại." },
+    { "pattern": "～てもらいたい／ほしい", "targetId": "b15-1", "difference": "てもらいたい là mong muốn của chính người nói; くれと頼む là kể lại lời nhờ của người khác." },
+    { "pattern": "～ということだ", "targetId": "b13-1", "difference": "ということだ truyền đạt thông tin; ように言う truyền đạt yêu cầu." }
+  ],
+  "examples": [
+    { "japanese": "母に、早く帰ってくるように言われた。", "vietnamese": "Tôi bị mẹ dặn phải về sớm." },
+    { "japanese": "友達に、このことは誰にも言わないでくれと頼まれた。", "vietnamese": "Bạn nhờ tôi đừng nói chuyện này với ai." },
+    { "japanese": "コーチに「最後まで走れ」と言われて、頑張った。", "vietnamese": "Được huấn luyện viên bảo \"chạy đến cùng\", tôi đã cố gắng." },
+    { "japanese": "明日の面接がうまくいきますように。", "vietnamese": "Mong buổi phỏng vấn ngày mai suôn sẻ." }
+  ]
+}

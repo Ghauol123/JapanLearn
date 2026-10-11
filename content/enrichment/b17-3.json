@@ -1,0 +1,27 @@
+{
+  "explanation": "～つもりだ ở bài này không phải ý định tương lai, mà là \"tưởng là…, cho rằng mình…\": người nói (hoặc ai đó) tin rằng một điều là đúng, nhưng thực tế có thể khác. Ví dụ 「書いたつもりだった」 = cứ tưởng mình đã viết rồi (thực ra chưa).\n\nNgoài ra ～たつもりで còn có nghĩa \"coi như đã…, giả định là…\": 「旅行したつもりで、そのお金を貯金する」 (coi như đã đi du lịch rồi, đem tiền đó đi tiết kiệm). 「～になったつもりで」 = đóng vai, tưởng tượng mình là…",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vた／Vている + つもりだ", "samples": ["閉めた → 閉めたつもりだった", "わかっている → わかっているつもりだ"] },
+    { "wordType": "Tính từ い", "rule": "Aい + つもりだ", "samples": ["若い → まだ若いつもりだ"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな + な／N + の + つもりだ", "samples": ["元気 → 元気なつもり", "冗談 → 冗談のつもりだった"] },
+    { "wordType": "Giả định", "rule": "Vた／N になった + つもりで", "samples": ["買った → 買ったつもりで貯金する", "先生 → 先生になったつもりで"] }
+  ],
+  "usage": [
+    "Tưởng nhầm: 「ドアを閉めたつもりだったが、開いていた」.",
+    "Tự đánh giá (có thể sai): 「自分では真面目なつもりだ」.",
+    "Giải thích ý định của lời nói: 「冗談のつもりだったのに、怒られた」."
+  ],
+  "pitfalls": [
+    "Đừng nhầm với Vるつもりだ (định làm — Bài 4): Vる = dự định tương lai; Vた／Aい／N = tin tưởng, cho rằng.",
+    "Khi nói về người khác, câu thường mang sắc thái phê phán: 「彼は頭がいいつもりだ」 (anh ta tự cho là thông minh)."
+  ],
+  "comparisons": [
+    { "pattern": "～つもりだった", "targetId": "b4-2", "difference": "Vるつもりだった: đã định làm nhưng không làm; Vたつもりだった: tưởng đã làm nhưng thực ra chưa." },
+    { "pattern": "～と思い込む", "targetId": null, "difference": "～と思い込む (tin chắc nhầm) gần nghĩa nhưng là động từ; つもり thường dùng cho bản thân." }
+  ],
+  "examples": [
+    { "japanese": "かぎをかけたつもりだったのに、ドアが開いていた。", "vietnamese": "Cứ tưởng đã khóa rồi, vậy mà cửa vẫn mở." },
+    { "japanese": "冗談のつもりで言ったのに、彼女を怒らせてしまった。", "vietnamese": "Tôi chỉ định nói đùa thôi, vậy mà lại làm cô ấy giận." },
+    { "japanese": "自分ではわかっているつもりでも、説明するのは難しい。", "vietnamese": "Dù bản thân tưởng là hiểu rồi, nhưng giải thích lại thì khó." }
+  ]
+}

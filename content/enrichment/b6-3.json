@@ -1,0 +1,26 @@
+{
+  "explanation": "～ずに là dạng văn viết của ～ないで: diễn tả hành động chính được thực hiện trong trạng thái KHÔNG làm một việc khác (\"mà không…\", \"thay vì…\"). ず là dạng phủ định cổ tương đương ない, nên ～ずに nghe trang trọng, cứng hơn và hay gặp trong văn bản, thông báo, tin tức.\n\nTrong hội thoại hằng ngày người Nhật dùng ～ないで nhiều hơn; dùng ～ずに khi nói tạo cảm giác nghiêm túc, chững chạc.",
+  "formation": [
+    { "wordType": "Động từ nhóm 1", "rule": "Vない bỏ ない + ずに", "samples": ["書く → 書かずに", "使う → 使わずに"] },
+    { "wordType": "Động từ nhóm 2", "rule": "Vない bỏ ない + ずに", "samples": ["食べる → 食べずに", "見る → 見ずに"] },
+    { "wordType": "Động từ nhóm 3", "rule": "する → せずに; 来る → 来ずに (こずに)", "samples": ["勉強する → 勉強せずに", "来る → 来ずに"] }
+  ],
+  "usage": [
+    "Hai hành động có cùng chủ ngữ: hành động sau được thực hiện mà không kèm hành động trước.",
+    "Hay dùng trong văn viết, thông báo, hướng dẫn: 「遠慮せずに言ってください」.",
+    "Bỏ に (～ず) khi nối câu thì nghĩa thường chuyển sang \"vì không… nên…\" (xem ～ず)."
+  ],
+  "pitfalls": [
+    "✗ しずに → ✓ せずに: する luôn chuyển thành せず.",
+    "Không dùng ～ずに để yêu cầu: ✗「食べずにください」→ ✓「食べないでください」."
+  ],
+  "comparisons": [
+    { "pattern": "～ないで", "targetId": null, "difference": "Cùng nghĩa \"mà không…\", nhưng ～ないで dùng tự nhiên trong văn nói và có dạng yêu cầu ～ないでください; ～ずに trang trọng hơn và không dùng để yêu cầu." },
+    { "pattern": "～ず", "targetId": "b6-4", "difference": "～ず (không có に) thường nối hai vế với nghĩa nguyên nhân \"vì không… nên…\" hoặc liệt kê phủ định." }
+  ],
+  "examples": [
+    { "japanese": "朝ご飯を食べずに学校へ行った。", "vietnamese": "Tôi đã đến trường mà không ăn sáng." },
+    { "japanese": "彼は何も言わずに部屋を出ていった。", "vietnamese": "Anh ấy rời khỏi phòng mà không nói gì." },
+    { "japanese": "傘を持たずに出かけたら、雨に降られた。", "vietnamese": "Ra ngoài mà không mang ô nên tôi bị mắc mưa." }
+  ]
+}

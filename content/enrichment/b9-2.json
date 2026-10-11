@@ -1,0 +1,26 @@
+{
+  "explanation": "X くらい／ほど ～はない nghĩa là \"không có gì (Y) bằng X\", tức X là nhất theo cảm nhận của người nói. Đây là cách nói so sánh nhất mang tính chủ quan, cảm xúc mạnh, thường dùng khi bày tỏ cảm nghĩ.\n\nY thường là danh từ chung chỉ loại: もの, こと, 人, 所, 季節. Với hành động, X là Vること: 「好きな人に告白することほど緊張することはない」.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + くらい／ほど + (Aい／Aな) + N + はない", "samples": ["母の料理 → 母の料理ほどおいしいものはない", "冬 → 冬くらい嫌な季節はない"] },
+    { "wordType": "Động từ", "rule": "Vること + くらい／ほど + ～ことはない", "samples": ["待つ → 待つことほどつらいことはない"] },
+    { "wordType": "Người", "rule": "N + くらい／ほど + ～人はいない", "samples": ["彼 → 彼ほど優しい人はいない"] }
+  ],
+  "usage": [
+    "Bày tỏ cảm xúc: 「友達と話すことほど楽しいことはない」.",
+    "Khen ngợi người khác: 「田中さんほど真面目な人はいない」.",
+    "Có thể thêm 他に hoặc 世の中に để nhấn mạnh: 「これほど美しい景色は他にない」."
+  ],
+  "pitfalls": [
+    "Không dùng cho sự thật khách quan có số liệu: ✗「富士山くらい高い山は日本にない」 nên nói 「富士山は日本で一番高い山だ」.",
+    "Với người dùng いない, với vật/sự việc dùng ない."
+  ],
+  "comparisons": [
+    { "pattern": "～が一番", "targetId": null, "difference": "～が一番 là so sánh nhất trung tính, khách quan; ～くらい～はない mang cảm xúc chủ quan mạnh." },
+    { "pattern": "～に限る", "targetId": "b9-4", "difference": "～に限る: X là lựa chọn tốt nhất nên làm (khuyên); ～くらい～はない: X là nhất về mức độ cảm xúc." }
+  ],
+  "examples": [
+    { "japanese": "仕事の後に飲むビールほどおいしいものはない。", "vietnamese": "Không có gì ngon bằng bia uống sau giờ làm." },
+    { "japanese": "一人で病気になることくらい心細いことはない。", "vietnamese": "Không gì cô đơn bằng việc bị ốm một mình." },
+    { "japanese": "うちの父ほど心配性な人はいないと思う。", "vietnamese": "Tôi nghĩ không ai hay lo bằng bố tôi." }
+  ]
+}

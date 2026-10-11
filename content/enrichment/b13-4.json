@@ -1,0 +1,26 @@
+{
+  "explanation": "～って là dạng rút gọn văn nói của と／という／と言っている／と聞いた. Ở cuối câu, nó dùng để truyền lại lời người khác hoặc thông tin nghe được: \"(ai đó) bảo là…, nghe nói…\". Rất hay dùng giữa bạn bè, gia đình.\n\n～って còn đứng giữa câu thay cho と: 「明日来るって言ってた」, hoặc thay cho という/は khi nêu chủ đề: 「日本語って難しいね」 (tiếng Nhật thì khó nhỉ). Câu hỏi 「何って？」 = \"nói gì cơ?\".",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + って", "samples": ["来る → 来るって", "難しくない → 難しくないって"] },
+    { "wordType": "Danh từ／Tính từ な", "rule": "N／Aな + だ + って", "samples": ["学生 → 学生だって", "大丈夫 → 大丈夫だって"] },
+    { "wordType": "Mệnh lệnh／yêu cầu", "rule": "Vなさい／Vて + って", "samples": ["出しなさい → 出しなさいって", "待って → 待ってって"] }
+  ],
+  "usage": [
+    "Truyền lời: 「先生が、明日テストがあるって」.",
+    "Thay cho と言っていた: 「彼、来られないって言ってたよ」.",
+    "Nêu chủ đề (văn nói): 「納豆って、本当に体にいいの？」."
+  ],
+  "pitfalls": [
+    "Không dùng trong văn viết, email công việc, hoặc với cấp trên.",
+    "Danh từ và Aな cần だ: ✗ 学生って (truyền lời) dễ bị hiểu nhầm thành nêu chủ đề → ✓ 学生だって."
+  ],
+  "comparisons": [
+    { "pattern": "～そうだ（伝聞）", "targetId": null, "difference": "そうだ dùng được cả lịch sự; って chỉ dùng thân mật." },
+    { "pattern": "～ということだ", "targetId": "b13-1", "difference": "Cùng là truyền đạt; ということだ trang trọng, って suồng sã." }
+  ],
+  "examples": [
+    { "japanese": "お母さんが、晩ご飯できたって。", "vietnamese": "Mẹ bảo là cơm tối xong rồi." },
+    { "japanese": "山田さん、今日は来られないって言ってたよ。", "vietnamese": "Anh Yamada bảo là hôm nay không đến được đấy." },
+    { "japanese": "あの映画、すごく面白いって。一緒に見に行こうよ。", "vietnamese": "Nghe nói phim đó hay lắm. Đi xem cùng nhau đi." }
+  ]
+}

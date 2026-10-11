@@ -1,0 +1,27 @@
+{
+  "explanation": "～てもかまわない nghĩa là \"làm… cũng không sao, cũng được\": người nói chấp nhận, cho phép một phương án dù đó không phải là phương án tốt nhất hay thông thường. Đây là cách nói lịch sự, hơi trang trọng hơn ～てもいい.\n\nDạng nghi vấn ～てもかまいませんか dùng để xin phép một cách lịch sự. Dạng ～なくてもかまわない nghĩa là \"không cần… cũng được\".",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vて + もかまわない", "samples": ["座る → 座ってもかまわない", "使う → 使ってもかまわない"] },
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + くても + かまわない", "samples": ["高い → 高くてもかまわない", "古い → 古くてもかまわない"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + でも + かまわない", "samples": ["下手 → 下手でもかまわない", "英語 → 英語でもかまわない"] },
+    { "wordType": "Phủ định", "rule": "Vない bỏ い + くても + かまわない", "samples": ["来ない → 来なくてもかまわない"] }
+  ],
+  "usage": [
+    "Cho phép, nhượng bộ: 「少しぐらい高くてもかまいません」.",
+    "Xin phép lịch sự: 「窓を開けてもかまいませんか」.",
+    "Nói không cần thiết: 「明日は来なくてもかまいません」."
+  ],
+  "pitfalls": [
+    "Với người trên, xin phép nên dùng ～てもよろしいでしょうか thay vì ～てもかまわない (nghe như người nói đang cho phép).",
+    "Câu trả lời phủ định cho câu xin phép không dùng かまいます; dùng 「すみません、ちょっと…」 hoặc ～てはいけません."
+  ],
+  "comparisons": [
+    { "pattern": "～てもいい", "targetId": null, "difference": "Cùng nghĩa cho phép; ～てもいい thân mật hơn, ～てもかまわない lịch sự và có chút sắc thái \"tôi không bận tâm\"." },
+    { "pattern": "～なければならない", "targetId": "b6-2", "difference": "Đối nghĩa: ～なくてもかまわない (không cần) đối lập với ～なければならない (phải)." }
+  ],
+  "examples": [
+    { "japanese": "ペンがなければ、鉛筆で書いてもかまいません。", "vietnamese": "Nếu không có bút bi thì viết bằng bút chì cũng được." },
+    { "japanese": "日本語が下手でもかまわないので、話してみてください。", "vietnamese": "Tiếng Nhật kém cũng không sao, hãy thử nói đi." },
+    { "japanese": "忙しいなら、パーティーに来なくてもかまわないよ。", "vietnamese": "Nếu bận thì không đến bữa tiệc cũng được mà." }
+  ]
+}

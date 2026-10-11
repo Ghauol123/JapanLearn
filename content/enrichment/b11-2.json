@@ -1,0 +1,25 @@
+{
+  "explanation": "N + によって／による (phương tiện, phương pháp) nghĩa là \"bằng (cách)…, thông qua…\": X là phương tiện, cách thức để thực hiện hoặc đạt được Y. Cũng như nghĩa nguyên nhân, đây là cách nói trang trọng, hay dùng trong văn viết.\n\nTrong văn nói, nghĩa này thường thay bằng で: 「メールで連絡する」. によって nhấn mạnh tính chính thức, hệ thống của phương pháp.",
+  "formation": [
+    { "wordType": "Danh từ + động từ", "rule": "N + によって + V", "samples": ["話し合い → 話し合いによって", "インターネット → インターネットによって"] },
+    { "wordType": "Danh từ + danh từ", "rule": "N + による + N", "samples": ["カード → カードによる支払い", "電話 → 電話による予約"] }
+  ],
+  "usage": [
+    "Nói về phương pháp chính thức: 「投票によって代表を決める」.",
+    "Bổ nghĩa danh từ: 「メールによる申し込み」 (đăng ký bằng email).",
+    "Hay gặp trong thông báo, quy định, bài đọc."
+  ],
+  "pitfalls": [
+    "Không dùng cho công cụ cụ thể, nhỏ trong đời thường: ✗「はしによって食べる」 → ✓「はしで食べる」.",
+    "Đừng nhầm với nghĩa nguyên nhân: 「選挙によって決める」 (bằng bầu cử) vs 「地震によって壊れた」 (do động đất)."
+  ],
+  "comparisons": [
+    { "pattern": "～によって（原因）", "targetId": "b11-1", "difference": "Nguyên nhân: X gây ra Y (không chủ ý). Phương tiện: X được dùng một cách có chủ ý để làm Y." },
+    { "pattern": "～で", "targetId": null, "difference": "で là trợ từ chỉ phương tiện thông dụng nhất; によって trang trọng hơn và nhấn mạnh phương pháp." }
+  ],
+  "examples": [
+    { "japanese": "問題は話し合いによって解決するべきだ。", "vietnamese": "Vấn đề nên được giải quyết bằng cách thảo luận." },
+    { "japanese": "この病気は薬によって治すことができる。", "vietnamese": "Bệnh này có thể chữa khỏi bằng thuốc." },
+    { "japanese": "電話による予約は、午後５時までです。", "vietnamese": "Đặt chỗ qua điện thoại nhận đến 5 giờ chiều." }
+  ]
+}

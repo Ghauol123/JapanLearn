@@ -1,0 +1,26 @@
+{
+  "explanation": "N + に対して／に対する (đối tượng) chỉ đối tượng mà hành động, thái độ, cảm xúc hướng tới: \"đối với…, với…, về…\". Vế sau thường là động từ chỉ thái độ, hành vi giao tiếp: 反対する, 文句を言う, 質問する, 優しい, 厳しい, 興味がある, 責任.\n\nに対して đứng trước động từ/tính từ; に対する đứng trước danh từ (に対する意見, に対する態度). Mẫu này trang trọng hơn trợ từ に đơn thuần.",
+  "formation": [
+    { "wordType": "Danh từ + động từ／tính từ", "rule": "N + に対して + V／A", "samples": ["客 → お客様に対して丁寧だ", "意見 → 意見に対して反対する"] },
+    { "wordType": "Danh từ + danh từ", "rule": "N + に対する + N", "samples": ["仕事 → 仕事に対する態度", "質問 → 質問に対する答え"] }
+  ],
+  "usage": [
+    "Thái độ với người: 「子供に対して厳しすぎる」.",
+    "Phản ứng với ý kiến, sự việc: 「その計画に対して、多くの住民が反対した」.",
+    "Bổ nghĩa: 「環境問題に対する関心が高まっている」."
+  ],
+  "pitfalls": [
+    "Không dùng cho đích đến vật lý: ✗「駅に対して行く」.",
+    "Không nhầm với に対して (so sánh) ở Bài 10: 「兄は活発なのに対して、弟はおとなしい」."
+  ],
+  "comparisons": [
+    { "pattern": "～に対して（対比）", "targetId": "b10-1", "difference": "Bài 10: に対して so sánh hai đối tượng trái ngược. Bài 20: に対して chỉ đối tượng của thái độ, hành động." },
+    { "pattern": "～にとって", "targetId": "b20-3", "difference": "にとって: đứng trên lập trường của ai để đánh giá (私にとって大切だ); に対して: thái độ hướng đến ai." },
+    { "pattern": "～について", "targetId": null, "difference": "について: nói về chủ đề (日本の文化について話す); に対して: thái độ, phản ứng với đối tượng." }
+  ],
+  "examples": [
+    { "japanese": "彼はだれに対しても優しく話す。", "vietnamese": "Anh ấy nói chuyện nhẹ nhàng với tất cả mọi người." },
+    { "japanese": "その質問に対して、彼は何も答えなかった。", "vietnamese": "Đối với câu hỏi đó, anh ấy không trả lời gì cả." },
+    { "japanese": "最近、若者の政治に対する関心が低くなっている。", "vietnamese": "Gần đây sự quan tâm của giới trẻ đối với chính trị đang giảm." }
+  ]
+}

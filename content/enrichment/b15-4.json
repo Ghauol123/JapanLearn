@@ -1,0 +1,28 @@
+{
+  "explanation": "～といい／～ばいい／～たらいい (lời khuyên) dùng để khuyên, gợi ý cho người khác một cách làm tốt: \"nên…, cứ… là được\". Đây là cách khuyên nhẹ nhàng, thân thiện; người nói đưa ra phương án mà mình cho là hiệu quả.\n\nDạng hỏi ～たらいいですか／～ばいいですか dùng để xin lời khuyên: 「どうしたらいいですか」 (nên làm thế nào?). ～といい hay dùng cho lời khuyên chung chung, ～ばいい nhấn mạnh \"chỉ cần làm vậy là đủ\".",
+  "formation": [
+    { "wordType": "～といい", "rule": "Vる + といい", "samples": ["飲む → 飲むといい", "聞く → 聞くといいですよ"] },
+    { "wordType": "～ばいい", "rule": "Vば + いい", "samples": ["休む → 休めばいい", "謝る → 謝ればいい"] },
+    { "wordType": "～たらいい", "rule": "Vたら + いい", "samples": ["行く → 行ったらいい", "相談する → 相談したらいい"] },
+    { "wordType": "Hỏi ý kiến", "rule": "どう／何を + Vたら／Vば + いいですか", "samples": ["どうしたらいいですか", "何を持っていけばいいですか"] }
+  ],
+  "usage": [
+    "Khuyên nhẹ nhàng: 「疲れたときは温かいお風呂に入るといいですよ」.",
+    "Xin lời khuyên: 「駅までどう行けばいいですか」.",
+    "Nhấn mạnh sự đơn giản: 「わからなければ、先生に聞けばいいよ」."
+  ],
+  "pitfalls": [
+    "Không dùng để khuyên cấp trên trực tiếp; nghe như dạy đời.",
+    "Dạng phủ định ～なければいい nghe hơi lạnh lùng (\"thì đừng… là được\"), cần cẩn thận ngữ cảnh."
+  ],
+  "comparisons": [
+    { "pattern": "～たらどうか", "targetId": "b16-4", "difference": "～たらどう？ là gợi ý dạng câu hỏi; ～といい là khuyên dạng khẳng định." },
+    { "pattern": "～ほうがいい", "targetId": null, "difference": "～ほうがいい mạnh hơn, so sánh với phương án khác; ～といい nhẹ nhàng hơn." },
+    { "pattern": "～べきだ", "targetId": "b16-3", "difference": "～べきだ là nên làm theo đạo lý, mạnh mẽ; ～といい là gợi ý thân thiện." }
+  ],
+  "examples": [
+    { "japanese": "眠れないときは、温かい牛乳を飲むといいですよ。", "vietnamese": "Khi không ngủ được thì uống sữa ấm là tốt đấy." },
+    { "japanese": "パソコンが動かなくなったら、一度電源を切ればいいです。", "vietnamese": "Nếu máy tính bị đơ thì cứ tắt nguồn một lần là được." },
+    { "japanese": "日本語が上手になりたいんですが、どうしたらいいですか。", "vietnamese": "Tôi muốn giỏi tiếng Nhật, nên làm thế nào ạ?" }
+  ]
+}

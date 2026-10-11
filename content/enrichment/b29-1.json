@@ -1,0 +1,27 @@
+{
+  "explanation": "Vて + くる／いく có ba nhóm nghĩa.\n\n① Di chuyển: てくる = làm gì rồi quay về/đi về phía người nói (買ってくる — đi mua về); ていく = làm gì rồi đi xa khỏi chỗ người nói (飛んでいく — bay đi). Câu 「行ってきます」 là ví dụ quen thuộc.\n\n② Thay đổi theo thời gian, lấy hiện tại làm mốc: てきた = thay đổi từ quá khứ đến bây giờ (増えてきた — đã tăng lên); ていく = thay đổi từ bây giờ về sau (変わっていく — sẽ thay đổi).\n\n③ Bắt đầu xuất hiện, người nói nhận ra một trạng thái mới đang xảy ra: chỉ dùng てくる (雨が降ってきた — trời bắt đầu mưa, お腹が空いてきた — bắt đầu thấy đói).",
+  "formation": [
+    { "wordType": "Di chuyển", "rule": "Vて + くる／いく", "samples": ["買う → 買ってくる", "持つ → 持っていく", "走る → 走ってくる"] },
+    { "wordType": "Thay đổi", "rule": "Vて + きた (đến nay)／いく (về sau)", "samples": ["増える → 増えてきた", "変わる → 変わっていく"] },
+    { "wordType": "Bắt đầu xuất hiện", "rule": "Vて + くる", "samples": ["降る → 降ってきた", "疲れる → 疲れてきた"] }
+  ],
+  "usage": [
+    "Đi làm việc gì rồi quay lại: 「ちょっと飲み物を買ってきます」.",
+    "Xu hướng: 「日本で働く外国人が増えてきた」「これからも人口は減っていくだろう」.",
+    "Cảm nhận thay đổi: 「だんだん寒くなってきましたね」."
+  ],
+  "pitfalls": [
+    "Nghĩa ③ không dùng ていく: ✗「雨が降っていった」.",
+    "Nghĩa ② chọn くる hay いく theo mốc hiện tại: quá khứ → nay dùng てきた; nay → tương lai dùng ていく.",
+    "Đừng nhầm với ～てくる trong bị động ngữ cảnh: 「話しかけてきた」 (ai đó bắt chuyện với mình) — hướng hành động về người nói."
+  ],
+  "comparisons": [
+    { "pattern": "～ばかりだ（変化）", "targetId": "b22-3", "difference": "ばかりだ: thay đổi chỉ theo chiều xấu; てくる／ていく trung tính." },
+    { "pattern": "～ようになる", "targetId": null, "difference": "ようになる: chuyển từ không thành có (khả năng, thói quen); てくる: quá trình thay đổi dần dần." }
+  ],
+  "examples": [
+    { "japanese": "ちょっと郵便局に行って、荷物を出してきます。", "vietnamese": "Tôi đi bưu điện gửi đồ một chút rồi về." },
+    { "japanese": "最近、日本語を勉強する人が増えてきた。", "vietnamese": "Gần đây số người học tiếng Nhật đã tăng lên." },
+    { "japanese": "長い時間歩いたので、足が痛くなってきた。", "vietnamese": "Đi bộ lâu nên chân bắt đầu đau." }
+  ]
+}

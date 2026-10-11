@@ -1,0 +1,25 @@
+{
+  "explanation": "Vる + ばかりだ (sẵn sàng) nghĩa là \"chỉ còn (mỗi việc)… nữa thôi\": mọi việc chuẩn bị đã xong, chỉ còn bước cuối cùng là thực hiện. Câu thường có các từ báo hiệu: 後は (còn lại thì), もう, あとは～を待つばかり.\n\nDạng bổ nghĩa danh từ: Vるばかりになっている／Vるばかりの + N (「出発するばかりの状態」 — trạng thái chỉ chờ xuất phát).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "(後は／もう) Vる + ばかりだ", "samples": ["出かける → もう出かけるばかりだ", "待つ → 後は待つばかりだ"] },
+    { "wordType": "Trạng thái", "rule": "Vる + ばかりになっている", "samples": ["食べる → 食べるばかりになっている"] }
+  ],
+  "usage": [
+    "Chuẩn bị xong: 「荷物は全部詰めた。後は出発するばかりだ」.",
+    "Chờ kết quả: 「試験は終わった。あとは結果を待つばかりだ」.",
+    "Mô tả trạng thái sẵn sàng: 「料理はテーブルに並べられ、食べるばかりになっている」."
+  ],
+  "pitfalls": [
+    "Dễ nhầm với ばかりだ (thay đổi theo chiều xấu): nếu động từ không phải động từ thay đổi và có 後は／もう thì là nghĩa \"chỉ còn\".",
+    "Không dùng khi việc chuẩn bị chưa xong."
+  ],
+  "comparisons": [
+    { "pattern": "～ばかりだ（変化）", "targetId": "b22-3", "difference": "Vるばかりだ (thay đổi): ngày càng xấu đi; Vるばかりだ (sẵn sàng): chỉ còn bước cuối." },
+    { "pattern": "～だけだ", "targetId": null, "difference": "後は～だけだ gần nghĩa và phổ biến trong văn nói; ばかりだ nghe trang trọng, văn viết hơn." }
+  ],
+  "examples": [
+    { "japanese": "パーティーの準備はできた。後はお客さんが来るのを待つばかりだ。", "vietnamese": "Chuẩn bị tiệc đã xong. Giờ chỉ còn chờ khách đến thôi." },
+    { "japanese": "スーツケースに荷物を全部入れたので、もう空港へ行くばかりだ。", "vietnamese": "Đã cho hết đồ vào vali rồi, giờ chỉ còn ra sân bay nữa thôi." },
+    { "japanese": "面接も終わったし、あとは結果を待つばかりだ。", "vietnamese": "Phỏng vấn cũng xong rồi, giờ chỉ còn chờ kết quả." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "～まま diễn tả một trạng thái được giữ nguyên, không thay đổi, và hành động tiếp theo diễn ra trong trạng thái đó: \"cứ để nguyên…, vẫn còn…\". Thường trạng thái đó là bất thường so với hành động phía sau (mặc nguyên quần áo mà bơi, đi giày vào nhà).\n\nDạng Vたまま rất phổ biến: hành động X đã xảy ra và trạng thái kết quả vẫn còn, rồi Y xảy ra. Ngoài ra ～まま cũng dùng cuối câu (～ままだ) để nói một thứ vẫn còn nguyên như cũ.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vた／Vない + まま", "samples": ["つける → つけたまま", "開ける → 開けたまま", "しない → 何もしないまま"] },
+    { "wordType": "Tính từ い", "rule": "Aい + まま", "samples": ["若い → 若いまま", "新しい → 新しいまま"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + まま", "samples": ["きれい → きれいなまま", "元気 → 元気なまま"] },
+    { "wordType": "Danh từ", "rule": "N + の + まま", "samples": ["生 → 生のまま", "昔 → 昔のまま"] }
+  ],
+  "usage": [
+    "Vたまま + V: 「電気をつけたまま寝てしまった」 (để nguyên đèn mà ngủ).",
+    "～ままにする: cố ý để nguyên: 「窓を開けたままにしておいてください」.",
+    "N／Aのまま: giữ nguyên tính chất: 「この町は昔のままだ」."
+  ],
+  "pitfalls": [
+    "Không dùng Vているまま với động từ trạng thái kết quả: ✗ 座っているまま → ✓ 座ったまま.",
+    "Hành động sau phải do cùng chủ thể và diễn ra trong lúc trạng thái còn đó; chuỗi hành động bình thường thì dùng ～て: ✗ 手を洗ったまま食べる (nghĩa lạ)."
+  ],
+  "comparisons": [
+    { "pattern": "～っぱなし", "targetId": "b5-4", "difference": "～っぱなし nhấn mạnh việc bỏ mặc không xử lý và thường mang ý phàn nàn; ～まま trung tính hơn, chỉ trạng thái không đổi." },
+    { "pattern": "～ずに／～ないで", "targetId": "b6-3", "difference": "～ないで chỉ việc không làm X mà làm Y (傘を持たないで出かける); ～まま nhấn mạnh trạng thái được giữ nguyên." }
+  ],
+  "examples": [
+    { "japanese": "テレビをつけたまま寝てしまった。", "vietnamese": "Tôi để nguyên ti vi bật mà ngủ quên." },
+    { "japanese": "日本では、靴をはいたまま家に入ってはいけない。", "vietnamese": "Ở Nhật không được mang nguyên giày đi vào nhà." },
+    { "japanese": "この町は30年前と同じで、昔のままだ。", "vietnamese": "Thị trấn này vẫn như 30 năm trước, vẫn nguyên như xưa." }
+  ]
+}

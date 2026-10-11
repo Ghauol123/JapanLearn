@@ -1,0 +1,42 @@
+@page "/bai/{n:int}"
+@model LessonModel
+@{
+    var lesson = Model.Lesson;
+    ViewData["Title"] = $"Bài {lesson.Number}";
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Bài @lesson.Number</li>
+    </ol>
+</nav>
+<header class="page-head">
+    <p class="eyebrow">Bài @lesson.Number · @lesson.Points.Count điểm ngữ pháp</p>
+    <h1 class="page-title">@lesson.Title</h1>
+</header>
+<div class="point-grid mb-5">
+    @foreach (var p in lesson.Points)
+    {
+        <a class="point-card" asp-page="/Grammar" asp-route-id="@p.Id">
+            <span class="point-index">@p.Index</span>
+            <span class="point-body">
+                <span class="point-pattern ja">@p.Pattern</span>
+                <span class="point-meaning">@string.Join(" ", p.Meaning.Paragraphs)</span>
+            </span>
+            @if (p.Enrichment is not null)
+            {
+                <span class="badge-extra point-extra">Bổ sung</span>
+            }
+        </a>
+    }
+</div>
+@if (lesson.QuickComparisons.Count > 0)
+{
+    <section class="block">
+        <h2 class="block-title">Bảng so sánh nhanh</h2>
+        @foreach (var table in lesson.QuickComparisons)
+        {
+            <partial name="_Table" model="table" />
+        }
+    </section>
+}

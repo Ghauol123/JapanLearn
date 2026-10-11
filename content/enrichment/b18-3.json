@@ -1,0 +1,27 @@
+{
+  "explanation": "謙譲語２ (còn gọi là 丁重語) dùng để nói về hành động, trạng thái của bản thân (hoặc người phía mình) một cách khiêm tốn, trang trọng TRƯỚC MẶT người nghe. Khác với 謙譲語１, hành động không cần hướng đến người trên: 「週末は家におります」 (cuối tuần tôi ở nhà) vẫn dùng được.\n\nCác động từ chính: 参る (đi/đến), おる (ở/có), いたす (làm), 申す (nói/tên là), 存じる (biết/nghĩ), いただく (ăn/uống). 謙譲語２ hầu như luôn đi với ～ます. Đây là kính ngữ thường gặp nhất khi tự giới thiệu và trong điện thoại công việc.",
+  "formation": [
+    { "wordType": "Đi／đến", "rule": "行く／来る → 参ります", "samples": ["行きます → 参ります", "来ました → 参りました"] },
+    { "wordType": "Ở／có", "rule": "いる → おります; ～ている → ～ております", "samples": ["います → おります", "待っています → 待っております"] },
+    { "wordType": "Làm", "rule": "する → いたします; Nする → Nいたします", "samples": ["します → いたします", "連絡します → ご連絡いたします"] },
+    { "wordType": "Nói／biết", "rule": "言う → 申します; 知っている → 存じております", "samples": ["田中と言います → 田中と申します", "知りません → 存じません"] }
+  ],
+  "usage": [
+    "Tự giới thiệu: 「はじめまして、リンと申します」.",
+    "Điện thoại công việc: 「田中は今、席を外しております」.",
+    "Thông báo trang trọng: 「電車が参ります」 (tàu đang đến)."
+  ],
+  "pitfalls": [
+    "Không dùng cho hành động của người trên: ✗「先生が参りました」 → ✓「先生がいらっしゃいました」.",
+    "Nói về người cùng công ty với khách thì dùng 謙譲語２ và bỏ さん: 「部長の山田は外出しております」."
+  ],
+  "comparisons": [
+    { "pattern": "謙譲語１", "targetId": "b18-2", "difference": "謙譲語１ cần có đối tượng là người trên (伺う — đến thăm ai); 謙譲語２ chỉ lịch sự với người nghe (参る — đi đâu đó)." },
+    { "pattern": "丁寧語", "targetId": "b18-4", "difference": "丁寧語 (でございます) lịch sự hóa nói chung, không hạ mình." }
+  ],
+  "examples": [
+    { "japanese": "はじめまして。ベトナムから参りましたリンと申します。", "vietnamese": "Xin chào, tôi là Linh đến từ Việt Nam." },
+    { "japanese": "申し訳ございません。山田は本日休んでおります。", "vietnamese": "Xin lỗi ạ. Hôm nay anh Yamada nghỉ." },
+    { "japanese": "結果がわかりましたら、すぐにご連絡いたします。", "vietnamese": "Khi có kết quả tôi sẽ liên lạc ngay ạ." }
+  ]
+}

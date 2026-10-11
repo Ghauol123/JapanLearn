@@ -1,0 +1,27 @@
+{
+  "explanation": "N + によって (ở nghĩa này) diễn tả sự đa dạng: tùy theo X khác nhau mà Y cũng khác nhau. Vế sau thường có các từ chỉ sự khác biệt: 違う, 異なる, さまざまだ, 変わる, いろいろ.\n\n～によっては là trường hợp đặc biệt: \"tùy trường hợp X, có khi…\". Nó nêu một khả năng đặc thù xảy ra với một số X, không phải tất cả. Vế sau thường có ～こともある, ～場合もある.",
+  "formation": [
+    { "wordType": "Danh từ", "rule": "N + によって + 違う／異なる／さまざまだ", "samples": ["国 → 国によって違う", "人 → 人によってさまざまだ"] },
+    { "wordType": "Danh từ (ngoại lệ)", "rule": "N + によっては + ～こともある", "samples": ["場合 → 場合によっては", "天気 → 天気によっては"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N + による + N", "samples": ["地域 → 地域による違い"] }
+  ],
+  "usage": [
+    "Nêu sự khác biệt tổng quát: 「季節によって、景色が変わる」.",
+    "Nêu khả năng đặc biệt: 「場合によっては、手術が必要になる」.",
+    "Danh từ X thường là: 人, 国, 地域, 時代, 季節, 場合, 曜日, 天気."
+  ],
+  "pitfalls": [
+    "～によっては không đi với vế sau tổng quát: ✗「人によっては、考え方が違う」 → ✓「人によって考え方が違う」 hoặc 「人によっては反対する」.",
+    "Đừng nhầm với ～によって (nguyên nhân, phương tiện, tác nhân) ở Bài 11 và Bài 20."
+  ],
+  "comparisons": [
+    { "pattern": "～によって（原因）", "targetId": "b11-1", "difference": "Bài 11: によって chỉ nguyên nhân (地震によって橋が壊れた), không phải sự khác biệt." },
+    { "pattern": "～によって（受身）", "targetId": "b20-2", "difference": "Bài 20: によって chỉ tác giả trong câu bị động (ベルによって発明された)." },
+    { "pattern": "～次第で", "targetId": null, "difference": "～次第で (N2) nhấn mạnh X quyết định kết quả Y (努力次第で); ～によって chỉ sự khác biệt theo X." }
+  ],
+  "examples": [
+    { "japanese": "日本料理の味は、地域によって少しずつ違う。", "vietnamese": "Vị món ăn Nhật khác nhau đôi chút tùy từng vùng." },
+    { "japanese": "考え方は人によってさまざまだ。", "vietnamese": "Cách suy nghĩ mỗi người một khác." },
+    { "japanese": "天気によっては、明日の試合が中止になることもあります。", "vietnamese": "Tùy thời tiết, cũng có khi trận đấu ngày mai bị hủy." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "～ては／～(の)では diễn tả điều kiện dẫn đến kết quả không tốt, không mong muốn: \"nếu cứ… thì (sẽ hỏng, sẽ khó)…\". Vế sau thường là phán đoán tiêu cực: ～困る, ～だめだ, ～無理だ, ～できない, ～体を壊す.\n\n～ては cũng dùng với hành động lặp đi lặp lại mà người nói không hài lòng (Vては、Vする — cứ… rồi lại…), nhưng ở N3 trọng tâm là nghĩa điều kiện tiêu cực. Trong văn nói rút gọn: ～ちゃ／～じゃ.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vて + は", "samples": ["吸う → 吸っては", "休む → 休んでは"] },
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + くては", "samples": ["高い → 高くては", "狭い → 狭くては"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "Aな／N + では", "samples": ["複雑 → 複雑では", "こんな天気 → こんな天気では"] },
+    { "wordType": "Mệnh đề", "rule": "V／A (thể thường) + のでは", "samples": ["かかる → 五万円もかかるのでは"] }
+  ],
+  "usage": [
+    "Cảnh báo kết quả xấu: 「そんなに食べては、太るよ」.",
+    "Phán đoán không thể: 「こんなに狭くては、家族４人で住めない」.",
+    "Văn nói: 「そんなことしちゃだめ」「これじゃ無理だ」."
+  ],
+  "pitfalls": [
+    "Vế sau phải là kết quả tiêu cực; với kết quả tốt dùng ～ば／～たら.",
+    "Không dùng vế sau là ý chí/mệnh lệnh: ✗「雨では、家にいなさい」."
+  ],
+  "comparisons": [
+    { "pattern": "～ば／～たら", "targetId": null, "difference": "～ば／～たら là điều kiện trung tính; ～ては luôn dẫn tới kết quả tiêu cực." },
+    { "pattern": "～てはいけない", "targetId": null, "difference": "～てはいけない là cấm đoán đã cố định thành mẫu; ～ては + nhận xét tiêu cực là cấu trúc mở rộng của nó." }
+  ],
+  "examples": [
+    { "japanese": "毎日こんなに残業しては、体を壊してしまうよ。", "vietnamese": "Ngày nào cũng tăng ca thế này thì sẽ hỏng người mất." },
+    { "japanese": "説明がこんなに難しくては、子供にはわからない。", "vietnamese": "Giải thích khó thế này thì trẻ con không hiểu được." },
+    { "japanese": "駅から歩いて１時間もかかるのでは、通勤が大変だ。", "vietnamese": "Nếu đi bộ từ ga mất tới 1 tiếng thì đi làm vất vả lắm." }
+  ]
+}

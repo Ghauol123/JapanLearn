@@ -1,0 +1,26 @@
+{
+  "explanation": "Vて + ばかりいる nghĩa là \"suốt ngày chỉ…, cứ… mãi\": một hành động lặp đi lặp lại liên tục, thay vì làm việc nên làm. Mẫu này gần như luôn mang ý phê phán, chỉ trích, khó chịu (với người khác) hoặc tự trách (với bản thân).\n\nThường đi với いつも, 毎日, 一日中. Dạng ～てばかりいないで (đừng cứ… mãi) rất hay dùng để khuyên nhủ, trách mắng.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vて + ばかりいる", "samples": ["寝る → 寝てばかりいる", "泣く → 泣いてばかりいる", "遊ぶ → 遊んでばかりいる"] },
+    { "wordType": "Quá khứ", "rule": "Vて + ばかりいた", "samples": ["食べる → 食べてばかりいた"] },
+    { "wordType": "Khuyên nhủ", "rule": "Vて + ばかりいないで、～", "samples": ["見る → 見てばかりいないで", "文句を言う → 文句を言ってばかりいないで"] }
+  ],
+  "usage": [
+    "Trách người khác: 「休みの日、夫は寝てばかりいる」.",
+    "Tự trách: 「最近、謝ってばかりいる気がする」.",
+    "Khuyên: 「心配してばかりいないで、行動してみたら？」."
+  ],
+  "pitfalls": [
+    "Không nhầm với Vたばかり (vừa mới): 「結婚したばかり」 (mới cưới) ≠ 「けんかしてばかり」 (cãi nhau suốt).",
+    "Không dùng khi khen ngợi một hành động lặp lại tích cực; câu sẽ bị hiểu là chê."
+  ],
+  "comparisons": [
+    { "pattern": "Nばかり", "targetId": "b22-1", "difference": "Nばかり: toàn một đối tượng; Vてばかりいる: cứ làm một hành động mãi." },
+    { "pattern": "～っぱなし", "targetId": "b5-4", "difference": "～っぱなし: để nguyên trạng thái kéo dài (立ちっぱなし); てばかりいる: lặp lại hành động thay vì làm việc khác." }
+  ],
+  "examples": [
+    { "japanese": "休みの日は家で寝てばかりいる。", "vietnamese": "Ngày nghỉ tôi suốt ngày chỉ ngủ ở nhà." },
+    { "japanese": "妹は彼氏と別れてから、泣いてばかりいる。", "vietnamese": "Em gái tôi từ khi chia tay bạn trai cứ khóc suốt." },
+    { "japanese": "文句を言ってばかりいないで、自分でやってみなさい。", "vietnamese": "Đừng chỉ phàn nàn mãi nữa, tự làm thử đi." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "Ba hậu tố gắn sau Vます để chỉ giai đoạn của hành động:\n\n～かける／～かけだ／～かけの + N: hành động đã bắt đầu nhưng đang dở dang, chưa xong (読みかけの本 — cuốn sách đọc dở). Cũng có nghĩa \"suýt…\" với động từ chỉ trạng thái thay đổi (死にかける — suýt chết).\n\n～きる: làm đến hết, trọn vẹn, hoàn toàn (使いきる — dùng hết). Dạng ～きれない: không thể… hết (数えきれない — đếm không xuể). ～きった còn có nghĩa \"hoàn toàn, cực kỳ\" (疲れきった).\n\n～通す: làm liên tục không ngừng từ đầu đến cuối, kiên trì đến cùng (走り通す — chạy một mạch đến đích).",
+  "formation": [
+    { "wordType": "Dở dang", "rule": "Vます + かける／かけだ／かけの N", "samples": ["読む → 読みかけの本", "食べる → 食べかけている", "言う → 言いかけてやめる"] },
+    { "wordType": "Trọn vẹn", "rule": "Vます + きる／きれない", "samples": ["使う → 使いきる", "食べる → 食べきれない", "疲れる → 疲れきった"] },
+    { "wordType": "Đến cùng", "rule": "Vます + 通す", "samples": ["走る → 走り通す", "やる → やり通す", "守る → 守り通す"] }
+  ],
+  "usage": [
+    "Dở dang: 「読みかけの本が机の上にある」.",
+    "Không hết được: 「量が多くて、一人では食べきれない」.",
+    "Kiên trì: 「難しい仕事だったが、最後までやり通した」."
+  ],
+  "pitfalls": [
+    "～かける với động từ tức thời (死ぬ, 倒れる) mang nghĩa \"suýt\", không phải \"đang dở\".",
+    "～きる nhấn mạnh làm hết, khác ～終わる chỉ là làm xong: 「本を読み終わった」 (đọc xong) vs 「全巻を読みきった」 (đọc hết sạch, trọn vẹn).",
+    "Không nhầm 通す (động từ thường: cho đi qua) với hậu tố ～通す."
+  ],
+  "comparisons": [
+    { "pattern": "Động từ ghép (出す・始める・続ける・終わる)", "targetId": "b5-2", "difference": "Bài 5: bắt đầu, tiếp tục, kết thúc; Bài 25: dở dang, trọn vẹn, liên tục đến cùng." },
+    { "pattern": "～っぱなし", "targetId": "b5-4", "difference": "～っぱなし: để nguyên trạng thái (bỏ mặc); ～通す: chủ động duy trì đến cùng." }
+  ],
+  "examples": [
+    { "japanese": "飲みかけのコーヒーが机の上に置いてある。", "vietnamese": "Cốc cà phê uống dở được để trên bàn." },
+    { "japanese": "お金を全部使いきってしまって、今月はもう何も買えない。", "vietnamese": "Tiêu sạch tiền rồi nên tháng này không mua được gì nữa." },
+    { "japanese": "彼は自分の意見を最後まで言い通した。", "vietnamese": "Anh ấy kiên trì giữ ý kiến của mình đến cùng." }
+  ]
+}

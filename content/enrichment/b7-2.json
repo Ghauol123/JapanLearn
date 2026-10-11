@@ -1,0 +1,26 @@
+{
+  "explanation": "～うちに (2) diễn tả việc trong quá trình hành động/trạng thái X đang kéo dài thì một sự thay đổi Y xảy ra một cách tự nhiên, không chủ ý, thường là người nói không nhận ra khi nào: \"trong lúc…, đang… thì…\".\n\nVế sau thường là sự thay đổi: ～てしまった, ～てきた, ～ようになった, ～なった. Động từ ở vế trước thường là hành động kéo dài (Vている) hoặc lặp đi lặp lại (読むうちに, 会っているうちに).",
+  "formation": [
+    { "wordType": "Động từ tiếp diễn", "rule": "Vている + うちに", "samples": ["見ている → テレビを見ているうちに", "話している → 話しているうちに"] },
+    { "wordType": "Động từ lặp lại", "rule": "Vる + うちに", "samples": ["読む → 何度も読むうちに", "使う → 使ううちに"] },
+    { "wordType": "Phủ định", "rule": "Vない + うちに (\"trong lúc chưa kịp…\")", "samples": ["知らない → 知らないうちに", "気づかない → 気がつかないうちに"] }
+  ],
+  "usage": [
+    "Vế sau là thay đổi tự nhiên, không ý chí: 「話しているうちに、仲良くなった」.",
+    "知らないうちに／気がつかないうちに: \"chẳng biết từ lúc nào\".",
+    "Hay dùng để kể chuyện, hồi tưởng."
+  ],
+  "pitfalls": [
+    "Vế sau không dùng ý chí: ✗「テレビを見ているうちに、宿題をしよう」.",
+    "Không dùng cho hành động tức thời, một lần: ✗「ドアを開けるうちに」."
+  ],
+  "comparisons": [
+    { "pattern": "～うちに（１）", "targetId": "b7-1", "difference": "Nghĩa (1): tranh thủ làm việc có chủ ý trước khi trạng thái thay đổi. Nghĩa (2): thay đổi xảy ra tự nhiên trong lúc đang làm." },
+    { "pattern": "～ているところに", "targetId": "b7-4", "difference": "～ているところに: đúng lúc đang làm thì có sự việc khác chen vào (một lần, đột ngột); ～ているうちに: thay đổi dần dần trong quá trình." }
+  ],
+  "examples": [
+    { "japanese": "本を読んでいるうちに、外が暗くなっていた。", "vietnamese": "Đang đọc sách thì bên ngoài trời đã tối lúc nào không hay." },
+    { "japanese": "毎日使っているうちに、この機械にも慣れてきた。", "vietnamese": "Dùng mỗi ngày nên tôi đã dần quen với cái máy này." },
+    { "japanese": "知らないうちに、子供たちはこんなに大きくなっていた。", "vietnamese": "Chẳng biết từ lúc nào lũ trẻ đã lớn thế này rồi." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "Trong tiếng Nhật, cảm xúc và mong muốn bên trong (寂しい, 怖い, ほしい, ～たい) vốn chỉ dùng trực tiếp cho người nói. Khi nói về cảm xúc của ngôi thứ ba, người nói chỉ có thể quan sát biểu hiện bên ngoài, nên dùng ～がる: \"(ai đó) tỏ ra…, có vẻ…\".\n\n～がる biến tính từ thành động từ nhóm 1; thường dùng ở dạng ～がっている để miêu tả trạng thái đang thấy. Với ～たい và ほしい: ～たがる, ほしがる.",
+  "formation": [
+    { "wordType": "Tính từ い", "rule": "Aい bỏ い + がる", "samples": ["寂しい → 寂しがる", "怖い → 怖がる", "ほしい → ほしがる"] },
+    { "wordType": "Tính từ な", "rule": "Aな + がる", "samples": ["嫌 → 嫌がる", "残念 → 残念がる"] },
+    { "wordType": "Mong muốn", "rule": "Vます bỏ ます + たがる", "samples": ["買う → 買いたがる", "行く → 行きたがる"] }
+  ],
+  "usage": [
+    "Miêu tả cảm xúc của người khác: 「弟は暗いところを怖がる」.",
+    "Đối tượng của cảm xúc chuyển từ が sang を: 「犬が怖い」→「犬を怖がる」, 「車がほしい」→「車をほしがる」.",
+    "Dạng phủ định mệnh lệnh ～がらないで dùng để khuyên ngôi thứ hai: 「恥ずかしがらないで」."
+  ],
+  "pitfalls": [
+    "Không dùng cho chính mình: ✗「私は寂しがっている」 → ✓「私は寂しい」.",
+    "Không dùng trực tiếp với người trên trước mặt họ vì nghe như đang nhận xét họ: ✗「先生は帰りたがっています」 nghe thiếu lịch sự.",
+    "Trợ từ: ✗ 子供は犬が怖がる → ✓ 子供は犬を怖がる."
+  ],
+  "comparisons": [
+    { "pattern": "～そうだ（様態）", "targetId": null, "difference": "寂しそうだ: trông có vẻ buồn (ấn tượng tức thời); 寂しがる: tỏ ra buồn qua hành động, lời nói (thường là xu hướng, tính cách)." },
+    { "pattern": "Sai khiến cảm xúc", "targetId": "b1-2", "difference": "Sai khiến cảm xúc: ai đó LÀM CHO người khác có cảm xúc; ～がる: miêu tả cảm xúc đang biểu hiện ở người khác." }
+  ],
+  "examples": [
+    { "japanese": "娘は暗いところを怖がって、一人で寝られない。", "vietnamese": "Con gái tôi sợ chỗ tối nên không ngủ một mình được." },
+    { "japanese": "子供は何でも新しい物をほしがる。", "vietnamese": "Trẻ con cái gì mới cũng muốn có." },
+    { "japanese": "妹は留学に行きたがっているが、両親は反対している。", "vietnamese": "Em gái tôi muốn đi du học nhưng bố mẹ phản đối." }
+  ]
+}

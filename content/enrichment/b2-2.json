@@ -1,0 +1,28 @@
+{
+  "explanation": "～らしい (suy đoán) dùng khi người nói đưa ra phán đoán dựa trên thông tin nghe được, đọc được từ nguồn bên ngoài (tin đồn, báo chí, lời người khác), chứ không phải tự mình quan sát. Nghĩa gần với \"nghe nói…, nghe đâu…, có vẻ là…\".\n\nらしい mang tính khách quan, người nói giữ khoảng cách với thông tin: không chịu trách nhiệm hoàn toàn về độ chính xác. Vì thế hay dùng khi kể lại chuyện của người khác.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "V (thể thường) + らしい", "samples": ["来る → 来るらしい", "辞めた → 辞めたらしい"] },
+    { "wordType": "Tính từ い", "rule": "Aい + らしい", "samples": ["おいしい → おいしいらしい", "難しい → 難しいらしい"] },
+    { "wordType": "Tính từ な", "rule": "Aな (bỏ だ) + らしい", "samples": ["有名 → 有名らしい", "大変 → 大変らしい"] },
+    { "wordType": "Danh từ", "rule": "N + らしい", "samples": ["病気 → 病気らしい", "うそ → うそらしい"] }
+  ],
+  "usage": [
+    "Dùng khi truyền lại thông tin không chắc chắn từ nguồn khác: 「ニュースによると、明日は台風が来るらしい」.",
+    "Hay đi với ～によると／～の話では để nêu nguồn.",
+    "Danh từ và Aな gắn trực tiếp, không cần な／の."
+  ],
+  "pitfalls": [
+    "Không dùng らしい cho cảm nhận trực tiếp của mình: ✗「(sờ trán) 熱があるらしい」 → ✓「熱があるようだ」.",
+    "Đừng nhầm với らしい điển hình (Nらしい: 春らしい) — suy đoán có thể thay bằng ようだ, điển hình thì không."
+  ],
+  "comparisons": [
+    { "pattern": "～よう／みたい（推量）", "targetId": "b2-1", "difference": "ようだ: căn cứ là quan sát trực tiếp của người nói. らしい: căn cứ là thông tin gián tiếp từ bên ngoài." },
+    { "pattern": "～そうだ（伝聞）", "targetId": null, "difference": "V thể thường + そうだ chỉ đơn thuần truyền đạt lại lời người khác (nghe nói rằng…), không có phán đoán; らしい có chút phán đoán, độ tin cậy thấp hơn." },
+    { "pattern": "～らしい（典型）", "targetId": "b3-3", "difference": "Nらしい điển hình nghĩa là \"đúng chất N\" (男らしい), không phải suy đoán." }
+  ],
+  "examples": [
+    { "japanese": "あの二人は来月結婚するらしいよ。", "vietnamese": "Nghe nói hai người đó tháng sau sẽ cưới đấy." },
+    { "japanese": "天気予報によると、週末は雪が降るらしい。", "vietnamese": "Theo dự báo thời tiết thì cuối tuần có vẻ sẽ có tuyết." },
+    { "japanese": "山田先生は昔、プロのサッカー選手だったらしい。", "vietnamese": "Nghe đâu thầy Yamada hồi xưa từng là cầu thủ bóng đá chuyên nghiệp." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "explanation": "Mẫu ～ば／たら／なら…のに diễn tả điều kiện giả định trái với thực tế: \"nếu (đã)… thì (đã)…, vậy mà…\". のに ở cuối câu thể hiện sự tiếc nuối, bất mãn, hoặc trách móc vì thực tế không như vậy.\n\nTrong văn nói, câu thường bị bỏ lửng sau のに hoặc ～けど／～が. Dạng ～ばよかった (giá mà đã…) là biến thể rất phổ biến để bày tỏ hối tiếc về việc mình đã làm hoặc không làm.",
+  "formation": [
+    { "wordType": "Điều kiện ば", "rule": "Vば／Aければ + ～のに", "samples": ["あれば → お金があれば行けるのに", "安ければ → 安ければ買うのに"] },
+    { "wordType": "Điều kiện たら", "rule": "Vたら／Aかったら + ～のに", "samples": ["知っていたら → 知っていたら教えたのに"] },
+    { "wordType": "Điều kiện なら", "rule": "N／Aな + なら + ～のに", "samples": ["休み → 休みなら行けるのに", "暇 → 暇なら手伝えるのに"] },
+    { "wordType": "Hối tiếc", "rule": "Vば／Vなければ + よかった(のに)", "samples": ["言う → 言わなければよかった"] }
+  ],
+  "usage": [
+    "Tiếc nuối về hiện tại: 「もっと時間があれば、旅行できるのに」.",
+    "Hối tiếc về quá khứ: 「もっと早く起きればよかった」.",
+    "Trách nhẹ người khác: 「言ってくれたら、手伝ったのに」."
+  ],
+  "pitfalls": [
+    "のに ở cuối câu không đi với ý chí, mệnh lệnh.",
+    "Đừng nhầm với のに (mặc dù) giữa câu: 「雨なのに出かけた」 — không có điều kiện giả định."
+  ],
+  "comparisons": [
+    { "pattern": "～ばよかった", "targetId": null, "difference": "～ばよかった tập trung vào hối tiếc về hành động của mình; ～ば…のに bao quát mọi tình huống trái thực tế." },
+    { "pattern": "～といい（願望）", "targetId": "b15-3", "difference": "～といいのに là mong muốn điều chưa xảy ra; ～ば…のに là tiếc nuối điều đã trái với thực tế." }
+  ],
+  "examples": [
+    { "japanese": "もう少し背が高ければ、モデルになれたのに。", "vietnamese": "Giá mà cao thêm chút nữa thì tôi đã làm người mẫu được rồi." },
+    { "japanese": "雨じゃなかったら、ピクニックに行けたのに…。", "vietnamese": "Nếu không mưa thì đã đi dã ngoại được rồi…" },
+    { "japanese": "あんなことを言わなければよかった。", "vietnamese": "Giá mà tôi đã không nói điều đó." }
+  ]
+}

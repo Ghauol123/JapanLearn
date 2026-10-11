@@ -1,0 +1,26 @@
+{
+  "explanation": "N + として nghĩa là \"với tư cách là…, như là…, với vai trò…\": chỉ danh nghĩa, vị trí, chức năng, mục đích sử dụng của người hoặc vật. 「彼は通訳として働いている」 = anh ấy làm việc với tư cách phiên dịch.\n\nとしては (nhấn mạnh, đối lập: \"xét về mặt…\"), としても (\"cả với tư cách…\"), としての + N (bổ nghĩa danh từ: 親としての責任 — trách nhiệm với tư cách là cha mẹ).",
+  "formation": [
+    { "wordType": "Danh từ + động từ", "rule": "N + として + V", "samples": ["代表 → 代表として参加する", "趣味 → 趣味として始める"] },
+    { "wordType": "Bổ nghĩa danh từ", "rule": "N + としての + N", "samples": ["親 → 親としての責任", "医者 → 医者としての経験"] },
+    { "wordType": "Nhấn mạnh", "rule": "N + としては／としても", "samples": ["私 → 私としては", "歌手 → 歌手としても有名"] }
+  ],
+  "usage": [
+    "Vai trò công việc: 「彼女は通訳として会議に出席した」.",
+    "Chức năng của vật: 「この部屋は会議室として使われている」.",
+    "Lập trường: 「私としては、この案に賛成です」 (về phần tôi thì tôi tán thành)."
+  ],
+  "pitfalls": [
+    "Không dùng cho trạng thái tạm thời không phải vai trò: ✗「病気として休む」 → ✓「病気で休む」.",
+    "Không nhầm với ～とする (giả sử/coi như) hay ～を～として (Bài 27: lấy X làm Y)."
+  ],
+  "comparisons": [
+    { "pattern": "～にとって", "targetId": "b20-3", "difference": "にとって: góc nhìn đánh giá (私にとって大切); として: tư cách, vai trò (私として参加する)." },
+    { "pattern": "～を～として", "targetId": "b27-2", "difference": "～を～として: lấy/coi X là Y (散歩を日課としている); Nとして: chủ thể với vai trò N." }
+  ],
+  "examples": [
+    { "japanese": "彼女は通訳として、社長と一緒に海外へ行った。", "vietnamese": "Cô ấy cùng giám đốc ra nước ngoài với tư cách phiên dịch." },
+    { "japanese": "この古い家は、今はカフェとして使われている。", "vietnamese": "Ngôi nhà cũ này giờ được dùng làm quán cà phê." },
+    { "japanese": "親としての責任を忘れてはいけない。", "vietnamese": "Không được quên trách nhiệm với tư cách là cha mẹ." }
+  ]
+}

@@ -1,0 +1,15 @@
+@model Japan.Core.Table
+<div class="table-responsive">
+    <table class="table table-sm align-middle data-table">
+        @if (Model.Header.Count > 0)
+        {
+            <thead><tr>@foreach (var h in Model.Header) { <th>@h</th> }</tr></thead>
+        }
+        <tbody>
+            @foreach (var row in Model.Rows)
+            {
+                <tr>@foreach (var cell in row) { <td class="jp">@cell</td> }</tr>
+            }
+        </tbody>
+    </table>
+</div>

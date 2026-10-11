@@ -1,0 +1,61 @@
+﻿@inject GrammarRepository Repo
+@{
+    var headerSearch = ViewData["HeaderSearch"] is not false;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — Ngữ pháp N3</title>
+    <script>
+        document.documentElement.dataset.bsTheme = localStorage.getItem('theme')
+            ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    </script>
+    <link rel="stylesheet" href="~/lib/fonts/be-vietnam-pro/be-vietnam-pro.css" />
+    <link rel="stylesheet" href="~/lib/fonts/noto-sans-jp/noto-sans-jp.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="site-header sticky-top">
+        <nav class="container d-flex align-items-center gap-2 gap-md-3 py-2">
+            <a class="brand" asp-page="/Index" aria-label="Ngữ pháp N3 — Mục lục">
+                <span class="brand-mark ja">文法</span><span class="brand-level">N3</span>
+            </a>
+            @if (headerSearch)
+            {
+                <form action="/timkiem" method="get" role="search" class="header-search flex-grow-1">
+                    <input name="q" type="search" class="form-control" placeholder="Tìm ngữ pháp…" aria-label="Tìm ngữ pháp" autocomplete="off" />
+                    <kbd class="search-hint d-none d-md-inline">/</kbd>
+                </form>
+            }
+            else
+            {
+                <div class="flex-grow-1"></div>
+            }
+            <button id="furigana-toggle" class="btn btn-tool active" type="button" aria-pressed="true" title="Ẩn/hiện furigana">
+                <ruby class="ja">漢<rt>かん</rt></ruby><span class="d-none d-sm-inline ms-1">Furigana</span>
+            </button>
+            <button id="theme-toggle" class="btn btn-tool" type="button" title="Đổi giao diện sáng/tối" aria-label="Đổi giao diện sáng/tối">
+                <span class="theme-icon-dark" aria-hidden="true">☾</span><span class="theme-icon-light" aria-hidden="true">☀</span>
+            </button>
+        </nav>
+    </header>
+    <main class="container py-4 py-md-5">
+        @if (!Repo.IsLoaded)
+        {
+            <div class="alert alert-warning">
+                <strong>Chưa có dữ liệu.</strong> <code>@Repo.LoadError</code>.
+                Hãy chạy <code>dotnet run --project src/Japan.Importer</code> trong thư mục repo rồi tải lại trang.
+            </div>
+        }
+        @RenderBody()
+    </main>
+    <footer class="site-footer container">
+        Ngữ pháp JLPT N3 · Phần <span class="badge-extra">Bổ sung</span> không có trong giáo trình gốc.
+    </footer>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

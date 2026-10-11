@@ -1,0 +1,26 @@
+{
+  "explanation": "～たびに diễn tả mỗi lần X xảy ra thì Y cũng xảy ra, không có ngoại lệ: \"mỗi khi…, hễ… là…\". Y là sự việc lặp lại cùng với X, không nhất thiết là hệ quả logic của X.\n\nMẫu này nhấn mạnh tính lặp lại, thói quen, hoặc cảm xúc luôn nảy sinh (思い出す, 感動する, けんかする). Vế sau thường ở thì hiện tại để nói thói quen, hoặc ～ている.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる + たびに", "samples": ["会う → 会うたびに", "見る → 見るたびに"] },
+    { "wordType": "Danh từ", "rule": "N + の + たびに", "samples": ["旅行 → 旅行のたびに", "出張 → 出張のたびに"] },
+    { "wordType": "Danh từ chỉ thời điểm", "rule": "その + たびに", "samples": ["そのたびに", "失敗するたびに"] }
+  ],
+  "usage": [
+    "Thói quen gắn với sự kiện: 「帰国するたびに、家族におみやげを買う」.",
+    "Cảm xúc lặp lại: 「この写真を見るたびに、昔を思い出す」.",
+    "Danh từ đi kèm thường là danh từ chỉ hành động: 旅行, 出張, 引っ越し, 試験."
+  ],
+  "pitfalls": [
+    "Không dùng với Vた: ✗ 行ったたびに → ✓ 行くたびに.",
+    "Không dùng cho việc chỉ xảy ra một lần hoặc hiển nhiên: ✗「朝になるたびに、明るくなる」 (đương nhiên) — dùng ～と."
+  ],
+  "comparisons": [
+    { "pattern": "～と（条件）", "targetId": null, "difference": "～と diễn tả quy luật tự nhiên, hệ quả tất yếu (春になると暖かくなる); ～たびに nhấn mạnh sự lặp lại mỗi lần cụ thể." },
+    { "pattern": "～ごとに", "targetId": null, "difference": "～ごとに (N2) nghĩa là \"cứ mỗi (đơn vị)\" như 3時間ごとに; ～たびに gắn với sự kiện, hành động." }
+  ],
+  "examples": [
+    { "japanese": "この歌を聞くたびに、学生時代を思い出す。", "vietnamese": "Mỗi lần nghe bài hát này tôi lại nhớ thời sinh viên." },
+    { "japanese": "引っ越しのたびに、いらない物を捨てるようにしている。", "vietnamese": "Mỗi lần chuyển nhà tôi đều cố vứt bỏ đồ không cần." },
+    { "japanese": "祖母は会うたびに、「大きくなったね」と言う。", "vietnamese": "Mỗi lần gặp bà tôi đều nói \"cháu lớn quá nhỉ\"." }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "explanation": "～うちに (1) diễn tả việc tranh thủ làm Y trong khoảng thời gian trạng thái X còn tồn tại, vì sau khi X thay đổi thì sẽ khó hoặc không thể làm Y được nữa: \"nhân lúc còn…, trong khi còn…\". Trọng tâm không phải là mốc thời gian mà là cơ hội sẽ mất.\n\nHay đi với các trạng thái sẽ thay đổi: 若い, 元気, 熱い, 明るい, 独身, 学生, 日本にいる, Vない (雨が降らないうちに — trước khi mưa).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる／Vている／Vない + うちに", "samples": ["いる → 日本にいるうちに", "降らない → 雨が降らないうちに"] },
+    { "wordType": "Tính từ い", "rule": "Aい + うちに", "samples": ["若い → 若いうちに", "熱い → 熱いうちに"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な + うちに", "samples": ["元気 → 元気なうちに", "静か → 静かなうちに"] },
+    { "wordType": "Danh từ", "rule": "N + の + うちに", "samples": ["学生 → 学生のうちに", "午前 → 午前のうちに"] }
+  ],
+  "usage": [
+    "Vế sau là hành động có ý chí: lời khuyên, mong muốn, ý định (～たい, ～てください, ～ましょう, ～ておく).",
+    "Vない + うちに = \"trước khi (điều không mong muốn) xảy ra\": 「暗くならないうちに帰ろう」.",
+    "Nhấn mạnh cơ hội: sau khi X thay đổi thì sẽ quá muộn."
+  ],
+  "pitfalls": [
+    "Không dùng khi trạng thái X không thay đổi hoặc có mốc rõ ràng: ✗「夏休みのうちに旅行した」 → ✓「夏休みの間に旅行した」.",
+    "Vế sau ở nghĩa này nên là hành động có ý chí; sự việc tự nhiên xảy ra là nghĩa (2)."
+  ],
+  "comparisons": [
+    { "pattern": "～間に", "targetId": "b7-3", "difference": "～間に chỉ khoảng thời gian có điểm đầu và điểm cuối rõ ràng; ～うちに nhấn mạnh tranh thủ trước khi trạng thái thay đổi." },
+    { "pattern": "～前に", "targetId": null, "difference": "～前に chỉ thứ tự thời gian đơn thuần; Vないうちに mang sắc thái \"kẻo không kịp\"." },
+    { "pattern": "～うちに（２）", "targetId": "b7-2", "difference": "Nghĩa (2): trong lúc đang làm X thì Y xảy ra tự nhiên, không do ý chí." }
+  ],
+  "examples": [
+    { "japanese": "若いうちに、いろいろな国へ行ってみたい。", "vietnamese": "Tôi muốn đi nhiều nước khi còn trẻ." },
+    { "japanese": "暗くならないうちに、家に帰りましょう。", "vietnamese": "Mình về nhà trước khi trời tối thôi." },
+    { "japanese": "忘れないうちに、メモしておこう。", "vietnamese": "Ghi chú lại kẻo quên." }
+  ]
+}

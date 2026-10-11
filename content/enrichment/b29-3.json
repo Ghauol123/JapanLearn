@@ -1,0 +1,26 @@
+{
+  "explanation": "なぜ～かというと、～からだ dùng để nêu lý do một cách nổi bật: người nói đặt câu hỏi \"tại sao…\" rồi tự trả lời \"đó là vì…\". Cấu trúc này giúp nhấn mạnh lý do và hay gặp trong bài luận, thuyết trình, đoạn văn giải thích.\n\nCó ba cách sắp xếp: ① なぜ + (sự việc) + かというと、(lý do) + からだ (cả câu); ② (Sự việc). なぜかというと、(lý do) + からだ (tách câu); ③ (Sự việc). なぜなら、(lý do) + からだ (trang trọng, văn viết). なぜ có thể thay bằng どうして hoặc なんで (văn nói).",
+  "formation": [
+    { "wordType": "Một câu", "rule": "なぜ／どうして + thể thường + かというと、thể thường + からだ", "samples": ["遅れた → なぜ遅れたかというと、電車が止まったからだ"] },
+    { "wordType": "Tách câu", "rule": "～。なぜかというと／どうしてかというと、～からだ", "samples": ["好きだ → ～が好きだ。なぜかというと、～からだ"] },
+    { "wordType": "Trang trọng", "rule": "～。なぜなら、～からだ", "samples": ["反対だ → 私は反対だ。なぜなら、～からだ"] }
+  ],
+  "usage": [
+    "Bài luận, phát biểu ý kiến: 「私は制服に賛成だ。なぜなら、毎朝服を選ぶ必要がないからだ」.",
+    "Giải thích trong hội thoại: 「どうして日本語を勉強しているかというと、アニメが好きだからです」.",
+    "Thường gặp trong bài ngữ pháp đoạn văn, chỗ trống cuối câu thường là ～からだ."
+  ],
+  "pitfalls": [
+    "Câu chứa なぜ／なぜなら phải kết thúc bằng ～からだ (hoặc ～ためだ); quên からだ là lỗi phổ biến.",
+    "Trước かというと dùng thể thường; với danh từ/tính từ な có thể thêm な／なの: 「なぜ好きなのかというと」."
+  ],
+  "comparisons": [
+    { "pattern": "～のだから", "targetId": "b11-4", "difference": "のだから: lý do đã biết, dùng để thuyết phục; なぜ～かというと: nhấn mạnh, giải thích lý do." },
+    { "pattern": "～おかげ／～せい", "targetId": "b11-3", "difference": "おかげ／せい kèm đánh giá tốt/xấu về nguyên nhân; なぜ～からだ trung tính." }
+  ],
+  "examples": [
+    { "japanese": "なぜ遅刻したかというと、電車が事故で止まったからです。", "vietnamese": "Lý do tôi đến muộn là vì tàu bị dừng do sự cố." },
+    { "japanese": "私は田舎の生活が好きだ。なぜかというと、空気がきれいで静かだからだ。", "vietnamese": "Tôi thích cuộc sống ở quê. Lý do là vì không khí trong lành và yên tĩnh." },
+    { "japanese": "この計画には反対です。なぜなら、費用がかかりすぎるからです。", "vietnamese": "Tôi phản đối kế hoạch này. Bởi vì chi phí quá tốn kém." }
+  ]
+}

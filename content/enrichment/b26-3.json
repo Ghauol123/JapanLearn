@@ -1,0 +1,19 @@
+{
+  "explanation": "Phần sắp xếp câu (文の組み立て) trong đề N3 thường có 5 câu. Mục tiêu thời gian: tối đa khoảng 1 phút mỗi câu, tổng cả phần không quá 5 phút, để dành thời gian cho phần đọc hiểu vốn tốn nhiều thời gian hơn.\n\nNếu một câu khó và đã quá 1 phút mà vẫn chưa ra, hãy chọn đáp án có khả năng nhất, đánh dấu lại và chuyển sang câu tiếp theo. Quay lại câu đó nếu cuối giờ còn thời gian.",
+  "usage": [
+    "Đặt mốc: 5 câu ráp câu ≈ 5 phút.",
+    "Câu nào nhận ra ngữ pháp chính ngay thì làm nhanh để tiết kiệm thời gian cho câu khó.",
+    "Luôn tô một đáp án trước khi bỏ qua — không để trống (không bị trừ điểm khi sai).",
+    "Luyện tập bằng cách bấm giờ khi làm đề thử."
+  ],
+  "pitfalls": [
+    "Sa lầy vào một câu khó làm mất thời gian của cả phần đọc hiểu phía sau.",
+    "Làm quá nhanh mà không đọc lại cả câu dễ chọn nhầm vị trí ★.",
+    "Quên ghi lại thứ tự đã xếp, khi quay lại phải làm từ đầu."
+  ],
+  "comparisons": [
+    { "pattern": "Tốc độ làm bài đoạn văn", "targetId": "b28-3", "difference": "Bài 28 áp dụng nguyên tắc thời gian tương tự cho dạng ngữ pháp đoạn văn (文章の文法)." },
+    { "pattern": "Nắm ý nghĩa tổng quát", "targetId": "b26-1", "difference": "Áp dụng đúng các bước ở b26-1 và b26-2 là cách chính để làm nhanh." }
+  ],
+  "examples": []
+}

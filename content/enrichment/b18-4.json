@@ -1,0 +1,27 @@
+{
+  "explanation": "丁寧語 (lịch sự ngữ) làm cho lời nói nói chung trở nên lịch sự, không phân biệt ai là chủ thể hành động. Dạng cơ bản là です／ます; ở mức cao hơn có でございます (thay だ／です) và ございます (thay ある／あります).\n\nでございます／ございます rất hay dùng trong dịch vụ: cửa hàng, khách sạn, thông báo ở nhà ga, sân bay. Ngoài ra 美化語 (làm đẹp lời nói) như お茶, ご飯, お手洗い cũng thuộc nhóm lịch sự ngữ.",
+  "formation": [
+    { "wordType": "だ／です", "rule": "N／Aな + でございます", "samples": ["こちらです → こちらでございます", "無料です → 無料でございます"] },
+    { "wordType": "ある／あります", "rule": "ございます", "samples": ["あります → ございます", "ありません → ございません"] },
+    { "wordType": "Tính từ い", "rule": "Aい + です (thông thường); văn rất trang trọng: Aう + ございます", "samples": ["ありがたい → ありがとうございます", "おめでたい → おめでとうございます"] },
+    { "wordType": "Làm đẹp (美化語)", "rule": "お／ご + N", "samples": ["茶 → お茶", "手洗い → お手洗い"] }
+  ],
+  "usage": [
+    "Hướng dẫn khách: 「お手洗いはあちらでございます」.",
+    "Trả lời điện thoại: 「はい、さくら商事でございます」.",
+    "Thông báo: 「ご質問がございましたら、お知らせください」."
+  ],
+  "pitfalls": [
+    "でございます không dùng cho người trên làm chủ ngữ: ✗「こちらは田中部長でございます」 (khi giới thiệu khách) → ✓「こちらは田中部長でいらっしゃいます」.",
+    "ありがとうございます／おめでとうございます là cụm cố định, không tự biến các tính từ khác theo kiểu này trong hội thoại thường."
+  ],
+  "comparisons": [
+    { "pattern": "尊敬語", "targetId": "b18-1", "difference": "でいらっしゃる (尊敬語) nâng người trên; でございます (丁寧語) chỉ lịch sự hóa lời nói, dùng cho vật, sự việc, hoặc phía mình." },
+    { "pattern": "謙譲語２", "targetId": "b18-3", "difference": "謙譲語２ khiêm tốn hóa hành động của mình; 丁寧語 trung tính về chủ thể." }
+  ],
+  "examples": [
+    { "japanese": "お手洗いは、こちらの廊下の奥でございます。", "vietnamese": "Nhà vệ sinh ở cuối hành lang này ạ." },
+    { "japanese": "申し訳ございません。そのサイズは今、ございません。", "vietnamese": "Thành thật xin lỗi, hiện cỡ đó không có ạ." },
+    { "japanese": "はい、ABCホテルでございます。", "vietnamese": "Vâng, khách sạn ABC xin nghe ạ." }
+  ]
+}

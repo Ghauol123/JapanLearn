@@ -1,0 +1,27 @@
+{
+  "explanation": "～てもらいたい／～てほしい diễn tả mong muốn người khác làm (hoặc không làm) điều gì đó cho mình: \"muốn (ai đó) làm…\". Người thực hiện hành động đánh dấu bằng に.\n\n～ていただきたい là dạng khiêm nhường, lịch sự của ～てもらいたい, dùng với cấp trên, khách hàng; thường kết thúc bỏ lửng bằng ～のですが để thành lời nhờ vả nhẹ nhàng. Dạng phủ định ～ないでほしい／～ないでもらいたい = \"mong (ai) đừng…\".",
+  "formation": [
+    { "wordType": "Khẳng định", "rule": "N(người) に + Vて + もらいたい／ほしい", "samples": ["見る → 見てもらいたい", "来る → 来てほしい"] },
+    { "wordType": "Lịch sự", "rule": "Vて + いただきたい(のですが)", "samples": ["教える → 教えていただきたいのですが", "確認する → 確認していただきたい"] },
+    { "wordType": "Phủ định", "rule": "Vないで + ほしい／もらいたい", "samples": ["言う → 言わないでほしい", "見る → 見ないでもらいたい"] },
+    { "wordType": "Phủ định mong muốn", "rule": "Vて + ほしくない／もらいたくない", "samples": ["辞める → 辞めてほしくない"] }
+  ],
+  "usage": [
+    "Nhờ vả lịch sự: 「この書類を見ていただきたいのですが…」.",
+    "Bày tỏ mong muốn với người thân: 「もっと早く帰ってきてほしい」.",
+    "Mong sự việc xảy ra (chủ thể là vật): 「早く春が来てほしい」."
+  ],
+  "pitfalls": [
+    "Không dùng ～てほしい trực tiếp với cấp trên vì nghe như ra yêu cầu; dùng ～ていただけませんか hoặc ～ていただきたいのですが.",
+    "Người làm hành động dùng に, không dùng が: ✗ 母が来てほしい → ✓ 母に来てほしい."
+  ],
+  "comparisons": [
+    { "pattern": "～させてもらいたい", "targetId": "b15-2", "difference": "～てもらいたい: muốn NGƯỜI KHÁC làm; ～させてもらいたい: muốn CHÍNH MÌNH được phép làm." },
+    { "pattern": "～たい", "targetId": null, "difference": "～たい là mong muốn của bản thân làm gì; ～てほしい là mong người khác làm." }
+  ],
+  "examples": [
+    { "japanese": "すみません、この漢字の読み方を教えていただきたいのですが。", "vietnamese": "Xin lỗi, tôi muốn nhờ anh/chị chỉ cách đọc chữ kanji này." },
+    { "japanese": "子供には自由に好きなことをしてほしい。", "vietnamese": "Tôi mong con được tự do làm điều mình thích." },
+    { "japanese": "このことは、まだ誰にも言わないでほしい。", "vietnamese": "Mong bạn đừng nói chuyện này với ai vội." }
+  ]
+}

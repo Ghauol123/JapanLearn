@@ -1,0 +1,25 @@
+{
+  "explanation": "～と言われている nghĩa là \"người ta nói rằng…, được cho là…\": truyền đạt một nhận định, quan niệm, truyền thuyết hoặc kết quả nghiên cứu được nhiều người trong xã hội chấp nhận, không phải ý kiến riêng của ai. Đây là dạng bị động của 言う ở thể ～ている (trạng thái chung kéo dài).\n\nMẫu câu khách quan, hay dùng trong văn viết, báo chí, bài giới thiệu, thuyết trình. Các dạng gần giống: ～と考えられている (được cho là), ～と知られている (được biết là).",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "V／Aい (thể thường) + と言われている", "samples": ["いい → 体にいいと言われている", "増える → 増えると言われている"] },
+    { "wordType": "Danh từ／Tính từ な", "rule": "N／Aな + だ + と言われている", "samples": ["問題 → 問題だと言われている", "有名 → 有名だと言われている"] }
+  ],
+  "usage": [
+    "Nêu quan niệm phổ biến: 「緑茶は健康にいいと言われている」.",
+    "Nêu truyền thuyết, lịch sử: 「この寺は800年前に建てられたと言われている」.",
+    "Có thể chuyển sang 一般に／昔から để nhấn mạnh: 「昔から～と言われている」."
+  ],
+  "pitfalls": [
+    "Không dùng cho tin tức từ một người cụ thể: ✗「田中さんは明日来ると言われている」 → ✓「田中さんは明日来るそうだ」.",
+    "Không dùng cho ý kiến riêng của người nói."
+  ],
+  "comparisons": [
+    { "pattern": "～ということだ", "targetId": "b13-1", "difference": "ということだ: tin cụ thể từ một nguồn; と言われている: quan niệm chung, nhiều người nói." },
+    { "pattern": "～とか", "targetId": "b13-3", "difference": "～とか: tin đồn không chắc chắn, văn nói; と言われている: thông tin xã hội chấp nhận rộng rãi." }
+  ],
+  "examples": [
+    { "japanese": "朝ご飯を食べると、頭がよく働くと言われている。", "vietnamese": "Người ta nói rằng ăn sáng thì đầu óc hoạt động tốt." },
+    { "japanese": "この神社は、恋愛にご利益があると言われている。", "vietnamese": "Ngôi đền này được cho là linh nghiệm về đường tình duyên." },
+    { "japanese": "日本は世界で一番安全な国の一つだと言われている。", "vietnamese": "Nhật Bản được cho là một trong những nước an toàn nhất thế giới." }
+  ]
+}

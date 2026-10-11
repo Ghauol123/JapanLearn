@@ -1,0 +1,27 @@
+{
+  "explanation": "～ず (không có に) là dạng văn viết của ～なくて. Nó nối hai vế câu với hai nghĩa chính: ① nguyên nhân — \"vì không… nên…\" (vế sau thường là cảm xúc, trạng thái không mong muốn: 困る, 心配する, 迷う); ② liệt kê phủ định — \"không… và cũng không…\".\n\nVì là văn viết, ～ず xuất hiện nhiều trong báo chí, văn bản, bài đọc JLPT. Một số cụm cố định: 思わず (bất giác), 相変わらず (vẫn như cũ), 少なからず (không ít).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vない bỏ ない + ず", "samples": ["わかる → わからず", "眠れる → 眠れず", "取れる → 取れず"] },
+    { "wordType": "Động từ する／来る", "rule": "する → せず; 来る → 来ず (こず)", "samples": ["連絡する → 連絡せず", "来る → 来ず"] },
+    { "wordType": "Liệt kê", "rule": "V1ず、V2ず ／ Aすぎず、Aすぎず", "samples": ["暑すぎず、寒すぎず", "遅刻せず、休まず"] }
+  ],
+  "usage": [
+    "Nguyên nhân dẫn đến kết quả không mong muốn: 「答えがわからず、困った」.",
+    "Liệt kê hai trạng thái phủ định: 「甘すぎず、辛すぎず、ちょうどいい」.",
+    "Trong văn nói thường thay bằng ～なくて."
+  ],
+  "pitfalls": [
+    "Vế sau không dùng ý chí, mệnh lệnh: ✗「時間がわからず、電話してください」 → ✓「時間がわからなかったら、電話してください」.",
+    "Khác ～ずに: 「かぎをかけずに出かけた」 (ra ngoài mà không khóa — cách thức) vs 「道がわからず、迷った」 (vì không biết đường nên lạc — nguyên nhân)."
+  ],
+  "comparisons": [
+    { "pattern": "～ずに", "targetId": "b6-3", "difference": "～ずに: \"mà không…\" (cách thức thực hiện hành động chính). ～ず: \"vì không…\" (nguyên nhân) hoặc liệt kê phủ định." },
+    { "pattern": "～なくて", "targetId": null, "difference": "Cùng nghĩa nguyên nhân; ～なくて dùng trong văn nói, ～ず cứng và trang trọng hơn." },
+    { "pattern": "Thể liên dụng trung chỉ", "targetId": "b30-1", "difference": "Bài 30 hệ thống lại: V1なくて／V1ないで trong văn viết đều chuyển thành V1ず." }
+  ],
+  "examples": [
+    { "japanese": "昨夜は暑くて眠れず、今日は一日中眠かった。", "vietnamese": "Đêm qua nóng quá không ngủ được nên hôm nay buồn ngủ cả ngày." },
+    { "japanese": "彼から連絡が来ず、みんな心配している。", "vietnamese": "Không có liên lạc từ anh ấy nên mọi người đang lo." },
+    { "japanese": "このスープは甘すぎず、辛すぎず、ちょうどいい味だ。", "vietnamese": "Món súp này không quá ngọt cũng không quá cay, vị vừa phải." }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "explanation": "～ことになる diễn tả việc một sự việc được quyết định, sắp xếp mà không do ý chí của người nói (do công ty, tổ chức, hoàn cảnh, kết quả bàn bạc): \"(đã) được quyết định là…, thành ra là…\". Dạng ～ことになった rất hay dùng để thông báo tin: kết hôn, chuyển công tác, nghỉ việc.\n\nNgay cả khi chính mình quyết định, người Nhật vẫn hay dùng ～ことになりました để nói khiêm tốn, mềm mỏng, tránh tạo cảm giác áp đặt. Dạng ～ことになっている chỉ quy định, lịch trình đã định sẵn.",
+  "formation": [
+    { "wordType": "Khẳng định", "rule": "Vる + ことになる／ことになった", "samples": ["転勤する → 転勤することになった", "結婚する → 結婚することになりました"] },
+    { "wordType": "Phủ định", "rule": "Vない + ことになる", "samples": ["行かない → 行かないことになった"] },
+    { "wordType": "Quy định", "rule": "Vる／Vない + ことになっている", "samples": ["休む → 連絡することになっている", "吸わない → 吸わないことになっている"] }
+  ],
+  "usage": [
+    "Thông báo quyết định chính thức: 「来月から大阪支店で働くことになりました」.",
+    "Nói quy định: 「この寮では10時までに帰ることになっている」.",
+    "Diễn tả kết quả tất yếu: 「このまま続けると、失敗することになる」."
+  ],
+  "pitfalls": [
+    "Đừng nhầm với ～ことにする (Bài 17): ことにする là tự mình quyết định; ことになる là được quyết định/thành ra.",
+    "Khi thông báo tin vui của mình, dùng ことになりました lịch sự hơn ことにしました."
+  ],
+  "comparisons": [
+    { "pattern": "～ことにする", "targetId": "b17-1", "difference": "ことにする: người nói chủ động quyết định. ことになる: quyết định đến từ bên ngoài hoặc người nói muốn nói khiêm tốn." },
+    { "pattern": "～ようになる", "targetId": null, "difference": "～ようになる: thay đổi về khả năng, thói quen (話せるようになった); ～ことになる: một quyết định, sự sắp xếp." }
+  ],
+  "examples": [
+    { "japanese": "４月から東京本社で働くことになりました。", "vietnamese": "Từ tháng 4 tôi sẽ làm việc ở trụ sở chính tại Tokyo." },
+    { "japanese": "雨のため、運動会は来週に延期することになった。", "vietnamese": "Vì mưa nên hội thao được quyết định hoãn sang tuần sau." },
+    { "japanese": "この会社では、休むときは必ず上司に連絡することになっている。", "vietnamese": "Ở công ty này, quy định là khi nghỉ phải liên lạc với cấp trên." }
+  ]
+}

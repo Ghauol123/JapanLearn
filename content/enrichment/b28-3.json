@@ -1,0 +1,19 @@
+{
+  "explanation": "Phần ngữ pháp đoạn văn (文章の文法) thường có một đoạn văn với 4–5 chỗ trống. Khác với ráp câu, các chỗ trống liên quan đến mạch văn, nên cần đọc lướt toàn bộ đoạn trước để nắm chủ đề, người viết và mục đích, rồi mới quay lại từng chỗ trống.\n\nMục tiêu thời gian: mỗi chỗ trống tối đa khoảng 1 phút, tổng cả phần không quá 5 phút. Chỗ trống nào khó thì chọn tạm, đánh dấu và làm tiếp — thông tin ở các câu sau đôi khi giúp giải quyết chỗ trống phía trước.",
+  "usage": [
+    "Đọc lướt cả đoạn (30–60 giây) để biết đây là thư, bài luận hay câu chuyện.",
+    "Làm lần lượt từng chỗ trống, đọc kỹ câu trước và sau.",
+    "Chỗ trống khó: chọn đáp án có khả năng nhất, quay lại sau khi đọc hết đoạn.",
+    "Không để trống đáp án nào."
+  ],
+  "pitfalls": [
+    "Bỏ qua bước đọc lướt khiến chọn sai giọng văn (lịch sự hay thân mật).",
+    "Dành quá nhiều thời gian cho phần này làm thiếu thời gian đọc hiểu.",
+    "Chọn liên từ dựa vào một câu mà không xét cả mạch đoạn."
+  ],
+  "comparisons": [
+    { "pattern": "Tốc độ làm bài ráp câu", "targetId": "b26-3", "difference": "Cùng nguyên tắc 1 phút/câu, 5 phút/phần; nhưng bài đoạn văn cần thêm bước đọc lướt toàn đoạn." },
+    { "pattern": "Liên từ, vị ngữ chính", "targetId": "b28-1", "difference": "Kỹ thuật cụ thể cho từng loại chỗ trống." }
+  ],
+  "examples": []
+}

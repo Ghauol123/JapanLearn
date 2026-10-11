@@ -1,0 +1,28 @@
+{
+  "explanation": "～べきだ diễn tả ý kiến của người nói rằng việc gì đó là đúng đắn, nên làm theo lẽ thường, đạo đức, trách nhiệm xã hội: \"nên…, phải…\". ～べきではない là \"không nên…\". Sắc thái khá mạnh và mang tính đánh giá, khuyên răn.\n\nDạng quá khứ ～べきだった diễn tả hối tiếc: \"đáng lẽ ra nên…\". Bổ nghĩa danh từ: Vるべき + N (việc cần làm). Với する có hai dạng: するべき và すべき (trang trọng hơn).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる + べきだ／べきではない", "samples": ["謝る → 謝るべきだ", "行く → 行くべきではない"] },
+    { "wordType": "Động từ する", "rule": "する → するべき／すべき", "samples": ["勉強する → 勉強すべきだ", "反省する → 反省するべきだ"] },
+    { "wordType": "Tính từ／Danh từ", "rule": "Aい + くあるべきだ ／ Aな／N + であるべきだ", "samples": ["厳しい → 厳しくあるべきだ", "平等 → 平等であるべきだ"] },
+    { "wordType": "Hối tiếc／bổ nghĩa", "rule": "Vるべきだった ／ Vるべき + N", "samples": ["聞く → 聞くべきだった", "する → するべきこと"] }
+  ],
+  "usage": [
+    "Ý kiến về lẽ phải: 「約束は守るべきだ」.",
+    "Hối tiếc: 「もっと早く相談すべきだった」.",
+    "Danh từ: 「やるべきことがたくさんある」."
+  ],
+  "pitfalls": [
+    "Không dùng cho quy định, luật pháp bắt buộc: ✗「日本では車は左を走るべきだ」 → ✓「走らなければならない」.",
+    "Nói trực tiếp với người trên dễ gây mất lòng; dùng ～たほうがいいと思います cho nhẹ hơn."
+  ],
+  "comparisons": [
+    { "pattern": "～なければならない", "targetId": "b6-2", "difference": "なければならない: bắt buộc (luật, quy định); べきだ: nên làm theo lẽ phải, ý kiến cá nhân." },
+    { "pattern": "～ほうがいい", "targetId": null, "difference": "ほうがいい: lời khuyên thực tế, nhẹ hơn; べきだ: mạnh, mang tính đạo đức." },
+    { "pattern": "～たらどうか", "targetId": "b16-4", "difference": "～たらどう là gợi ý nhẹ nhàng; べきだ là khẳng định mạnh." }
+  ],
+  "examples": [
+    { "japanese": "悪いことをしたら、すぐに謝るべきだ。", "vietnamese": "Nếu làm điều sai thì nên xin lỗi ngay." },
+    { "japanese": "あの時、もっと親の話を聞くべきだった。", "vietnamese": "Lúc đó đáng lẽ tôi nên nghe lời bố mẹ hơn." },
+    { "japanese": "電車の中で大きな声で電話するべきではない。", "vietnamese": "Không nên nói điện thoại to trên tàu." }
+  ]
+}

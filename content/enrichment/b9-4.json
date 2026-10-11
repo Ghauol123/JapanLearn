@@ -1,0 +1,25 @@
+{
+  "explanation": "～に限る nghĩa là \"tốt nhất là…, không gì bằng…\": người nói khẳng định X là lựa chọn tốt nhất trong một hoàn cảnh nhất định, dựa trên kinh nghiệm và cảm nhận cá nhân. Câu thường có điều kiện hoặc hoàn cảnh đi trước: 「疲れたときは寝るに限る」.\n\nVì mang tính chủ quan, ～に限る không dùng cho những điều hiển nhiên, mang tính khách quan, ai cũng phải làm (như đi bệnh viện khi bệnh nặng).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる／Vない + に限る", "samples": ["寝る → 寝るに限る", "行かない → 行かないに限る"] },
+    { "wordType": "Danh từ", "rule": "N + に限る", "samples": ["ビール → 冷えたビールに限る", "温泉 → 冬は温泉に限る"] }
+  ],
+  "usage": [
+    "Thường có hoàn cảnh đi trước: ～ときは, ～なら, 夏は, 冬は.",
+    "Hay đi với やっぱり／何といっても để nhấn mạnh: 「やっぱり夏はスイカに限る」.",
+    "Văn nói thân mật, chia sẻ kinh nghiệm."
+  ],
+  "pitfalls": [
+    "Không dùng cho điều khách quan/hiển nhiên: ✗「骨が折れたら、病院に行くに限る」.",
+    "Không dùng cho mong muốn của người khác: dùng để nói ý kiến của chính người nói."
+  ],
+  "comparisons": [
+    { "pattern": "～に限らず／～に限って", "targetId": null, "difference": "～に限らず (không chỉ…) và ～に限って (riêng… thì lại…) dùng 限る với nghĩa \"giới hạn\", khác nghĩa \"tốt nhất\"." },
+    { "pattern": "～たらいい（アドバイス）", "targetId": "b15-4", "difference": "～たらいい là lời khuyên trung tính; ～に限る khẳng định mạnh đó là cách tốt nhất." }
+  ],
+  "examples": [
+    { "japanese": "疲れたときは、何も考えずに寝るに限る。", "vietnamese": "Khi mệt thì tốt nhất là đi ngủ, chẳng nghĩ gì cả." },
+    { "japanese": "寒い冬は、やっぱり温泉に限るね。", "vietnamese": "Mùa đông lạnh thì không gì bằng tắm suối nước nóng nhỉ." },
+    { "japanese": "知らない人からのメールは、開けないに限る。", "vietnamese": "Email từ người lạ thì tốt nhất là đừng mở." }
+  ]
+}
