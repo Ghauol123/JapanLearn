@@ -1,0 +1,27 @@
+{
+  "explanation": "Vる + ばかりだ (thay đổi) nghĩa là \"ngày càng…, chỉ toàn…(theo một chiều)\": một sự việc liên tục thay đổi theo một hướng, không dừng lại hay đảo chiều. Hướng thay đổi gần như luôn là xấu đi, nên câu mang sắc thái tiêu cực, lo ngại.\n\nĐộng từ đi kèm thường là động từ chỉ sự thay đổi: 増える, 減る, 悪くなる, ひどくなる, 下がる, 上がる, 広がる. Hay đi với ますます, どんどん.",
+  "formation": [
+    { "wordType": "Động từ chỉ thay đổi", "rule": "Vる + ばかりだ", "samples": ["増える → 増えるばかりだ", "減る → 減るばかりだ"] },
+    { "wordType": "Tính từ + なる", "rule": "Aく／Aに + なるばかりだ", "samples": ["悪い → 悪くなるばかりだ", "不便 → 不便になるばかりだ"] },
+    { "wordType": "Giữa câu", "rule": "Vる + ばかりで、～", "samples": ["上がる → 物価は上がるばかりで"] }
+  ],
+  "usage": [
+    "Xu hướng xã hội: 「子供の数は減るばかりだ」.",
+    "Tình trạng sức khỏe, quan hệ: 「二人の関係は悪くなるばかりだ」.",
+    "Kinh tế: 「物価は上がるばかりで、給料は上がらない」."
+  ],
+  "pitfalls": [
+    "Không dùng với thay đổi tích cực: ✗「日本語が上手になるばかりだ」 → ✓「どんどん上手になっている」.",
+    "Không dùng với động từ không chỉ thay đổi: ✗「勉強するばかりだ」 (sẽ thành nghĩa khác)."
+  ],
+  "comparisons": [
+    { "pattern": "～ばかりだ（準備完了）", "targetId": "b22-4", "difference": "Cùng hình thức Vるばかりだ nhưng nghĩa \"chỉ còn mỗi việc…\"; phân biệt nhờ ngữ cảnh: có 後は／もう và việc chuẩn bị đã xong." },
+    { "pattern": "～一方だ", "targetId": null, "difference": "～一方だ cùng nghĩa \"ngày càng\", dùng được cả xu hướng trung tính; ばかりだ thiên về chiều hướng xấu." },
+    { "pattern": "～ていく", "targetId": "b29-1", "difference": "～ていく chỉ sự thay đổi tiếp diễn trung tính; ばかりだ nhấn mạnh chỉ một chiều và tiêu cực." }
+  ],
+  "examples": [
+    { "japanese": "この町の人口は、年々減るばかりだ。", "vietnamese": "Dân số thị trấn này cứ giảm dần qua từng năm." },
+    { "japanese": "薬を飲んでいるのに、せきはひどくなるばかりだ。", "vietnamese": "Dù đang uống thuốc nhưng cơn ho cứ ngày càng nặng hơn." },
+    { "japanese": "物価は上がるばかりで、生活が苦しい。", "vietnamese": "Vật giá cứ tăng mãi nên cuộc sống khó khăn." }
+  ]
+}

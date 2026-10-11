@@ -1,0 +1,26 @@
+{
+  "explanation": "Vる + わけにはいかない nghĩa là \"không thể…\" — không phải vì không có khả năng, mà vì lý do xã hội, đạo đức, trách nhiệm, hoàn cảnh hoặc tâm lý nên không được phép làm. Người nói có thể muốn làm, nhưng tự thấy làm thì không đúng.\n\nĐây là khác biệt quan trọng với thể khả năng (～られない): 「飲めない」 = không uống được (dị ứng, không biết uống); 「飲むわけにはいかない」 = không thể uống (vì lát nữa phải lái xe).",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vる + わけにはいかない", "samples": ["休む → 休むわけにはいかない", "諦める → 諦めるわけにはいかない"] },
+    { "wordType": "Lịch sự／quá khứ", "rule": "～わけにはいきません／いかなかった", "samples": ["帰る → 帰るわけにはいきません", "断る → 断るわけにはいかなかった"] }
+  ],
+  "usage": [
+    "Trách nhiệm công việc: 「責任者だから、先に帰るわけにはいかない」.",
+    "Lý do đạo đức: 「人の秘密を話すわけにはいかない」.",
+    "Từ chối khéo: 「そんな高価なものをいただくわけにはいきません」."
+  ],
+  "pitfalls": [
+    "Không dùng cho việc không làm được do năng lực, điều kiện vật lý: ✗「泳げないから、海に入るわけにはいかない」 (thường nói 泳げないから入れない).",
+    "Chủ ngữ thường là người nói; nói về người khác thì nghe như suy đoán hoàn cảnh của họ."
+  ],
+  "comparisons": [
+    { "pattern": "Thể khả năng phủ định", "targetId": null, "difference": "～られない: không có khả năng; ～わけにはいかない: có khả năng nhưng lý do xã hội/đạo đức không cho phép." },
+    { "pattern": "～ないわけにはいかない", "targetId": "b21-3", "difference": "Dạng phủ định kép: không thể không làm → buộc phải làm." },
+    { "pattern": "～わけがない", "targetId": "b14-1", "difference": "わけがない phủ định khả năng xảy ra (không lẽ nào); わけにはいかない nói về việc không được phép làm." }
+  ],
+  "examples": [
+    { "japanese": "友達との約束だから、今さら断るわけにはいかない。", "vietnamese": "Vì là lời hứa với bạn nên giờ không thể từ chối được." },
+    { "japanese": "チームのみんなが頑張っているのに、私だけ休むわけにはいかない。", "vietnamese": "Cả đội đang cố gắng, không thể chỉ mình tôi nghỉ được." },
+    { "japanese": "こんな高価なプレゼントを受け取るわけにはいきません。", "vietnamese": "Tôi không thể nhận món quà đắt tiền thế này được." }
+  ]
+}

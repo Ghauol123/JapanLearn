@@ -1,0 +1,31 @@
+{
+  "explanation": "Bốn hậu tố mô tả đặc điểm, khuynh hướng:\n\n～づらい (Vます): khó làm vì lý do tâm lý, cảm giác ngại, hoặc thể chất không thoải mái (言いづらい, 歩きづらい). Khác với ～にくい thường nói về độ khó khách quan.\n\n～がちだ (N／Vます): có xu hướng dễ xảy ra điều không tốt, hay bị (忘れがち, 病気がち, 遅れがち).\n\n～っぽい (N／Vます／Aい bỏ い): ① có vẻ giống, mang tính chất (子どもっぽい, 白っぽい); ② hay làm, dễ (忘れっぽい, 怒りっぽい). Thường dùng trong văn nói.\n\n～だらけ (N): đầy, phủ đầy, toàn thứ không hay (ゴミだらけ, 間違いだらけ).",
+  "formation": [
+    { "wordType": "Khó làm", "rule": "Vます + づらい", "samples": ["言う → 言いづらい", "読む → 読みづらい"] },
+    { "wordType": "Xu hướng", "rule": "N／Vます + がちだ", "samples": ["忘れる → 忘れがちだ", "病気 → 病気がちだ", "曇り → 曇りがち"] },
+    { "wordType": "Giống, hay", "rule": "N／Vます／Aい bỏ い + っぽい", "samples": ["子ども → 子どもっぽい", "怒る → 怒りっぽい", "安い → 安っぽい"] },
+    { "wordType": "Đầy", "rule": "N + だらけ", "samples": ["ゴミ → ゴミだらけ", "間違い → 間違いだらけ", "傷 → 傷だらけ"] }
+  ],
+  "usage": [
+    "Ngại nói: 「先生に間違いを指摘するのは言いづらい」.",
+    "Thói xấu: 「一人暮らしは野菜不足になりがちだ」.",
+    "Mô tả người: 「父は年を取って、怒りっぽくなった」.",
+    "Tình trạng xấu: 「このレポートは誤字だらけだ」."
+  ],
+  "pitfalls": [
+    "～がち không dùng cho xu hướng tốt: ✗「彼は勉強しがちだ」.",
+    "～だらけ dùng cho thứ tiêu cực, bẩn, lộn xộn; với thứ tốt dùng ～でいっぱい: 「花でいっぱい」.",
+    "～っぽい với người lớn (子どもっぽい) mang ý chê; với trẻ con nói 子どもらしい (đúng chất trẻ con)."
+  ],
+  "comparisons": [
+    { "pattern": "～にくい", "targetId": null, "difference": "～にくい: khó về mặt khách quan (読みにくい字); ～づらい: khó vì tâm lý hay cảm giác của người làm." },
+    { "pattern": "～らしい（典型）", "targetId": "b3-3", "difference": "～らしい: đúng chất, mang đặc trưng tiêu biểu (thường tích cực); ～っぽい: giống như nhưng không phải (thường tiêu cực)." },
+    { "pattern": "～よう／みたい（比喩）", "targetId": "b3-1", "difference": "～ようだ/みたい: so sánh ví von; ～っぽい: mang tính chất, cảm giác giống." }
+  ],
+  "examples": [
+    { "japanese": "友達にお金を貸してほしいとは言いづらい。", "vietnamese": "Thật khó mở lời nhờ bạn cho vay tiền." },
+    { "japanese": "冬は運動不足になりがちなので、気をつけている。", "vietnamese": "Mùa đông dễ bị thiếu vận động nên tôi đang chú ý." },
+    { "japanese": "最近、忘れっぽくなって、かぎをよくなくす。", "vietnamese": "Dạo này tôi hay quên, thường xuyên làm mất chìa khóa." },
+    { "japanese": "雨の中で遊んだので、子供の服は泥だらけになった。", "vietnamese": "Chơi dưới mưa nên quần áo bọn trẻ dính đầy bùn." }
+  ]
+}

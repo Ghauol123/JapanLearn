@@ -1,0 +1,26 @@
+{
+  "explanation": "～と…た／～たら…た (phát hiện): người nói thực hiện hành động X, và nhờ đó phát hiện ra trạng thái Y vốn đã tồn tại từ trước. Y thường ở dạng ～ていた, ～があった, tính từ, và mang cảm giác bất ngờ: \"khi… thì (thấy) …\".\n\nĐiểm quan trọng: vế sau không phải hành động có chủ ý của người nói, mà là điều người nói nhận ra. と trang trọng hơn, hay dùng trong văn kể chuyện; たら dùng nhiều trong văn nói.",
+  "formation": [
+    { "wordType": "Với と", "rule": "Vる + と、～た／～ていた", "samples": ["開ける → 開けると、～ていた", "着く → 着くと、～があった"] },
+    { "wordType": "Với たら", "rule": "Vた + ら、～た／～ていた", "samples": ["見る → 見たら、～ていた", "食べてみる → 食べてみたら、おいしかった"] }
+  ],
+  "usage": [
+    "Phát hiện trạng thái: 「家に帰ると、ドアが開いていた」.",
+    "Thử làm và nhận ra: 「着てみたら、ちょうどよかった」.",
+    "Kể chuyện: 「目を覚ますと、知らない部屋にいた」."
+  ],
+  "pitfalls": [
+    "Vế sau không dùng hành động ý chí của người nói: ✗「家に帰ると、宿題をした」 → dùng ～てから.",
+    "Không dùng ば hay なら cho cách dùng này: ✗「窓を開ければ、雪が降っていた」."
+  ],
+  "comparisons": [
+    { "pattern": "～と…た（偶然）", "targetId": "b23-2", "difference": "(1) phát hiện trạng thái có sẵn; (2) đang làm X thì sự việc Y bất ngờ xảy ra." },
+    { "pattern": "～と…た（きっかけ）", "targetId": "b23-3", "difference": "(3) X là nguyên nhân/điều kiện làm Y xảy ra (Y là kết quả mới), khác với phát hiện." },
+    { "pattern": "～と…た（連続）", "targetId": "b23-4", "difference": "Bài 23-4: cùng chủ ngữ làm liên tiếp hai hành động." }
+  ],
+  "examples": [
+    { "japanese": "朝起きて窓を開けると、外は一面の雪だった。", "vietnamese": "Sáng dậy mở cửa sổ ra thì bên ngoài trắng xóa tuyết." },
+    { "japanese": "かばんの中を見たら、財布がなくなっていた。", "vietnamese": "Nhìn vào trong cặp thì thấy ví đã biến mất." },
+    { "japanese": "駅に着くと、電車はもう出ていた。", "vietnamese": "Đến ga thì tàu đã chạy mất rồi." }
+  ]
+}

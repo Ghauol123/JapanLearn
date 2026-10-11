@@ -1,0 +1,26 @@
+{
+  "explanation": "Vている + と／たら、…た (ngẫu nhiên): trong lúc đang làm X, thì một sự việc Y tình cờ, bất ngờ xảy ra. Y là sự việc ngoài ý muốn của người nói — thường là người khác đến, gọi điện, nói chuyện, hoặc hiện tượng tự nhiên xảy ra.\n\nVế sau hay dùng ～てきた, ～てくれた, bị động (～られた) để thể hiện người nói là bên chịu tác động.",
+  "formation": [
+    { "wordType": "Với と", "rule": "Vている + と、～た", "samples": ["歩いている → 歩いていると、～てきた", "寝ている → 寝ていると、～が鳴った"] },
+    { "wordType": "Với たら", "rule": "Vていた + ら、～た", "samples": ["待っていた → 待っていたら、～が来た"] }
+  ],
+  "usage": [
+    "Có người đến/gọi: 「勉強していると、友達が遊びに来た」.",
+    "Hiện tượng tự nhiên: 「散歩していたら、急に雨が降ってきた」.",
+    "Bị tác động: 「電車で寝ていたら、財布をすられた」."
+  ],
+  "pitfalls": [
+    "Vế sau không phải hành động có chủ ý của người nói: ✗「テレビを見ていると、私はご飯を作った」.",
+    "Không dùng ば／なら cho cách dùng này."
+  ],
+  "comparisons": [
+    { "pattern": "～と…た（発見）", "targetId": "b23-1", "difference": "(1) nhận ra trạng thái đã có; (2) sự việc mới bất ngờ xảy ra trong khi đang làm X." },
+    { "pattern": "～ているところに", "targetId": "b7-4", "difference": "～ているところに nhấn mạnh đúng thời điểm đang làm thì bị chen vào; と／たら kể sự việc tự nhiên hơn." },
+    { "pattern": "～間に", "targetId": "b7-3", "difference": "～間に chỉ khoảng thời gian; không có sắc thái bất ngờ như ～ていると." }
+  ],
+  "examples": [
+    { "japanese": "お風呂に入っていると、玄関のチャイムが鳴った。", "vietnamese": "Đang tắm thì chuông cửa reo." },
+    { "japanese": "公園を散歩していたら、昔の友達に会った。", "vietnamese": "Đang đi dạo công viên thì gặp lại bạn cũ." },
+    { "japanese": "電車で寝ていたら、降りる駅を過ぎてしまった。", "vietnamese": "Ngủ trên tàu, thế là đi quá ga cần xuống mất." }
+  ]
+}

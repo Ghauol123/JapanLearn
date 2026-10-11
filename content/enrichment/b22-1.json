@@ -1,0 +1,27 @@
+{
+  "explanation": "N + ばかり nghĩa là \"toàn…, chỉ toàn…\": một thứ lặp đi lặp lại quá nhiều, không có cái khác. Thường mang sắc thái không hài lòng, phàn nàn hoặc lo lắng của người nói. ばかり thay thế cho trợ từ を／が; với các trợ từ khác thì đứng sau trợ từ (友達とばかり, 甘いものにばかり).\n\nCũng có thể dùng với hiện tượng nhiều vô kể: 「この店は若い人ばかりだ」 (quán này toàn người trẻ). Văn nói thân mật dùng ばっかり.",
+  "formation": [
+    { "wordType": "Danh từ (thay を／が)", "rule": "N + ばかり + V", "samples": ["肉 → 肉ばかり食べる", "文句 → 文句ばかり言う"] },
+    { "wordType": "Danh từ + trợ từ khác", "rule": "N + trợ từ + ばかり", "samples": ["友達と → 友達とばかり遊ぶ", "スマホに → スマホにばかり"] },
+    { "wordType": "Vị ngữ danh từ", "rule": "N + ばかりだ", "samples": ["男性 → 男性ばかりだ", "難しい問題 → 難しい問題ばかりだ"] }
+  ],
+  "usage": [
+    "Phàn nàn: 「息子は甘いものばかり食べている」.",
+    "Mô tả số đông: 「このクラスは留学生ばかりだ」.",
+    "Lo lắng, tự trách: 「最近、失敗ばかりしている」."
+  ],
+  "pitfalls": [
+    "Không nhầm với Vたばかり (vừa mới làm xong): 「日本に来たばかりだ」.",
+    "Khi nói khách quan, trung tính về \"chỉ\" thì だけ tự nhiên hơn."
+  ],
+  "comparisons": [
+    { "pattern": "～だけ", "targetId": null, "difference": "だけ: giới hạn trung tính (chỉ một cái, không hơn); ばかり: quá nhiều cùng một thứ, thường có ý phàn nàn." },
+    { "pattern": "～てばかりいる", "targetId": "b22-2", "difference": "Nばかり tập trung vào đối tượng (toàn ăn thịt); Vてばかりいる tập trung vào hành động (cứ ăn mãi)." },
+    { "pattern": "～ばかりだ（変化）", "targetId": "b22-3", "difference": "Vるばかりだ: ngày càng (thay đổi xấu đi), nghĩa khác hẳn." }
+  ],
+  "examples": [
+    { "japanese": "最近、外食ばかりで野菜が足りていない。", "vietnamese": "Dạo này toàn ăn ngoài nên thiếu rau." },
+    { "japanese": "このパーティーは知らない人ばかりで、少し緊張する。", "vietnamese": "Bữa tiệc này toàn người không quen nên hơi hồi hộp." },
+    { "japanese": "彼は自分のことばかり話して、人の話を聞かない。", "vietnamese": "Anh ta chỉ toàn nói về bản thân, không nghe người khác nói." }
+  ]
+}

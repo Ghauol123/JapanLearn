@@ -1,0 +1,26 @@
+{
+  "explanation": "Vない + わけにはいかない là phủ định kép: \"không thể không…\" → \"buộc phải…, đành phải…\". Người nói thực ra không muốn làm, nhưng vì lý do xã hội, đạo đức, nghĩa vụ hoặc hoàn cảnh nên bắt buộc phải làm.\n\nSo với ～なければならない (phải làm — trung tính, quy định), mẫu này nhấn mạnh sự miễn cưỡng và áp lực từ quan hệ xã hội, lời hứa, phép lịch sự.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "Vない + わけにはいかない", "samples": ["行く → 行かないわけにはいかない", "出る → 出ないわけにはいかない"] },
+    { "wordType": "Động từ する／来る", "rule": "しない／来ない + わけにはいかない", "samples": ["参加する → 参加しないわけにはいかない", "来る → 来ないわけにはいかない"] }
+  ],
+  "usage": [
+    "Nghĩa vụ xã hội: 「社長に誘われたら、行かないわけにはいかない」.",
+    "Trách nhiệm: 「自分のミスだから、謝らないわけにはいかない」.",
+    "Hoàn cảnh ép buộc: 「雨が降っても、仕事だから出かけないわけにはいかない」."
+  ],
+  "pitfalls": [
+    "Không dùng cho quy định, luật pháp khách quan; khi đó dùng ～なければならない.",
+    "Đuôi いかない chia theo thì: ～わけにはいかなかった (đã buộc phải…)."
+  ],
+  "comparisons": [
+    { "pattern": "～わけにはいかない", "targetId": "b21-2", "difference": "Vる＋わけにはいかない: không thể làm; Vない＋わけにはいかない: không thể không làm." },
+    { "pattern": "～なければならない", "targetId": "b6-2", "difference": "なければならない: phải làm (trung tính); ないわけにはいかない: buộc phải làm vì lý do xã hội, có sắc thái miễn cưỡng." },
+    { "pattern": "～ないことはない", "targetId": "b14-4", "difference": "ないことはない: không phải là không (có thể); ないわけにはいかない: không thể không (bắt buộc)." }
+  ],
+  "examples": [
+    { "japanese": "先生に頼まれたので、手伝わないわけにはいかない。", "vietnamese": "Được thầy nhờ nên không thể không giúp." },
+    { "japanese": "親友の結婚式だから、遠くても行かないわけにはいかない。", "vietnamese": "Là đám cưới bạn thân nên dù xa cũng không thể không đi." },
+    { "japanese": "自分が悪かったのだから、謝らないわけにはいかなかった。", "vietnamese": "Vì mình có lỗi nên tôi đã buộc phải xin lỗi." }
+  ]
+}

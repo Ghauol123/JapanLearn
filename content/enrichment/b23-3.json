@@ -1,0 +1,25 @@
+{
+  "explanation": "～と…た／～たら…た (cơ hội, nguyên nhân): hành động X là điều kiện, cú hích dẫn đến kết quả Y. Y là một sự việc mới phát sinh (khác với cách dùng (1), nơi Y đã tồn tại sẵn), và không phải hành động có ý chí của người nói: \"khi (làm)… thì…\".\n\nThường gặp: thao tác máy móc (ボタンを押すと), thí nghiệm, nấu ăn (入れたら), hoặc hành động dẫn tới phản ứng của người khác (メールを出したら、返事が来た).",
+  "formation": [
+    { "wordType": "Với と", "rule": "Vる + と、～た", "samples": ["押す → 押すと、～が開いた", "飲む → 飲むと、～が治った"] },
+    { "wordType": "Với たら", "rule": "Vた + ら、～た", "samples": ["頼む → 頼んだら、すぐ来てくれた", "入れる → 入れたら、～になった"] }
+  ],
+  "usage": [
+    "Máy móc: 「スイッチを入れると、電気がついた」.",
+    "Kết quả bất ngờ: 「薬を飲んだら、すぐに熱が下がった」.",
+    "Phản ứng người khác: 「先輩に相談したら、親切に教えてくれた」."
+  ],
+  "pitfalls": [
+    "Vế sau không phải hành động có ý chí của chủ ngữ vế trước: ✗「ボタンを押すと、私は部屋を出た」.",
+    "Với quy luật chung (luôn luôn xảy ra) thì vế sau ở hiện tại: 「春になると、桜が咲く」; mẫu này nói về một lần cụ thể trong quá khứ."
+  ],
+  "comparisons": [
+    { "pattern": "～と…た（発見）", "targetId": "b23-1", "difference": "(1) Y có sẵn, người nói phát hiện ra; (3) Y là kết quả mới do X gây ra." },
+    { "pattern": "～と…た（連続）", "targetId": "b23-4", "difference": "(3) chủ ngữ hai vế thường khác nhau, Y không có ý chí; Bài 23-4 cùng chủ ngữ, Y có ý chí." }
+  ],
+  "examples": [
+    { "japanese": "このボタンを押すと、窓が自動で開いた。", "vietnamese": "Bấm nút này thì cửa sổ tự động mở ra." },
+    { "japanese": "店員さんに聞いたら、親切に場所を教えてくれた。", "vietnamese": "Hỏi nhân viên cửa hàng thì họ chỉ đường tận tình." },
+    { "japanese": "砂糖を少し入れたら、ずっとおいしくなった。", "vietnamese": "Cho chút đường vào thì ngon hơn hẳn." }
+  ]
+}

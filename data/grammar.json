@@ -9351,6 +9351,84 @@
               "ruby": "Ａ：[今日|きょう]、[近|ちか]くで[花火|はなび][大会|たいかい]があるそうだよ。Ｂ：あ～、それでこんなに[人|ひと]が[多|おお]いわけだ。"
             }
           ],
+          "enrichment": {
+            "explanation": "～わけだ diễn tả kết luận hợp lý rút ra từ một lý do, sự thật đã biết: \"thảo nào…, hèn chi…, vậy ra là…\". Người nói vừa biết được nguyên nhân và hiểu ra vì sao có kết quả. Thường đi kèm それで, だから, 道理で ở đầu câu.\n\n～というわけだ dùng khi diễn đạt lại, tóm tắt hoặc suy ra hệ quả từ lời người khác: \"nghĩa là…, tức là…\". Hai dạng thường thay thế cho nhau được, nhưng というわけだ nghiêng về \"nói cách khác\".",
+            "formation": [
+              {
+                "wordType": "Động từ／Tính từ い",
+                "rule": "Thể thường + わけだ",
+                "samples": [
+                  "疲れている → 疲れているわけだ",
+                  "寒い → 寒いわけだ"
+                ]
+              },
+              {
+                "wordType": "Tính từ な",
+                "rule": "Aな + な／である + わけだ",
+                "samples": [
+                  "上手 → 上手なわけだ",
+                  "静か → 静かなわけだ"
+                ]
+              },
+              {
+                "wordType": "Danh từ",
+                "rule": "N + な／の／である + わけだ",
+                "samples": [
+                  "休み → 休みなわけだ",
+                  "日曜日 → 日曜日というわけだ"
+                ]
+              },
+              {
+                "wordType": "Tóm tắt, diễn đạt lại",
+                "rule": "Thể thường + というわけだ",
+                "samples": [
+                  "安くなる → 安くなるというわけだ"
+                ]
+              }
+            ],
+            "usage": [
+              "Hiểu ra nguyên nhân: 「エアコンが壊れていたのか。暑いわけだ」.",
+              "Tóm tắt lời người khác: 「つまり、来週は休みというわけですね」.",
+              "Dạng câu hỏi để xác nhận lý do: 「それで来なかったわけ？」 (văn nói)."
+            ],
+            "pitfalls": [
+              "Không dùng khi chỉ đoán mà chưa có lý do rõ ràng; khi đó dùng ～はずだ hoặc ～だろう.",
+              "Không nhầm với ～わけではない (không hẳn là…) ở Bài 14 hay ～わけがない (không thể nào)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～はずだ",
+                "difference": "はずだ: suy đoán, kỳ vọng dựa trên căn cứ (chưa chắc); わけだ: kết luận tất yếu khi đã biết lý do, thường kèm cảm giác \"à, ra thế\"."
+              },
+              {
+                "pattern": "～わけではない",
+                "targetId": "b14-3",
+                "difference": "わけではない là phủ định một phần (không hẳn là…), khác hoàn toàn nghĩa \"thảo nào\"."
+              },
+              {
+                "pattern": "～わけがない",
+                "targetId": "b14-1",
+                "difference": "わけがない: phủ định mạnh \"không lẽ nào\"."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "窓が開いていたのか。どうりで寒いわけだ。",
+                "vietnamese": "Cửa sổ mở à. Thảo nào lạnh thế.",
+                "ruby": "[窓|まど]が[開|ひら]いていたのか。どうりで[寒|さむ]いわけだ。"
+              },
+              {
+                "japanese": "彼女は10年もフランスに住んでいたんだから、フランス語が上手なわけだ。",
+                "vietnamese": "Cô ấy đã sống ở Pháp tới 10 năm, hèn chi giỏi tiếng Pháp.",
+                "ruby": "[彼女|かのじょ]は10[年|ねん]もフランスに[住|す]んでいたんだから、フランス[語|ご]が[上手|じょうず]なわけだ。"
+              },
+              {
+                "japanese": "Ａ：明日は祝日だよ。Ｂ：じゃあ、銀行は休みというわけだね。",
+                "vietnamese": "A: Mai là ngày lễ đấy. B: Vậy tức là ngân hàng nghỉ nhỉ.",
+                "ruby": "Ａ：[明日|あした]は[祝日|しゅくじつ]だよ。Ｂ：じゃあ、[銀行|ぎんこう]は[休|やす]みというわけだね。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         },
         {
@@ -9397,6 +9475,69 @@
               "ruby": "[明日|あした]は[大事|だいじ]な[試験|しけん]なんだ。[今夜|こんや]はゲームをするわけにはいかない。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vる + わけにはいかない nghĩa là \"không thể…\" — không phải vì không có khả năng, mà vì lý do xã hội, đạo đức, trách nhiệm, hoàn cảnh hoặc tâm lý nên không được phép làm. Người nói có thể muốn làm, nhưng tự thấy làm thì không đúng.\n\nĐây là khác biệt quan trọng với thể khả năng (～られない): 「飲めない」 = không uống được (dị ứng, không biết uống); 「飲むわけにはいかない」 = không thể uống (vì lát nữa phải lái xe).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vる + わけにはいかない",
+                "samples": [
+                  "休む → 休むわけにはいかない",
+                  "諦める → 諦めるわけにはいかない"
+                ]
+              },
+              {
+                "wordType": "Lịch sự／quá khứ",
+                "rule": "～わけにはいきません／いかなかった",
+                "samples": [
+                  "帰る → 帰るわけにはいきません",
+                  "断る → 断るわけにはいかなかった"
+                ]
+              }
+            ],
+            "usage": [
+              "Trách nhiệm công việc: 「責任者だから、先に帰るわけにはいかない」.",
+              "Lý do đạo đức: 「人の秘密を話すわけにはいかない」.",
+              "Từ chối khéo: 「そんな高価なものをいただくわけにはいきません」."
+            ],
+            "pitfalls": [
+              "Không dùng cho việc không làm được do năng lực, điều kiện vật lý: ✗「泳げないから、海に入るわけにはいかない」 (thường nói 泳げないから入れない).",
+              "Chủ ngữ thường là người nói; nói về người khác thì nghe như suy đoán hoàn cảnh của họ."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Thể khả năng phủ định",
+                "difference": "～られない: không có khả năng; ～わけにはいかない: có khả năng nhưng lý do xã hội/đạo đức không cho phép."
+              },
+              {
+                "pattern": "～ないわけにはいかない",
+                "targetId": "b21-3",
+                "difference": "Dạng phủ định kép: không thể không làm → buộc phải làm."
+              },
+              {
+                "pattern": "～わけがない",
+                "targetId": "b14-1",
+                "difference": "わけがない phủ định khả năng xảy ra (không lẽ nào); わけにはいかない nói về việc không được phép làm."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "友達との約束だから、今さら断るわけにはいかない。",
+                "vietnamese": "Vì là lời hứa với bạn nên giờ không thể từ chối được.",
+                "ruby": "[友達|ともだち]との[約束|やくそく]だから、[今|いま]さら[断|ことわ]るわけにはいかない。"
+              },
+              {
+                "japanese": "チームのみんなが頑張っているのに、私だけ休むわけにはいかない。",
+                "vietnamese": "Cả đội đang cố gắng, không thể chỉ mình tôi nghỉ được.",
+                "ruby": "チームのみんなが[頑張|がんば]っているのに、[私|わたし]だけ[休|やす]むわけにはいかない。"
+              },
+              {
+                "japanese": "こんな高価なプレゼントを受け取るわけにはいきません。",
+                "vietnamese": "Tôi không thể nhận món quà đắt tiền thế này được.",
+                "ruby": "こんな[高価|こうか]なプレゼントを[受|う]け[取|と]るわけにはいきません。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         },
         {
@@ -9443,6 +9584,70 @@
               "ruby": "[先輩|せんぱい]に[飲|の]めと[言|い]われたので、[飲|の]まないわけにはいかなかった。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vない + わけにはいかない là phủ định kép: \"không thể không…\" → \"buộc phải…, đành phải…\". Người nói thực ra không muốn làm, nhưng vì lý do xã hội, đạo đức, nghĩa vụ hoặc hoàn cảnh nên bắt buộc phải làm.\n\nSo với ～なければならない (phải làm — trung tính, quy định), mẫu này nhấn mạnh sự miễn cưỡng và áp lực từ quan hệ xã hội, lời hứa, phép lịch sự.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vない + わけにはいかない",
+                "samples": [
+                  "行く → 行かないわけにはいかない",
+                  "出る → 出ないわけにはいかない"
+                ]
+              },
+              {
+                "wordType": "Động từ する／来る",
+                "rule": "しない／来ない + わけにはいかない",
+                "samples": [
+                  "参加する → 参加しないわけにはいかない",
+                  "来る → 来ないわけにはいかない"
+                ]
+              }
+            ],
+            "usage": [
+              "Nghĩa vụ xã hội: 「社長に誘われたら、行かないわけにはいかない」.",
+              "Trách nhiệm: 「自分のミスだから、謝らないわけにはいかない」.",
+              "Hoàn cảnh ép buộc: 「雨が降っても、仕事だから出かけないわけにはいかない」."
+            ],
+            "pitfalls": [
+              "Không dùng cho quy định, luật pháp khách quan; khi đó dùng ～なければならない.",
+              "Đuôi いかない chia theo thì: ～わけにはいかなかった (đã buộc phải…)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～わけにはいかない",
+                "targetId": "b21-2",
+                "difference": "Vる＋わけにはいかない: không thể làm; Vない＋わけにはいかない: không thể không làm."
+              },
+              {
+                "pattern": "～なければならない",
+                "targetId": "b6-2",
+                "difference": "なければならない: phải làm (trung tính); ないわけにはいかない: buộc phải làm vì lý do xã hội, có sắc thái miễn cưỡng."
+              },
+              {
+                "pattern": "～ないことはない",
+                "targetId": "b14-4",
+                "difference": "ないことはない: không phải là không (có thể); ないわけにはいかない: không thể không (bắt buộc)."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "先生に頼まれたので、手伝わないわけにはいかない。",
+                "vietnamese": "Được thầy nhờ nên không thể không giúp.",
+                "ruby": "[先生|せんせい]に[頼|たの]まれたので、[手伝|てつだ]わないわけにはいかない。"
+              },
+              {
+                "japanese": "親友の結婚式だから、遠くても行かないわけにはいかない。",
+                "vietnamese": "Là đám cưới bạn thân nên dù xa cũng không thể không đi.",
+                "ruby": "[親友|しんゆう]の[結婚式|けっこんしき]だから、[遠|とお]くても[行|い]かないわけにはいかない。"
+              },
+              {
+                "japanese": "自分が悪かったのだから、謝らないわけにはいかなかった。",
+                "vietnamese": "Vì mình có lỗi nên tôi đã buộc phải xin lỗi.",
+                "ruby": "[自分|じぶん]が[悪|わる]かったのだから、[謝|あやま]らないわけにはいかなかった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         }
       ],
@@ -9496,6 +9701,77 @@
               "ruby": "[子供|こども]はただ[泣|な]いているばかりで、[何|なに]があったのかわからなかった。"
             }
           ],
+          "enrichment": {
+            "explanation": "N + ばかり nghĩa là \"toàn…, chỉ toàn…\": một thứ lặp đi lặp lại quá nhiều, không có cái khác. Thường mang sắc thái không hài lòng, phàn nàn hoặc lo lắng của người nói. ばかり thay thế cho trợ từ を／が; với các trợ từ khác thì đứng sau trợ từ (友達とばかり, 甘いものにばかり).\n\nCũng có thể dùng với hiện tượng nhiều vô kể: 「この店は若い人ばかりだ」 (quán này toàn người trẻ). Văn nói thân mật dùng ばっかり.",
+            "formation": [
+              {
+                "wordType": "Danh từ (thay を／が)",
+                "rule": "N + ばかり + V",
+                "samples": [
+                  "肉 → 肉ばかり食べる",
+                  "文句 → 文句ばかり言う"
+                ]
+              },
+              {
+                "wordType": "Danh từ + trợ từ khác",
+                "rule": "N + trợ từ + ばかり",
+                "samples": [
+                  "友達と → 友達とばかり遊ぶ",
+                  "スマホに → スマホにばかり"
+                ]
+              },
+              {
+                "wordType": "Vị ngữ danh từ",
+                "rule": "N + ばかりだ",
+                "samples": [
+                  "男性 → 男性ばかりだ",
+                  "難しい問題 → 難しい問題ばかりだ"
+                ]
+              }
+            ],
+            "usage": [
+              "Phàn nàn: 「息子は甘いものばかり食べている」.",
+              "Mô tả số đông: 「このクラスは留学生ばかりだ」.",
+              "Lo lắng, tự trách: 「最近、失敗ばかりしている」."
+            ],
+            "pitfalls": [
+              "Không nhầm với Vたばかり (vừa mới làm xong): 「日本に来たばかりだ」.",
+              "Khi nói khách quan, trung tính về \"chỉ\" thì だけ tự nhiên hơn."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～だけ",
+                "difference": "だけ: giới hạn trung tính (chỉ một cái, không hơn); ばかり: quá nhiều cùng một thứ, thường có ý phàn nàn."
+              },
+              {
+                "pattern": "～てばかりいる",
+                "targetId": "b22-2",
+                "difference": "Nばかり tập trung vào đối tượng (toàn ăn thịt); Vてばかりいる tập trung vào hành động (cứ ăn mãi)."
+              },
+              {
+                "pattern": "～ばかりだ（変化）",
+                "targetId": "b22-3",
+                "difference": "Vるばかりだ: ngày càng (thay đổi xấu đi), nghĩa khác hẳn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "最近、外食ばかりで野菜が足りていない。",
+                "vietnamese": "Dạo này toàn ăn ngoài nên thiếu rau.",
+                "ruby": "[最近|さいきん]、[外食|がいしょく]ばかりで[野菜|やさい]が[足|た]りていない。"
+              },
+              {
+                "japanese": "このパーティーは知らない人ばかりで、少し緊張する。",
+                "vietnamese": "Bữa tiệc này toàn người không quen nên hơi hồi hộp.",
+                "ruby": "このパーティーは[知|し]らない[人|ひと]ばかりで、[少|すこ]し[緊張|きんちょう]する。"
+              },
+              {
+                "japanese": "彼は自分のことばかり話して、人の話を聞かない。",
+                "vietnamese": "Anh ta chỉ toàn nói về bản thân, không nghe người khác nói.",
+                "ruby": "[彼|かれ]は[自分|じぶん]のことばかり[話|はな]して、[人|ひと]の[話|はなし]を[聞|き]かない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         },
         {
@@ -9542,6 +9818,73 @@
               "ruby": "あの[夫婦|ふうふ]は[結婚|けっこん]したばかりなのに、けんかしてばかりいる。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vて + ばかりいる nghĩa là \"suốt ngày chỉ…, cứ… mãi\": một hành động lặp đi lặp lại liên tục, thay vì làm việc nên làm. Mẫu này gần như luôn mang ý phê phán, chỉ trích, khó chịu (với người khác) hoặc tự trách (với bản thân).\n\nThường đi với いつも, 毎日, 一日中. Dạng ～てばかりいないで (đừng cứ… mãi) rất hay dùng để khuyên nhủ, trách mắng.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "Vて + ばかりいる",
+                "samples": [
+                  "寝る → 寝てばかりいる",
+                  "泣く → 泣いてばかりいる",
+                  "遊ぶ → 遊んでばかりいる"
+                ]
+              },
+              {
+                "wordType": "Quá khứ",
+                "rule": "Vて + ばかりいた",
+                "samples": [
+                  "食べる → 食べてばかりいた"
+                ]
+              },
+              {
+                "wordType": "Khuyên nhủ",
+                "rule": "Vて + ばかりいないで、～",
+                "samples": [
+                  "見る → 見てばかりいないで",
+                  "文句を言う → 文句を言ってばかりいないで"
+                ]
+              }
+            ],
+            "usage": [
+              "Trách người khác: 「休みの日、夫は寝てばかりいる」.",
+              "Tự trách: 「最近、謝ってばかりいる気がする」.",
+              "Khuyên: 「心配してばかりいないで、行動してみたら？」."
+            ],
+            "pitfalls": [
+              "Không nhầm với Vたばかり (vừa mới): 「結婚したばかり」 (mới cưới) ≠ 「けんかしてばかり」 (cãi nhau suốt).",
+              "Không dùng khi khen ngợi một hành động lặp lại tích cực; câu sẽ bị hiểu là chê."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Nばかり",
+                "targetId": "b22-1",
+                "difference": "Nばかり: toàn một đối tượng; Vてばかりいる: cứ làm một hành động mãi."
+              },
+              {
+                "pattern": "～っぱなし",
+                "targetId": "b5-4",
+                "difference": "～っぱなし: để nguyên trạng thái kéo dài (立ちっぱなし); てばかりいる: lặp lại hành động thay vì làm việc khác."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "休みの日は家で寝てばかりいる。",
+                "vietnamese": "Ngày nghỉ tôi suốt ngày chỉ ngủ ở nhà.",
+                "ruby": "[休|やす]みの[日|ひ]は[家|いえ]で[寝|ね]てばかりいる。"
+              },
+              {
+                "japanese": "妹は彼氏と別れてから、泣いてばかりいる。",
+                "vietnamese": "Em gái tôi từ khi chia tay bạn trai cứ khóc suốt.",
+                "ruby": "[妹|いもうと]は[彼氏|かれし]と[別|わか]れてから、[泣|な]いてばかりいる。"
+              },
+              {
+                "japanese": "文句を言ってばかりいないで、自分でやってみなさい。",
+                "vietnamese": "Đừng chỉ phàn nàn mãi nữa, tự làm thử đi.",
+                "ruby": "[文句|もんく]を[言|い]ってばかりいないで、[自分|じぶん]でやってみなさい。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         },
         {
@@ -9588,6 +9931,76 @@
               "ruby": "[社会|しゃかい][人|じん]になって、[運動|うんどう]する[機会|きかい]が[減|へ]ったので、[体重|たいじゅう]は[増|ふ]えるばかりだ。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vる + ばかりだ (thay đổi) nghĩa là \"ngày càng…, chỉ toàn…(theo một chiều)\": một sự việc liên tục thay đổi theo một hướng, không dừng lại hay đảo chiều. Hướng thay đổi gần như luôn là xấu đi, nên câu mang sắc thái tiêu cực, lo ngại.\n\nĐộng từ đi kèm thường là động từ chỉ sự thay đổi: 増える, 減る, 悪くなる, ひどくなる, 下がる, 上がる, 広がる. Hay đi với ますます, どんどん.",
+            "formation": [
+              {
+                "wordType": "Động từ chỉ thay đổi",
+                "rule": "Vる + ばかりだ",
+                "samples": [
+                  "増える → 増えるばかりだ",
+                  "減る → 減るばかりだ"
+                ]
+              },
+              {
+                "wordType": "Tính từ + なる",
+                "rule": "Aく／Aに + なるばかりだ",
+                "samples": [
+                  "悪い → 悪くなるばかりだ",
+                  "不便 → 不便になるばかりだ"
+                ]
+              },
+              {
+                "wordType": "Giữa câu",
+                "rule": "Vる + ばかりで、～",
+                "samples": [
+                  "上がる → 物価は上がるばかりで"
+                ]
+              }
+            ],
+            "usage": [
+              "Xu hướng xã hội: 「子供の数は減るばかりだ」.",
+              "Tình trạng sức khỏe, quan hệ: 「二人の関係は悪くなるばかりだ」.",
+              "Kinh tế: 「物価は上がるばかりで、給料は上がらない」."
+            ],
+            "pitfalls": [
+              "Không dùng với thay đổi tích cực: ✗「日本語が上手になるばかりだ」 → ✓「どんどん上手になっている」.",
+              "Không dùng với động từ không chỉ thay đổi: ✗「勉強するばかりだ」 (sẽ thành nghĩa khác)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ばかりだ（準備完了）",
+                "targetId": "b22-4",
+                "difference": "Cùng hình thức Vるばかりだ nhưng nghĩa \"chỉ còn mỗi việc…\"; phân biệt nhờ ngữ cảnh: có 後は／もう và việc chuẩn bị đã xong."
+              },
+              {
+                "pattern": "～一方だ",
+                "difference": "～一方だ cùng nghĩa \"ngày càng\", dùng được cả xu hướng trung tính; ばかりだ thiên về chiều hướng xấu."
+              },
+              {
+                "pattern": "～ていく",
+                "targetId": "b29-1",
+                "difference": "～ていく chỉ sự thay đổi tiếp diễn trung tính; ばかりだ nhấn mạnh chỉ một chiều và tiêu cực."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "この町の人口は、年々減るばかりだ。",
+                "vietnamese": "Dân số thị trấn này cứ giảm dần qua từng năm.",
+                "ruby": "この[町|まち]の[人口|じんこう]は、[年々|ねんねん][減|へ]るばかりだ。"
+              },
+              {
+                "japanese": "薬を飲んでいるのに、せきはひどくなるばかりだ。",
+                "vietnamese": "Dù đang uống thuốc nhưng cơn ho cứ ngày càng nặng hơn.",
+                "ruby": "[薬|くすり]を[飲|の]んでいるのに、せきはひどくなるばかりだ。"
+              },
+              {
+                "japanese": "物価は上がるばかりで、生活が苦しい。",
+                "vietnamese": "Vật giá cứ tăng mãi nên cuộc sống khó khăn.",
+                "ruby": "[物価|ぶっか]は[上|あ]がるばかりで、[生活|せいかつ]が[苦|くる]しい。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         },
         {
@@ -9634,6 +10047,63 @@
               "ruby": "[今日|きょう]までがんばって[勉強|べんきょう]をしてきた。[試験|しけん]を[受|う]けるばかりだね。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vる + ばかりだ (sẵn sàng) nghĩa là \"chỉ còn (mỗi việc)… nữa thôi\": mọi việc chuẩn bị đã xong, chỉ còn bước cuối cùng là thực hiện. Câu thường có các từ báo hiệu: 後は (còn lại thì), もう, あとは～を待つばかり.\n\nDạng bổ nghĩa danh từ: Vるばかりになっている／Vるばかりの + N (「出発するばかりの状態」 — trạng thái chỉ chờ xuất phát).",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "(後は／もう) Vる + ばかりだ",
+                "samples": [
+                  "出かける → もう出かけるばかりだ",
+                  "待つ → 後は待つばかりだ"
+                ]
+              },
+              {
+                "wordType": "Trạng thái",
+                "rule": "Vる + ばかりになっている",
+                "samples": [
+                  "食べる → 食べるばかりになっている"
+                ]
+              }
+            ],
+            "usage": [
+              "Chuẩn bị xong: 「荷物は全部詰めた。後は出発するばかりだ」.",
+              "Chờ kết quả: 「試験は終わった。あとは結果を待つばかりだ」.",
+              "Mô tả trạng thái sẵn sàng: 「料理はテーブルに並べられ、食べるばかりになっている」."
+            ],
+            "pitfalls": [
+              "Dễ nhầm với ばかりだ (thay đổi theo chiều xấu): nếu động từ không phải động từ thay đổi và có 後は／もう thì là nghĩa \"chỉ còn\".",
+              "Không dùng khi việc chuẩn bị chưa xong."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～ばかりだ（変化）",
+                "targetId": "b22-3",
+                "difference": "Vるばかりだ (thay đổi): ngày càng xấu đi; Vるばかりだ (sẵn sàng): chỉ còn bước cuối."
+              },
+              {
+                "pattern": "～だけだ",
+                "difference": "後は～だけだ gần nghĩa và phổ biến trong văn nói; ばかりだ nghe trang trọng, văn viết hơn."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "パーティーの準備はできた。後はお客さんが来るのを待つばかりだ。",
+                "vietnamese": "Chuẩn bị tiệc đã xong. Giờ chỉ còn chờ khách đến thôi.",
+                "ruby": "パーティーの[準備|じゅんび]はできた。[後|あと]はお[客|きゃく]さんが[来|く]るのを[待|ま]つばかりだ。"
+              },
+              {
+                "japanese": "スーツケースに荷物を全部入れたので、もう空港へ行くばかりだ。",
+                "vietnamese": "Đã cho hết đồ vào vali rồi, giờ chỉ còn ra sân bay nữa thôi.",
+                "ruby": "スーツケースに[荷物|にもつ]を[全部|ぜんぶ][入|い]れたので、もう[空港|くうこう]へ[行|い]くばかりだ。"
+              },
+              {
+                "japanese": "面接も終わったし、あとは結果を待つばかりだ。",
+                "vietnamese": "Phỏng vấn cũng xong rồi, giờ chỉ còn chờ kết quả.",
+                "ruby": "[面接|めんせつ]も[終|お]わったし、あとは[結果|けっか]を[待|ま]つばかりだ。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File09_Bai20b-22.docx"
         }
       ],
@@ -9732,6 +10202,70 @@
               "ruby": "[新|あたら]しいズボンをはいてみると、サイズが[合|あ]った。"
             }
           ],
+          "enrichment": {
+            "explanation": "～と…た／～たら…た (phát hiện): người nói thực hiện hành động X, và nhờ đó phát hiện ra trạng thái Y vốn đã tồn tại từ trước. Y thường ở dạng ～ていた, ～があった, tính từ, và mang cảm giác bất ngờ: \"khi… thì (thấy) …\".\n\nĐiểm quan trọng: vế sau không phải hành động có chủ ý của người nói, mà là điều người nói nhận ra. と trang trọng hơn, hay dùng trong văn kể chuyện; たら dùng nhiều trong văn nói.",
+            "formation": [
+              {
+                "wordType": "Với と",
+                "rule": "Vる + と、～た／～ていた",
+                "samples": [
+                  "開ける → 開けると、～ていた",
+                  "着く → 着くと、～があった"
+                ]
+              },
+              {
+                "wordType": "Với たら",
+                "rule": "Vた + ら、～た／～ていた",
+                "samples": [
+                  "見る → 見たら、～ていた",
+                  "食べてみる → 食べてみたら、おいしかった"
+                ]
+              }
+            ],
+            "usage": [
+              "Phát hiện trạng thái: 「家に帰ると、ドアが開いていた」.",
+              "Thử làm và nhận ra: 「着てみたら、ちょうどよかった」.",
+              "Kể chuyện: 「目を覚ますと、知らない部屋にいた」."
+            ],
+            "pitfalls": [
+              "Vế sau không dùng hành động ý chí của người nói: ✗「家に帰ると、宿題をした」 → dùng ～てから.",
+              "Không dùng ば hay なら cho cách dùng này: ✗「窓を開ければ、雪が降っていた」."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～と…た（偶然）",
+                "targetId": "b23-2",
+                "difference": "(1) phát hiện trạng thái có sẵn; (2) đang làm X thì sự việc Y bất ngờ xảy ra."
+              },
+              {
+                "pattern": "～と…た（きっかけ）",
+                "targetId": "b23-3",
+                "difference": "(3) X là nguyên nhân/điều kiện làm Y xảy ra (Y là kết quả mới), khác với phát hiện."
+              },
+              {
+                "pattern": "～と…た（連続）",
+                "targetId": "b23-4",
+                "difference": "Bài 23-4: cùng chủ ngữ làm liên tiếp hai hành động."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "朝起きて窓を開けると、外は一面の雪だった。",
+                "vietnamese": "Sáng dậy mở cửa sổ ra thì bên ngoài trắng xóa tuyết.",
+                "ruby": "[朝|あさ][起|お]きて[窓|まど]を[開|あ]けると、[外|そと]は[一|いち][面|めん]の[雪|ゆき]だった。"
+              },
+              {
+                "japanese": "かばんの中を見たら、財布がなくなっていた。",
+                "vietnamese": "Nhìn vào trong cặp thì thấy ví đã biến mất.",
+                "ruby": "かばんの[中|なか]を[見|み]たら、[財布|さいふ]がなくなっていた。"
+              },
+              {
+                "japanese": "駅に着くと、電車はもう出ていた。",
+                "vietnamese": "Đến ga thì tàu đã chạy mất rồi.",
+                "ruby": "[駅|えき]に[着|つ]くと、[電車|でんしゃ]はもう[出|で]ていた。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -9778,6 +10312,69 @@
               "ruby": "[歩|ある]いていたら、[知|し]らない[人|ひと]が[話|はな]しかけてきた。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vている + と／たら、…た (ngẫu nhiên): trong lúc đang làm X, thì một sự việc Y tình cờ, bất ngờ xảy ra. Y là sự việc ngoài ý muốn của người nói — thường là người khác đến, gọi điện, nói chuyện, hoặc hiện tượng tự nhiên xảy ra.\n\nVế sau hay dùng ～てきた, ～てくれた, bị động (～られた) để thể hiện người nói là bên chịu tác động.",
+            "formation": [
+              {
+                "wordType": "Với と",
+                "rule": "Vている + と、～た",
+                "samples": [
+                  "歩いている → 歩いていると、～てきた",
+                  "寝ている → 寝ていると、～が鳴った"
+                ]
+              },
+              {
+                "wordType": "Với たら",
+                "rule": "Vていた + ら、～た",
+                "samples": [
+                  "待っていた → 待っていたら、～が来た"
+                ]
+              }
+            ],
+            "usage": [
+              "Có người đến/gọi: 「勉強していると、友達が遊びに来た」.",
+              "Hiện tượng tự nhiên: 「散歩していたら、急に雨が降ってきた」.",
+              "Bị tác động: 「電車で寝ていたら、財布をすられた」."
+            ],
+            "pitfalls": [
+              "Vế sau không phải hành động có chủ ý của người nói: ✗「テレビを見ていると、私はご飯を作った」.",
+              "Không dùng ば／なら cho cách dùng này."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～と…た（発見）",
+                "targetId": "b23-1",
+                "difference": "(1) nhận ra trạng thái đã có; (2) sự việc mới bất ngờ xảy ra trong khi đang làm X."
+              },
+              {
+                "pattern": "～ているところに",
+                "targetId": "b7-4",
+                "difference": "～ているところに nhấn mạnh đúng thời điểm đang làm thì bị chen vào; と／たら kể sự việc tự nhiên hơn."
+              },
+              {
+                "pattern": "～間に",
+                "targetId": "b7-3",
+                "difference": "～間に chỉ khoảng thời gian; không có sắc thái bất ngờ như ～ていると."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "お風呂に入っていると、玄関のチャイムが鳴った。",
+                "vietnamese": "Đang tắm thì chuông cửa reo.",
+                "ruby": "お[風呂|ふろ]に[入|はい]っていると、[玄関|げんかん]のチャイムが[鳴|な]った。"
+              },
+              {
+                "japanese": "公園を散歩していたら、昔の友達に会った。",
+                "vietnamese": "Đang đi dạo công viên thì gặp lại bạn cũ.",
+                "ruby": "[公園|こうえん]を[散歩|さんぽ]していたら、[昔|むかし]の[友達|ともだち]に[会|あ]った。"
+              },
+              {
+                "japanese": "電車で寝ていたら、降りる駅を過ぎてしまった。",
+                "vietnamese": "Ngủ trên tàu, thế là đi quá ga cần xuống mất.",
+                "ruby": "[電車|でんしゃ]で[寝|ね]ていたら、[降|お]りる[駅|えき]を[過|す]ぎてしまった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -9824,6 +10421,65 @@
               "ruby": "[久|ひさ]しぶりに[小学校|しょうがっこう]の[友|とも]だちにメールを[出|だ]したら、すぐに[返事|へんじ]が[来|き]た。"
             }
           ],
+          "enrichment": {
+            "explanation": "～と…た／～たら…た (cơ hội, nguyên nhân): hành động X là điều kiện, cú hích dẫn đến kết quả Y. Y là một sự việc mới phát sinh (khác với cách dùng (1), nơi Y đã tồn tại sẵn), và không phải hành động có ý chí của người nói: \"khi (làm)… thì…\".\n\nThường gặp: thao tác máy móc (ボタンを押すと), thí nghiệm, nấu ăn (入れたら), hoặc hành động dẫn tới phản ứng của người khác (メールを出したら、返事が来た).",
+            "formation": [
+              {
+                "wordType": "Với と",
+                "rule": "Vる + と、～た",
+                "samples": [
+                  "押す → 押すと、～が開いた",
+                  "飲む → 飲むと、～が治った"
+                ]
+              },
+              {
+                "wordType": "Với たら",
+                "rule": "Vた + ら、～た",
+                "samples": [
+                  "頼む → 頼んだら、すぐ来てくれた",
+                  "入れる → 入れたら、～になった"
+                ]
+              }
+            ],
+            "usage": [
+              "Máy móc: 「スイッチを入れると、電気がついた」.",
+              "Kết quả bất ngờ: 「薬を飲んだら、すぐに熱が下がった」.",
+              "Phản ứng người khác: 「先輩に相談したら、親切に教えてくれた」."
+            ],
+            "pitfalls": [
+              "Vế sau không phải hành động có ý chí của chủ ngữ vế trước: ✗「ボタンを押すと、私は部屋を出た」.",
+              "Với quy luật chung (luôn luôn xảy ra) thì vế sau ở hiện tại: 「春になると、桜が咲く」; mẫu này nói về một lần cụ thể trong quá khứ."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～と…た（発見）",
+                "targetId": "b23-1",
+                "difference": "(1) Y có sẵn, người nói phát hiện ra; (3) Y là kết quả mới do X gây ra."
+              },
+              {
+                "pattern": "～と…た（連続）",
+                "targetId": "b23-4",
+                "difference": "(3) chủ ngữ hai vế thường khác nhau, Y không có ý chí; Bài 23-4 cùng chủ ngữ, Y có ý chí."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "このボタンを押すと、窓が自動で開いた。",
+                "vietnamese": "Bấm nút này thì cửa sổ tự động mở ra.",
+                "ruby": "このボタンを[押|お]すと、[窓|まど]が[自動|じどう]で[開|ひら]いた。"
+              },
+              {
+                "japanese": "店員さんに聞いたら、親切に場所を教えてくれた。",
+                "vietnamese": "Hỏi nhân viên cửa hàng thì họ chỉ đường tận tình.",
+                "ruby": "[店員|てんいん]さんに[聞|き]いたら、[親切|しんせつ]に[場所|ばしょ]を[教|おし]えてくれた。"
+              },
+              {
+                "japanese": "砂糖を少し入れたら、ずっとおいしくなった。",
+                "vietnamese": "Cho chút đường vào thì ngon hơn hẳn.",
+                "ruby": "[砂糖|さとう]を[少|すこ]し[入|い]れたら、ずっとおいしくなった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -9870,6 +10526,56 @@
               "ruby": "[彼|かれ]が[出|で]ていくとすぐ[彼|かれ]らは[彼|かれ]の[悪口|わるぐち]を[言|い]い[始|はじ]めた。"
             }
           ],
+          "enrichment": {
+            "explanation": "Vる + と、…た (liên tiếp): cùng một chủ thể (thường là ngôi thứ ba) làm hành động X, và ngay sau đó làm hành động Y: \"vừa… là (liền)…\". Khác với các cách dùng (1)–(3), ở đây vế sau là hành động có ý chí, và chủ ngữ hai vế giống nhau.\n\nCách dùng này chủ yếu xuất hiện trong văn kể chuyện, tiểu thuyết, tường thuật. Hay đi với すぐ, すぐに để nhấn mạnh tính liên tục.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "(Chủ ngữ は) Vる + と、(すぐ) V2た",
+                "samples": [
+                  "帰る → 家に帰ると、すぐ寝た",
+                  "聞く → 話を聞くと、笑い出した"
+                ]
+              }
+            ],
+            "usage": [
+              "Văn kể chuyện: 「彼は部屋に入ると、窓を開けた」.",
+              "Thói quen trong một lần cụ thể: 「父は家に着くと、すぐにテレビをつけた」.",
+              "Hành động phản ứng: 「彼女はその手紙を読むと、泣き出した」."
+            ],
+            "pitfalls": [
+              "Ít dùng với ngôi thứ nhất trong hội thoại; khi nói về mình thường dùng ～て、すぐ／～てから.",
+              "Không thay bằng たら được: たら với cùng chủ ngữ và hành động ý chí ở quá khứ nghe không tự nhiên."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～と…た（きっかけ）",
+                "targetId": "b23-3",
+                "difference": "(3) khác chủ ngữ, Y không ý chí; (4) cùng chủ ngữ, Y là hành động ý chí."
+              },
+              {
+                "pattern": "～とすぐ／～たとたん",
+                "difference": "～たとたん nhấn mạnh bất ngờ, ngoài ý muốn; ～と…た kể hai hành động liên tiếp tự nhiên."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "彼は電車に乗ると、すぐに寝てしまった。",
+                "vietnamese": "Anh ấy vừa lên tàu là ngủ ngay.",
+                "ruby": "[彼|かれ]は[電車|でんしゃ]に[乗|の]ると、すぐに[寝|ね]てしまった。"
+              },
+              {
+                "japanese": "子供たちは学校から帰ると、かばんを置いて遊びに行った。",
+                "vietnamese": "Bọn trẻ vừa đi học về là đặt cặp xuống rồi đi chơi.",
+                "ruby": "[子供|こども]たちは[学校|がっこう]から[帰|かえ]ると、かばんを[置|お]いて[遊|あそ]びに[行|い]った。"
+              },
+              {
+                "japanese": "彼女は手紙を読むと、黙って部屋を出ていった。",
+                "vietnamese": "Cô ấy đọc xong lá thư là lặng lẽ rời khỏi phòng.",
+                "ruby": "[彼女|かのじょ]は[手紙|てがみ]を[読|よ]むと、[黙|だま]って[部屋|へや]を[出|で]ていった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -9916,6 +10622,71 @@
               "ruby": "[私|わたし]は[歌|うた]も[下手|へた]ならダンスも[下手|へた]だ。"
             }
           ],
+          "enrichment": {
+            "explanation": "N1も～ば、N2も～ / N1も～なら、N2も～ dùng để liệt kê hai sự việc cùng chiều: \"đã… lại còn…, vừa… vừa…\". Có hai sắc thái: ① cùng chiều để nhấn mạnh (tốt cả hai, hoặc tệ cả hai): 「歌も上手なら、ダンスも上手だ」; ② đặt cạnh nhau hai khía cạnh khác nhau để nói \"có cái này, cũng có cái kia\": 「好きな人もいれば、嫌いな人もいる」.\n\nThể ば dùng cho động từ và tính từ い; なら dùng cho tính từ な và danh từ.",
+            "formation": [
+              {
+                "wordType": "Động từ",
+                "rule": "N1 も + Vば、N2 も + V",
+                "samples": [
+                  "いる → 賛成の人もいれば、反対の人もいる",
+                  "飲まない → 酒も飲まなければ、たばこも吸わない"
+                ]
+              },
+              {
+                "wordType": "Tính từ い",
+                "rule": "N1 も + Aければ、N2 も + A",
+                "samples": [
+                  "安い → 値段も安ければ、味もいい"
+                ]
+              },
+              {
+                "wordType": "Tính từ な／Danh từ",
+                "rule": "N1 も + Aな／N なら、N2 も + ～",
+                "samples": [
+                  "親切 → 店員も親切なら、料理もおいしい",
+                  "学生 → 父も教師なら、母も教師だ"
+                ]
+              }
+            ],
+            "usage": [
+              "Liệt kê cùng chiều tốt: 「この店は値段も安ければ、味もいい」.",
+              "Liệt kê cùng chiều xấu (phê phán): 「彼は仕事もしなければ、家事も手伝わない」.",
+              "Đa dạng: 「人生にはいい時もあれば、悪い時もある」."
+            ],
+            "pitfalls": [
+              "Hai vế phải cùng chiều đánh giá (cùng tốt hoặc cùng xấu) ở cách dùng ①: ✗「値段も安ければ、味も悪い」.",
+              "Đây không phải câu điều kiện; ば／なら chỉ đóng vai trò nối."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～し、～し",
+                "difference": "～し、～し liệt kê lý do tự nhiên, phổ biến; も～ば～も nhấn mạnh, mang tính văn viết hơn."
+              },
+              {
+                "pattern": "～はもちろん、～も",
+                "targetId": "b27-5",
+                "difference": "はもちろん: X là đương nhiên, Y cũng vậy (Y được nhấn mạnh); も～ば～も đặt X và Y ngang hàng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "このレストランは値段も安ければ、サービスもいい。",
+                "vietnamese": "Nhà hàng này đã rẻ lại còn phục vụ tốt.",
+                "ruby": "このレストランは[値段|ねだん]も[安|やす]ければ、サービスもいい。"
+              },
+              {
+                "japanese": "日本の生活は、楽しいこともあれば、大変なこともある。",
+                "vietnamese": "Cuộc sống ở Nhật có chuyện vui, cũng có chuyện vất vả.",
+                "ruby": "[日本|にほん]の[生活|せいかつ]は、[楽|たの]しいこともあれば、[大変|たいへん]なこともある。"
+              },
+              {
+                "japanese": "彼は料理もしなければ、掃除も手伝わない。",
+                "vietnamese": "Anh ta đã không nấu ăn, lại còn chẳng giúp dọn dẹp.",
+                "ruby": "[彼|かれ]は[料理|りょうり]もしなければ、[掃除|そうじ]も[手伝|てつだ]わない。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         }
       ],
@@ -9997,6 +10768,77 @@
               "ruby": "[終電|しゅうでん]を[逃|のが]して、[駅|えき]から[家|いえ]まで２[時間|じかん][歩|ある]き[通|とお]した。"
             }
           ],
+          "enrichment": {
+            "explanation": "Ba hậu tố gắn sau Vます để chỉ giai đoạn của hành động:\n\n～かける／～かけだ／～かけの + N: hành động đã bắt đầu nhưng đang dở dang, chưa xong (読みかけの本 — cuốn sách đọc dở). Cũng có nghĩa \"suýt…\" với động từ chỉ trạng thái thay đổi (死にかける — suýt chết).\n\n～きる: làm đến hết, trọn vẹn, hoàn toàn (使いきる — dùng hết). Dạng ～きれない: không thể… hết (数えきれない — đếm không xuể). ～きった còn có nghĩa \"hoàn toàn, cực kỳ\" (疲れきった).\n\n～通す: làm liên tục không ngừng từ đầu đến cuối, kiên trì đến cùng (走り通す — chạy một mạch đến đích).",
+            "formation": [
+              {
+                "wordType": "Dở dang",
+                "rule": "Vます + かける／かけだ／かけの N",
+                "samples": [
+                  "読む → 読みかけの本",
+                  "食べる → 食べかけている",
+                  "言う → 言いかけてやめる"
+                ]
+              },
+              {
+                "wordType": "Trọn vẹn",
+                "rule": "Vます + きる／きれない",
+                "samples": [
+                  "使う → 使いきる",
+                  "食べる → 食べきれない",
+                  "疲れる → 疲れきった"
+                ]
+              },
+              {
+                "wordType": "Đến cùng",
+                "rule": "Vます + 通す",
+                "samples": [
+                  "走る → 走り通す",
+                  "やる → やり通す",
+                  "守る → 守り通す"
+                ]
+              }
+            ],
+            "usage": [
+              "Dở dang: 「読みかけの本が机の上にある」.",
+              "Không hết được: 「量が多くて、一人では食べきれない」.",
+              "Kiên trì: 「難しい仕事だったが、最後までやり通した」."
+            ],
+            "pitfalls": [
+              "～かける với động từ tức thời (死ぬ, 倒れる) mang nghĩa \"suýt\", không phải \"đang dở\".",
+              "～きる nhấn mạnh làm hết, khác ～終わる chỉ là làm xong: 「本を読み終わった」 (đọc xong) vs 「全巻を読みきった」 (đọc hết sạch, trọn vẹn).",
+              "Không nhầm 通す (động từ thường: cho đi qua) với hậu tố ～通す."
+            ],
+            "comparisons": [
+              {
+                "pattern": "Động từ ghép (出す・始める・続ける・終わる)",
+                "targetId": "b5-2",
+                "difference": "Bài 5: bắt đầu, tiếp tục, kết thúc; Bài 25: dở dang, trọn vẹn, liên tục đến cùng."
+              },
+              {
+                "pattern": "～っぱなし",
+                "targetId": "b5-4",
+                "difference": "～っぱなし: để nguyên trạng thái (bỏ mặc); ～通す: chủ động duy trì đến cùng."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "飲みかけのコーヒーが机の上に置いてある。",
+                "vietnamese": "Cốc cà phê uống dở được để trên bàn.",
+                "ruby": "[飲|の]みかけのコーヒーが[机|つくえ]の[上|うえ]に[置|お]いてある。"
+              },
+              {
+                "japanese": "お金を全部使いきってしまって、今月はもう何も買えない。",
+                "vietnamese": "Tiêu sạch tiền rồi nên tháng này không mua được gì nữa.",
+                "ruby": "お[金|かね]を[全部|ぜんぶ][使|つか]いきってしまって、[今月|こんげつ]はもう[何|なに]も[買|か]えない。"
+              },
+              {
+                "japanese": "彼は自分の意見を最後まで言い通した。",
+                "vietnamese": "Anh ấy kiên trì giữ ý kiến của mình đến cùng.",
+                "ruby": "[彼|かれ]は[自分|じぶん]の[意見|いけん]を[最後|さいご]まで[言|い]い[通|とお]した。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         },
         {
@@ -10081,6 +10923,95 @@
               "ruby": "[息子|むすこ]が[血|ち]だらけで[帰|かえ]ってきたので、[急|いそ]いで[病院|びょういん]へ[連|つ]れて[行|い]った。"
             }
           ],
+          "enrichment": {
+            "explanation": "Bốn hậu tố mô tả đặc điểm, khuynh hướng:\n\n～づらい (Vます): khó làm vì lý do tâm lý, cảm giác ngại, hoặc thể chất không thoải mái (言いづらい, 歩きづらい). Khác với ～にくい thường nói về độ khó khách quan.\n\n～がちだ (N／Vます): có xu hướng dễ xảy ra điều không tốt, hay bị (忘れがち, 病気がち, 遅れがち).\n\n～っぽい (N／Vます／Aい bỏ い): ① có vẻ giống, mang tính chất (子どもっぽい, 白っぽい); ② hay làm, dễ (忘れっぽい, 怒りっぽい). Thường dùng trong văn nói.\n\n～だらけ (N): đầy, phủ đầy, toàn thứ không hay (ゴミだらけ, 間違いだらけ).",
+            "formation": [
+              {
+                "wordType": "Khó làm",
+                "rule": "Vます + づらい",
+                "samples": [
+                  "言う → 言いづらい",
+                  "読む → 読みづらい"
+                ]
+              },
+              {
+                "wordType": "Xu hướng",
+                "rule": "N／Vます + がちだ",
+                "samples": [
+                  "忘れる → 忘れがちだ",
+                  "病気 → 病気がちだ",
+                  "曇り → 曇りがち"
+                ]
+              },
+              {
+                "wordType": "Giống, hay",
+                "rule": "N／Vます／Aい bỏ い + っぽい",
+                "samples": [
+                  "子ども → 子どもっぽい",
+                  "怒る → 怒りっぽい",
+                  "安い → 安っぽい"
+                ]
+              },
+              {
+                "wordType": "Đầy",
+                "rule": "N + だらけ",
+                "samples": [
+                  "ゴミ → ゴミだらけ",
+                  "間違い → 間違いだらけ",
+                  "傷 → 傷だらけ"
+                ]
+              }
+            ],
+            "usage": [
+              "Ngại nói: 「先生に間違いを指摘するのは言いづらい」.",
+              "Thói xấu: 「一人暮らしは野菜不足になりがちだ」.",
+              "Mô tả người: 「父は年を取って、怒りっぽくなった」.",
+              "Tình trạng xấu: 「このレポートは誤字だらけだ」."
+            ],
+            "pitfalls": [
+              "～がち không dùng cho xu hướng tốt: ✗「彼は勉強しがちだ」.",
+              "～だらけ dùng cho thứ tiêu cực, bẩn, lộn xộn; với thứ tốt dùng ～でいっぱい: 「花でいっぱい」.",
+              "～っぽい với người lớn (子どもっぽい) mang ý chê; với trẻ con nói 子どもらしい (đúng chất trẻ con)."
+            ],
+            "comparisons": [
+              {
+                "pattern": "～にくい",
+                "difference": "～にくい: khó về mặt khách quan (読みにくい字); ～づらい: khó vì tâm lý hay cảm giác của người làm."
+              },
+              {
+                "pattern": "～らしい（典型）",
+                "targetId": "b3-3",
+                "difference": "～らしい: đúng chất, mang đặc trưng tiêu biểu (thường tích cực); ～っぽい: giống như nhưng không phải (thường tiêu cực)."
+              },
+              {
+                "pattern": "～よう／みたい（比喩）",
+                "targetId": "b3-1",
+                "difference": "～ようだ/みたい: so sánh ví von; ～っぽい: mang tính chất, cảm giác giống."
+              }
+            ],
+            "examples": [
+              {
+                "japanese": "友達にお金を貸してほしいとは言いづらい。",
+                "vietnamese": "Thật khó mở lời nhờ bạn cho vay tiền.",
+                "ruby": "[友達|ともだち]にお[金|かね]を[貸|か]してほしいとは[言|い]いづらい。"
+              },
+              {
+                "japanese": "冬は運動不足になりがちなので、気をつけている。",
+                "vietnamese": "Mùa đông dễ bị thiếu vận động nên tôi đang chú ý.",
+                "ruby": "[冬|ふゆ]は[運動|うんどう][不足|ふそく]になりがちなので、[気|き]をつけている。"
+              },
+              {
+                "japanese": "最近、忘れっぽくなって、かぎをよくなくす。",
+                "vietnamese": "Dạo này tôi hay quên, thường xuyên làm mất chìa khóa.",
+                "ruby": "[最近|さいきん]、[忘|わす]れっぽくなって、かぎをよくなくす。"
+              },
+              {
+                "japanese": "雨の中で遊んだので、子供の服は泥だらけになった。",
+                "vietnamese": "Chơi dưới mưa nên quần áo bọn trẻ dính đầy bùn.",
+                "ruby": "[雨|あめ]の[中|なか]で[遊|あそ]んだので、[子供|こども]の[服|ふく]は[泥|どろ]だらけになった。"
+              }
+            ]
+          },
           "sourceFile": "NguPhap_N3_File10_Bai23-26a.docx"
         }
       ],
@@ -11085,5 +12016,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-11T12:22:27.0003463+00:00"
+  "generatedAt": "2026-10-11T12:25:15.2394008+00:00"
 }

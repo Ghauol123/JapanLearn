@@ -1,0 +1,28 @@
+{
+  "explanation": "～わけだ diễn tả kết luận hợp lý rút ra từ một lý do, sự thật đã biết: \"thảo nào…, hèn chi…, vậy ra là…\". Người nói vừa biết được nguyên nhân và hiểu ra vì sao có kết quả. Thường đi kèm それで, だから, 道理で ở đầu câu.\n\n～というわけだ dùng khi diễn đạt lại, tóm tắt hoặc suy ra hệ quả từ lời người khác: \"nghĩa là…, tức là…\". Hai dạng thường thay thế cho nhau được, nhưng というわけだ nghiêng về \"nói cách khác\".",
+  "formation": [
+    { "wordType": "Động từ／Tính từ い", "rule": "Thể thường + わけだ", "samples": ["疲れている → 疲れているわけだ", "寒い → 寒いわけだ"] },
+    { "wordType": "Tính từ な", "rule": "Aな + な／である + わけだ", "samples": ["上手 → 上手なわけだ", "静か → 静かなわけだ"] },
+    { "wordType": "Danh từ", "rule": "N + な／の／である + わけだ", "samples": ["休み → 休みなわけだ", "日曜日 → 日曜日というわけだ"] },
+    { "wordType": "Tóm tắt, diễn đạt lại", "rule": "Thể thường + というわけだ", "samples": ["安くなる → 安くなるというわけだ"] }
+  ],
+  "usage": [
+    "Hiểu ra nguyên nhân: 「エアコンが壊れていたのか。暑いわけだ」.",
+    "Tóm tắt lời người khác: 「つまり、来週は休みというわけですね」.",
+    "Dạng câu hỏi để xác nhận lý do: 「それで来なかったわけ？」 (văn nói)."
+  ],
+  "pitfalls": [
+    "Không dùng khi chỉ đoán mà chưa có lý do rõ ràng; khi đó dùng ～はずだ hoặc ～だろう.",
+    "Không nhầm với ～わけではない (không hẳn là…) ở Bài 14 hay ～わけがない (không thể nào)."
+  ],
+  "comparisons": [
+    { "pattern": "～はずだ", "targetId": null, "difference": "はずだ: suy đoán, kỳ vọng dựa trên căn cứ (chưa chắc); わけだ: kết luận tất yếu khi đã biết lý do, thường kèm cảm giác \"à, ra thế\"." },
+    { "pattern": "～わけではない", "targetId": "b14-3", "difference": "わけではない là phủ định một phần (không hẳn là…), khác hoàn toàn nghĩa \"thảo nào\"." },
+    { "pattern": "～わけがない", "targetId": "b14-1", "difference": "わけがない: phủ định mạnh \"không lẽ nào\"." }
+  ],
+  "examples": [
+    { "japanese": "窓が開いていたのか。どうりで寒いわけだ。", "vietnamese": "Cửa sổ mở à. Thảo nào lạnh thế." },
+    { "japanese": "彼女は10年もフランスに住んでいたんだから、フランス語が上手なわけだ。", "vietnamese": "Cô ấy đã sống ở Pháp tới 10 năm, hèn chi giỏi tiếng Pháp." },
+    { "japanese": "Ａ：明日は祝日だよ。Ｂ：じゃあ、銀行は休みというわけだね。", "vietnamese": "A: Mai là ngày lễ đấy. B: Vậy tức là ngân hàng nghỉ nhỉ." }
+  ]
+}

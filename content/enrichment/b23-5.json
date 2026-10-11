@@ -1,0 +1,26 @@
+{
+  "explanation": "N1も～ば、N2も～ / N1も～なら、N2も～ dùng để liệt kê hai sự việc cùng chiều: \"đã… lại còn…, vừa… vừa…\". Có hai sắc thái: ① cùng chiều để nhấn mạnh (tốt cả hai, hoặc tệ cả hai): 「歌も上手なら、ダンスも上手だ」; ② đặt cạnh nhau hai khía cạnh khác nhau để nói \"có cái này, cũng có cái kia\": 「好きな人もいれば、嫌いな人もいる」.\n\nThể ば dùng cho động từ và tính từ い; なら dùng cho tính từ な và danh từ.",
+  "formation": [
+    { "wordType": "Động từ", "rule": "N1 も + Vば、N2 も + V", "samples": ["いる → 賛成の人もいれば、反対の人もいる", "飲まない → 酒も飲まなければ、たばこも吸わない"] },
+    { "wordType": "Tính từ い", "rule": "N1 も + Aければ、N2 も + A", "samples": ["安い → 値段も安ければ、味もいい"] },
+    { "wordType": "Tính từ な／Danh từ", "rule": "N1 も + Aな／N なら、N2 も + ～", "samples": ["親切 → 店員も親切なら、料理もおいしい", "学生 → 父も教師なら、母も教師だ"] }
+  ],
+  "usage": [
+    "Liệt kê cùng chiều tốt: 「この店は値段も安ければ、味もいい」.",
+    "Liệt kê cùng chiều xấu (phê phán): 「彼は仕事もしなければ、家事も手伝わない」.",
+    "Đa dạng: 「人生にはいい時もあれば、悪い時もある」."
+  ],
+  "pitfalls": [
+    "Hai vế phải cùng chiều đánh giá (cùng tốt hoặc cùng xấu) ở cách dùng ①: ✗「値段も安ければ、味も悪い」.",
+    "Đây không phải câu điều kiện; ば／なら chỉ đóng vai trò nối."
+  ],
+  "comparisons": [
+    { "pattern": "～し、～し", "targetId": null, "difference": "～し、～し liệt kê lý do tự nhiên, phổ biến; も～ば～も nhấn mạnh, mang tính văn viết hơn." },
+    { "pattern": "～はもちろん、～も", "targetId": "b27-5", "difference": "はもちろん: X là đương nhiên, Y cũng vậy (Y được nhấn mạnh); も～ば～も đặt X và Y ngang hàng." }
+  ],
+  "examples": [
+    { "japanese": "このレストランは値段も安ければ、サービスもいい。", "vietnamese": "Nhà hàng này đã rẻ lại còn phục vụ tốt." },
+    { "japanese": "日本の生活は、楽しいこともあれば、大変なこともある。", "vietnamese": "Cuộc sống ở Nhật có chuyện vui, cũng có chuyện vất vả." },
+    { "japanese": "彼は料理もしなければ、掃除も手伝わない。", "vietnamese": "Anh ta đã không nấu ăn, lại còn chẳng giúp dọn dẹp." }
+  ]
+}
