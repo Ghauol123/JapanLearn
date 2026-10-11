@@ -2,9 +2,13 @@
 @model SearchModel
 @{
     ViewData["Title"] = "Tìm kiếm";
+    ViewData["HeaderSearch"] = false;
 }
-<form method="get" class="mb-4" role="search">
-    <input name="q" value="@Model.Query" type="search" class="form-control form-control-lg"
-           placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autofocus />
-</form>
+<header class="page-head">
+    <p class="eyebrow">Tìm kiếm</p>
+    <form method="get" role="search" class="hero-search">
+        <input name="q" value="@Model.Query" type="search" class="form-control form-control-lg"
+               placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" aria-label="Tìm ngữ pháp" autofocus />
+    </form>
+</header>
 <partial name="_SearchResults" model="Model.Results" />

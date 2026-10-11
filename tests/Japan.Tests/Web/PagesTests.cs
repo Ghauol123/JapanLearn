@@ -50,7 +50,7 @@ public sealed class PagesTests : IDisposable
         var html = await Get("/nguphap/b7-3");
 
         Assert.Contains("夏休みの間に", html);
-        Assert.DoesNotContain("class=\"card mb-4 enrichment\"", html);
+        Assert.DoesNotContain("id=\"bo-sung\"", html);
     }
 
     [Fact]

@@ -2,28 +2,35 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Mục lục";
+    ViewData["HeaderSearch"] = false;
+    var pointCount = Model.Lessons.Sum(l => l.Points.Count);
 }
-<form method="get" action="/timkiem" class="mb-4" role="search">
-    <input id="search-box" name="q" type="search" class="form-control form-control-lg"
-           placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autocomplete="off"
-           data-search-url="@Url.Page("/Search", "Partial")" />
-</form>
+<section class="hero">
+    <p class="eyebrow">JLPT N3</p>
+    <h1 class="hero-title"><span class="ja">日本語文法</span></h1>
+    <p class="hero-sub">@Model.Lessons.Count bài · @pointCount điểm ngữ pháp, có furigana và giải thích mở rộng.</p>
+    <form method="get" action="/timkiem" role="search" class="hero-search">
+        <input id="search-box" name="q" type="search" class="form-control form-control-lg"
+               placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autocomplete="off"
+               aria-label="Tìm ngữ pháp" data-search-url="@Url.Page("/Search", "Partial")" />
+        <kbd class="search-hint d-none d-md-inline">/</kbd>
+    </form>
+</section>
 <div id="search-results"></div>
-<div id="lesson-list" class="row row-cols-1 row-cols-md-2 g-3">
+<div id="lesson-list" class="lesson-grid">
     @foreach (var lesson in Model.Lessons)
     {
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="h5 card-title"><a asp-page="/Lesson" asp-route-n="@lesson.Number">Bài @lesson.Number: @lesson.Title</a></h2>
-                    <ul class="list-unstyled mb-0">
-                        @foreach (var p in lesson.Points)
-                        {
-                            <li><a asp-page="/Grammar" asp-route-id="@p.Id" class="jp">@p.Pattern</a></li>
-                        }
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <article class="lesson-card">
+            <a class="lesson-head" asp-page="/Lesson" asp-route-n="@lesson.Number">
+                <span class="lesson-no" aria-hidden="true">@lesson.Number.ToString("00")</span>
+                <span class="lesson-title">Bài @lesson.Number: @lesson.Title</span>
+            </a>
+            <ul class="chip-list">
+                @foreach (var p in lesson.Points)
+                {
+                    <li><a asp-page="/Grammar" asp-route-id="@p.Id" class="chip ja">@p.Pattern</a></li>
+                }
+            </ul>
+        </article>
     }
 </div>
