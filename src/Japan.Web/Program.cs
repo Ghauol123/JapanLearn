@@ -3,6 +3,12 @@ using System.Text.Unicode;
 using Japan.Web.Services;
 using Microsoft.Extensions.WebEncoders;
 
+var port = Environment.GetEnvironmentVariable("PORT");
+if (!string.IsNullOrWhiteSpace(port))
+{
+    Environment.SetEnvironmentVariable("ASPNETCORE_HTTP_PORTS", port);
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
