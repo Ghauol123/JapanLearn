@@ -10,10 +10,10 @@ RUN dotnet publish src/Japan.Web/Japan.Web.csproj -c Release -o /app /p:UseAppHo
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
-COPY --from=build --chown=$APP_UID:$APP_UID /app ./
-COPY --chown=$APP_UID:$APP_UID data/grammar.json ./data/grammar.json
+COPY --from=build /app ./
+COPY data/grammar.json ./data/grammar.json
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV GrammarData__Path=data/grammar.json
-USER $APP_UID
 EXPOSE 8080
-ENTRYPOINT ["dotnet", "Japan.Web.dll"]
+USER root
+ENTRYPOINT ["sh", "-c", "export ASPNETCORE_HTTP_PORTS=\"${PORT:-8080}\"; exec dotnet Japan.Web.dll"]
