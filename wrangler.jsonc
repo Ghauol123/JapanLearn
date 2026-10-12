@@ -30,5 +30,23 @@
       "type": "durable-object",
       "storage": "sqlite"
     }
+  },
+  "previews": {
+    "containers": [
+      {
+        "class_name": "WebContainer",
+        "image": "./Dockerfile",
+        "instance_type": "basic",
+        "max_instances": 1
+      }
+    ],
+    "durable_objects": {
+      "bindings": [
+        {
+          "name": "WEB",
+          "class_name": "WebContainer"
+        }
+      ]
+    }
   }
 }
