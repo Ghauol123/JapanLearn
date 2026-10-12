@@ -1,0 +1,12 @@
+**/.git
+**/.vs
+**/.vscode
+**/.cursor
+**/.wrangler
+**/bin
+**/obj
+**/node_modules
+tests
+docs
+content
+src/Japan.Importer

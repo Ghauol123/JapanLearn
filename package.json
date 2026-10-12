@@ -1,0 +1,14 @@
+{
+  "name": "japanlearn",
+  "private": true,
+  "scripts": {
+    "build": "echo Worker bundle is produced by wrangler deploy",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/containers": "^0.3.2",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.45.0"
+  }
+}

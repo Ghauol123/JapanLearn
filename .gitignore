@@ -484,3 +484,7 @@ $RECYCLE.BIN/
 *.swp
 
 .superpowers/
+
+# Wrangler local state
+.wrangler/
+dist/
