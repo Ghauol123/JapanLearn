@@ -1,0 +1,837 @@
+{
+  "groups": [
+    {
+      "id": "thuan-tiep",
+      "order": 1,
+      "title": "Thuận tiếp — kết quả, hệ quả",
+      "jaTitle": "順接",
+      "description": "Câu sau là kết quả, hệ quả hoặc hành động tiếp theo do câu trước dẫn tới.",
+      "connectors": [
+        {
+          "id": "dakara",
+          "word": "だから",
+          "reading": "だから",
+          "level": "N4",
+          "meaning": "vì vậy, cho nên, thế nên",
+          "register": "spoken",
+          "explanation": "Câu trước nêu lý do hoặc nguyên nhân, câu sau nêu kết quả, kết luận hay quyết định của người nói. だから mang tính chủ quan: người nói tự rút ra kết luận, nên câu sau có thể là ý chí, yêu cầu hay nhận định.\n\nĐây là từ của văn nói. Trong văn viết trang trọng (báo cáo, luận văn) thường đổi sang したがって hoặc そのため; dạng lịch sự trong hội thoại là ですから.",
+          "usage": [
+            "Đứng đầu câu sau: 「A。だから、B。」; dạng lịch sự là ですから.",
+            "Câu sau được phép là ý chí, mệnh lệnh, lời khuyên: 「明日は試験だ。だから、今日は早く寝なさい。」.",
+            "Đứng một mình đầu câu trả lời để nhấn mạnh ý mình đã nói: 「だから、言ったでしょう。」 (đã bảo rồi mà)."
+          ],
+          "pitfalls": [
+            "✗「本研究の結果は以下のとおりである。だから、…」 — văn viết học thuật không dùng だから; ✓ dùng したがって／そのため.",
+            "Khi câu sau chỉ là sự việc khách quan xảy ra tiếp theo (không phải kết luận của người nói), それで tự nhiên hơn: ✓「電車が遅れた。それで、遅刻した。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それで",
+              "targetId": "sorede",
+              "difference": "それで nối sự việc với kết quả khách quan đã xảy ra, câu sau không dùng ý chí hay mệnh lệnh; だから dùng được cả với ý chí, mệnh lệnh."
+            },
+            {
+              "pattern": "したがって",
+              "targetId": "shitagatte",
+              "difference": "したがって là văn viết, kết luận mang tính logic; だから là văn nói, kết luận mang tính chủ quan."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "明日は朝早く出かける。だから、今夜は早く寝るつもりだ。",
+              "vietnamese": "Sáng mai tôi ra ngoài sớm. Vì vậy tối nay tôi định đi ngủ sớm.",
+              "ruby": "[明日|あした]は[朝|あさ][早|はや]く[出|で]かける。だから、[今夜|こんや]は[早|はや]く[寝|ね]るつもりだ。"
+            },
+            {
+              "japanese": "この店は安くておいしい。だから、いつも混んでいる。",
+              "vietnamese": "Quán này rẻ mà ngon. Cho nên lúc nào cũng đông.",
+              "ruby": "この[店|みせ]は[安|やす]くておいしい。だから、いつも[混|こ]んでいる。"
+            },
+            {
+              "japanese": "道が凍っていて危ないです。ですから、気をつけてください。",
+              "vietnamese": "Đường đóng băng nguy hiểm lắm. Vì thế xin hãy cẩn thận.",
+              "ruby": "[道|みち]が[凍|こお]っていて[危|あぶ]ないです。ですから、[気|き]をつけてください。"
+            }
+          ]
+        },
+        {
+          "id": "sorede",
+          "word": "それで",
+          "reading": "それで",
+          "level": "N4",
+          "meaning": "vì thế nên, do đó mà, rồi thì",
+          "register": "spoken",
+          "explanation": "Câu trước nêu một sự việc hay nguyên nhân, câu sau nêu kết quả đã xảy ra như một diễn biến tự nhiên. Khác だから, それで kể lại sự việc một cách khách quan, nên câu sau thường ở thể quá khứ hoặc là sự thật, không phải ý chí hay mệnh lệnh của người nói.\n\nTrong hội thoại, それで còn dùng để giục người kia kể tiếp: 「それで？」 (rồi sao nữa?).",
+          "usage": [
+            "Câu sau là kết quả đã xảy ra hoặc trạng thái hiện tại: 「Aた。それで、Bた。」.",
+            "Dùng nhiều khi giải thích lý do cho người nghe: 「昨日熱が出ました。それで、学校を休みました。」.",
+            "「それで？」「それでどうなったの？」 để hỏi tiếp diễn biến câu chuyện."
+          ],
+          "pitfalls": [
+            "Câu sau không là mệnh lệnh, lời mời hay ý chí: ✗「雨が降りそうだ。それで、傘を持っていきなさい。」 ✓「雨が降りそうだ。だから、傘を持っていきなさい。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "だから",
+              "targetId": "dakara",
+              "difference": "だから thể hiện phán đoán chủ quan, câu sau dùng được ý chí, mệnh lệnh; それで chỉ nối với kết quả khách quan."
+            },
+            {
+              "pattern": "そこで",
+              "targetId": "sokode",
+              "difference": "そこで: trước tình huống ở câu trước, chủ thể chủ động quyết định làm gì; それで: kết quả xảy ra tự nhiên, không nhấn mạnh quyết định."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "昨日は熱がありました。それで、会社を休みました。",
+              "vietnamese": "Hôm qua tôi bị sốt. Vì thế tôi đã nghỉ làm.",
+              "ruby": "[昨日|きのう]は[熱|ねつ]がありました。それで、[会社|かいしゃ]を[休|やす]みました。"
+            },
+            {
+              "japanese": "道が混んでいた。それで、約束の時間に遅れてしまった。",
+              "vietnamese": "Đường bị tắc. Do đó tôi đã trễ giờ hẹn.",
+              "ruby": "[道|みち]が[混|こ]んでいた。それで、[約束|やくそく]の[時間|じかん]に[遅|おく]れてしまった。"
+            },
+            {
+              "japanese": "彼女は日本のアニメが好きだった。それで、日本語の勉強を始めたそうだ。",
+              "vietnamese": "Cô ấy thích anime Nhật. Nghe nói vì vậy mà cô ấy bắt đầu học tiếng Nhật.",
+              "ruby": "[彼女|かのじょ]は[日本|にほん]のアニメが[好|す]きだった。それで、[日本語|にほんご]の[勉強|べんきょう]を[始|はじ]めたそうだ。"
+            }
+          ]
+        },
+        {
+          "id": "suruto",
+          "word": "すると",
+          "reading": "すると",
+          "level": "N4",
+          "meaning": "thế là, ngay sau đó thì, bèn thấy",
+          "register": "both",
+          "explanation": "Câu trước là một hành động hay sự việc, câu sau là điều xảy ra ngay sau đó hoặc điều người nói phát hiện ra. Sự việc ở câu sau nằm ngoài ý chí của người nói, thường mang chút bất ngờ, nên hay dùng khi kể chuyện ở thể quá khứ.\n\nTrong hội thoại, すると còn có nghĩa \"nếu vậy thì\" khi người nói rút ra suy luận từ lời người kia: 「すると、明日は休みですね。」.",
+          "usage": [
+            "Mẫu kể chuyện: 「Aた。すると、Bた。」 — B là việc xảy ra/phát hiện ngay sau A.",
+            "Chủ ngữ của câu sau thường khác câu trước, hoặc là sự vật, hiện tượng.",
+            "Nghĩa suy luận: 「すると、～ということですか。」 (vậy nghĩa là…)."
+          ],
+          "pitfalls": [
+            "Câu sau không là hành động có ý chí của chính người nói: ✗「部屋が暗かった。すると、私は電気をつけた。」 ✓「部屋が暗かった。そこで、電気をつけた。」.",
+            "Không dùng cho thói quen hay chân lý ở thì hiện tại khi muốn nói \"hễ… thì\"; khi đó dùng ～と: ✓「春になると、桜が咲く。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "そこで",
+              "targetId": "sokode",
+              "difference": "そこで: câu sau là hành động chủ thể quyết định làm; すると: câu sau là điều xảy ra ngoài ý muốn hoặc điều phát hiện ra."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "ボタンを押した。すると、ドアがゆっくり開いた。",
+              "vietnamese": "Tôi nhấn nút. Thế là cánh cửa từ từ mở ra.",
+              "ruby": "ボタンを[押|お]した。すると、ドアがゆっくり[開|ひら]いた。"
+            },
+            {
+              "japanese": "窓を開けた。すると、冷たい風が入ってきた。",
+              "vietnamese": "Tôi mở cửa sổ. Ngay lập tức gió lạnh lùa vào.",
+              "ruby": "[窓|まど]を[開|あ]けた。すると、[冷|つめ]たい[風|かぜ]が[入|はい]ってきた。"
+            },
+            {
+              "japanese": "「会議は来週に延期になりました。」「すると、明日の準備はいらないんですね。」",
+              "vietnamese": "\"Cuộc họp đã dời sang tuần sau.\" \"Vậy thì việc chuẩn bị cho ngày mai không cần nữa nhỉ.\"",
+              "ruby": "「[会議|かいぎ]は[来週|らいしゅう]に[延期|えんき]になりました。」「すると、[明日|あした]の[準備|じゅんび]はいらないんですね。」"
+            }
+          ]
+        },
+        {
+          "id": "sokode",
+          "word": "そこで",
+          "reading": "そこで",
+          "level": "N3",
+          "meaning": "vì vậy nên (đã quyết định), do đó bèn",
+          "register": "both",
+          "explanation": "Câu trước nêu một tình huống, vấn đề hay nhu cầu; câu sau là hành động mà chủ thể chủ động chọn làm để giải quyết tình huống đó. Trọng tâm là \"quyết định, đối sách\", nên câu sau gần như luôn là hành động có ý chí.\n\nRất hay xuất hiện trong bài đọc JLPT dạng trình bày vấn đề → giải pháp: 「～という問題があった。そこで、～することにした。」.",
+          "usage": [
+            "Câu sau là hành động có chủ đích: ～することにした／～してみた／～を始めた.",
+            "Hợp với văn viết trình bày (báo cáo, bài luận) lẫn văn nói.",
+            "Câu trước thường là khó khăn, mong muốn, tình trạng cần xử lý."
+          ],
+          "pitfalls": [
+            "Không dùng khi câu sau là kết quả tự nhiên, không ai quyết định: ✗「雨が降った。そこで、道がぬれた。」 ✓「雨が降った。それで、道がぬれた。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それで",
+              "targetId": "sorede",
+              "difference": "それで nối với kết quả tự nhiên; そこで nối với hành động mà chủ thể quyết định làm."
+            },
+            {
+              "pattern": "すると",
+              "targetId": "suruto",
+              "difference": "すると: điều xảy ra ngoài ý chí; そこで: điều chủ thể chủ động làm."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "駅から会社まで歩くと三十分かかる。そこで、自転車を買うことにした。",
+              "vietnamese": "Đi bộ từ ga đến công ty mất ba mươi phút. Vì vậy tôi quyết định mua xe đạp.",
+              "ruby": "[駅|えき]から[会社|かいしゃ]まで[歩|ある]くと[三十分|さんじゅっぷん]かかる。そこで、[自転車|じてんしゃ]を[買|か]うことにした。"
+            },
+            {
+              "japanese": "最近、若い客が減っている。そこで、店ではSNSで宣伝を始めた。",
+              "vietnamese": "Gần đây khách trẻ giảm. Do đó cửa hàng đã bắt đầu quảng cáo trên mạng xã hội.",
+              "ruby": "[最近|さいきん]、[若|わか]い[客|きゃく]が[減|へ]っている。そこで、[店|みせ]ではSNSで[宣伝|せんでん]を[始|はじ]めた。"
+            },
+            {
+              "japanese": "一人では答えがわからなかった。そこで、先生に相談してみた。",
+              "vietnamese": "Một mình tôi không tìm ra câu trả lời. Vì thế tôi thử hỏi ý kiến thầy.",
+              "ruby": "[一人|ひとり]では[答|こた]えがわからなかった。そこで、[先生|せんせい]に[相談|そうだん]してみた。"
+            }
+          ]
+        },
+        {
+          "id": "sonotame",
+          "word": "そのため",
+          "reading": "そのため",
+          "level": "N3",
+          "meaning": "vì lý do đó, do vậy; (cũng có nghĩa) vì mục đích đó",
+          "register": "written",
+          "explanation": "Câu trước nêu nguyên nhân, câu sau nêu kết quả một cách khách quan. Giọng văn trung tính, hay gặp trong tin tức, thông báo, bài giải thích — đúng loại văn bản của phần đọc hiểu JLPT.\n\nそのため còn có nghĩa mục đích khi câu trước là mục tiêu: 「試験に合格したい。そのため、毎日勉強している。」 (để đạt được điều đó).",
+          "usage": [
+            "Nghĩa nguyên nhân: 「事故があった。そのため、電車が止まっている。」.",
+            "Nghĩa mục đích: câu trước là mong muốn/mục tiêu, câu sau là việc làm để đạt nó.",
+            "Có thể viết そのために; trong văn viết rất hay đi với ～ている／～た để mô tả tình hình."
+          ],
+          "pitfalls": [
+            "Câu sau không là mệnh lệnh, lời mời: ✗「雪が降っている。そのため、気をつけてください。」 ✓「雪が降っている。ですから、気をつけてください。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "したがって",
+              "targetId": "shitagatte",
+              "difference": "したがって nhấn mạnh suy luận logic tất yếu; そのため chỉ nêu quan hệ nhân quả thực tế."
+            },
+            {
+              "pattern": "だから",
+              "targetId": "dakara",
+              "difference": "だから là văn nói, chủ quan, dùng được với mệnh lệnh; そのため là văn viết, khách quan."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "台風が近づいている。そのため、今日の午後の便はすべて欠航となった。",
+              "vietnamese": "Bão đang đến gần. Vì lý do đó, tất cả chuyến bay chiều nay đều bị hủy.",
+              "ruby": "[台風|たいふう]が[近|ちか]づいている。そのため、[今日|きょう]の[午後|ごご]の[便|びん]はすべて[欠航|けっこう]となった。"
+            },
+            {
+              "japanese": "この地域は雨が少ない。そのため、昔から水を大切にしてきた。",
+              "vietnamese": "Vùng này ít mưa. Do vậy từ xưa người dân đã rất quý nước.",
+              "ruby": "この[地域|ちいき]は[雨|あめ]が[少|すく]ない。そのため、[昔|むかし]から[水|みず]を[大切|たいせつ]にしてきた。"
+            },
+            {
+              "japanese": "将来、海外で働きたい。そのため、今は英語の勉強に力を入れている。",
+              "vietnamese": "Sau này tôi muốn làm việc ở nước ngoài. Vì mục đích đó, giờ tôi đang dồn sức học tiếng Anh.",
+              "ruby": "[将来|しょうらい]、[海外|かいがい]で[働|はたら]きたい。そのため、[今|いま]は[英語|えいご]の[勉強|べんきょう]に[力|ちから]を[入|い]れている。"
+            }
+          ]
+        },
+        {
+          "id": "shitagatte",
+          "word": "したがって",
+          "reading": "したがって",
+          "level": "N3",
+          "meaning": "do đó, vì thế, cho nên (kết luận logic)",
+          "register": "written",
+          "explanation": "Câu trước là tiền đề, căn cứ; câu sau là kết luận được suy ra một cách logic, tất yếu. Đây là từ của văn viết trang trọng: luận văn, báo cáo, quy định, lời giải toán.\n\nKhi gặp したがって trong bài đọc, câu sau thường là ý chính hoặc kết luận của đoạn — điểm hay bị hỏi trong phần đọc hiểu.",
+          "usage": [
+            "Dùng trong văn bản trang trọng: 「～である。したがって、～と言える。」.",
+            "Câu sau là kết luận, đánh giá hoặc quy định; ít khi là ý muốn cá nhân.",
+            "Viết bằng chữ Hán là 従って, nhưng thường viết hiragana khi là từ nối."
+          ],
+          "pitfalls": [
+            "Nghe cứng nhắc nếu dùng trong hội thoại thân mật: ✗「お腹すいた。したがって、ラーメン食べよう。」 ✓「お腹すいた。だから、ラーメン食べよう。」.",
+            "Đừng nhầm với mẫu ngữ pháp ～にしたがって (càng… càng; theo như…), vốn đứng sau danh từ/động từ chứ không đứng đầu câu."
+          ],
+          "comparisons": [
+            {
+              "pattern": "だから",
+              "targetId": "dakara",
+              "difference": "だから là văn nói, kết luận chủ quan; したがって là văn viết, kết luận logic."
+            },
+            {
+              "pattern": "そのため",
+              "targetId": "sonotame",
+              "difference": "そのため nêu nhân quả thực tế (sự kiện → kết quả); したがって nêu suy luận (tiền đề → kết luận)."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この薬は副作用が強い。したがって、医師の指示なしに飲んではならない。",
+              "vietnamese": "Thuốc này có tác dụng phụ mạnh. Do đó không được uống khi không có chỉ định của bác sĩ.",
+              "ruby": "この[薬|くすり]は[副作用|ふくさよう]が[強|つよ]い。したがって、[医師|いし]の[指示|しじ]なしに[飲|の]んではならない。"
+            },
+            {
+              "japanese": "三角形の内角の和は百八十度である。したがって、残りの角は六十度となる。",
+              "vietnamese": "Tổng ba góc trong tam giác là 180 độ. Vì thế góc còn lại bằng 60 độ.",
+              "ruby": "[三角形|さんかっけい]の[内角|ないかく]の[和|わ]は[百|ひゃく][八|はち][十|じゅう][度|ど]である。したがって、[残|のこ]りの[角|かく]は[六|ろく][十|じゅう][度|ど]となる。"
+            },
+            {
+              "japanese": "申し込みは先着順です。したがって、定員になり次第締め切ります。",
+              "vietnamese": "Đăng ký theo thứ tự đến trước. Cho nên sẽ đóng ngay khi đủ chỉ tiêu.",
+              "ruby": "[申|もう]し[込|こ]みは[先着|せんちゃく][順|じゅん]です。したがって、[定員|ていいん]になり[次第|しだい][締|し]め[切|き]ります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nghich-tiep",
+      "order": 2,
+      "title": "Nghịch tiếp — trái ngược, ngoài dự đoán",
+      "jaTitle": "逆接",
+      "description": "Câu sau trái với điều câu trước khiến người đọc chờ đợi.",
+      "connectors": [
+        {
+          "id": "demo",
+          "word": "でも",
+          "reading": "でも",
+          "level": "N5",
+          "meaning": "nhưng, tuy vậy, nhưng mà",
+          "register": "spoken",
+          "explanation": "Nối hai câu có nội dung trái ngược nhau trong hội thoại thân mật. Câu trước nêu một điều, câu sau nêu điều ngược lại hoặc một phản bác.\n\nでも còn dùng đầu câu để phản bác lời người kia (\"nhưng mà…\"), hoặc để biện minh. Trong văn viết trang trọng nên thay bằng しかし.",
+          "usage": [
+            "Đứng đầu câu sau: 「A。でも、B。」.",
+            "Mở đầu câu trả lời để phản bác nhẹ: 「でも、それは高すぎるよ。」.",
+            "Dạng lịch sự hơn trong hội thoại: ですが／けれども."
+          ],
+          "pitfalls": [
+            "Không viết でも đầu câu trong bài luận, báo cáo: ✗「…と言われている。でも、実際は違う。」 ✓「…と言われている。しかし、実際は違う。」.",
+            "Đừng nhầm với trợ từ でも sau danh từ (\"ngay cả\", \"hay là\"): 「子どもでもわかる」「お茶でも飲みませんか」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし dùng được trong văn viết và lời nói trang trọng; でも chỉ dùng trong hội thoại thân mật."
+            },
+            {
+              "pattern": "けれども",
+              "targetId": "keredomo",
+              "difference": "けれども lịch sự, mềm hơn でも; でも suồng sã nhất trong ba từ."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この服はとても気に入った。でも、ちょっと高い。",
+              "vietnamese": "Tôi rất thích bộ đồ này. Nhưng hơi đắt.",
+              "ruby": "この[服|ふく]はとても[気|き]に[入|い]った。でも、ちょっと[高|たか]い。"
+            },
+            {
+              "japanese": "毎日練習しました。でも、試合には負けてしまいました。",
+              "vietnamese": "Tôi đã luyện tập mỗi ngày. Vậy mà vẫn thua trận.",
+              "ruby": "[毎日|まいにち][練習|れんしゅう]しました。でも、[試合|しあい]には[負|ま]けてしまいました。"
+            },
+            {
+              "japanese": "「もう帰ろうよ。」「でも、まだ七時だよ。」",
+              "vietnamese": "\"Về thôi.\" \"Nhưng mới bảy giờ mà.\"",
+              "ruby": "「もう[帰|かえ]ろうよ。」「でも、まだ[七時|しちじ]だよ。」"
+            }
+          ]
+        },
+        {
+          "id": "shikashi",
+          "word": "しかし",
+          "reading": "しかし",
+          "level": "N5",
+          "meaning": "tuy nhiên, nhưng",
+          "register": "both",
+          "explanation": "Từ nối nghịch tiếp cơ bản nhất, dùng được cả trong văn viết lẫn lời nói trang trọng (phát biểu, bản tin). Câu sau trái với câu trước hoặc trái với điều câu trước gợi ra.\n\nTrong bài đọc, しかし thường báo hiệu ý chính của tác giả: phần sau しかし quan trọng hơn phần trước.",
+          "usage": [
+            "Đứng đầu câu hoặc đầu đoạn văn để chuyển sang ý ngược lại.",
+            "Trong văn viết, câu trước しかし thường là ý kiến phổ biến, câu sau là quan điểm của tác giả.",
+            "Đầu câu trong hội thoại còn dùng để cảm thán: 「しかし、暑いね。」 (mà công nhận nóng thật)."
+          ],
+          "pitfalls": [
+            "Khi câu sau là điều bất ngờ, ngược với dự đoán (đã xảy ra), ところが nhấn mạnh hơn; しかし chỉ nêu đối lập chung chung.",
+            "Không dùng しかし để nối hai vế trong cùng một câu: ✗「高いしかし、おいしい。」 ✓「高いが、おいしい。」／「高い。しかし、おいしい。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "でも",
+              "targetId": "demo",
+              "difference": "でも chỉ dùng trong hội thoại thân mật; しかし dùng được trong văn viết."
+            },
+            {
+              "pattern": "だが",
+              "targetId": "daga",
+              "difference": "だが mang giọng văn viết thể thường, mạnh và cứng hơn しかし."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この町は交通が不便だ。しかし、自然が豊かで住みやすい。",
+              "vietnamese": "Thị trấn này đi lại bất tiện. Tuy nhiên thiên nhiên phong phú nên dễ sống.",
+              "ruby": "この[町|まち]は[交通|こうつう]が[不便|ふべん]だ。しかし、[自然|しぜん]が[豊|ゆた]かで[住|す]みやすい。"
+            },
+            {
+              "japanese": "多くの人はテレビの影響が大きいと考えている。しかし、若者の間ではインターネットのほうが影響力を持つ。",
+              "vietnamese": "Nhiều người cho rằng tivi có ảnh hưởng lớn. Tuy nhiên trong giới trẻ, Internet có sức ảnh hưởng hơn.",
+              "ruby": "[多|おお]くの[人|ひと]はテレビの[影響|えいきょう]が[大|おお]きいと[考|かんが]えている。しかし、[若者|わかもの]の[間|あいだ]ではインターネットのほうが[影響|えいきょう][力|りょく]を[持|も]つ。"
+            },
+            {
+              "japanese": "計画は順調だった。しかし、予算の問題で中止された。",
+              "vietnamese": "Kế hoạch đang suôn sẻ. Nhưng đã bị hủy vì vấn đề ngân sách.",
+              "ruby": "[計画|けいかく]は[順調|じゅんちょう]だった。しかし、[予算|よさん]の[問題|もんだい]で[中止|ちゅうし]された。"
+            }
+          ]
+        },
+        {
+          "id": "keredomo",
+          "word": "けれども",
+          "reading": "けれども",
+          "level": "N5",
+          "meaning": "tuy nhiên, nhưng mà",
+          "register": "both",
+          "explanation": "Nghĩa giống しかし nhưng giọng mềm và lịch sự hơn, hay dùng khi nói chuyện với người trên hoặc khi viết thư. Dạng rút gọn けれど, けど thì thân mật dần.\n\nNgoài vị trí đầu câu, けれども còn là trợ từ nối hai vế trong một câu: 「高いけれども、買います。」.",
+          "usage": [
+            "Đầu câu: 「A。けれども、B。」 — lịch sự hơn でも.",
+            "Mức trang trọng giảm dần: けれども → けれど → けど.",
+            "Hay gặp trong hội thoại lịch sự và thư từ."
+          ],
+          "pitfalls": [
+            "Trong luận văn, báo cáo học thuật nên dùng しかし hơn là けれども (けれども mang sắc thái nói)."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし cứng, hợp văn viết học thuật; けれども mềm, hợp hội thoại lịch sự."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "日本語は難しいです。けれども、とてもおもしろいです。",
+              "vietnamese": "Tiếng Nhật khó. Tuy nhiên rất thú vị.",
+              "ruby": "[日本語|にほんご]は[難|むずか]しいです。けれども、とてもおもしろいです。"
+            },
+            {
+              "japanese": "お手伝いしたいです。けれども、今日は時間がないんです。",
+              "vietnamese": "Tôi muốn giúp lắm. Nhưng hôm nay tôi không có thời gian.",
+              "ruby": "お[手伝|てつだ]いしたいです。けれども、[今日|きょう]は[時間|じかん]がないんです。"
+            },
+            {
+              "japanese": "駅まで走った。けれども、電車は出たあとだった。",
+              "vietnamese": "Tôi đã chạy ra ga. Nhưng tàu đã chạy mất rồi.",
+              "ruby": "[駅|えき]まで[走|はし]った。けれども、[電車|でんしゃ]は[出|で]たあとだった。"
+            }
+          ]
+        },
+        {
+          "id": "soredemo",
+          "word": "それでも",
+          "reading": "それでも",
+          "level": "N4",
+          "meaning": "dù vậy vẫn, mặc dù thế",
+          "register": "both",
+          "explanation": "Câu trước nêu một điều kiện bất lợi hoặc lý do lẽ ra khiến việc gì đó không xảy ra; câu sau khẳng định việc đó vẫn xảy ra / vẫn được làm. Nhấn mạnh sự kiên trì hoặc ý chí bất chấp hoàn cảnh.\n\nCâu sau có thể là ý chí của người nói: 「それでも、私はやりたい。」.",
+          "usage": [
+            "Mẫu: 「（bất lợi）。それでも、（vẫn làm/vẫn xảy ra）。」.",
+            "Câu sau dùng được ý chí, quyết tâm, mong muốn.",
+            "Hay đi với まだ, やはり, 諦めない…"
+          ],
+          "pitfalls": [
+            "Khi người nói bực bội, trách móc vì kết quả trái với kỳ vọng (không phải ý chí), dùng それなのに: ✓「一生懸命教えた。それなのに、全然覚えていない。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それなのに",
+              "targetId": "sorenanoni",
+              "difference": "それなのに: kết quả trái mong đợi, người nói bất mãn, câu sau không là ý chí; それでも: bất chấp hoàn cảnh, câu sau có thể là ý chí."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "医者に止められた。それでも、彼はマラソンに出ると言っている。",
+              "vietnamese": "Bị bác sĩ cấm. Dù vậy anh ấy vẫn nói sẽ chạy marathon.",
+              "ruby": "[医者|いしゃ]に[止|と]められた。それでも、[彼|かれ]はマラソンに[出|で]ると[言|い]っている。"
+            },
+            {
+              "japanese": "雨が強くなってきた。それでも、子どもたちは外で遊び続けた。",
+              "vietnamese": "Mưa nặng hạt dần. Mặc dù thế bọn trẻ vẫn tiếp tục chơi ngoài trời.",
+              "ruby": "[雨|あめ]が[強|つよ]くなってきた。それでも、[子|こ]どもたちは[外|そと]で[遊|あそ]び[続|つづ]けた。"
+            },
+            {
+              "japanese": "何度も失敗した。それでも、夢をあきらめたくない。",
+              "vietnamese": "Tôi đã thất bại nhiều lần. Dù vậy tôi vẫn không muốn từ bỏ ước mơ.",
+              "ruby": "[何|なん][度|ど]も[失敗|しっぱい]した。それでも、[夢|ゆめ]をあきらめたくない。"
+            }
+          ]
+        },
+        {
+          "id": "daga",
+          "word": "だが",
+          "reading": "だが",
+          "level": "N3",
+          "meaning": "nhưng, thế nhưng",
+          "register": "written",
+          "explanation": "Nghĩa như しかし, nhưng là dạng thể thường (だ) nên mang giọng văn viết dứt khoát, hay gặp trong tiểu thuyết, xã luận, bài báo. Dạng lịch sự tương ứng là ですが.\n\nVì đi với thể thường, だが hiếm khi dùng trong văn bản viết theo thể です・ます.",
+          "usage": [
+            "Dùng trong văn bản thể thường (である調, だ調).",
+            "Trong văn bản thể です・ます, đổi thành ですが hoặc しかし.",
+            "Trong lời nói, だが nghe cứng, thường gặp ở nam giới hoặc giọng kể chuyện."
+          ],
+          "pitfalls": [
+            "Không trộn với thể lịch sự: ✗「この方法は便利です。だが、費用がかかります。」 ✓「この方法は便利です。ですが／しかし、費用がかかります。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし dùng được với cả thể thường lẫn thể lịch sự; だが chỉ hợp văn bản thể thường."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この計画には反対の声も多い。だが、実行する価値はある。",
+              "vietnamese": "Kế hoạch này cũng có nhiều ý kiến phản đối. Nhưng nó đáng để thực hiện.",
+              "ruby": "この[計画|けいかく]には[反対|はんたい]の[声|こえ]も[多|おお]い。だが、[実行|じっこう]する[価値|かち]はある。"
+            },
+            {
+              "japanese": "彼は天才だと言われていた。だが、その裏には毎日の努力があった。",
+              "vietnamese": "Anh ấy được gọi là thiên tài. Thế nhưng đằng sau đó là nỗ lực mỗi ngày.",
+              "ruby": "[彼|かれ]は[天才|てんさい]だと[言|い]われていた。だが、その[裏|うら]には[毎日|まいにち]の[努力|どりょく]があった。"
+            },
+            {
+              "japanese": "技術は急速に進歩した。だが、人々の生活は必ずしも豊かになっていない。",
+              "vietnamese": "Công nghệ tiến bộ nhanh chóng. Nhưng cuộc sống con người chưa hẳn đã sung túc hơn.",
+              "ruby": "[技術|ぎじゅつ]は[急速|きゅうそく]に[進歩|しんぽ]した。だが、[人々|ひとびと]の[生活|せいかつ]は[必|かなら]ずしも[豊|ゆた]かになっていない。"
+            }
+          ]
+        },
+        {
+          "id": "tokoroga",
+          "word": "ところが",
+          "reading": "ところが",
+          "level": "N3",
+          "meaning": "thế nhưng, vậy mà (ngoài dự đoán)",
+          "register": "both",
+          "explanation": "Câu trước nêu một tình huống khiến người ta dự đoán một kết quả; câu sau là sự thật đã xảy ra ngược với dự đoán đó, kèm cảm giác bất ngờ. Câu sau là sự việc thực tế, thường ở thể quá khứ.\n\nĐây là từ hay bị hỏi trong 文章の文法: nếu đoạn văn có \"tưởng là… nhưng thực tế lại…\", ところが thường là đáp án.",
+          "usage": [
+            "Mẫu: 「～と思っていた／～はずだった。ところが、～た。」.",
+            "Câu sau là sự thật khách quan, không phải ý chí, mệnh lệnh của người nói.",
+            "Thường đi với 意外にも, 実際は, なんと…"
+          ],
+          "pitfalls": [
+            "Câu sau không là ý chí hay lời khuyên: ✗「この店は高い。ところが、行ってみよう。」 ✓「この店は高い。でも、行ってみよう。」.",
+            "Đừng nhầm với ところで (chuyển chủ đề)."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし nêu đối lập chung, câu sau có thể là ý kiến; ところが nhấn mạnh kết quả thực tế trái với dự đoán, mang tính bất ngờ."
+            },
+            {
+              "pattern": "それなのに",
+              "targetId": "sorenanoni",
+              "difference": "それなのに thêm cảm xúc bất mãn, trách móc của người nói; ところが chỉ nêu sự bất ngờ."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "天気予報では晴れると言っていた。ところが、午後から大雨になった。",
+              "vietnamese": "Dự báo thời tiết nói trời nắng. Thế nhưng từ chiều lại mưa to.",
+              "ruby": "[天気|てんき][予報|よほう]では[晴|は]れると[言|い]っていた。ところが、[午後|ごご]から[大雨|おおあめ]になった。"
+            },
+            {
+              "japanese": "簡単な仕事だと思って引き受けた。ところが、三日もかかってしまった。",
+              "vietnamese": "Tưởng là việc đơn giản nên tôi nhận. Vậy mà mất tận ba ngày.",
+              "ruby": "[簡単|かんたん]な[仕事|しごと]だと[思|おも]って[引|ひ]き[受|う]けた。ところが、[三日|みっか]もかかってしまった。"
+            },
+            {
+              "japanese": "客は少ないだろうと予想していた。ところが、開店前から長い列ができていた。",
+              "vietnamese": "Tôi đoán khách sẽ ít. Thế nhưng trước giờ mở cửa đã có một hàng dài.",
+              "ruby": "[客|きゃく]は[少|すく]ないだろうと[予想|よそう]していた。ところが、[開店|かいてん][前|まえ]から[長|なが]い[列|れつ]ができていた。"
+            }
+          ]
+        },
+        {
+          "id": "sorenanoni",
+          "word": "それなのに",
+          "reading": "それなのに",
+          "level": "N2",
+          "meaning": "vậy mà, thế mà",
+          "register": "spoken",
+          "explanation": "Câu trước nêu một sự thật mà theo lẽ thường sẽ dẫn đến kết quả A; câu sau cho biết thực tế lại không phải A. Khác ところが, それなのに mang rõ cảm xúc của người nói: bất mãn, trách móc, tiếc nuối hoặc khó hiểu.\n\nDạng ngắn hơn là なのに, cũng đứng đầu câu trong hội thoại.",
+          "usage": [
+            "Mẫu: 「（lẽ ra…）。それなのに、（thực tế ngược lại）。」 kèm cảm xúc.",
+            "Câu sau là sự thật đã xảy ra, không dùng ý chí, mệnh lệnh, lời mời.",
+            "なのに là dạng thân mật hơn: 「約束したよね。なのに、どうして来なかったの？」."
+          ],
+          "pitfalls": [
+            "Câu sau không là ý chí: ✗「雨が降っている。それなのに、出かけよう。」 ✓「雨が降っている。それでも、出かけよう。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それでも",
+              "targetId": "soredemo",
+              "difference": "それでも: bất chấp hoàn cảnh, có thể là ý chí; それなのに: kết quả trái lẽ thường, kèm bất mãn."
+            },
+            {
+              "pattern": "ところが",
+              "targetId": "tokoroga",
+              "difference": "ところが kể sự bất ngờ một cách khách quan; それなのに thể hiện cảm xúc của người nói."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "毎日三時間も勉強した。それなのに、試験に落ちてしまった。",
+              "vietnamese": "Ngày nào cũng học tận ba tiếng. Vậy mà vẫn trượt kỳ thi.",
+              "ruby": "[毎日|まいにち][三|さん][時間|じかん]も[勉強|べんきょう]した。それなのに、[試験|しけん]に[落|お]ちてしまった。"
+            },
+            {
+              "japanese": "彼には何度も注意した。それなのに、また同じミスをした。",
+              "vietnamese": "Tôi đã nhắc anh ta nhiều lần. Thế mà anh ta lại mắc đúng lỗi đó.",
+              "ruby": "[彼|かれ]には[何|なん][度|ど]も[注意|ちゅうい]した。それなのに、また[同|おな]じミスをした。"
+            },
+            {
+              "japanese": "春になった。それなのに、まだこんなに寒い。",
+              "vietnamese": "Đã sang xuân rồi. Vậy mà vẫn còn lạnh thế này.",
+              "ruby": "[春|はる]になった。それなのに、まだこんなに[寒|さむ]い。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bo-sung",
+      "order": 3,
+      "title": "Bổ sung — thêm vào",
+      "jaTitle": "添加",
+      "description": "Câu sau thêm một thông tin cùng chiều với câu trước.",
+      "connectors": [
+        {
+          "id": "soreni",
+          "word": "それに",
+          "reading": "それに",
+          "level": "N4",
+          "meaning": "hơn nữa, với lại, thêm nữa là",
+          "register": "spoken",
+          "explanation": "Thêm một lý do hoặc một đặc điểm cùng chiều với điều vừa nói, thường để củng cố lập luận (\"đã thế…, lại còn…\"). Dùng nhiều trong hội thoại khi liệt kê lý do.\n\nCả hai vế thường cùng tốt hoặc cùng xấu: 「安い。それにおいしい。」「寒い。それに雨も降っている。」.",
+          "usage": [
+            "Liệt kê lý do: 「今日は行けません。熱があるし、それに仕事も残っているので。」.",
+            "Hay đi với ～も ở câu sau: 「それに、～も」.",
+            "Trong văn viết trang trọng thay bằng さらに／また."
+          ],
+          "pitfalls": [
+            "Không dùng để nối hai ý trái chiều: ✗「この部屋は広い。それに、家賃が高い。」 (một tốt một xấu) ✓「この部屋は広い。でも、家賃が高い。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "さらに",
+              "targetId": "sarani",
+              "difference": "さらに dùng được trong văn viết và nhấn mạnh mức độ tăng thêm; それに là văn nói, liệt kê thêm lý do."
+            },
+            {
+              "pattern": "しかも",
+              "targetId": "shikamo",
+              "difference": "しかも nhấn mạnh điều thêm vào còn đáng chú ý hơn (bất ngờ); それに chỉ cộng thêm."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "このアパートは駅から近い。それに、家賃も安い。",
+              "vietnamese": "Căn hộ này gần ga. Hơn nữa tiền thuê cũng rẻ.",
+              "ruby": "このアパートは[駅|えき]から[近|ちか]い。それに、[家賃|やちん]も[安|やす]い。"
+            },
+            {
+              "japanese": "今日はもう疲れた。それに、明日は朝が早いから、もう寝るよ。",
+              "vietnamese": "Hôm nay mệt rồi. Với lại mai phải dậy sớm nên tôi đi ngủ đây.",
+              "ruby": "[今日|きょう]はもう[疲|つか]れた。それに、[明日|あした]は[朝|あさ]が[早|はや]いから、もう[寝|ね]るよ。"
+            },
+            {
+              "japanese": "彼女は優しいし、頭もいい。それに、料理も上手だ。",
+              "vietnamese": "Cô ấy hiền, lại thông minh. Thêm nữa là nấu ăn cũng giỏi.",
+              "ruby": "[彼女|かのじょ]は[優|やさ]しいし、[頭|あたま]もいい。それに、[料理|りょうり]も[上手|じょうず]だ。"
+            }
+          ]
+        },
+        {
+          "id": "sarani",
+          "word": "さらに",
+          "reading": "さらに",
+          "level": "N3",
+          "meaning": "hơn nữa, thêm vào đó, hơn thế",
+          "register": "both",
+          "explanation": "Thêm một thông tin nữa theo cùng chiều, thường theo kiểu tăng tiến: điều đến sau mạnh hơn, nhiều hơn điều trước. Dùng được cả trong văn viết (báo cáo, quảng cáo, tin tức) lẫn lời nói.\n\nさらに cũng là phó từ \"càng thêm\": 「さらに寒くなる」 — khi làm bài cần xem nó đứng đầu câu (từ nối) hay trước động từ, tính từ (phó từ).",
+          "usage": [
+            "Đầu câu: 「A。さらに、B。」 — B là thông tin bổ sung, thường mạnh hơn A.",
+            "Hay dùng khi trình bày nhiều điểm: まず… 次に… さらに…",
+            "Quảng cáo, thông báo: 「さらに、今なら送料無料！」."
+          ],
+          "pitfalls": [
+            "Không dùng để thêm ý trái chiều; khi muốn nêu điểm trái ngược hãy dùng しかし hoặc 一方."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それに",
+              "targetId": "soreni",
+              "difference": "それに là văn nói, cộng thêm lý do; さらに dùng được trong văn viết và mang ý tăng tiến."
+            },
+            {
+              "pattern": "そのうえ",
+              "targetId": "sonoue",
+              "difference": "そのうえ nhấn mạnh \"đã… lại còn…\" (thêm vào cái đã có); さらに nhấn mạnh mức độ tăng lên."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "新しいスマホは画面が大きくなった。さらに、電池も長く持つようになった。",
+              "vietnamese": "Điện thoại mới có màn hình to hơn. Hơn nữa pin cũng dùng được lâu hơn.",
+              "ruby": "[新|あたら]しいスマホは[画面|がめん]が[大|おお]きくなった。さらに、[電池|でんち]も[長|なが]く[持|も]つようになった。"
+            },
+            {
+              "japanese": "会議では予算が問題になった。さらに、人手不足の問題も指摘された。",
+              "vietnamese": "Trong cuộc họp, ngân sách đã trở thành vấn đề. Thêm vào đó, vấn đề thiếu nhân lực cũng được chỉ ra.",
+              "ruby": "[会議|かいぎ]では[予算|よさん]が[問題|もんだい]になった。さらに、[人手|ひとで][不足|ふそく]の[問題|もんだい]も[指摘|してき]された。"
+            },
+            {
+              "japanese": "今月は売り上げが二倍になった。さらに、新しい客も増えている。",
+              "vietnamese": "Tháng này doanh thu tăng gấp đôi. Hơn thế, khách mới cũng đang tăng.",
+              "ruby": "[今月|こんげつ]は[売|う]り[上|あ]げが[二|に][倍|ばい]になった。さらに、[新|あたら]しい[客|きゃく]も[増|ふ]えている。"
+            }
+          ]
+        },
+        {
+          "id": "shikamo",
+          "word": "しかも",
+          "reading": "しかも",
+          "level": "N3",
+          "meaning": "mà lại còn, hơn thế, lại thêm",
+          "register": "both",
+          "explanation": "Câu sau thêm một điều cùng chiều nhưng đáng chú ý hơn, thường khiến người nghe ngạc nhiên hoặc nhấn mạnh mức độ (\"đã A, mà lại còn B nữa\"). Có thể dùng cho cả điều tốt lẫn điều xấu.\n\nNgoài ra しかも còn nối hai tính chất trong cùng một câu: 「安くて、しかもおいしい」.",
+          "usage": [
+            "Đầu câu: 「A。しかも、B。」 — B làm tăng ấn tượng của A.",
+            "Trong câu: 「A、しかもB」 (vừa A mà lại B).",
+            "Dùng được trong văn viết lẫn văn nói."
+          ],
+          "pitfalls": [
+            "Câu sau không là mệnh lệnh, lời mời hay ý chí: ✗「この店は安い。しかも、行きましょう。」 ✓「この店は安い。しかも、おいしい。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それに",
+              "targetId": "soreni",
+              "difference": "それに chỉ cộng thêm lý do; しかも nhấn mạnh điều thêm vào đáng ngạc nhiên hơn."
+            },
+            {
+              "pattern": "おまけに",
+              "targetId": "omakeni",
+              "difference": "おまけに chủ yếu dùng cho chuyện xấu chồng chất, giọng nói thân mật; しかも trung tính, dùng được cho cả chuyện tốt."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "彼はたった一年で日本語能力試験のN2に合格した。しかも、満点に近い点数だった。",
+              "vietnamese": "Anh ấy đỗ N2 chỉ sau một năm. Mà lại còn gần điểm tuyệt đối.",
+              "ruby": "[彼|かれ]はたった[一|いち][年|ねん]で[日本語|にほんご][能力|のうりょく][試験|しけん]のN2に[合格|ごうかく]した。しかも、[満点|まんてん]に[近|ちか]い[点数|てんすう]だった。"
+            },
+            {
+              "japanese": "そのホテルは駅のすぐ前にある。しかも、値段が驚くほど安い。",
+              "vietnamese": "Khách sạn đó nằm ngay trước ga. Hơn thế, giá rẻ đến bất ngờ.",
+              "ruby": "そのホテルは[駅|えき]のすぐ[前|まえ]にある。しかも、[値段|ねだん]が[驚|おどろ]くほど[安|やす]い。"
+            },
+            {
+              "japanese": "財布を落とした。しかも、中にはパスポートも入っていた。",
+              "vietnamese": "Tôi đánh rơi ví. Lại thêm trong đó còn có cả hộ chiếu.",
+              "ruby": "[財布|さいふ]を[落|お]とした。しかも、[中|なか]にはパスポートも[入|はい]っていた。"
+            }
+          ]
+        },
+        {
+          "id": "sonoue",
+          "word": "そのうえ",
+          "reading": "そのうえ",
+          "level": "N2",
+          "meaning": "thêm vào đó, hơn thế nữa, đã thế lại",
+          "register": "written",
+          "explanation": "Câu trước nêu một điều, câu sau chồng thêm một điều cùng chiều lên trên (うえ = phía trên). Giọng hơi trang trọng, hay gặp trong văn viết và bài đọc JLPT.\n\nViết bằng chữ Hán là その上. Đừng nhầm với ～上（で）, ～上（は） là các mẫu ngữ pháp khác.",
+          "usage": [
+            "Mẫu: 「A。そのうえ、B。」 — A và B cùng tốt hoặc cùng xấu.",
+            "Câu sau thường có も: 「そのうえ、～も…」.",
+            "Hợp với văn viết, bài luận, lời giới thiệu."
+          ],
+          "pitfalls": [
+            "Câu sau không là mệnh lệnh, lời mời, ý chí: ✗「疲れた。そのうえ、早く帰ろう。」.",
+            "Không nối hai ý trái chiều; khi đó dùng しかし／ところが."
+          ],
+          "comparisons": [
+            {
+              "pattern": "さらに",
+              "targetId": "sarani",
+              "difference": "さらに nhấn mạnh mức độ tăng tiến; そのうえ nhấn mạnh việc chồng thêm vào điều đã có."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この仕事は給料がいい。そのうえ、休みも多い。",
+              "vietnamese": "Công việc này lương tốt. Thêm vào đó, ngày nghỉ cũng nhiều.",
+              "ruby": "この[仕事|しごと]は[給料|きゅうりょう]がいい。そのうえ、[休|やす]みも[多|おお]い。"
+            },
+            {
+              "japanese": "道に迷ってしまった。そのうえ、携帯の電池も切れた。",
+              "vietnamese": "Tôi bị lạc đường. Đã thế điện thoại lại hết pin.",
+              "ruby": "[道|みち]に[迷|まよ]ってしまった。そのうえ、[携帯|けいたい]の[電池|でんち]も[切|き]れた。"
+            },
+            {
+              "japanese": "この地域は気候が穏やかである。そのうえ、交通の便もよい。",
+              "vietnamese": "Vùng này khí hậu ôn hòa. Hơn thế nữa, giao thông cũng thuận tiện.",
+              "ruby": "この[地域|ちいき]は[気候|きこう]が[穏|おだ]やかである。そのうえ、[交通|こうつう]の[便|べん]もよい。"
+            }
+          ]
+        },
+        {
+          "id": "omakeni",
+          "word": "おまけに",
+          "reading": "おまけに",
+          "level": "N2",
+          "meaning": "đã thế lại còn, thêm vào đó (thường là chuyện xấu)",
+          "register": "spoken",
+          "explanation": "Thêm một điều nữa lên điều vừa nói, phần lớn dùng khi chuyện không hay cứ chồng chất (\"xui lại thêm xui\"). Giọng thân mật, dùng trong hội thoại hoặc khi kể chuyện.\n\nおまけ nghĩa gốc là \"quà tặng kèm\"; cũng có thể dùng cho chuyện tốt nhưng ít gặp hơn.",
+          "usage": [
+            "Mẫu than phiền: 「A（xấu）。おまけに、B（xấu）。」.",
+            "Câu sau là sự việc, không phải ý chí, mệnh lệnh.",
+            "Hay kết hợp với ～し: 「寒いし、おまけに雨まで降ってきた。」."
+          ],
+          "pitfalls": [
+            "Không hợp với văn bản trang trọng; trong báo cáo hãy dùng さらに／そのうえ."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかも",
+              "targetId": "shikamo",
+              "difference": "しかも trung tính, dùng cho cả chuyện tốt và xấu, cả văn viết; おまけに thân mật và thường cho chuyện xấu."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "朝から頭が痛い。おまけに、熱まで出てきた。",
+              "vietnamese": "Từ sáng đã đau đầu. Đã thế lại còn bị sốt.",
+              "ruby": "[朝|あさ]から[頭|あたま]が[痛|いた]い。おまけに、[熱|ねつ]まで[出|で]てきた。"
+            },
+            {
+              "japanese": "電車は遅れるし、おまけに、傘を電車に忘れてしまった。",
+              "vietnamese": "Tàu thì trễ, đã thế tôi lại còn để quên ô trên tàu.",
+              "ruby": "[電車|でんしゃ]は[遅|おく]れるし、おまけに、[傘|かさ]を[電車|でんしゃ]に[忘|わす]れてしまった。"
+            },
+            {
+              "japanese": "その店は高かった。おまけに、店員の態度も悪かった。",
+              "vietnamese": "Quán đó đắt. Thêm vào đó thái độ nhân viên cũng tệ.",
+              "ruby": "その[店|みせ]は[高|たか]かった。おまけに、[店員|てんいん]の[態度|たいど]も[悪|わる]かった。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-14T14:16:49.9269844+00:00"
+}

@@ -1,0 +1,191 @@
+{
+  "id": "nghich-tiep",
+  "order": 2,
+  "title": "Nghịch tiếp — trái ngược, ngoài dự đoán",
+  "jaTitle": "逆接",
+  "description": "Câu sau trái với điều câu trước khiến người đọc chờ đợi.",
+  "connectors": [
+    {
+      "id": "demo",
+      "word": "でも",
+      "reading": "でも",
+      "level": "N5",
+      "meaning": "nhưng, tuy vậy, nhưng mà",
+      "register": "spoken",
+      "explanation": "Nối hai câu có nội dung trái ngược nhau trong hội thoại thân mật. Câu trước nêu một điều, câu sau nêu điều ngược lại hoặc một phản bác.\n\nでも còn dùng đầu câu để phản bác lời người kia (\"nhưng mà…\"), hoặc để biện minh. Trong văn viết trang trọng nên thay bằng しかし.",
+      "usage": [
+        "Đứng đầu câu sau: 「A。でも、B。」.",
+        "Mở đầu câu trả lời để phản bác nhẹ: 「でも、それは高すぎるよ。」.",
+        "Dạng lịch sự hơn trong hội thoại: ですが／けれども."
+      ],
+      "pitfalls": [
+        "Không viết でも đầu câu trong bài luận, báo cáo: ✗「…と言われている。でも、実際は違う。」 ✓「…と言われている。しかし、実際は違う。」.",
+        "Đừng nhầm với trợ từ でも sau danh từ (\"ngay cả\", \"hay là\"): 「子どもでもわかる」「お茶でも飲みませんか」."
+      ],
+      "comparisons": [
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし dùng được trong văn viết và lời nói trang trọng; でも chỉ dùng trong hội thoại thân mật." },
+        { "pattern": "けれども", "targetId": "keredomo", "difference": "けれども lịch sự, mềm hơn でも; でも suồng sã nhất trong ba từ." }
+      ],
+      "examples": [
+        { "japanese": "この服はとても気に入った。でも、ちょっと高い。", "vietnamese": "Tôi rất thích bộ đồ này. Nhưng hơi đắt." },
+        { "japanese": "毎日練習しました。でも、試合には負けてしまいました。", "vietnamese": "Tôi đã luyện tập mỗi ngày. Vậy mà vẫn thua trận." },
+        { "japanese": "「もう帰ろうよ。」「でも、まだ七時だよ。」", "vietnamese": "\"Về thôi.\" \"Nhưng mới bảy giờ mà.\"" }
+      ]
+    },
+    {
+      "id": "shikashi",
+      "word": "しかし",
+      "reading": "しかし",
+      "level": "N5",
+      "meaning": "tuy nhiên, nhưng",
+      "register": "both",
+      "explanation": "Từ nối nghịch tiếp cơ bản nhất, dùng được cả trong văn viết lẫn lời nói trang trọng (phát biểu, bản tin). Câu sau trái với câu trước hoặc trái với điều câu trước gợi ra.\n\nTrong bài đọc, しかし thường báo hiệu ý chính của tác giả: phần sau しかし quan trọng hơn phần trước.",
+      "usage": [
+        "Đứng đầu câu hoặc đầu đoạn văn để chuyển sang ý ngược lại.",
+        "Trong văn viết, câu trước しかし thường là ý kiến phổ biến, câu sau là quan điểm của tác giả.",
+        "Đầu câu trong hội thoại còn dùng để cảm thán: 「しかし、暑いね。」 (mà công nhận nóng thật)."
+      ],
+      "pitfalls": [
+        "Khi câu sau là điều bất ngờ, ngược với dự đoán (đã xảy ra), ところが nhấn mạnh hơn; しかし chỉ nêu đối lập chung chung.",
+        "Không dùng しかし để nối hai vế trong cùng một câu: ✗「高いしかし、おいしい。」 ✓「高いが、おいしい。」／「高い。しかし、おいしい。」."
+      ],
+      "comparisons": [
+        { "pattern": "でも", "targetId": "demo", "difference": "でも chỉ dùng trong hội thoại thân mật; しかし dùng được trong văn viết." },
+        { "pattern": "だが", "targetId": "daga", "difference": "だが mang giọng văn viết thể thường, mạnh và cứng hơn しかし." }
+      ],
+      "examples": [
+        { "japanese": "この町は交通が不便だ。しかし、自然が豊かで住みやすい。", "vietnamese": "Thị trấn này đi lại bất tiện. Tuy nhiên thiên nhiên phong phú nên dễ sống." },
+        { "japanese": "多くの人はテレビの影響が大きいと考えている。しかし、若者の間ではインターネットのほうが影響力を持つ。", "vietnamese": "Nhiều người cho rằng tivi có ảnh hưởng lớn. Tuy nhiên trong giới trẻ, Internet có sức ảnh hưởng hơn." },
+        { "japanese": "計画は順調だった。しかし、予算の問題で中止された。", "vietnamese": "Kế hoạch đang suôn sẻ. Nhưng đã bị hủy vì vấn đề ngân sách." }
+      ]
+    },
+    {
+      "id": "keredomo",
+      "word": "けれども",
+      "reading": "けれども",
+      "level": "N5",
+      "meaning": "tuy nhiên, nhưng mà",
+      "register": "both",
+      "explanation": "Nghĩa giống しかし nhưng giọng mềm và lịch sự hơn, hay dùng khi nói chuyện với người trên hoặc khi viết thư. Dạng rút gọn けれど, けど thì thân mật dần.\n\nNgoài vị trí đầu câu, けれども còn là trợ từ nối hai vế trong một câu: 「高いけれども、買います。」.",
+      "usage": [
+        "Đầu câu: 「A。けれども、B。」 — lịch sự hơn でも.",
+        "Mức trang trọng giảm dần: けれども → けれど → けど.",
+        "Hay gặp trong hội thoại lịch sự và thư từ."
+      ],
+      "pitfalls": [
+        "Trong luận văn, báo cáo học thuật nên dùng しかし hơn là けれども (けれども mang sắc thái nói)."
+      ],
+      "comparisons": [
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし cứng, hợp văn viết học thuật; けれども mềm, hợp hội thoại lịch sự." }
+      ],
+      "examples": [
+        { "japanese": "日本語は難しいです。けれども、とてもおもしろいです。", "vietnamese": "Tiếng Nhật khó. Tuy nhiên rất thú vị." },
+        { "japanese": "お手伝いしたいです。けれども、今日は時間がないんです。", "vietnamese": "Tôi muốn giúp lắm. Nhưng hôm nay tôi không có thời gian." },
+        { "japanese": "駅まで走った。けれども、電車は出たあとだった。", "vietnamese": "Tôi đã chạy ra ga. Nhưng tàu đã chạy mất rồi." }
+      ]
+    },
+    {
+      "id": "soredemo",
+      "word": "それでも",
+      "reading": "それでも",
+      "level": "N4",
+      "meaning": "dù vậy vẫn, mặc dù thế",
+      "register": "both",
+      "explanation": "Câu trước nêu một điều kiện bất lợi hoặc lý do lẽ ra khiến việc gì đó không xảy ra; câu sau khẳng định việc đó vẫn xảy ra / vẫn được làm. Nhấn mạnh sự kiên trì hoặc ý chí bất chấp hoàn cảnh.\n\nCâu sau có thể là ý chí của người nói: 「それでも、私はやりたい。」.",
+      "usage": [
+        "Mẫu: 「（bất lợi）。それでも、（vẫn làm/vẫn xảy ra）。」.",
+        "Câu sau dùng được ý chí, quyết tâm, mong muốn.",
+        "Hay đi với まだ, やはり, 諦めない…"
+      ],
+      "pitfalls": [
+        "Khi người nói bực bội, trách móc vì kết quả trái với kỳ vọng (không phải ý chí), dùng それなのに: ✓「一生懸命教えた。それなのに、全然覚えていない。」."
+      ],
+      "comparisons": [
+        { "pattern": "それなのに", "targetId": "sorenanoni", "difference": "それなのに: kết quả trái mong đợi, người nói bất mãn, câu sau không là ý chí; それでも: bất chấp hoàn cảnh, câu sau có thể là ý chí." }
+      ],
+      "examples": [
+        { "japanese": "医者に止められた。それでも、彼はマラソンに出ると言っている。", "vietnamese": "Bị bác sĩ cấm. Dù vậy anh ấy vẫn nói sẽ chạy marathon." },
+        { "japanese": "雨が強くなってきた。それでも、子どもたちは外で遊び続けた。", "vietnamese": "Mưa nặng hạt dần. Mặc dù thế bọn trẻ vẫn tiếp tục chơi ngoài trời." },
+        { "japanese": "何度も失敗した。それでも、夢をあきらめたくない。", "vietnamese": "Tôi đã thất bại nhiều lần. Dù vậy tôi vẫn không muốn từ bỏ ước mơ." }
+      ]
+    },
+    {
+      "id": "daga",
+      "word": "だが",
+      "reading": "だが",
+      "level": "N3",
+      "meaning": "nhưng, thế nhưng",
+      "register": "written",
+      "explanation": "Nghĩa như しかし, nhưng là dạng thể thường (だ) nên mang giọng văn viết dứt khoát, hay gặp trong tiểu thuyết, xã luận, bài báo. Dạng lịch sự tương ứng là ですが.\n\nVì đi với thể thường, だが hiếm khi dùng trong văn bản viết theo thể です・ます.",
+      "usage": [
+        "Dùng trong văn bản thể thường (である調, だ調).",
+        "Trong văn bản thể です・ます, đổi thành ですが hoặc しかし.",
+        "Trong lời nói, だが nghe cứng, thường gặp ở nam giới hoặc giọng kể chuyện."
+      ],
+      "pitfalls": [
+        "Không trộn với thể lịch sự: ✗「この方法は便利です。だが、費用がかかります。」 ✓「この方法は便利です。ですが／しかし、費用がかかります。」."
+      ],
+      "comparisons": [
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし dùng được với cả thể thường lẫn thể lịch sự; だが chỉ hợp văn bản thể thường." }
+      ],
+      "examples": [
+        { "japanese": "この計画には反対の声も多い。だが、実行する価値はある。", "vietnamese": "Kế hoạch này cũng có nhiều ý kiến phản đối. Nhưng nó đáng để thực hiện." },
+        { "japanese": "彼は天才だと言われていた。だが、その裏には毎日の努力があった。", "vietnamese": "Anh ấy được gọi là thiên tài. Thế nhưng đằng sau đó là nỗ lực mỗi ngày." },
+        { "japanese": "技術は急速に進歩した。だが、人々の生活は必ずしも豊かになっていない。", "vietnamese": "Công nghệ tiến bộ nhanh chóng. Nhưng cuộc sống con người chưa hẳn đã sung túc hơn." }
+      ]
+    },
+    {
+      "id": "tokoroga",
+      "word": "ところが",
+      "reading": "ところが",
+      "level": "N3",
+      "meaning": "thế nhưng, vậy mà (ngoài dự đoán)",
+      "register": "both",
+      "explanation": "Câu trước nêu một tình huống khiến người ta dự đoán một kết quả; câu sau là sự thật đã xảy ra ngược với dự đoán đó, kèm cảm giác bất ngờ. Câu sau là sự việc thực tế, thường ở thể quá khứ.\n\nĐây là từ hay bị hỏi trong 文章の文法: nếu đoạn văn có \"tưởng là… nhưng thực tế lại…\", ところが thường là đáp án.",
+      "usage": [
+        "Mẫu: 「～と思っていた／～はずだった。ところが、～た。」.",
+        "Câu sau là sự thật khách quan, không phải ý chí, mệnh lệnh của người nói.",
+        "Thường đi với 意外にも, 実際は, なんと…"
+      ],
+      "pitfalls": [
+        "Câu sau không là ý chí hay lời khuyên: ✗「この店は高い。ところが、行ってみよう。」 ✓「この店は高い。でも、行ってみよう。」.",
+        "Đừng nhầm với ところで (chuyển chủ đề)."
+      ],
+      "comparisons": [
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし nêu đối lập chung, câu sau có thể là ý kiến; ところが nhấn mạnh kết quả thực tế trái với dự đoán, mang tính bất ngờ." },
+        { "pattern": "それなのに", "targetId": "sorenanoni", "difference": "それなのに thêm cảm xúc bất mãn, trách móc của người nói; ところが chỉ nêu sự bất ngờ." }
+      ],
+      "examples": [
+        { "japanese": "天気予報では晴れると言っていた。ところが、午後から大雨になった。", "vietnamese": "Dự báo thời tiết nói trời nắng. Thế nhưng từ chiều lại mưa to." },
+        { "japanese": "簡単な仕事だと思って引き受けた。ところが、三日もかかってしまった。", "vietnamese": "Tưởng là việc đơn giản nên tôi nhận. Vậy mà mất tận ba ngày." },
+        { "japanese": "客は少ないだろうと予想していた。ところが、開店前から長い列ができていた。", "vietnamese": "Tôi đoán khách sẽ ít. Thế nhưng trước giờ mở cửa đã có một hàng dài." }
+      ]
+    },
+    {
+      "id": "sorenanoni",
+      "word": "それなのに",
+      "reading": "それなのに",
+      "level": "N2",
+      "meaning": "vậy mà, thế mà",
+      "register": "spoken",
+      "explanation": "Câu trước nêu một sự thật mà theo lẽ thường sẽ dẫn đến kết quả A; câu sau cho biết thực tế lại không phải A. Khác ところが, それなのに mang rõ cảm xúc của người nói: bất mãn, trách móc, tiếc nuối hoặc khó hiểu.\n\nDạng ngắn hơn là なのに, cũng đứng đầu câu trong hội thoại.",
+      "usage": [
+        "Mẫu: 「（lẽ ra…）。それなのに、（thực tế ngược lại）。」 kèm cảm xúc.",
+        "Câu sau là sự thật đã xảy ra, không dùng ý chí, mệnh lệnh, lời mời.",
+        "なのに là dạng thân mật hơn: 「約束したよね。なのに、どうして来なかったの？」."
+      ],
+      "pitfalls": [
+        "Câu sau không là ý chí: ✗「雨が降っている。それなのに、出かけよう。」 ✓「雨が降っている。それでも、出かけよう。」."
+      ],
+      "comparisons": [
+        { "pattern": "それでも", "targetId": "soredemo", "difference": "それでも: bất chấp hoàn cảnh, có thể là ý chí; それなのに: kết quả trái lẽ thường, kèm bất mãn." },
+        { "pattern": "ところが", "targetId": "tokoroga", "difference": "ところが kể sự bất ngờ một cách khách quan; それなのに thể hiện cảm xúc của người nói." }
+      ],
+      "examples": [
+        { "japanese": "毎日三時間も勉強した。それなのに、試験に落ちてしまった。", "vietnamese": "Ngày nào cũng học tận ba tiếng. Vậy mà vẫn trượt kỳ thi." },
+        { "japanese": "彼には何度も注意した。それなのに、また同じミスをした。", "vietnamese": "Tôi đã nhắc anh ta nhiều lần. Thế mà anh ta lại mắc đúng lỗi đó." },
+        { "japanese": "春になった。それなのに、まだこんなに寒い。", "vietnamese": "Đã sang xuân rồi. Vậy mà vẫn còn lạnh thế này." }
+      ]
+    }
+  ]
+}
