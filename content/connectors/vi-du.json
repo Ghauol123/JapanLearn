@@ -1,0 +1,34 @@
+{
+  "id": "vi-du",
+  "order": 9,
+  "title": "Đưa ví dụ",
+  "jaTitle": "例示",
+  "description": "Câu sau đưa ví dụ cụ thể cho điều vừa nói.",
+  "connectors": [
+    {
+      "id": "tatoeba",
+      "word": "例えば",
+      "reading": "たとえば",
+      "level": "N4",
+      "meaning": "ví dụ như, chẳng hạn",
+      "register": "both",
+      "explanation": "Câu trước nêu một ý khái quát; câu sau đưa ra trường hợp cụ thể để minh họa. Trong bài đọc, phần sau 例えば thường không phải ý chính mà là dẫn chứng — câu hỏi về ý chính hay nằm ở câu khái quát trước đó.\n\n例えば cũng dùng để giả định: 「例えば、宝くじが当たったら何をしますか。」 (giả sử…).",
+      "usage": [
+        "Mẫu: 「A（khái quát）。例えば、B（cụ thể）。」.",
+        "Hay đi với ～など／～とか／～のような ở câu sau.",
+        "Giả định: 「例えば～たら／～としたら」."
+      ],
+      "pitfalls": [
+        "Không dùng 例えば khi câu sau chỉ nói lại ý trước bằng cách khác; khi đó dùng つまり."
+      ],
+      "comparisons": [
+        { "pattern": "つまり", "targetId": "tsumari", "difference": "つまり nói lại cùng ý ở mức khái quát; 例えば đưa ra trường hợp cụ thể để minh họa." }
+      ],
+      "examples": [
+        { "japanese": "日本には季節の行事が多い。例えば、春には花見、夏には花火大会がある。", "vietnamese": "Nhật Bản có nhiều lễ hội theo mùa. Ví dụ như mùa xuân có ngắm hoa, mùa hè có lễ hội pháo hoa." },
+        { "japanese": "野菜を食べるようにしています。例えば、毎朝サラダを食べるとか。", "vietnamese": "Tôi đang cố ăn nhiều rau. Chẳng hạn như sáng nào cũng ăn salad." },
+        { "japanese": "例えば、明日休みになったら、何をしたいですか。", "vietnamese": "Giả sử mai được nghỉ, bạn muốn làm gì?" }
+      ]
+    }
+  ]
+}

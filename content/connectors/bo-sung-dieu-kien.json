@@ -1,0 +1,140 @@
+{
+  "id": "bo-sung-dieu-kien",
+  "order": 7,
+  "title": "Bổ sung điều kiện, ngoại lệ",
+  "jaTitle": "補足",
+  "description": "Câu sau thêm điều kiện, ngoại lệ hoặc thông tin phụ cho câu trước.",
+  "connectors": [
+    {
+      "id": "tada",
+      "word": "ただ",
+      "reading": "ただ",
+      "level": "N3",
+      "meaning": "chỉ có điều, có điều là",
+      "register": "spoken",
+      "explanation": "Câu trước nêu một nhận định chung (thường là tích cực); câu sau thêm một điểm hạn chế, một chút lo ngại hay lưu ý nhỏ. Mức độ nhẹ hơn しかし: không phủ định câu trước, chỉ bổ sung \"có điều…\".\n\nĐừng nhầm với phó từ ただ \"chỉ\" (ただ見ているだけ) và ただ \"miễn phí\" (ただで入れる).",
+      "usage": [
+        "Mẫu: 「A（nhìn chung ổn）。ただ、B（điểm trừ nhỏ）。」.",
+        "Hay dùng khi góp ý nhẹ nhàng: 「いいと思います。ただ、少し長いですね。」.",
+        "Dùng nhiều trong hội thoại; trong văn bản quy định thường dùng ただし."
+      ],
+      "pitfalls": [
+        "Khi câu sau là điều kiện, ngoại lệ của một quy định (giá, giờ mở cửa…), ただし chính xác hơn: ✓「入場無料。ただし、子どもは保護者同伴のこと。」."
+      ],
+      "comparisons": [
+        { "pattern": "ただし", "targetId": "tadashi", "difference": "ただし nêu điều kiện, ngoại lệ của quy định, giọng văn viết; ただ nêu điểm hạn chế, lo ngại nhỏ, giọng nói." },
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし đưa ra ý ngược lại mạnh; ただ chỉ thêm một chút hạn chế, không phủ định câu trước." }
+      ],
+      "examples": [
+        { "japanese": "この部屋は広くて明るい。ただ、駅から少し遠い。", "vietnamese": "Căn phòng này rộng và sáng. Có điều hơi xa ga." },
+        { "japanese": "レポートはよく書けています。ただ、結論がちょっと短いですね。", "vietnamese": "Bài báo cáo viết tốt đấy. Chỉ có điều phần kết luận hơi ngắn." },
+        { "japanese": "旅行には行きたい。ただ、休みが取れるかどうかわからない。", "vietnamese": "Tôi muốn đi du lịch. Có điều không biết có xin nghỉ được không." }
+      ]
+    },
+    {
+      "id": "tadashi",
+      "word": "ただし",
+      "reading": "ただし",
+      "level": "N2",
+      "meaning": "tuy nhiên (nêu điều kiện, ngoại lệ), với điều kiện là",
+      "register": "written",
+      "explanation": "Câu trước nêu một quy định hay nguyên tắc chung; câu sau nêu điều kiện kèm theo hoặc trường hợp ngoại lệ. Rất hay gặp trong thông báo, nội quy, quảng cáo, đề bài — các văn bản thường xuất hiện ở phần đọc tìm thông tin (情報検索) của JLPT.\n\nViết chữ Hán là 但し.",
+      "usage": [
+        "Mẫu nội quy: 「A（quy định）。ただし、B（ngoại lệ/điều kiện）。」.",
+        "Câu sau hay kết thúc bằng ～は除く／～のこと／～に限る／～場合は.",
+        "Hợp với văn viết, thông báo chính thức."
+      ],
+      "pitfalls": [
+        "Không dùng ただし để nêu cảm nghĩ hay lo ngại cá nhân: ✗「この映画はおもしろい。ただし、少し長い。」 ✓「この映画はおもしろい。ただ、少し長い。」."
+      ],
+      "comparisons": [
+        { "pattern": "ただ", "targetId": "tada", "difference": "ただ: điểm trừ, lo ngại nhỏ, văn nói; ただし: điều kiện hay ngoại lệ của một quy định, văn viết." },
+        { "pattern": "なお", "targetId": "nao", "difference": "なお thêm thông tin phụ không thuộc quy định chính; ただし giới hạn hoặc đặt ngoại lệ cho quy định vừa nêu." }
+      ],
+      "examples": [
+        { "japanese": "図書館の本は二週間借りられます。ただし、新しい雑誌は貸し出しできません。", "vietnamese": "Sách thư viện được mượn hai tuần. Tuy nhiên, tạp chí mới thì không được mượn về." },
+        { "japanese": "参加費は無料です。ただし、交通費は各自で負担してください。", "vietnamese": "Phí tham gia miễn phí. Tuy nhiên, chi phí đi lại mỗi người tự chi trả." },
+        { "japanese": "毎週月曜日は休館日です。ただし、祝日の場合は翌日が休館となります。", "vietnamese": "Thứ Hai hằng tuần là ngày nghỉ. Tuy nhiên, nếu trùng ngày lễ thì nghỉ vào ngày hôm sau." }
+      ]
+    },
+    {
+      "id": "mottomo",
+      "word": "もっとも",
+      "reading": "もっとも",
+      "level": "N3",
+      "meaning": "tuy vậy thì cũng, dĩ nhiên là… nhưng",
+      "register": "both",
+      "explanation": "Câu trước nêu một nhận định; câu sau thêm một điều kiện, một sự thừa nhận làm nhẹ bớt hoặc chỉnh lại nhận định đó (\"nói vậy thôi chứ…\"). Câu sau thường kết thúc bằng ～が／～けれど hoặc nêu một sự thật trái chiều nhẹ.\n\nĐừng nhầm với phó từ 最も (もっとも, \"nhất\") và tính từ もっともな (\"hợp lý\").",
+      "usage": [
+        "Mẫu: 「A。もっとも、B（điều kiện/thừa nhận）。」.",
+        "Câu sau hay có ～が／～けど／～のだが ở cuối.",
+        "Dùng trong văn viết lẫn hội thoại khi muốn nói cho công bằng, không tuyệt đối."
+      ],
+      "pitfalls": [
+        "もっとも không dùng để nêu quy định, ngoại lệ chính thức; khi đó dùng ただし.",
+        "Phân biệt 最も (nhất) đứng trước tính từ: 「最も大切なこと」 với もっとも đứng đầu câu."
+      ],
+      "comparisons": [
+        { "pattern": "ただし", "targetId": "tadashi", "difference": "ただし đặt điều kiện, ngoại lệ cho quy định; もっとも là người nói tự điều chỉnh, thừa nhận một phần nhận định của mình." }
+      ],
+      "examples": [
+        { "japanese": "毎日運動するのは体にいい。もっとも、やりすぎは逆効果だが。", "vietnamese": "Vận động hằng ngày tốt cho cơ thể. Tuy vậy thì tập quá sức lại phản tác dụng." },
+        { "japanese": "この店のラーメンは日本一だと思う。もっとも、私はほかの店をあまり知らないけれど。", "vietnamese": "Tôi nghĩ mì ramen quán này ngon nhất Nhật Bản. Dĩ nhiên là tôi cũng không biết nhiều quán khác." },
+        { "japanese": "来週から新しいシステムが使える。もっとも、慣れるまでは時間がかかるだろう。", "vietnamese": "Từ tuần sau có thể dùng hệ thống mới. Tuy vậy thì cũng sẽ mất thời gian để quen." }
+      ]
+    },
+    {
+      "id": "nao",
+      "word": "なお",
+      "reading": "なお",
+      "level": "N2",
+      "meaning": "ngoài ra, xin lưu ý thêm",
+      "register": "written",
+      "explanation": "Sau khi nói xong nội dung chính, なお mở đầu một thông tin bổ sung, lưu ý phụ có liên quan nhưng không thuộc phần chính. Đặc trưng của thông báo, email công việc, văn bản hướng dẫn.\n\nKhi là phó từ, なお còn có nghĩa \"vẫn còn\" (今もなお) hay \"càng thêm\" (なお良い). Từ nối なお đứng đầu câu và thường có dấu phẩy.",
+      "usage": [
+        "Cuối thông báo/email: 「～。なお、～のでご注意ください。」.",
+        "Thông tin sau なお là phụ, có thể bỏ qua mà nội dung chính vẫn đủ.",
+        "Đi với cách nói lịch sự: ～ください／～ませんのでご了承ください."
+      ],
+      "pitfalls": [
+        "Không dùng なお khi thông tin sau là ngoại lệ, giới hạn của quy định vừa nêu; khi đó dùng ただし.",
+        "Trong hội thoại thân mật, なお nghe như đọc văn bản; thay bằng あと／それと."
+      ],
+      "comparisons": [
+        { "pattern": "ただし", "targetId": "tadashi", "difference": "ただし giới hạn hoặc đặt ngoại lệ cho nội dung trước; なお chỉ thêm thông tin phụ, không thay đổi nội dung trước." },
+        { "pattern": "ちなみに", "targetId": "chinamini", "difference": "ちなみに là thông tin tham khảo, có thể ngoài lề, giọng nhẹ; なお là lưu ý phụ chính thức trong văn bản." }
+      ],
+      "examples": [
+        { "japanese": "説明会は十日の午後二時から行います。なお、駐車場はありませんので、電車をご利用ください。", "vietnamese": "Buổi giới thiệu tổ chức từ 2 giờ chiều ngày 10. Xin lưu ý, không có bãi đỗ xe nên vui lòng đi tàu." },
+        { "japanese": "資料を添付いたします。なお、ご不明な点がございましたら、お気軽にご連絡ください。", "vietnamese": "Tôi xin gửi kèm tài liệu. Ngoài ra, nếu có điểm nào chưa rõ, xin cứ liên hệ." },
+        { "japanese": "試験は九時に始まります。なお、遅刻した人は入室できません。", "vietnamese": "Kỳ thi bắt đầu lúc 9 giờ. Xin lưu ý, người đến muộn sẽ không được vào phòng." }
+      ]
+    },
+    {
+      "id": "chinamini",
+      "word": "ちなみに",
+      "reading": "ちなみに",
+      "level": "N2",
+      "meaning": "nhân tiện nói thêm, tiện thể",
+      "register": "spoken",
+      "explanation": "Sau nội dung chính, ちなみに thêm một thông tin liên quan mang tính tham khảo, đôi khi hơi ngoài lề (\"nhân tiện thì…\"). Câu chuyện vẫn liên quan đến chủ đề trước, không chuyển hẳn sang chủ đề mới.\n\nRất phổ biến trong hội thoại, blog, bài thuyết trình nhẹ nhàng.",
+      "usage": [
+        "Mẫu: 「A（nội dung chính）。ちなみに、B（thông tin tham khảo）。」.",
+        "Thông tin sau ちなみに phải liên quan đến điều vừa nói.",
+        "Dùng được khi kể chuyện, giới thiệu, thuyết trình."
+      ],
+      "pitfalls": [
+        "Không dùng ちなみに để chuyển sang chủ đề hoàn toàn khác: ✗「試験はどうだった？ちなみに、昨日のニュース見た？」 ✓「試験はどうだった？ところで、昨日のニュース見た？」."
+      ],
+      "comparisons": [
+        { "pattern": "ところで", "targetId": "tokorode", "difference": "ところで chuyển hẳn sang chủ đề mới; ちなみに vẫn bám chủ đề cũ, chỉ thêm thông tin phụ." },
+        { "pattern": "なお", "targetId": "nao", "difference": "なお là lưu ý phụ trong văn bản chính thức; ちなみに là thông tin tham khảo, giọng thân mật." }
+      ],
+      "examples": [
+        { "japanese": "富士山の高さは三千七百七十六メートルです。ちなみに、二番目に高い山は北岳です。", "vietnamese": "Núi Phú Sĩ cao 3.776 mét. Nhân tiện nói thêm, ngọn núi cao thứ hai là Kitadake." },
+        { "japanese": "このケーキは駅前の店で買ってきました。ちなみに、その店は先月できたばかりです。", "vietnamese": "Cái bánh này tôi mua ở tiệm trước ga. Tiện thể nói luôn, tiệm đó mới mở tháng trước." },
+        { "japanese": "私は毎朝六時に起きています。ちなみに、夫は八時まで寝ています。", "vietnamese": "Sáng nào tôi cũng dậy lúc 6 giờ. Nhân tiện thì chồng tôi ngủ tới 8 giờ." }
+      ]
+    }
+  ]
+}

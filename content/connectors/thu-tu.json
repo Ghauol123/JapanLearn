@@ -1,0 +1,111 @@
+{
+  "id": "thu-tu",
+  "order": 10,
+  "title": "Trình tự",
+  "jaTitle": "順序",
+  "description": "Sắp xếp các bước hay sự việc theo thứ tự.",
+  "connectors": [
+    {
+      "id": "sorekara",
+      "word": "それから",
+      "reading": "それから",
+      "level": "N5",
+      "meaning": "sau đó, rồi thì, và còn",
+      "register": "both",
+      "explanation": "Nối hai hành động theo thứ tự thời gian: làm A xong rồi làm B. Ngoài ra それから còn dùng để thêm một món/ một việc nữa khi liệt kê (\"và còn…\").\n\nĐây là từ nối cơ bản nhất để kể lại một chuỗi việc trong ngày.",
+      "usage": [
+        "Trình tự: 「Aました。それから、Bました。」.",
+        "Liệt kê thêm: 「コーヒーをください。それから、ケーキも。」.",
+        "Trong hội thoại để giục kể tiếp: 「それから？」."
+      ],
+      "pitfalls": [
+        "Không dùng để nêu kết quả hay nguyên nhân; quan hệ nhân quả thì dùng それで／だから."
+      ],
+      "comparisons": [
+        { "pattern": "次に", "targetId": "tsugini", "difference": "次に dùng khi trình bày các bước theo thứ tự (hướng dẫn, thuyết trình); それから kể chuỗi sự việc tự nhiên, cũng dùng để liệt kê thêm." }
+      ],
+      "examples": [
+        { "japanese": "朝ご飯を食べました。それから、学校へ行きました。", "vietnamese": "Tôi ăn sáng. Sau đó đi học." },
+        { "japanese": "駅で友達に会った。それから、一緒に買い物に行った。", "vietnamese": "Tôi gặp bạn ở ga. Rồi cùng nhau đi mua sắm." },
+        { "japanese": "牛乳を買ってきてください。それから、卵もお願いします。", "vietnamese": "Mua giúp tôi sữa nhé. Và còn trứng nữa." }
+      ]
+    },
+    {
+      "id": "mazu",
+      "word": "まず",
+      "reading": "まず",
+      "level": "N3",
+      "meaning": "trước hết, đầu tiên",
+      "register": "both",
+      "explanation": "Mở đầu bước thứ nhất trong một chuỗi trình tự (hướng dẫn, công thức nấu ăn, bài thuyết trình), thường đi cùng 次に, それから, 最後に.\n\nKhi là phó từ, まず còn có nghĩa \"gần như chắc chắn\" đi với phủ định/phán đoán: 「まず間違いない」.",
+      "usage": [
+        "Chuỗi: まず → 次に → それから → 最後に.",
+        "Thuyết trình: 「まず、～について説明します。」.",
+        "Câu sau thường là hành động, mệnh lệnh hoặc hướng dẫn."
+      ],
+      "pitfalls": [
+        "Không dùng まず cho bước thứ hai trở đi; bước sau dùng 次に／それから."
+      ],
+      "comparisons": [
+        { "pattern": "次に", "targetId": "tsugini", "difference": "まず là bước đầu tiên; 次に là bước tiếp theo." }
+      ],
+      "examples": [
+        { "japanese": "まず、野菜を小さく切ります。次に、フライパンで炒めます。", "vietnamese": "Trước hết, thái rau nhỏ. Tiếp theo, xào trên chảo." },
+        { "japanese": "本日は三つの点についてお話しします。まず、市場の現状についてです。", "vietnamese": "Hôm nay tôi xin trình bày ba điểm. Đầu tiên là về tình hình thị trường hiện nay." },
+        { "japanese": "けがをしたら、まず、傷口を水で洗ってください。", "vietnamese": "Nếu bị thương, trước hết hãy rửa vết thương bằng nước." }
+      ]
+    },
+    {
+      "id": "tsugini",
+      "word": "次に",
+      "reading": "つぎに",
+      "level": "N4",
+      "meaning": "tiếp theo, kế đến",
+      "register": "both",
+      "explanation": "Chuyển sang bước tiếp theo trong một trình tự đã sắp xếp, thường sau まず. Dùng nhiều trong hướng dẫn sử dụng, công thức nấu ăn, bài phát biểu có nhiều ý.\n\nKhác それから, 次に nhấn mạnh thứ tự các bước như một danh sách có cấu trúc.",
+      "usage": [
+        "Sau まず: 「まず～。次に～。」.",
+        "Thuyết trình: 「次に、～について説明します。」.",
+        "Có thể lặp lại cho nhiều bước, kết thúc bằng 最後に."
+      ],
+      "pitfalls": [
+        "Kể một chuỗi việc trong đời thường (không phải hướng dẫn) thì それから tự nhiên hơn: ✓「映画を見た。それから、ご飯を食べた。」."
+      ],
+      "comparisons": [
+        { "pattern": "それから", "targetId": "sorekara", "difference": "それから kể chuỗi sự việc tự nhiên; 次に trình bày các bước có cấu trúc." },
+        { "pattern": "最後に", "targetId": "saigoni", "difference": "次に là bước giữa; 最後に là bước kết thúc." }
+      ],
+      "examples": [
+        { "japanese": "まず、お湯を沸かします。次に、カップに粉を入れます。", "vietnamese": "Đầu tiên, đun sôi nước. Tiếp theo, cho bột vào cốc." },
+        { "japanese": "最初に、会社の歴史を紹介します。次に、今年の目標についてお話しします。", "vietnamese": "Trước tiên, tôi xin giới thiệu lịch sử công ty. Kế đến, tôi xin nói về mục tiêu năm nay." },
+        { "japanese": "名前を入力してください。次に、パスワードを決めてください。", "vietnamese": "Vui lòng nhập tên. Tiếp theo, hãy đặt mật khẩu." }
+      ]
+    },
+    {
+      "id": "saigoni",
+      "word": "最後に",
+      "reading": "さいごに",
+      "level": "N4",
+      "meaning": "cuối cùng, sau cùng",
+      "register": "both",
+      "explanation": "Đánh dấu bước hoặc ý cuối cùng trong một trình tự hay bài nói. Trong bài phát biểu, 最後に thường mở đầu lời kết, lời cảm ơn hoặc điều người nói muốn nhấn mạnh nhất.\n\nĐừng nhầm với 最後 dùng như danh từ (「最後の日」) hay ～た最後 (một khi đã… thì).",
+      "usage": [
+        "Kết thúc chuỗi: まず… 次に… 最後に….",
+        "Kết thúc bài nói: 「最後に、皆さんにお礼を申し上げます。」.",
+        "Câu sau thường là hành động cuối, lời kết hoặc lời cảm ơn."
+      ],
+      "pitfalls": [
+        "Khi muốn nói \"rốt cuộc\" (kết cục sau quá trình), dùng 結局 chứ không dùng 最後に: ✗「いろいろ迷ったが、最後に買わなかった。」 ✓「いろいろ迷ったが、結局買わなかった。」."
+      ],
+      "comparisons": [
+        { "pattern": "次に", "targetId": "tsugini", "difference": "次に là bước tiếp theo; 最後に là bước kết thúc." },
+        { "pattern": "結局", "targetId": "kekkyoku", "difference": "結局 nói kết cục của một quá trình; 最後に chỉ đánh dấu bước cuối trong trình tự." }
+      ],
+      "examples": [
+        { "japanese": "材料を混ぜて、オーブンで焼きます。最後に、上に果物をのせたら完成です。", "vietnamese": "Trộn nguyên liệu rồi nướng trong lò. Cuối cùng, đặt hoa quả lên trên là xong." },
+        { "japanese": "以上で発表を終わります。最後に、協力してくださった皆さんに感謝します。", "vietnamese": "Bài trình bày của tôi đến đây là kết thúc. Sau cùng, xin cảm ơn mọi người đã hợp tác." },
+        { "japanese": "窓を閉めて、電気を消した。最後に、ドアに鍵をかけた。", "vietnamese": "Tôi đóng cửa sổ, tắt đèn. Cuối cùng khóa cửa." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "chuyen-y",
+  "order": 8,
+  "title": "Chuyển ý",
+  "jaTitle": "転換",
+  "description": "Chuyển sang chủ đề mới hoặc bước tiếp theo của câu chuyện.",
+  "connectors": [
+    {
+      "id": "dewa",
+      "word": "では / じゃあ",
+      "reading": "では / じゃあ",
+      "level": "N5",
+      "meaning": "vậy thì, thế thì, nào",
+      "register": "both",
+      "explanation": "Dựa vào điều vừa nghe hoặc tình huống vừa xảy ra, người nói chuyển sang hành động, đề xuất hay phần tiếp theo. では trang trọng hơn (phát biểu, cuộc họp, lớp học); じゃあ là dạng nói thân mật.\n\nCũng dùng để mở đầu hoặc kết thúc một phần: 「では、始めましょう」「では、また明日」.",
+      "usage": [
+        "Mở đầu, chuyển phần: 「では、会議を始めます。」.",
+        "Đáp lại thông tin vừa nghe: 「雨だって。」「じゃあ、傘を持っていこう。」.",
+        "Chào khi chia tay: 「じゃあ、またね。」「では、失礼します。」."
+      ],
+      "pitfalls": [
+        "じゃあ quá thân mật trong tình huống trang trọng: ✗(phát biểu trước hội nghị)「じゃあ、始めます。」 ✓「では、始めます。」.",
+        "Đừng nhầm với では trong câu (trợ từ で＋は): 「日本では～」."
+      ],
+      "comparisons": [
+        { "pattern": "それなら", "targetId": "sorenara", "difference": "それなら nhấn mạnh \"nếu tình hình là vậy thì\" (dựa trực tiếp vào lời người kia); では／じゃあ dùng rộng hơn, cả để chuyển phần, chào hỏi." },
+        { "pattern": "さて", "targetId": "sate", "difference": "さて chuyển sang chủ đề hay phần mới một cách chủ động; では／じゃあ thường dựa trên điều vừa nghe hoặc vừa xong." }
+      ],
+      "examples": [
+        { "japanese": "皆さん、そろいましたね。では、授業を始めましょう。", "vietnamese": "Mọi người đủ cả rồi nhỉ. Vậy thì chúng ta bắt đầu giờ học nào." },
+        { "japanese": "「この店、もう閉まってるよ。」「じゃあ、隣のカフェに入ろうか。」", "vietnamese": "\"Quán này đóng cửa rồi.\" \"Thế thì vào quán cà phê bên cạnh nhé.\"" },
+        { "japanese": "今日の説明は以上です。では、質問のある方はどうぞ。", "vietnamese": "Phần giải thích hôm nay đến đây là hết. Vậy, ai có câu hỏi xin mời." }
+      ]
+    },
+    {
+      "id": "tokorode",
+      "word": "ところで",
+      "reading": "ところで",
+      "level": "N3",
+      "meaning": "nhân tiện, mà này, à này",
+      "register": "spoken",
+      "explanation": "Kết thúc chủ đề đang nói và chuyển sang một chủ đề khác hẳn, thường là điều người nói vừa nhớ ra hoặc muốn hỏi. Trong hội thoại, đây là cách lịch sự để đổi đề tài.\n\nĐừng nhầm với ところが (thế nhưng — nghịch tiếp) và ～たところで (dù có… thì cũng).",
+      "usage": [
+        "Đổi chủ đề trong hội thoại: 「ところで、～はどうなりましたか。」.",
+        "Trong thư, email: sau phần chào hỏi, ところで mở sang việc chính.",
+        "Câu sau thường là câu hỏi hoặc thông tin mới."
+      ],
+      "pitfalls": [
+        "Không dùng ところで khi chỉ thêm thông tin liên quan đến chủ đề cũ; khi đó dùng ちなみに.",
+        "Nhầm ところで (chuyển ý) với ところが (trái dự đoán) là lỗi rất hay gặp trong bài 文章の文法."
+      ],
+      "comparisons": [
+        { "pattern": "さて", "targetId": "sate", "difference": "さて chuyển sang phần tiếp theo đã định sẵn (bài nói, cuộc họp); ところで chuyển sang chủ đề khác, thường bất chợt." }
+      ],
+      "examples": [
+        { "japanese": "今日は本当に暑いですね。ところで、来週の旅行の準備はできましたか。", "vietnamese": "Hôm nay nóng thật nhỉ. À này, chuẩn bị cho chuyến du lịch tuần sau xong chưa?" },
+        { "japanese": "お元気そうで安心しました。ところで、お兄さんは最近どうしていますか。", "vietnamese": "Thấy anh khỏe mạnh tôi yên tâm rồi. Nhân tiện, dạo này anh trai anh thế nào?" },
+        { "japanese": "その話はまた今度にしよう。ところで、昼ご飯はもう食べた？", "vietnamese": "Chuyện đó để lần sau nhé. Mà này, ăn trưa chưa?" }
+      ]
+    },
+    {
+      "id": "sate",
+      "word": "さて",
+      "reading": "さて",
+      "level": "N3",
+      "meaning": "nào, giờ thì, sau đây (chuyển sang phần tiếp)",
+      "register": "both",
+      "explanation": "Đánh dấu việc chuyển sang phần tiếp theo hoặc chủ đề chính: trong bài phát biểu, bản tin, thư từ (sau lời chào), hoặc khi tự nhủ bắt đầu làm việc gì.\n\nKhác ところで, さて thường chuyển sang phần đã định trước hoặc vấn đề chính, chứ không phải một chủ đề bất chợt.",
+      "usage": [
+        "Phát biểu, bản tin: 「さて、次のニュースです。」.",
+        "Thư, email: sau lời chào mùa, 「さて、このたびは～」 vào việc chính.",
+        "Tự nhủ: 「さて、そろそろ出かけようか。」."
+      ],
+      "pitfalls": [
+        "Khi đột ngột hỏi một chuyện không liên quan trong hội thoại thân mật, ところで tự nhiên hơn さて."
+      ],
+      "comparisons": [
+        { "pattern": "ところで", "targetId": "tokorode", "difference": "ところで chuyển sang chủ đề khác, thường bất chợt; さて chuyển sang phần tiếp theo hoặc vấn đề chính đã định." }
+      ],
+      "examples": [
+        { "japanese": "以上が今月の売り上げです。さて、次に来月の計画についてお話しします。", "vietnamese": "Trên đây là doanh thu tháng này. Sau đây, tôi xin nói về kế hoạch tháng sau." },
+        { "japanese": "朝ご飯も食べたし、掃除も終わった。さて、出かけようか。", "vietnamese": "Ăn sáng rồi, dọn dẹp cũng xong. Nào, giờ thì ra ngoài thôi." },
+        { "japanese": "寒い日が続いておりますが、いかがお過ごしでしょうか。さて、このたびは新しい商品のご案内です。", "vietnamese": "Trời lạnh kéo dài, không biết quý khách có khỏe không. Sau đây là thông tin về sản phẩm mới của chúng tôi." }
+      ]
+    },
+    {
+      "id": "sorenara",
+      "word": "それなら",
+      "reading": "それなら",
+      "level": "N2",
+      "meaning": "nếu vậy thì, nếu thế thì",
+      "register": "spoken",
+      "explanation": "Dựa vào điều người kia vừa nói (hoặc tình huống vừa biết), người nói đưa ra đề xuất, lời khuyên hay quyết định phù hợp. Câu sau thường là ý chí, lời khuyên, lời mời.\n\nDạng ngắn hơn là なら hoặc だったら (thân mật): 「だったら、私が行くよ。」.",
+      "usage": [
+        "Đáp lại lời người kia: 「Aです。」「それなら、Bしたらどうですか。」.",
+        "Câu sau là đề xuất, lời khuyên, ý chí: ～たらどう／～ましょう／～ます.",
+        "Dạng thân mật: なら／だったら."
+      ],
+      "pitfalls": [
+        "Không dùng khi câu sau chỉ là kết quả khách quan đã xảy ra; khi đó dùng それで／だから."
+      ],
+      "comparisons": [
+        { "pattern": "では／じゃあ", "targetId": "dewa", "difference": "では／じゃあ dùng rộng (chuyển phần, chào hỏi); それなら nhấn mạnh việc dựa vào thông tin vừa nghe để đưa ra đề xuất." }
+      ],
+      "examples": [
+        { "japanese": "「明日は雨らしいよ。」「それなら、ピクニックは来週にしよう。」", "vietnamese": "\"Nghe nói mai mưa đấy.\" \"Nếu vậy thì để tuần sau đi picnic.\"" },
+        { "japanese": "「最近、よく眠れないんです。」「それなら、寝る前にスマホを見ないほうがいいですよ。」", "vietnamese": "\"Gần đây tôi ngủ không ngon.\" \"Nếu thế thì trước khi ngủ không nên xem điện thoại.\"" },
+        { "japanese": "「駅までの道がわからないんです。」「それなら、私が案内しましょう。」", "vietnamese": "\"Tôi không biết đường ra ga.\" \"Vậy thì để tôi dẫn đường cho.\"" }
+      ]
+    }
+  ]
+}

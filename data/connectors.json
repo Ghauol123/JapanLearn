@@ -1384,7 +1384,656 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bo-sung-dieu-kien",
+      "order": 7,
+      "title": "Bổ sung điều kiện, ngoại lệ",
+      "jaTitle": "補足",
+      "description": "Câu sau thêm điều kiện, ngoại lệ hoặc thông tin phụ cho câu trước.",
+      "connectors": [
+        {
+          "id": "tada",
+          "word": "ただ",
+          "reading": "ただ",
+          "level": "N3",
+          "meaning": "chỉ có điều, có điều là",
+          "register": "spoken",
+          "explanation": "Câu trước nêu một nhận định chung (thường là tích cực); câu sau thêm một điểm hạn chế, một chút lo ngại hay lưu ý nhỏ. Mức độ nhẹ hơn しかし: không phủ định câu trước, chỉ bổ sung \"có điều…\".\n\nĐừng nhầm với phó từ ただ \"chỉ\" (ただ見ているだけ) và ただ \"miễn phí\" (ただで入れる).",
+          "usage": [
+            "Mẫu: 「A（nhìn chung ổn）。ただ、B（điểm trừ nhỏ）。」.",
+            "Hay dùng khi góp ý nhẹ nhàng: 「いいと思います。ただ、少し長いですね。」.",
+            "Dùng nhiều trong hội thoại; trong văn bản quy định thường dùng ただし."
+          ],
+          "pitfalls": [
+            "Khi câu sau là điều kiện, ngoại lệ của một quy định (giá, giờ mở cửa…), ただし chính xác hơn: ✓「入場無料。ただし、子どもは保護者同伴のこと。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ただし",
+              "targetId": "tadashi",
+              "difference": "ただし nêu điều kiện, ngoại lệ của quy định, giọng văn viết; ただ nêu điểm hạn chế, lo ngại nhỏ, giọng nói."
+            },
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし đưa ra ý ngược lại mạnh; ただ chỉ thêm một chút hạn chế, không phủ định câu trước."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この部屋は広くて明るい。ただ、駅から少し遠い。",
+              "vietnamese": "Căn phòng này rộng và sáng. Có điều hơi xa ga.",
+              "ruby": "この[部屋|へや]は[広|ひろ]くて[明|あか]るい。ただ、[駅|えき]から[少|すこ]し[遠|とお]い。"
+            },
+            {
+              "japanese": "レポートはよく書けています。ただ、結論がちょっと短いですね。",
+              "vietnamese": "Bài báo cáo viết tốt đấy. Chỉ có điều phần kết luận hơi ngắn.",
+              "ruby": "レポートはよく[書|か]けています。ただ、[結論|けつろん]がちょっと[短|みじか]いですね。"
+            },
+            {
+              "japanese": "旅行には行きたい。ただ、休みが取れるかどうかわからない。",
+              "vietnamese": "Tôi muốn đi du lịch. Có điều không biết có xin nghỉ được không.",
+              "ruby": "[旅行|りょこう]には[行|い]きたい。ただ、[休|やす]みが[取|と]れるかどうかわからない。"
+            }
+          ]
+        },
+        {
+          "id": "mottomo",
+          "word": "もっとも",
+          "reading": "もっとも",
+          "level": "N3",
+          "meaning": "tuy vậy thì cũng, dĩ nhiên là… nhưng",
+          "register": "both",
+          "explanation": "Câu trước nêu một nhận định; câu sau thêm một điều kiện, một sự thừa nhận làm nhẹ bớt hoặc chỉnh lại nhận định đó (\"nói vậy thôi chứ…\"). Câu sau thường kết thúc bằng ～が／～けれど hoặc nêu một sự thật trái chiều nhẹ.\n\nĐừng nhầm với phó từ 最も (もっとも, \"nhất\") và tính từ もっともな (\"hợp lý\").",
+          "usage": [
+            "Mẫu: 「A。もっとも、B（điều kiện/thừa nhận）。」.",
+            "Câu sau hay có ～が／～けど／～のだが ở cuối.",
+            "Dùng trong văn viết lẫn hội thoại khi muốn nói cho công bằng, không tuyệt đối."
+          ],
+          "pitfalls": [
+            "もっとも không dùng để nêu quy định, ngoại lệ chính thức; khi đó dùng ただし.",
+            "Phân biệt 最も (nhất) đứng trước tính từ: 「最も大切なこと」 với もっとも đứng đầu câu."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ただし",
+              "targetId": "tadashi",
+              "difference": "ただし đặt điều kiện, ngoại lệ cho quy định; もっとも là người nói tự điều chỉnh, thừa nhận một phần nhận định của mình."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "毎日運動するのは体にいい。もっとも、やりすぎは逆効果だが。",
+              "vietnamese": "Vận động hằng ngày tốt cho cơ thể. Tuy vậy thì tập quá sức lại phản tác dụng.",
+              "ruby": "[毎日|まいにち][運動|うんどう]するのは[体|からだ]にいい。もっとも、やりすぎは[逆|ぎゃく][効果|こうか]だが。"
+            },
+            {
+              "japanese": "この店のラーメンは日本一だと思う。もっとも、私はほかの店をあまり知らないけれど。",
+              "vietnamese": "Tôi nghĩ mì ramen quán này ngon nhất Nhật Bản. Dĩ nhiên là tôi cũng không biết nhiều quán khác.",
+              "ruby": "この[店|みせ]のラーメンは[日本|にほん][一|いち]だと[思|おも]う。もっとも、[私|わたし]はほかの[店|みせ]をあまり[知|し]らないけれど。"
+            },
+            {
+              "japanese": "来週から新しいシステムが使える。もっとも、慣れるまでは時間がかかるだろう。",
+              "vietnamese": "Từ tuần sau có thể dùng hệ thống mới. Tuy vậy thì cũng sẽ mất thời gian để quen.",
+              "ruby": "[来週|らいしゅう]から[新|あたら]しいシステムが[使|つか]える。もっとも、[慣|な]れるまでは[時間|じかん]がかかるだろう。"
+            }
+          ]
+        },
+        {
+          "id": "tadashi",
+          "word": "ただし",
+          "reading": "ただし",
+          "level": "N2",
+          "meaning": "tuy nhiên (nêu điều kiện, ngoại lệ), với điều kiện là",
+          "register": "written",
+          "explanation": "Câu trước nêu một quy định hay nguyên tắc chung; câu sau nêu điều kiện kèm theo hoặc trường hợp ngoại lệ. Rất hay gặp trong thông báo, nội quy, quảng cáo, đề bài — các văn bản thường xuất hiện ở phần đọc tìm thông tin (情報検索) của JLPT.\n\nViết chữ Hán là 但し.",
+          "usage": [
+            "Mẫu nội quy: 「A（quy định）。ただし、B（ngoại lệ/điều kiện）。」.",
+            "Câu sau hay kết thúc bằng ～は除く／～のこと／～に限る／～場合は.",
+            "Hợp với văn viết, thông báo chính thức."
+          ],
+          "pitfalls": [
+            "Không dùng ただし để nêu cảm nghĩ hay lo ngại cá nhân: ✗「この映画はおもしろい。ただし、少し長い。」 ✓「この映画はおもしろい。ただ、少し長い。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ただ",
+              "targetId": "tada",
+              "difference": "ただ: điểm trừ, lo ngại nhỏ, văn nói; ただし: điều kiện hay ngoại lệ của một quy định, văn viết."
+            },
+            {
+              "pattern": "なお",
+              "targetId": "nao",
+              "difference": "なお thêm thông tin phụ không thuộc quy định chính; ただし giới hạn hoặc đặt ngoại lệ cho quy định vừa nêu."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "図書館の本は二週間借りられます。ただし、新しい雑誌は貸し出しできません。",
+              "vietnamese": "Sách thư viện được mượn hai tuần. Tuy nhiên, tạp chí mới thì không được mượn về.",
+              "ruby": "[図書館|としょかん]の[本|ほん]は[二|に][週間|しゅうかん][借|か]りられます。ただし、[新|あたら]しい[雑誌|ざっし]は[貸|か]し[出|だ]しできません。"
+            },
+            {
+              "japanese": "参加費は無料です。ただし、交通費は各自で負担してください。",
+              "vietnamese": "Phí tham gia miễn phí. Tuy nhiên, chi phí đi lại mỗi người tự chi trả.",
+              "ruby": "[参加|さんか][費|ひ]は[無料|むりょう]です。ただし、[交通|こうつう][費|ひ]は[各自|かくじ]で[負担|ふたん]してください。"
+            },
+            {
+              "japanese": "毎週月曜日は休館日です。ただし、祝日の場合は翌日が休館となります。",
+              "vietnamese": "Thứ Hai hằng tuần là ngày nghỉ. Tuy nhiên, nếu trùng ngày lễ thì nghỉ vào ngày hôm sau.",
+              "ruby": "[毎週|まいしゅう][月曜日|げつようび]は[休館|きゅうかん][日|び]です。ただし、[祝日|しゅくじつ]の[場合|ばあい]は[翌日|よくじつ]が[休館|きゅうかん]となります。"
+            }
+          ]
+        },
+        {
+          "id": "nao",
+          "word": "なお",
+          "reading": "なお",
+          "level": "N2",
+          "meaning": "ngoài ra, xin lưu ý thêm",
+          "register": "written",
+          "explanation": "Sau khi nói xong nội dung chính, なお mở đầu một thông tin bổ sung, lưu ý phụ có liên quan nhưng không thuộc phần chính. Đặc trưng của thông báo, email công việc, văn bản hướng dẫn.\n\nKhi là phó từ, なお còn có nghĩa \"vẫn còn\" (今もなお) hay \"càng thêm\" (なお良い). Từ nối なお đứng đầu câu và thường có dấu phẩy.",
+          "usage": [
+            "Cuối thông báo/email: 「～。なお、～のでご注意ください。」.",
+            "Thông tin sau なお là phụ, có thể bỏ qua mà nội dung chính vẫn đủ.",
+            "Đi với cách nói lịch sự: ～ください／～ませんのでご了承ください."
+          ],
+          "pitfalls": [
+            "Không dùng なお khi thông tin sau là ngoại lệ, giới hạn của quy định vừa nêu; khi đó dùng ただし.",
+            "Trong hội thoại thân mật, なお nghe như đọc văn bản; thay bằng あと／それと."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ただし",
+              "targetId": "tadashi",
+              "difference": "ただし giới hạn hoặc đặt ngoại lệ cho nội dung trước; なお chỉ thêm thông tin phụ, không thay đổi nội dung trước."
+            },
+            {
+              "pattern": "ちなみに",
+              "targetId": "chinamini",
+              "difference": "ちなみに là thông tin tham khảo, có thể ngoài lề, giọng nhẹ; なお là lưu ý phụ chính thức trong văn bản."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "説明会は十日の午後二時から行います。なお、駐車場はありませんので、電車をご利用ください。",
+              "vietnamese": "Buổi giới thiệu tổ chức từ 2 giờ chiều ngày 10. Xin lưu ý, không có bãi đỗ xe nên vui lòng đi tàu.",
+              "ruby": "[説明|せつめい][会|かい]は[十日|とおか]の[午後|ごご][二|に][時|じ]から[行|おこな]います。なお、[駐車|ちゅうしゃ][場|じょう]はありませんので、[電車|でんしゃ]をご[利用|りよう]ください。"
+            },
+            {
+              "japanese": "資料を添付いたします。なお、ご不明な点がございましたら、お気軽にご連絡ください。",
+              "vietnamese": "Tôi xin gửi kèm tài liệu. Ngoài ra, nếu có điểm nào chưa rõ, xin cứ liên hệ.",
+              "ruby": "[資料|しりょう]を[添付|てんぷ]いたします。なお、ご[不明|ふめい]な[点|てん]がございましたら、お[気軽|きがる]にご[連絡|れんらく]ください。"
+            },
+            {
+              "japanese": "試験は九時に始まります。なお、遅刻した人は入室できません。",
+              "vietnamese": "Kỳ thi bắt đầu lúc 9 giờ. Xin lưu ý, người đến muộn sẽ không được vào phòng.",
+              "ruby": "[試験|しけん]は[九時|くじ]に[始|はじ]まります。なお、[遅刻|ちこく]した[人|ひと]は[入室|にゅうしつ]できません。"
+            }
+          ]
+        },
+        {
+          "id": "chinamini",
+          "word": "ちなみに",
+          "reading": "ちなみに",
+          "level": "N2",
+          "meaning": "nhân tiện nói thêm, tiện thể",
+          "register": "spoken",
+          "explanation": "Sau nội dung chính, ちなみに thêm một thông tin liên quan mang tính tham khảo, đôi khi hơi ngoài lề (\"nhân tiện thì…\"). Câu chuyện vẫn liên quan đến chủ đề trước, không chuyển hẳn sang chủ đề mới.\n\nRất phổ biến trong hội thoại, blog, bài thuyết trình nhẹ nhàng.",
+          "usage": [
+            "Mẫu: 「A（nội dung chính）。ちなみに、B（thông tin tham khảo）。」.",
+            "Thông tin sau ちなみに phải liên quan đến điều vừa nói.",
+            "Dùng được khi kể chuyện, giới thiệu, thuyết trình."
+          ],
+          "pitfalls": [
+            "Không dùng ちなみに để chuyển sang chủ đề hoàn toàn khác: ✗「試験はどうだった？ちなみに、昨日のニュース見た？」 ✓「試験はどうだった？ところで、昨日のニュース見た？」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ところで",
+              "targetId": "tokorode",
+              "difference": "ところで chuyển hẳn sang chủ đề mới; ちなみに vẫn bám chủ đề cũ, chỉ thêm thông tin phụ."
+            },
+            {
+              "pattern": "なお",
+              "targetId": "nao",
+              "difference": "なお là lưu ý phụ trong văn bản chính thức; ちなみに là thông tin tham khảo, giọng thân mật."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "富士山の高さは三千七百七十六メートルです。ちなみに、二番目に高い山は北岳です。",
+              "vietnamese": "Núi Phú Sĩ cao 3.776 mét. Nhân tiện nói thêm, ngọn núi cao thứ hai là Kitadake.",
+              "ruby": "[富士山|ふじさん]の[高|たか]さは[三千七百七十六|さんぜんななひゃくななじゅうろく]メートルです。ちなみに、[二|に][番目|ばんめ]に[高|たか]い[山|やま]は[北|きた][岳|だけ]です。"
+            },
+            {
+              "japanese": "このケーキは駅前の店で買ってきました。ちなみに、その店は先月できたばかりです。",
+              "vietnamese": "Cái bánh này tôi mua ở tiệm trước ga. Tiện thể nói luôn, tiệm đó mới mở tháng trước.",
+              "ruby": "このケーキは[駅前|えきまえ]の[店|みせ]で[買|か]ってきました。ちなみに、その[店|みせ]は[先月|せんげつ]できたばかりです。"
+            },
+            {
+              "japanese": "私は毎朝六時に起きています。ちなみに、夫は八時まで寝ています。",
+              "vietnamese": "Sáng nào tôi cũng dậy lúc 6 giờ. Nhân tiện thì chồng tôi ngủ tới 8 giờ.",
+              "ruby": "[私|わたし]は[毎朝|まいあさ][六|ろく][時|じ]に[起|お]きています。ちなみに、[夫|おっと]は[八|はち][時|じ]まで[寝|ね]ています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chuyen-y",
+      "order": 8,
+      "title": "Chuyển ý",
+      "jaTitle": "転換",
+      "description": "Chuyển sang chủ đề mới hoặc bước tiếp theo của câu chuyện.",
+      "connectors": [
+        {
+          "id": "dewa",
+          "word": "では / じゃあ",
+          "reading": "では / じゃあ",
+          "level": "N5",
+          "meaning": "vậy thì, thế thì, nào",
+          "register": "both",
+          "explanation": "Dựa vào điều vừa nghe hoặc tình huống vừa xảy ra, người nói chuyển sang hành động, đề xuất hay phần tiếp theo. では trang trọng hơn (phát biểu, cuộc họp, lớp học); じゃあ là dạng nói thân mật.\n\nCũng dùng để mở đầu hoặc kết thúc một phần: 「では、始めましょう」「では、また明日」.",
+          "usage": [
+            "Mở đầu, chuyển phần: 「では、会議を始めます。」.",
+            "Đáp lại thông tin vừa nghe: 「雨だって。」「じゃあ、傘を持っていこう。」.",
+            "Chào khi chia tay: 「じゃあ、またね。」「では、失礼します。」."
+          ],
+          "pitfalls": [
+            "じゃあ quá thân mật trong tình huống trang trọng: ✗(phát biểu trước hội nghị)「じゃあ、始めます。」 ✓「では、始めます。」.",
+            "Đừng nhầm với では trong câu (trợ từ で＋は): 「日本では～」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それなら",
+              "targetId": "sorenara",
+              "difference": "それなら nhấn mạnh \"nếu tình hình là vậy thì\" (dựa trực tiếp vào lời người kia); では／じゃあ dùng rộng hơn, cả để chuyển phần, chào hỏi."
+            },
+            {
+              "pattern": "さて",
+              "targetId": "sate",
+              "difference": "さて chuyển sang chủ đề hay phần mới một cách chủ động; では／じゃあ thường dựa trên điều vừa nghe hoặc vừa xong."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "皆さん、そろいましたね。では、授業を始めましょう。",
+              "vietnamese": "Mọi người đủ cả rồi nhỉ. Vậy thì chúng ta bắt đầu giờ học nào.",
+              "ruby": "[皆|みな]さん、そろいましたね。では、[授業|じゅぎょう]を[始|はじ]めましょう。"
+            },
+            {
+              "japanese": "「この店、もう閉まってるよ。」「じゃあ、隣のカフェに入ろうか。」",
+              "vietnamese": "\"Quán này đóng cửa rồi.\" \"Thế thì vào quán cà phê bên cạnh nhé.\"",
+              "ruby": "「この[店|みせ]、もう[閉|し]まってるよ。」「じゃあ、[隣|となり]のカフェに[入|はい]ろうか。」"
+            },
+            {
+              "japanese": "今日の説明は以上です。では、質問のある方はどうぞ。",
+              "vietnamese": "Phần giải thích hôm nay đến đây là hết. Vậy, ai có câu hỏi xin mời.",
+              "ruby": "[今日|きょう]の[説明|せつめい]は[以上|いじょう]です。では、[質問|しつもん]のある[方|かた]はどうぞ。"
+            }
+          ]
+        },
+        {
+          "id": "tokorode",
+          "word": "ところで",
+          "reading": "ところで",
+          "level": "N3",
+          "meaning": "nhân tiện, mà này, à này",
+          "register": "spoken",
+          "explanation": "Kết thúc chủ đề đang nói và chuyển sang một chủ đề khác hẳn, thường là điều người nói vừa nhớ ra hoặc muốn hỏi. Trong hội thoại, đây là cách lịch sự để đổi đề tài.\n\nĐừng nhầm với ところが (thế nhưng — nghịch tiếp) và ～たところで (dù có… thì cũng).",
+          "usage": [
+            "Đổi chủ đề trong hội thoại: 「ところで、～はどうなりましたか。」.",
+            "Trong thư, email: sau phần chào hỏi, ところで mở sang việc chính.",
+            "Câu sau thường là câu hỏi hoặc thông tin mới."
+          ],
+          "pitfalls": [
+            "Không dùng ところで khi chỉ thêm thông tin liên quan đến chủ đề cũ; khi đó dùng ちなみに.",
+            "Nhầm ところで (chuyển ý) với ところが (trái dự đoán) là lỗi rất hay gặp trong bài 文章の文法."
+          ],
+          "comparisons": [
+            {
+              "pattern": "さて",
+              "targetId": "sate",
+              "difference": "さて chuyển sang phần tiếp theo đã định sẵn (bài nói, cuộc họp); ところで chuyển sang chủ đề khác, thường bất chợt."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "今日は本当に暑いですね。ところで、来週の旅行の準備はできましたか。",
+              "vietnamese": "Hôm nay nóng thật nhỉ. À này, chuẩn bị cho chuyến du lịch tuần sau xong chưa?",
+              "ruby": "[今日|きょう]は[本当|ほんとう]に[暑|あつ]いですね。ところで、[来週|らいしゅう]の[旅行|りょこう]の[準備|じゅんび]はできましたか。"
+            },
+            {
+              "japanese": "お元気そうで安心しました。ところで、お兄さんは最近どうしていますか。",
+              "vietnamese": "Thấy anh khỏe mạnh tôi yên tâm rồi. Nhân tiện, dạo này anh trai anh thế nào?",
+              "ruby": "お[元気|げんき]そうで[安心|あんしん]しました。ところで、お[兄|にい]さんは[最近|さいきん]どうしていますか。"
+            },
+            {
+              "japanese": "その話はまた今度にしよう。ところで、昼ご飯はもう食べた？",
+              "vietnamese": "Chuyện đó để lần sau nhé. Mà này, ăn trưa chưa?",
+              "ruby": "その[話|はなし]はまた[今度|こんど]にしよう。ところで、[昼|ひる]ご[飯|はん]はもう[食|た]べた？"
+            }
+          ]
+        },
+        {
+          "id": "sate",
+          "word": "さて",
+          "reading": "さて",
+          "level": "N3",
+          "meaning": "nào, giờ thì, sau đây (chuyển sang phần tiếp)",
+          "register": "both",
+          "explanation": "Đánh dấu việc chuyển sang phần tiếp theo hoặc chủ đề chính: trong bài phát biểu, bản tin, thư từ (sau lời chào), hoặc khi tự nhủ bắt đầu làm việc gì.\n\nKhác ところで, さて thường chuyển sang phần đã định trước hoặc vấn đề chính, chứ không phải một chủ đề bất chợt.",
+          "usage": [
+            "Phát biểu, bản tin: 「さて、次のニュースです。」.",
+            "Thư, email: sau lời chào mùa, 「さて、このたびは～」 vào việc chính.",
+            "Tự nhủ: 「さて、そろそろ出かけようか。」."
+          ],
+          "pitfalls": [
+            "Khi đột ngột hỏi một chuyện không liên quan trong hội thoại thân mật, ところで tự nhiên hơn さて."
+          ],
+          "comparisons": [
+            {
+              "pattern": "ところで",
+              "targetId": "tokorode",
+              "difference": "ところで chuyển sang chủ đề khác, thường bất chợt; さて chuyển sang phần tiếp theo hoặc vấn đề chính đã định."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "以上が今月の売り上げです。さて、次に来月の計画についてお話しします。",
+              "vietnamese": "Trên đây là doanh thu tháng này. Sau đây, tôi xin nói về kế hoạch tháng sau.",
+              "ruby": "[以上|いじょう]が[今月|こんげつ]の[売|う]り[上|あ]げです。さて、[次|つぎ]に[来月|らいげつ]の[計画|けいかく]についてお[話|はな]しします。"
+            },
+            {
+              "japanese": "朝ご飯も食べたし、掃除も終わった。さて、出かけようか。",
+              "vietnamese": "Ăn sáng rồi, dọn dẹp cũng xong. Nào, giờ thì ra ngoài thôi.",
+              "ruby": "[朝|あさ]ご[飯|はん]も[食|た]べたし、[掃除|そうじ]も[終|お]わった。さて、[出|で]かけようか。"
+            },
+            {
+              "japanese": "寒い日が続いておりますが、いかがお過ごしでしょうか。さて、このたびは新しい商品のご案内です。",
+              "vietnamese": "Trời lạnh kéo dài, không biết quý khách có khỏe không. Sau đây là thông tin về sản phẩm mới của chúng tôi.",
+              "ruby": "[寒|さむ]い[日|ひ]が[続|つづ]いておりますが、いかがお[過|す]ごしでしょうか。さて、このたびは[新|あたら]しい[商品|しょうひん]のご[案内|あんない]です。"
+            }
+          ]
+        },
+        {
+          "id": "sorenara",
+          "word": "それなら",
+          "reading": "それなら",
+          "level": "N2",
+          "meaning": "nếu vậy thì, nếu thế thì",
+          "register": "spoken",
+          "explanation": "Dựa vào điều người kia vừa nói (hoặc tình huống vừa biết), người nói đưa ra đề xuất, lời khuyên hay quyết định phù hợp. Câu sau thường là ý chí, lời khuyên, lời mời.\n\nDạng ngắn hơn là なら hoặc だったら (thân mật): 「だったら、私が行くよ。」.",
+          "usage": [
+            "Đáp lại lời người kia: 「Aです。」「それなら、Bしたらどうですか。」.",
+            "Câu sau là đề xuất, lời khuyên, ý chí: ～たらどう／～ましょう／～ます.",
+            "Dạng thân mật: なら／だったら."
+          ],
+          "pitfalls": [
+            "Không dùng khi câu sau chỉ là kết quả khách quan đã xảy ra; khi đó dùng それで／だから."
+          ],
+          "comparisons": [
+            {
+              "pattern": "では／じゃあ",
+              "targetId": "dewa",
+              "difference": "では／じゃあ dùng rộng (chuyển phần, chào hỏi); それなら nhấn mạnh việc dựa vào thông tin vừa nghe để đưa ra đề xuất."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "「明日は雨らしいよ。」「それなら、ピクニックは来週にしよう。」",
+              "vietnamese": "\"Nghe nói mai mưa đấy.\" \"Nếu vậy thì để tuần sau đi picnic.\"",
+              "ruby": "「[明日|あした]は[雨|あめ]らしいよ。」「それなら、ピクニックは[来週|らいしゅう]にしよう。」"
+            },
+            {
+              "japanese": "「最近、よく眠れないんです。」「それなら、寝る前にスマホを見ないほうがいいですよ。」",
+              "vietnamese": "\"Gần đây tôi ngủ không ngon.\" \"Nếu thế thì trước khi ngủ không nên xem điện thoại.\"",
+              "ruby": "「[最近|さいきん]、よく[眠|ねむ]れないんです。」「それなら、[寝|ね]る[前|まえ]にスマホを[見|み]ないほうがいいですよ。」"
+            },
+            {
+              "japanese": "「駅までの道がわからないんです。」「それなら、私が案内しましょう。」",
+              "vietnamese": "\"Tôi không biết đường ra ga.\" \"Vậy thì để tôi dẫn đường cho.\"",
+              "ruby": "「[駅|えき]までの[道|みち]がわからないんです。」「それなら、[私|わたし]が[案内|あんない]しましょう。」"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vi-du",
+      "order": 9,
+      "title": "Đưa ví dụ",
+      "jaTitle": "例示",
+      "description": "Câu sau đưa ví dụ cụ thể cho điều vừa nói.",
+      "connectors": [
+        {
+          "id": "tatoeba",
+          "word": "例えば",
+          "reading": "たとえば",
+          "level": "N4",
+          "meaning": "ví dụ như, chẳng hạn",
+          "register": "both",
+          "explanation": "Câu trước nêu một ý khái quát; câu sau đưa ra trường hợp cụ thể để minh họa. Trong bài đọc, phần sau 例えば thường không phải ý chính mà là dẫn chứng — câu hỏi về ý chính hay nằm ở câu khái quát trước đó.\n\n例えば cũng dùng để giả định: 「例えば、宝くじが当たったら何をしますか。」 (giả sử…).",
+          "usage": [
+            "Mẫu: 「A（khái quát）。例えば、B（cụ thể）。」.",
+            "Hay đi với ～など／～とか／～のような ở câu sau.",
+            "Giả định: 「例えば～たら／～としたら」."
+          ],
+          "pitfalls": [
+            "Không dùng 例えば khi câu sau chỉ nói lại ý trước bằng cách khác; khi đó dùng つまり."
+          ],
+          "comparisons": [
+            {
+              "pattern": "つまり",
+              "targetId": "tsumari",
+              "difference": "つまり nói lại cùng ý ở mức khái quát; 例えば đưa ra trường hợp cụ thể để minh họa."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "日本には季節の行事が多い。例えば、春には花見、夏には花火大会がある。",
+              "vietnamese": "Nhật Bản có nhiều lễ hội theo mùa. Ví dụ như mùa xuân có ngắm hoa, mùa hè có lễ hội pháo hoa.",
+              "ruby": "[日本|にほん]には[季節|きせつ]の[行事|ぎょうじ]が[多|おお]い。[例|たと]えば、[春|はる]には[花見|はなみ]、[夏|なつ]には[花火|はなび][大会|たいかい]がある。"
+            },
+            {
+              "japanese": "野菜を食べるようにしています。例えば、毎朝サラダを食べるとか。",
+              "vietnamese": "Tôi đang cố ăn nhiều rau. Chẳng hạn như sáng nào cũng ăn salad.",
+              "ruby": "[野菜|やさい]を[食|た]べるようにしています。[例|たと]えば、[毎朝|まいあさ]サラダを[食|た]べるとか。"
+            },
+            {
+              "japanese": "例えば、明日休みになったら、何をしたいですか。",
+              "vietnamese": "Giả sử mai được nghỉ, bạn muốn làm gì?",
+              "ruby": "[例|たと]えば、[明日|あした][休|やす]みになったら、[何|なに]をしたいですか。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thu-tu",
+      "order": 10,
+      "title": "Trình tự",
+      "jaTitle": "順序",
+      "description": "Sắp xếp các bước hay sự việc theo thứ tự.",
+      "connectors": [
+        {
+          "id": "sorekara",
+          "word": "それから",
+          "reading": "それから",
+          "level": "N5",
+          "meaning": "sau đó, rồi thì, và còn",
+          "register": "both",
+          "explanation": "Nối hai hành động theo thứ tự thời gian: làm A xong rồi làm B. Ngoài ra それから còn dùng để thêm một món/ một việc nữa khi liệt kê (\"và còn…\").\n\nĐây là từ nối cơ bản nhất để kể lại một chuỗi việc trong ngày.",
+          "usage": [
+            "Trình tự: 「Aました。それから、Bました。」.",
+            "Liệt kê thêm: 「コーヒーをください。それから、ケーキも。」.",
+            "Trong hội thoại để giục kể tiếp: 「それから？」."
+          ],
+          "pitfalls": [
+            "Không dùng để nêu kết quả hay nguyên nhân; quan hệ nhân quả thì dùng それで／だから."
+          ],
+          "comparisons": [
+            {
+              "pattern": "次に",
+              "targetId": "tsugini",
+              "difference": "次に dùng khi trình bày các bước theo thứ tự (hướng dẫn, thuyết trình); それから kể chuỗi sự việc tự nhiên, cũng dùng để liệt kê thêm."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "朝ご飯を食べました。それから、学校へ行きました。",
+              "vietnamese": "Tôi ăn sáng. Sau đó đi học.",
+              "ruby": "[朝|あさ]ご[飯|はん]を[食|た]べました。それから、[学校|がっこう]へ[行|い]きました。"
+            },
+            {
+              "japanese": "駅で友達に会った。それから、一緒に買い物に行った。",
+              "vietnamese": "Tôi gặp bạn ở ga. Rồi cùng nhau đi mua sắm.",
+              "ruby": "[駅|えき]で[友達|ともだち]に[会|あ]った。それから、[一緒|いっしょ]に[買|か]い[物|もの]に[行|い]った。"
+            },
+            {
+              "japanese": "牛乳を買ってきてください。それから、卵もお願いします。",
+              "vietnamese": "Mua giúp tôi sữa nhé. Và còn trứng nữa.",
+              "ruby": "[牛乳|ぎゅうにゅう]を[買|か]ってきてください。それから、[卵|たまご]もお[願|ねが]いします。"
+            }
+          ]
+        },
+        {
+          "id": "tsugini",
+          "word": "次に",
+          "reading": "つぎに",
+          "level": "N4",
+          "meaning": "tiếp theo, kế đến",
+          "register": "both",
+          "explanation": "Chuyển sang bước tiếp theo trong một trình tự đã sắp xếp, thường sau まず. Dùng nhiều trong hướng dẫn sử dụng, công thức nấu ăn, bài phát biểu có nhiều ý.\n\nKhác それから, 次に nhấn mạnh thứ tự các bước như một danh sách có cấu trúc.",
+          "usage": [
+            "Sau まず: 「まず～。次に～。」.",
+            "Thuyết trình: 「次に、～について説明します。」.",
+            "Có thể lặp lại cho nhiều bước, kết thúc bằng 最後に."
+          ],
+          "pitfalls": [
+            "Kể một chuỗi việc trong đời thường (không phải hướng dẫn) thì それから tự nhiên hơn: ✓「映画を見た。それから、ご飯を食べた。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それから",
+              "targetId": "sorekara",
+              "difference": "それから kể chuỗi sự việc tự nhiên; 次に trình bày các bước có cấu trúc."
+            },
+            {
+              "pattern": "最後に",
+              "targetId": "saigoni",
+              "difference": "次に là bước giữa; 最後に là bước kết thúc."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "まず、お湯を沸かします。次に、カップに粉を入れます。",
+              "vietnamese": "Đầu tiên, đun sôi nước. Tiếp theo, cho bột vào cốc.",
+              "ruby": "まず、お[湯|ゆ]を[沸|わ]かします。[次|つぎ]に、カップに[粉|こな]を[入|い]れます。"
+            },
+            {
+              "japanese": "最初に、会社の歴史を紹介します。次に、今年の目標についてお話しします。",
+              "vietnamese": "Trước tiên, tôi xin giới thiệu lịch sử công ty. Kế đến, tôi xin nói về mục tiêu năm nay.",
+              "ruby": "[最初|さいしょ]に、[会社|かいしゃ]の[歴史|れきし]を[紹介|しょうかい]します。[次|つぎ]に、[今年|ことし]の[目標|もくひょう]についてお[話|はな]しします。"
+            },
+            {
+              "japanese": "名前を入力してください。次に、パスワードを決めてください。",
+              "vietnamese": "Vui lòng nhập tên. Tiếp theo, hãy đặt mật khẩu.",
+              "ruby": "[名前|なまえ]を[入力|にゅうりょく]してください。[次|つぎ]に、パスワードを[決|き]めてください。"
+            }
+          ]
+        },
+        {
+          "id": "saigoni",
+          "word": "最後に",
+          "reading": "さいごに",
+          "level": "N4",
+          "meaning": "cuối cùng, sau cùng",
+          "register": "both",
+          "explanation": "Đánh dấu bước hoặc ý cuối cùng trong một trình tự hay bài nói. Trong bài phát biểu, 最後に thường mở đầu lời kết, lời cảm ơn hoặc điều người nói muốn nhấn mạnh nhất.\n\nĐừng nhầm với 最後 dùng như danh từ (「最後の日」) hay ～た最後 (một khi đã… thì).",
+          "usage": [
+            "Kết thúc chuỗi: まず… 次に… 最後に….",
+            "Kết thúc bài nói: 「最後に、皆さんにお礼を申し上げます。」.",
+            "Câu sau thường là hành động cuối, lời kết hoặc lời cảm ơn."
+          ],
+          "pitfalls": [
+            "Khi muốn nói \"rốt cuộc\" (kết cục sau quá trình), dùng 結局 chứ không dùng 最後に: ✗「いろいろ迷ったが、最後に買わなかった。」 ✓「いろいろ迷ったが、結局買わなかった。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "次に",
+              "targetId": "tsugini",
+              "difference": "次に là bước tiếp theo; 最後に là bước kết thúc."
+            },
+            {
+              "pattern": "結局",
+              "targetId": "kekkyoku",
+              "difference": "結局 nói kết cục của một quá trình; 最後に chỉ đánh dấu bước cuối trong trình tự."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "材料を混ぜて、オーブンで焼きます。最後に、上に果物をのせたら完成です。",
+              "vietnamese": "Trộn nguyên liệu rồi nướng trong lò. Cuối cùng, đặt hoa quả lên trên là xong.",
+              "ruby": "[材料|ざいりょう]を[混|ま]ぜて、オーブンで[焼|や]きます。[最後|さいご]に、[上|うえ]に[果物|くだもの]をのせたら[完成|かんせい]です。"
+            },
+            {
+              "japanese": "以上で発表を終わります。最後に、協力してくださった皆さんに感謝します。",
+              "vietnamese": "Bài trình bày của tôi đến đây là kết thúc. Sau cùng, xin cảm ơn mọi người đã hợp tác.",
+              "ruby": "[以上|いじょう]で[発表|はっぴょう]を[終|お]わります。[最後|さいご]に、[協力|きょうりょく]してくださった[皆|みな]さんに[感謝|かんしゃ]します。"
+            },
+            {
+              "japanese": "窓を閉めて、電気を消した。最後に、ドアに鍵をかけた。",
+              "vietnamese": "Tôi đóng cửa sổ, tắt đèn. Cuối cùng khóa cửa.",
+              "ruby": "[窓|まど]を[閉|し]めて、[電気|でんき]を[消|け]した。[最後|さいご]に、ドアに[鍵|かぎ]をかけた。"
+            }
+          ]
+        },
+        {
+          "id": "mazu",
+          "word": "まず",
+          "reading": "まず",
+          "level": "N3",
+          "meaning": "trước hết, đầu tiên",
+          "register": "both",
+          "explanation": "Mở đầu bước thứ nhất trong một chuỗi trình tự (hướng dẫn, công thức nấu ăn, bài thuyết trình), thường đi cùng 次に, それから, 最後に.\n\nKhi là phó từ, まず còn có nghĩa \"gần như chắc chắn\" đi với phủ định/phán đoán: 「まず間違いない」.",
+          "usage": [
+            "Chuỗi: まず → 次に → それから → 最後に.",
+            "Thuyết trình: 「まず、～について説明します。」.",
+            "Câu sau thường là hành động, mệnh lệnh hoặc hướng dẫn."
+          ],
+          "pitfalls": [
+            "Không dùng まず cho bước thứ hai trở đi; bước sau dùng 次に／それから."
+          ],
+          "comparisons": [
+            {
+              "pattern": "次に",
+              "targetId": "tsugini",
+              "difference": "まず là bước đầu tiên; 次に là bước tiếp theo."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "まず、野菜を小さく切ります。次に、フライパンで炒めます。",
+              "vietnamese": "Trước hết, thái rau nhỏ. Tiếp theo, xào trên chảo.",
+              "ruby": "まず、[野菜|やさい]を[小|ちい]さく[切|き]ります。[次|つぎ]に、フライパンで[炒|いた]めます。"
+            },
+            {
+              "japanese": "本日は三つの点についてお話しします。まず、市場の現状についてです。",
+              "vietnamese": "Hôm nay tôi xin trình bày ba điểm. Đầu tiên là về tình hình thị trường hiện nay.",
+              "ruby": "[本日|ほんじつ]は[三|みっ]つの[点|てん]についてお[話|はな]しします。まず、[市場|しじょう]の[現状|げんじょう]についてです。"
+            },
+            {
+              "japanese": "けがをしたら、まず、傷口を水で洗ってください。",
+              "vietnamese": "Nếu bị thương, trước hết hãy rửa vết thương bằng nước.",
+              "ruby": "けがをしたら、まず、[傷口|きずぐち]を[水|みず]で[洗|あら]ってください。"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-14T14:20:23.3180997+00:00"
+  "generatedAt": "2026-10-14T14:22:44.7008536+00:00"
 }
