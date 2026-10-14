@@ -7990,8 +7990,23 @@
             }
           ],
           "enrichment": {
-            "explanation": "Thể ý chí (V意向形) + とする có hai nghĩa. ① \"Vừa định… thì…\": hành động sắp bắt đầu thì bị một sự việc khác chen vào (dạng ～ようとしたとき／～ようとしたら／～ようとしたところ). ② \"Cố gắng…, nỗ lực để…\": diễn tả nỗ lực thực hiện (dạng ～ようとしている, ～ようとした).\n\nDạng phủ định ～ようとしない nghĩa là \"không chịu…, không có ý định…\" và chỉ dùng cho người khác: 「子供が野菜を食べようとしない」.",
+            "explanation": "Hai dạng chính của thể ý chí (V意向形).\n\n① Vよう + とする: định làm gì, cố gắng làm gì — một hành động sắp xảy ra hoặc ý định vừa mới bắt đầu. Trong câu thường gặp hai sắc thái: \"vừa định… thì…\" (～ようとしたとき／～ようとしたら／～ようとしたところ, hành động sắp bắt đầu thì bị việc khác chen vào) và \"đang cố gắng…\" (～ようとしている, ～ようとした).\n\n② Vようとしない: hoàn toàn không có ý định làm gì, không chịu làm gì. Thường dùng khi chủ ngữ không phải ngôi thứ nhất (không phải 私), để nói thái độ của người khác không chịu hợp tác hoặc không chịu hành động: 「子供が野菜を食べようとしない」.",
             "formation": [
+              {
+                "wordType": "Vよう + とする",
+                "rule": "Định làm, cố gắng làm — hành động sắp xảy ra hoặc ý định vừa bắt đầu",
+                "samples": [
+                  "出る → 出ようとする",
+                  "駅を出ようとしたとき"
+                ]
+              },
+              {
+                "wordType": "Vようとしない",
+                "rule": "Không có ý định, không chịu làm. Chủ ngữ thường là người khác, không phải 私",
+                "samples": [
+                  "勉強する → 勉強しようとしない"
+                ]
+              },
               {
                 "wordType": "Động từ nhóm 1",
                 "rule": "Đuôi う → お + う + とする",
@@ -8030,7 +8045,7 @@
               "Không chịu: 「彼は自分の間違いを認めようとしない」."
             ],
             "pitfalls": [
-              "～ようとしない không dùng cho chính mình: ✗「私は食べようとしない」.",
+              "Vようとしない thường không dùng với ngôi thứ nhất: ✗「私は食べようとしない」. Mẫu này nói về thái độ của người khác (ngôi thứ ba) không chịu hợp tác hoặc không chịu hành động.",
               "Không dùng với hiện tượng tự nhiên mà người nói muốn nói \"sắp\": dùng ～そうだ (雨が降りそうだ); tuy nhiên văn viết có 「日が沈もうとしている」 (mặt trời sắp lặn)."
             ],
             "comparisons": [
@@ -8045,6 +8060,16 @@
               }
             ],
             "examples": [
+              {
+                "japanese": "駅を出ようとしたとき、雨が降ってきた。",
+                "vietnamese": "Khi tôi định ra khỏi ga thì trời bắt đầu mưa.",
+                "ruby": "[駅|えき]を[出|で]ようとしたとき、[雨|あめ]が[降|ふ]ってきた。"
+              },
+              {
+                "japanese": "彼は何度言っても、勉強しようとしない。",
+                "vietnamese": "Dù tôi có nói bao nhiêu lần đi nữa, anh ấy vẫn không chịu học.",
+                "ruby": "[彼|かれ]は[何|なん][度|ど][言|い]っても、[勉強|べんきょう]しようとしない。"
+              },
               {
                 "japanese": "電話をかけようとしたら、ちょうど彼から電話がかかってきた。",
                 "vietnamese": "Vừa định gọi điện thì đúng lúc anh ấy gọi đến.",
@@ -13110,5 +13135,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-11T12:46:19.7083656+00:00"
+  "generatedAt": "2026-10-14T13:02:41.1174293+00:00"
 }
