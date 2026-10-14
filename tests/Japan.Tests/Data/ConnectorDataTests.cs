@@ -28,14 +28,14 @@ public class ConnectorDataTests
         var content = ConnectorLoader.Load(Path.Combine(Root, "content", "connectors"));
         Assert.Empty(content.Errors);
 
-        static string Key(Connector c) => JsonSerializer.Serialize(
+        static string Key(ConnectorGroup g, Connector c) => g.Id + "|" + JsonSerializer.Serialize(
             c with { Examples = c.Examples.Select(e => e with { Ruby = null }).ToList() }, GrammarJson.Options);
         static string GroupKey(ConnectorGroup g) => $"{g.Id}|{g.Order}|{g.Title}|{g.JaTitle}|{g.Description}";
 
         var data = Data();
         Assert.Equal(content.Groups.Select(GroupKey).Order(), data.Groups.Select(GroupKey).Order());
         Assert.Equal(
-            content.Groups.SelectMany(g => g.Connectors).Select(Key).Order(),
-            data.Groups.SelectMany(g => g.Connectors).Select(Key).Order());
+            content.Groups.SelectMany(g => g.Connectors, Key).Order(),
+            data.Groups.SelectMany(g => g.Connectors, Key).Order());
     }
 }
