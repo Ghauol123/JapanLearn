@@ -969,3 +969,12 @@ span.compare-pattern {
   background: var(--accent-soft);
   color: var(--accent);
 }
+
+.result-group {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+}
