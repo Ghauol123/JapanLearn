@@ -2,7 +2,6 @@
 **/.vs
 **/.vscode
 **/.cursor
-**/.wrangler
 **/bin
 **/obj
 **/node_modules
