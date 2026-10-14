@@ -4,9 +4,6 @@ public sealed record SearchHit(GrammarPoint Point, string Field, string Snippet)
 
 public sealed class GrammarSearch
 {
-    private const int SnippetLength = 160;
-    private const int SnippetLead = 40;
-
     private readonly record struct Field(int Weight, string Name, string Raw, string Normalized);
 
     private readonly IReadOnlyList<(GrammarPoint Point, IReadOnlyList<Field> Fields)> _entries;
@@ -33,7 +30,7 @@ public sealed class GrammarSearch
             .OrderByDescending(x => x.Best.Weight)
             .ThenBy(x => x.Order)
             .Take(limit)
-            .Select(x => new SearchHit(x.Point, x.Best.Name, Snippet(x.Best.Raw, q)))
+            .Select(x => new SearchHit(x.Point, x.Best.Name, SearchSnippet.Make(x.Best.Raw, q)))
             .ToList();
     }
 
@@ -62,16 +59,4 @@ public sealed class GrammarSearch
 
     private static IEnumerable<string> Texts(Section s) =>
         s.Paragraphs.Concat(s.Tables.SelectMany(t => t.Header.Concat(t.Rows.SelectMany(r => r))));
-
-    private static string Snippet(string raw, string normalizedQuery)
-    {
-        if (raw.Length <= SnippetLength) return raw;
-
-        var match = TextNormalizer.FindIn(raw, normalizedQuery)?.Start ?? 0;
-        var start = match < SnippetLength - SnippetLead
-            ? 0
-            : Math.Min(match - SnippetLead, raw.Length - (SnippetLength - 1));
-        var end = Math.Min(raw.Length, start + SnippetLength - (start > 0 ? 2 : 1));
-        return (start > 0 ? "…" : "") + raw[start..end] + (end < raw.Length ? "…" : "");
-    }
 }
