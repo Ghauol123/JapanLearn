@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Japan.Core;
 
-[JsonConverter(typeof(JsonStringEnumConverter<JlptLevel>))]
+[JsonConverter(typeof(StrictEnumConverter<JlptLevel>))]
 public enum JlptLevel
 {
     N5,
@@ -11,13 +11,17 @@ public enum JlptLevel
     N2,
 }
 
-[JsonConverter(typeof(JsonStringEnumConverter<ConnectorRegister>))]
+[JsonConverter(typeof(StrictEnumConverter<ConnectorRegister>))]
 public enum ConnectorRegister
 {
     [JsonStringEnumMemberName("spoken")] Spoken,
     [JsonStringEnumMemberName("written")] Written,
     [JsonStringEnumMemberName("both")] Both,
 }
+
+// Chỉ nhận tên ("N3", "spoken"); số nguyên như 2 bị từ chối để không âm thầm thành một cấp khác.
+internal sealed class StrictEnumConverter<T>() : JsonStringEnumConverter<T>(namingPolicy: null, allowIntegerValues: false)
+    where T : struct, Enum;
 
 public static class JlptLevels
 {

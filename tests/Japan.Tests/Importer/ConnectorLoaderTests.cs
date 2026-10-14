@@ -86,4 +86,34 @@ public sealed class ConnectorLoaderTests : IDisposable
         Assert.NotEmpty(ConnectorLoader.Load(_dir).Errors);
         Assert.NotEmpty(ConnectorLoader.Load(Path.Combine(_dir, "khong-co")).Errors);
     }
+
+    private const string ValidGroup = """
+        {
+          "id": "nghich-tiep", "order": 2, "title": "Nghịch tiếp", "jaTitle": "逆接", "description": "Mô tả.",
+          "connectors": [
+            { "id": "demo", "word": "でも", "reading": "でも", "level": "N5", "meaning": "nhưng", "register": "spoken",
+              "explanation": "Giải thích.",
+              "examples": [ { "japanese": "a。でも、b。", "vietnamese": "x" }, { "japanese": "c。でも、d。", "vietnamese": "y" } ] }
+          ]
+        }
+        """;
+
+    [Theory]
+    [InlineData("\"level\": \"N5\", ", "level")]
+    [InlineData("\"register\": \"spoken\",", "register")]
+    [InlineData("\"order\": 2, ", "order")]
+    public void Load_MissingRequiredField_IsError(string removed, string field)
+    {
+        File.WriteAllText(Path.Combine(_dir, "nghich-tiep.json"), ValidGroup.Replace(removed, ""));
+
+        Assert.Contains(ConnectorLoader.Load(_dir).Errors, e => e.Contains("nghich-tiep.json") && e.Contains($"\"{field}\""));
+    }
+
+    [Fact]
+    public void Load_IntegerLevel_IsError()
+    {
+        File.WriteAllText(Path.Combine(_dir, "nghich-tiep.json"), ValidGroup.Replace("\"level\": \"N5\"", "\"level\": 2"));
+
+        Assert.Contains(ConnectorLoader.Load(_dir).Errors, e => e.Contains("nghich-tiep.json"));
+    }
 }

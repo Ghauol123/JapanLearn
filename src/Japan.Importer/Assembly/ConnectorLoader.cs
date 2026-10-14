@@ -32,7 +32,15 @@ public static class ConnectorLoader
             ConnectorGroup? group;
             try
             {
-                group = JsonSerializer.Deserialize<ConnectorGroup>(File.ReadAllText(path), GrammarJson.Options);
+                var json = File.ReadAllText(path);
+                var missing = MissingFields(json);
+                if (missing.Count > 0)
+                {
+                    errors.AddRange(missing.Select(m => $"{name}: {m}"));
+                    continue;
+                }
+
+                group = JsonSerializer.Deserialize<ConnectorGroup>(json, GrammarJson.Options);
             }
             catch (JsonException ex)
             {
@@ -52,6 +60,31 @@ public static class ConnectorLoader
 
         if (groups.Count > 0) errors.AddRange(ConnectorValidator.Validate(groups));
         return new ConnectorLoadResult(groups, errors);
+    }
+
+    // Trường enum/số bị bỏ trống sẽ nhận giá trị mặc định (N5, spoken, order 0) mà không báo lỗi, nên phải kiểm tra trước khi đọc.
+    private static List<string> MissingFields(string json)
+    {
+        var missing = new List<string>();
+        using var doc = JsonDocument.Parse(json);
+        var root = doc.RootElement;
+        if (root.ValueKind != JsonValueKind.Object) return missing;
+        if (!root.TryGetProperty("order", out _)) missing.Add("thiếu \"order\"");
+        if (!root.TryGetProperty("connectors", out var connectors) || connectors.ValueKind != JsonValueKind.Array) return missing;
+
+        var index = 0;
+        foreach (var c in connectors.EnumerateArray())
+        {
+            index++;
+            if (c.ValueKind != JsonValueKind.Object) continue;
+            var where = c.TryGetProperty("id", out var id) && id.ValueKind == JsonValueKind.String ? id.GetString() : $"từ nối thứ {index}";
+            foreach (var field in new[] { "level", "register" })
+            {
+                if (!c.TryGetProperty(field, out _)) missing.Add($"{where}: thiếu \"{field}\"");
+            }
+        }
+
+        return missing;
     }
 
     private static ConnectorGroup Normalize(ConnectorGroup group) => group with
