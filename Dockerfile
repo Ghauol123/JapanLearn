@@ -12,8 +12,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build /app ./
 COPY data/grammar.json ./data/grammar.json
+COPY data/connectors.json ./data/connectors.json
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV GrammarData__Path=data/grammar.json
+ENV ConnectorData__Path=data/connectors.json
 EXPOSE 8080
 USER root
 ENTRYPOINT ["sh", "-c", "export ASPNETCORE_HTTP_PORTS=\"${PORT:-8080}\"; exec dotnet Japan.Web.dll"]

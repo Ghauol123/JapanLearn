@@ -1,10 +1,11 @@
 # 文法 N3 — Web học ngữ pháp JLPT N3
 
-Web chạy cục bộ để tra cứu và ôn ngữ pháp JLPT N3: 28 bài, 106 điểm ngữ pháp, lấy từ bộ giáo trình docx, kèm phần **Bổ sung** (giải thích chi tiết, công thức theo loại từ, cách dùng, lỗi hay gặp, so sánh, ví dụ thêm).
+Web chạy cục bộ để tra cứu và ôn ngữ pháp JLPT N3: 28 bài, 106 điểm ngữ pháp, lấy từ bộ giáo trình docx, kèm phần **Bổ sung** (giải thích chi tiết, công thức theo loại từ, cách dùng, lỗi hay gặp, so sánh, ví dụ thêm), và mục **Từ nối** (接続詞) N5–N2: 44 từ chia theo chức năng.
 
 ## Tính năng
 
 - Mục lục theo bài, trang riêng cho từng điểm ngữ pháp, chuyển điểm trước/sau bằng phím ← / →.
+- Mục **Từ nối** ở `/tu-noi`: chia theo chức năng, lọc theo cấp N5–N2, mỗi từ có giải thích, lỗi hay gặp, so sánh và ví dụ; tìm kiếm chung trả cả ngữ pháp lẫn từ nối.
 - Furigana tự sinh cho toàn bộ tiếng Nhật, bật/tắt bằng nút **Furigana**.
 - Tìm kiếm tiếng Việt không dấu, hiragana/katakana và cả `～` (ví dụ `tranh thu`, `うちに`, `ウチニ`); bấm `/` để vào ô tìm kiếm.
 - Giao diện sáng/tối, font Be Vietnam Pro và Noto Sans JP tự host (dùng được khi không có mạng).
@@ -17,7 +18,7 @@ Cần [.NET 10 SDK](https://dotnet.microsoft.com/download).
 dotnet run --project src/Japan.Web
 ```
 
-Mở http://localhost:5126. Dữ liệu đọc từ `data/grammar.json` (đã có sẵn trong repo); web tự nạp lại khi file này thay đổi.
+Mở http://localhost:5126. Dữ liệu đọc từ `data/grammar.json` và `data/connectors.json` (đã có sẵn trong repo); web tự nạp lại khi các file này thay đổi.
 
 ## Cập nhật dữ liệu
 
@@ -33,6 +34,14 @@ Nội dung bổ sung và hiệu chỉnh nằm trong `content/`:
 
 - `content/enrichment/<id>.json`: phần Bổ sung của từng điểm (ví dụ `b1-1.json` là Bài 1, điểm 1). Sửa xong chạy lại importer.
 - `content/furigana-overrides.json`: sửa cách đọc khi furigana tự sinh bị sai (ví dụ `"一晩": "ひとばん"`).
+
+Từ nối nằm trong `content/connectors/<nhóm>.json` (mỗi nhóm chức năng một file). Sửa xong chạy:
+
+```powershell
+dotnet run --project src/Japan.Importer -- connectors
+```
+
+Lệnh này không cần bộ docx, kiểm tra nội dung (trùng id, cấp, `targetId`, ít nhất 2 ví dụ…), sinh furigana và ghi `data/connectors.json`. Nhớ commit cả `data/connectors.json` — bản deploy chỉ đọc file này.
 
 ## Cấu trúc
 
