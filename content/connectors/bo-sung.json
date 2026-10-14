@@ -130,7 +130,7 @@
       ],
       "examples": [
         { "japanese": "朝から頭が痛い。おまけに、熱まで出てきた。", "vietnamese": "Từ sáng đã đau đầu. Đã thế lại còn bị sốt." },
-        { "japanese": "電車は遅れるし、おまけに、傘を電車に忘れてしまった。", "vietnamese": "Tàu thì trễ, đã thế tôi lại còn để quên ô trên tàu." },
+        { "japanese": "電車は遅れたし、おまけに、傘を電車に忘れてしまった。", "vietnamese": "Tàu thì trễ, đã thế tôi lại còn để quên ô trên tàu." },
         { "japanese": "その店は高かった。おまけに、店員の態度も悪かった。", "vietnamese": "Quán đó đắt. Thêm vào đó thái độ nhân viên cũng tệ." }
       ]
     }

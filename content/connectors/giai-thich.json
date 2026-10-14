@@ -28,7 +28,7 @@
       ],
       "examples": [
         { "japanese": "彼は母の兄の息子だ。つまり、私のいとこだ。", "vietnamese": "Anh ấy là con trai của anh trai mẹ tôi. Tức là anh họ của tôi." },
-        { "japanese": "この店は午後十時に閉まる。つまり、あと三十分しかない。", "vietnamese": "Cửa hàng này đóng cửa lúc 10 giờ tối. Nói cách khác, chỉ còn 30 phút nữa." },
+        { "japanese": "この店は午後十時に閉まる。つまり、十時を過ぎたら入れない。", "vietnamese": "Cửa hàng này đóng cửa lúc 10 giờ tối. Nói cách khác, quá 10 giờ là không vào được." },
         { "japanese": "参加者は年々減っている。つまり、このイベントへの関心が薄れているということだ。", "vietnamese": "Số người tham gia giảm mỗi năm. Tức là sự quan tâm đến sự kiện này đang phai nhạt." }
       ]
     },
@@ -53,7 +53,7 @@
       ],
       "examples": [
         { "japanese": "会議は来月の一日、すなわち月曜日に行われる。", "vietnamese": "Cuộc họp được tổ chức vào ngày mùng 1 tháng sau, tức là thứ Hai." },
-        { "japanese": "水は百度で沸騰する。すなわち、それ以上温度は上がらない。", "vietnamese": "Nước sôi ở 100 độ. Nghĩa là nhiệt độ không tăng thêm nữa." },
+        { "japanese": "一年で最も昼が短い日、すなわち冬至には、ゆず湯に入る習慣がある。", "vietnamese": "Vào ngày có ban ngày ngắn nhất trong năm, tức là ngày Đông chí, người Nhật có tục tắm nước thả quả yuzu." },
         { "japanese": "言葉を学ぶことは、すなわちその国の文化を学ぶことである。", "vietnamese": "Học một ngôn ngữ chính là học văn hóa của đất nước đó." }
       ]
     },

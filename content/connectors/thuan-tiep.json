@@ -124,7 +124,7 @@
         "Có thể viết そのために; trong văn viết rất hay đi với ～ている／～た để mô tả tình hình."
       ],
       "pitfalls": [
-        "Câu sau không là mệnh lệnh, lời mời: ✗「雪が降っている。そのため、気をつけてください。」 ✓「雪が降っている。ですから、気をつけてください。」."
+        "Câu sau không là mệnh lệnh, lời mời: ✗「雪が降っています。そのため、気をつけてください。」 ✓「雪が降っています。ですから、気をつけてください。」."
       ],
       "comparisons": [
         { "pattern": "したがって", "targetId": "shitagatte", "difference": "したがって nhấn mạnh suy luận logic tất yếu; そのため chỉ nêu quan hệ nhân quả thực tế." },
