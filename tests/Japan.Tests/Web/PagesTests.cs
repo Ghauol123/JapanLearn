@@ -81,7 +81,8 @@ public sealed class PagesTests : IDisposable
     [Fact]
     public async Task MissingDataFile_ShowsImportHint()
     {
-        using var factory = new GrammarWebFactory(Path.Combine(Path.GetTempPath(), $"none-{Guid.NewGuid():N}", "grammar.json"));
+        var missing = Path.Combine(Path.GetTempPath(), $"none-{Guid.NewGuid():N}");
+        using var factory = new GrammarWebFactory(Path.Combine(missing, "grammar.json"), Path.Combine(missing, "connectors.json"));
 
         var response = await factory.CreateClient().GetAsync("/");
 

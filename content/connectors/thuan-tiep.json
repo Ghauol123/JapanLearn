@@ -1,0 +1,167 @@
+{
+  "id": "thuan-tiep",
+  "order": 1,
+  "title": "Thuận tiếp — kết quả, hệ quả",
+  "jaTitle": "順接",
+  "description": "Câu sau là kết quả, hệ quả hoặc hành động tiếp theo do câu trước dẫn tới.",
+  "connectors": [
+    {
+      "id": "dakara",
+      "word": "だから",
+      "reading": "だから",
+      "level": "N4",
+      "meaning": "vì vậy, cho nên, thế nên",
+      "register": "spoken",
+      "explanation": "Câu trước nêu lý do hoặc nguyên nhân, câu sau nêu kết quả, kết luận hay quyết định của người nói. だから mang tính chủ quan: người nói tự rút ra kết luận, nên câu sau có thể là ý chí, yêu cầu hay nhận định.\n\nĐây là từ của văn nói. Trong văn viết trang trọng (báo cáo, luận văn) thường đổi sang したがって hoặc そのため; dạng lịch sự trong hội thoại là ですから.",
+      "usage": [
+        "Đứng đầu câu sau: 「A。だから、B。」; dạng lịch sự là ですから.",
+        "Câu sau được phép là ý chí, mệnh lệnh, lời khuyên: 「明日は試験だ。だから、今日は早く寝なさい。」.",
+        "Đứng một mình đầu câu trả lời để nhấn mạnh ý mình đã nói: 「だから、言ったでしょう。」 (đã bảo rồi mà)."
+      ],
+      "pitfalls": [
+        "✗「本研究の結果は以下のとおりである。だから、…」 — văn viết học thuật không dùng だから; ✓ dùng したがって／そのため.",
+        "Khi câu sau chỉ là sự việc khách quan xảy ra tiếp theo (không phải kết luận của người nói), それで tự nhiên hơn: ✓「電車が遅れた。それで、遅刻した。」."
+      ],
+      "comparisons": [
+        { "pattern": "それで", "targetId": "sorede", "difference": "それで nối sự việc với kết quả khách quan đã xảy ra, câu sau không dùng ý chí hay mệnh lệnh; だから dùng được cả với ý chí, mệnh lệnh." },
+        { "pattern": "したがって", "targetId": "shitagatte", "difference": "したがって là văn viết, kết luận mang tính logic; だから là văn nói, kết luận mang tính chủ quan." }
+      ],
+      "examples": [
+        { "japanese": "明日は朝早く出かける。だから、今夜は早く寝るつもりだ。", "vietnamese": "Sáng mai tôi ra ngoài sớm. Vì vậy tối nay tôi định đi ngủ sớm." },
+        { "japanese": "この店は安くておいしい。だから、いつも混んでいる。", "vietnamese": "Quán này rẻ mà ngon. Cho nên lúc nào cũng đông." },
+        { "japanese": "道が凍っていて危ないです。ですから、気をつけてください。", "vietnamese": "Đường đóng băng nguy hiểm lắm. Vì thế xin hãy cẩn thận." }
+      ]
+    },
+    {
+      "id": "sorede",
+      "word": "それで",
+      "reading": "それで",
+      "level": "N4",
+      "meaning": "vì thế nên, do đó mà, rồi thì",
+      "register": "spoken",
+      "explanation": "Câu trước nêu một sự việc hay nguyên nhân, câu sau nêu kết quả đã xảy ra như một diễn biến tự nhiên. Khác だから, それで kể lại sự việc một cách khách quan, nên câu sau thường ở thể quá khứ hoặc là sự thật, không phải ý chí hay mệnh lệnh của người nói.\n\nTrong hội thoại, それで còn dùng để giục người kia kể tiếp: 「それで？」 (rồi sao nữa?).",
+      "usage": [
+        "Câu sau là kết quả đã xảy ra hoặc trạng thái hiện tại: 「Aた。それで、Bた。」.",
+        "Dùng nhiều khi giải thích lý do cho người nghe: 「昨日熱が出ました。それで、学校を休みました。」.",
+        "「それで？」「それでどうなったの？」 để hỏi tiếp diễn biến câu chuyện."
+      ],
+      "pitfalls": [
+        "Câu sau không là mệnh lệnh, lời mời hay ý chí: ✗「雨が降りそうだ。それで、傘を持っていきなさい。」 ✓「雨が降りそうだ。だから、傘を持っていきなさい。」."
+      ],
+      "comparisons": [
+        { "pattern": "だから", "targetId": "dakara", "difference": "だから thể hiện phán đoán chủ quan, câu sau dùng được ý chí, mệnh lệnh; それで chỉ nối với kết quả khách quan." },
+        { "pattern": "そこで", "targetId": "sokode", "difference": "そこで: trước tình huống ở câu trước, chủ thể chủ động quyết định làm gì; それで: kết quả xảy ra tự nhiên, không nhấn mạnh quyết định." }
+      ],
+      "examples": [
+        { "japanese": "昨日は熱がありました。それで、会社を休みました。", "vietnamese": "Hôm qua tôi bị sốt. Vì thế tôi đã nghỉ làm." },
+        { "japanese": "道が混んでいた。それで、約束の時間に遅れてしまった。", "vietnamese": "Đường bị tắc. Do đó tôi đã trễ giờ hẹn." },
+        { "japanese": "彼女は日本のアニメが好きだった。それで、日本語の勉強を始めたそうだ。", "vietnamese": "Cô ấy thích anime Nhật. Nghe nói vì vậy mà cô ấy bắt đầu học tiếng Nhật." }
+      ]
+    },
+    {
+      "id": "suruto",
+      "word": "すると",
+      "reading": "すると",
+      "level": "N4",
+      "meaning": "thế là, ngay sau đó thì, bèn thấy",
+      "register": "both",
+      "explanation": "Câu trước là một hành động hay sự việc, câu sau là điều xảy ra ngay sau đó hoặc điều người nói phát hiện ra. Sự việc ở câu sau nằm ngoài ý chí của người nói, thường mang chút bất ngờ, nên hay dùng khi kể chuyện ở thể quá khứ.\n\nTrong hội thoại, すると còn có nghĩa \"nếu vậy thì\" khi người nói rút ra suy luận từ lời người kia: 「すると、明日は休みですね。」.",
+      "usage": [
+        "Mẫu kể chuyện: 「Aた。すると、Bた。」 — B là việc xảy ra/phát hiện ngay sau A.",
+        "Chủ ngữ của câu sau thường khác câu trước, hoặc là sự vật, hiện tượng.",
+        "Nghĩa suy luận: 「すると、～ということですか。」 (vậy nghĩa là…)."
+      ],
+      "pitfalls": [
+        "Câu sau không là hành động có ý chí của chính người nói: ✗「部屋が暗かった。すると、私は電気をつけた。」 ✓「部屋が暗かった。そこで、電気をつけた。」.",
+        "Không dùng cho thói quen hay chân lý ở thì hiện tại khi muốn nói \"hễ… thì\"; khi đó dùng ～と: ✓「春になると、桜が咲く。」."
+      ],
+      "comparisons": [
+        { "pattern": "そこで", "targetId": "sokode", "difference": "そこで: câu sau là hành động chủ thể quyết định làm; すると: câu sau là điều xảy ra ngoài ý muốn hoặc điều phát hiện ra." }
+      ],
+      "examples": [
+        { "japanese": "ボタンを押した。すると、ドアがゆっくり開いた。", "vietnamese": "Tôi nhấn nút. Thế là cánh cửa từ từ mở ra." },
+        { "japanese": "窓を開けた。すると、冷たい風が入ってきた。", "vietnamese": "Tôi mở cửa sổ. Ngay lập tức gió lạnh lùa vào." },
+        { "japanese": "「会議は来週に延期になりました。」「すると、明日の準備はいらないんですね。」", "vietnamese": "\"Cuộc họp đã dời sang tuần sau.\" \"Vậy thì việc chuẩn bị cho ngày mai không cần nữa nhỉ.\"" }
+      ]
+    },
+    {
+      "id": "sokode",
+      "word": "そこで",
+      "reading": "そこで",
+      "level": "N3",
+      "meaning": "vì vậy nên (đã quyết định), do đó bèn",
+      "register": "both",
+      "explanation": "Câu trước nêu một tình huống, vấn đề hay nhu cầu; câu sau là hành động mà chủ thể chủ động chọn làm để giải quyết tình huống đó. Trọng tâm là \"quyết định, đối sách\", nên câu sau gần như luôn là hành động có ý chí.\n\nRất hay xuất hiện trong bài đọc JLPT dạng trình bày vấn đề → giải pháp: 「～という問題があった。そこで、～することにした。」.",
+      "usage": [
+        "Câu sau là hành động có chủ đích: ～することにした／～してみた／～を始めた.",
+        "Hợp với văn viết trình bày (báo cáo, bài luận) lẫn văn nói.",
+        "Câu trước thường là khó khăn, mong muốn, tình trạng cần xử lý."
+      ],
+      "pitfalls": [
+        "Không dùng khi câu sau là kết quả tự nhiên, không ai quyết định: ✗「雨が降った。そこで、道がぬれた。」 ✓「雨が降った。それで、道がぬれた。」."
+      ],
+      "comparisons": [
+        { "pattern": "それで", "targetId": "sorede", "difference": "それで nối với kết quả tự nhiên; そこで nối với hành động mà chủ thể quyết định làm." },
+        { "pattern": "すると", "targetId": "suruto", "difference": "すると: điều xảy ra ngoài ý chí; そこで: điều chủ thể chủ động làm." }
+      ],
+      "examples": [
+        { "japanese": "駅から会社まで歩くと三十分かかる。そこで、自転車を買うことにした。", "vietnamese": "Đi bộ từ ga đến công ty mất ba mươi phút. Vì vậy tôi quyết định mua xe đạp." },
+        { "japanese": "最近、若い客が減っている。そこで、店ではSNSで宣伝を始めた。", "vietnamese": "Gần đây khách trẻ giảm. Do đó cửa hàng đã bắt đầu quảng cáo trên mạng xã hội." },
+        { "japanese": "一人では答えがわからなかった。そこで、先生に相談してみた。", "vietnamese": "Một mình tôi không tìm ra câu trả lời. Vì thế tôi thử hỏi ý kiến thầy." }
+      ]
+    },
+    {
+      "id": "sonotame",
+      "word": "そのため",
+      "reading": "そのため",
+      "level": "N3",
+      "meaning": "vì lý do đó, do vậy; (cũng có nghĩa) vì mục đích đó",
+      "register": "written",
+      "explanation": "Câu trước nêu nguyên nhân, câu sau nêu kết quả một cách khách quan. Giọng văn trung tính, hay gặp trong tin tức, thông báo, bài giải thích — đúng loại văn bản của phần đọc hiểu JLPT.\n\nそのため còn có nghĩa mục đích khi câu trước là mục tiêu: 「試験に合格したい。そのため、毎日勉強している。」 (để đạt được điều đó).",
+      "usage": [
+        "Nghĩa nguyên nhân: 「事故があった。そのため、電車が止まっている。」.",
+        "Nghĩa mục đích: câu trước là mong muốn/mục tiêu, câu sau là việc làm để đạt nó.",
+        "Có thể viết そのために; trong văn viết rất hay đi với ～ている／～た để mô tả tình hình."
+      ],
+      "pitfalls": [
+        "Câu sau không là mệnh lệnh, lời mời: ✗「雪が降っています。そのため、気をつけてください。」 ✓「雪が降っています。ですから、気をつけてください。」."
+      ],
+      "comparisons": [
+        { "pattern": "したがって", "targetId": "shitagatte", "difference": "したがって nhấn mạnh suy luận logic tất yếu; そのため chỉ nêu quan hệ nhân quả thực tế." },
+        { "pattern": "だから", "targetId": "dakara", "difference": "だから là văn nói, chủ quan, dùng được với mệnh lệnh; そのため là văn viết, khách quan." }
+      ],
+      "examples": [
+        { "japanese": "台風が近づいている。そのため、今日の午後の便はすべて欠航となった。", "vietnamese": "Bão đang đến gần. Vì lý do đó, tất cả chuyến bay chiều nay đều bị hủy." },
+        { "japanese": "この地域は雨が少ない。そのため、昔から水を大切にしてきた。", "vietnamese": "Vùng này ít mưa. Do vậy từ xưa người dân đã rất quý nước." },
+        { "japanese": "将来、海外で働きたい。そのため、今は英語の勉強に力を入れている。", "vietnamese": "Sau này tôi muốn làm việc ở nước ngoài. Vì mục đích đó, giờ tôi đang dồn sức học tiếng Anh." }
+      ]
+    },
+    {
+      "id": "shitagatte",
+      "word": "したがって",
+      "reading": "したがって",
+      "level": "N3",
+      "meaning": "do đó, vì thế, cho nên (kết luận logic)",
+      "register": "written",
+      "explanation": "Câu trước là tiền đề, căn cứ; câu sau là kết luận được suy ra một cách logic, tất yếu. Đây là từ của văn viết trang trọng: luận văn, báo cáo, quy định, lời giải toán.\n\nKhi gặp したがって trong bài đọc, câu sau thường là ý chính hoặc kết luận của đoạn — điểm hay bị hỏi trong phần đọc hiểu.",
+      "usage": [
+        "Dùng trong văn bản trang trọng: 「～である。したがって、～と言える。」.",
+        "Câu sau là kết luận, đánh giá hoặc quy định; ít khi là ý muốn cá nhân.",
+        "Viết bằng chữ Hán là 従って, nhưng thường viết hiragana khi là từ nối."
+      ],
+      "pitfalls": [
+        "Nghe cứng nhắc nếu dùng trong hội thoại thân mật: ✗「お腹すいた。したがって、ラーメン食べよう。」 ✓「お腹すいた。だから、ラーメン食べよう。」.",
+        "Đừng nhầm với mẫu ngữ pháp ～にしたがって (càng… càng; theo như…), vốn đứng sau danh từ/động từ chứ không đứng đầu câu."
+      ],
+      "comparisons": [
+        { "pattern": "だから", "targetId": "dakara", "difference": "だから là văn nói, kết luận chủ quan; したがって là văn viết, kết luận logic." },
+        { "pattern": "そのため", "targetId": "sonotame", "difference": "そのため nêu nhân quả thực tế (sự kiện → kết quả); したがって nêu suy luận (tiền đề → kết luận)." }
+      ],
+      "examples": [
+        { "japanese": "この薬は副作用が強い。したがって、医師の指示なしに飲んではならない。", "vietnamese": "Thuốc này có tác dụng phụ mạnh. Do đó không được uống khi không có chỉ định của bác sĩ." },
+        { "japanese": "三角形の内角の和は百八十度である。したがって、残りの角は六十度となる。", "vietnamese": "Tổng ba góc trong tam giác là 180 độ. Vì thế góc còn lại bằng 60 độ." },
+        { "japanese": "申し込みは先着順です。したがって、定員になり次第締め切ります。", "vietnamese": "Đăng ký theo thứ tự đến trước. Cho nên sẽ đóng ngay khi đủ chỉ tiêu." }
+      ]
+    }
+  ]
+}

@@ -1,20 +1,44 @@
 @model SearchResultsViewModel
-@if (Model.Hits.Count > 0)
+@{
+    var total = Model.Hits.Count + Model.ConnectorHits.Count;
+}
+@if (total > 0)
 {
-    <p class="result-count">@Model.Hits.Count kết quả</p>
-    <div class="result-list mb-5">
-        @foreach (var hit in Model.Hits)
-        {
-            <a class="result-card" asp-page="/Grammar" asp-route-id="@hit.Point.Id">
-                <span class="result-meta">
-                    <span class="tag">Bài @hit.Point.Lesson</span>
-                    <span class="tag tag-field">@hit.Field</span>
-                </span>
-                <span class="result-pattern ja">@Highlight.Mark(hit.Point.Pattern, Model.Query)</span>
-                <span class="result-snippet jp">@Highlight.Mark(hit.Snippet, Model.Query)</span>
-            </a>
-        }
-    </div>
+    <p class="result-count">@total kết quả</p>
+    @if (Model.Hits.Count > 0)
+    {
+        <h2 class="result-group">Ngữ pháp</h2>
+        <div class="result-list mb-5">
+            @foreach (var hit in Model.Hits)
+            {
+                <a class="result-card" asp-page="/Grammar" asp-route-id="@hit.Point.Id">
+                    <span class="result-meta">
+                        <span class="tag">Bài @hit.Point.Lesson</span>
+                        <span class="tag tag-field">@hit.Field</span>
+                    </span>
+                    <span class="result-pattern ja">@Highlight.Mark(hit.Point.Pattern, Model.Query)</span>
+                    <span class="result-snippet jp">@Highlight.Mark(hit.Snippet, Model.Query)</span>
+                </a>
+            }
+        </div>
+    }
+    @if (Model.ConnectorHits.Count > 0)
+    {
+        <h2 class="result-group">Từ nối</h2>
+        <div class="result-list mb-5">
+            @foreach (var hit in Model.ConnectorHits)
+            {
+                <a class="result-card" asp-page="/Connector" asp-route-id="@hit.Connector.Id">
+                    <span class="result-meta">
+                        <span class="tag">@hit.Connector.Level</span>
+                        <span class="tag tag-field">@hit.Field</span>
+                    </span>
+                    <span class="result-pattern ja">@Highlight.Mark(hit.Connector.Word, Model.Query)</span>
+                    <span class="result-snippet jp">@Highlight.Mark(hit.Snippet, Model.Query)</span>
+                </a>
+            }
+        </div>
+    }
 }
 else if (!string.IsNullOrWhiteSpace(Model.Query) && Model.Query.Trim().Trim('～', '~', '〜').Length > 0)
 {

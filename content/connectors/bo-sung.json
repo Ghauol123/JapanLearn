@@ -1,0 +1,138 @@
+{
+  "id": "bo-sung",
+  "order": 3,
+  "title": "Bổ sung — thêm vào",
+  "jaTitle": "添加",
+  "description": "Câu sau thêm một thông tin cùng chiều với câu trước.",
+  "connectors": [
+    {
+      "id": "soreni",
+      "word": "それに",
+      "reading": "それに",
+      "level": "N4",
+      "meaning": "hơn nữa, với lại, thêm nữa là",
+      "register": "spoken",
+      "explanation": "Thêm một lý do hoặc một đặc điểm cùng chiều với điều vừa nói, thường để củng cố lập luận (\"đã thế…, lại còn…\"). Dùng nhiều trong hội thoại khi liệt kê lý do.\n\nCả hai vế thường cùng tốt hoặc cùng xấu: 「安い。それにおいしい。」「寒い。それに雨も降っている。」.",
+      "usage": [
+        "Liệt kê lý do: 「今日は行けません。熱があるし、それに仕事も残っているので。」.",
+        "Hay đi với ～も ở câu sau: 「それに、～も」.",
+        "Trong văn viết trang trọng thay bằng さらに／また."
+      ],
+      "pitfalls": [
+        "Không dùng để nối hai ý trái chiều: ✗「この部屋は広い。それに、家賃が高い。」 (một tốt một xấu) ✓「この部屋は広い。でも、家賃が高い。」."
+      ],
+      "comparisons": [
+        { "pattern": "さらに", "targetId": "sarani", "difference": "さらに dùng được trong văn viết và nhấn mạnh mức độ tăng thêm; それに là văn nói, liệt kê thêm lý do." },
+        { "pattern": "しかも", "targetId": "shikamo", "difference": "しかも nhấn mạnh điều thêm vào còn đáng chú ý hơn (bất ngờ); それに chỉ cộng thêm." }
+      ],
+      "examples": [
+        { "japanese": "このアパートは駅から近い。それに、家賃も安い。", "vietnamese": "Căn hộ này gần ga. Hơn nữa tiền thuê cũng rẻ." },
+        { "japanese": "今日はもう疲れた。それに、明日は朝が早いから、もう寝るよ。", "vietnamese": "Hôm nay mệt rồi. Với lại mai phải dậy sớm nên tôi đi ngủ đây." },
+        { "japanese": "彼女は優しいし、頭もいい。それに、料理も上手だ。", "vietnamese": "Cô ấy hiền, lại thông minh. Thêm nữa là nấu ăn cũng giỏi." }
+      ]
+    },
+    {
+      "id": "sarani",
+      "word": "さらに",
+      "reading": "さらに",
+      "level": "N3",
+      "meaning": "hơn nữa, thêm vào đó, hơn thế",
+      "register": "both",
+      "explanation": "Thêm một thông tin nữa theo cùng chiều, thường theo kiểu tăng tiến: điều đến sau mạnh hơn, nhiều hơn điều trước. Dùng được cả trong văn viết (báo cáo, quảng cáo, tin tức) lẫn lời nói.\n\nさらに cũng là phó từ \"càng thêm\": 「さらに寒くなる」 — khi làm bài cần xem nó đứng đầu câu (từ nối) hay trước động từ, tính từ (phó từ).",
+      "usage": [
+        "Đầu câu: 「A。さらに、B。」 — B là thông tin bổ sung, thường mạnh hơn A.",
+        "Hay dùng khi trình bày nhiều điểm: まず… 次に… さらに…",
+        "Quảng cáo, thông báo: 「さらに、今なら送料無料！」."
+      ],
+      "pitfalls": [
+        "Không dùng để thêm ý trái chiều; khi muốn nêu điểm trái ngược hãy dùng しかし hoặc 一方."
+      ],
+      "comparisons": [
+        { "pattern": "それに", "targetId": "soreni", "difference": "それに là văn nói, cộng thêm lý do; さらに dùng được trong văn viết và mang ý tăng tiến." },
+        { "pattern": "そのうえ", "targetId": "sonoue", "difference": "そのうえ nhấn mạnh \"đã… lại còn…\" (thêm vào cái đã có); さらに nhấn mạnh mức độ tăng lên." }
+      ],
+      "examples": [
+        { "japanese": "新しいスマホは画面が大きくなった。さらに、電池も長く持つようになった。", "vietnamese": "Điện thoại mới có màn hình to hơn. Hơn nữa pin cũng dùng được lâu hơn." },
+        { "japanese": "会議では予算が問題になった。さらに、人手不足の問題も指摘された。", "vietnamese": "Trong cuộc họp, ngân sách đã trở thành vấn đề. Thêm vào đó, vấn đề thiếu nhân lực cũng được chỉ ra." },
+        { "japanese": "今月は売り上げが二倍になった。さらに、新しい客も増えている。", "vietnamese": "Tháng này doanh thu tăng gấp đôi. Hơn thế, khách mới cũng đang tăng." }
+      ]
+    },
+    {
+      "id": "shikamo",
+      "word": "しかも",
+      "reading": "しかも",
+      "level": "N3",
+      "meaning": "mà lại còn, hơn thế, lại thêm",
+      "register": "both",
+      "explanation": "Câu sau thêm một điều cùng chiều nhưng đáng chú ý hơn, thường khiến người nghe ngạc nhiên hoặc nhấn mạnh mức độ (\"đã A, mà lại còn B nữa\"). Có thể dùng cho cả điều tốt lẫn điều xấu.\n\nNgoài ra しかも còn nối hai tính chất trong cùng một câu: 「安くて、しかもおいしい」.",
+      "usage": [
+        "Đầu câu: 「A。しかも、B。」 — B làm tăng ấn tượng của A.",
+        "Trong câu: 「A、しかもB」 (vừa A mà lại B).",
+        "Dùng được trong văn viết lẫn văn nói."
+      ],
+      "pitfalls": [
+        "Câu sau không là mệnh lệnh, lời mời hay ý chí: ✗「この店は安い。しかも、行きましょう。」 ✓「この店は安い。しかも、おいしい。」."
+      ],
+      "comparisons": [
+        { "pattern": "それに", "targetId": "soreni", "difference": "それに chỉ cộng thêm lý do; しかも nhấn mạnh điều thêm vào đáng ngạc nhiên hơn." },
+        { "pattern": "おまけに", "targetId": "omakeni", "difference": "おまけに chủ yếu dùng cho chuyện xấu chồng chất, giọng nói thân mật; しかも trung tính, dùng được cho cả chuyện tốt." }
+      ],
+      "examples": [
+        { "japanese": "彼はたった一年で日本語能力試験のN2に合格した。しかも、満点に近い点数だった。", "vietnamese": "Anh ấy đỗ N2 chỉ sau một năm. Mà lại còn gần điểm tuyệt đối." },
+        { "japanese": "そのホテルは駅のすぐ前にある。しかも、値段が驚くほど安い。", "vietnamese": "Khách sạn đó nằm ngay trước ga. Hơn thế, giá rẻ đến bất ngờ." },
+        { "japanese": "財布を落とした。しかも、中にはパスポートも入っていた。", "vietnamese": "Tôi đánh rơi ví. Lại thêm trong đó còn có cả hộ chiếu." }
+      ]
+    },
+    {
+      "id": "sonoue",
+      "word": "そのうえ",
+      "reading": "そのうえ",
+      "level": "N2",
+      "meaning": "thêm vào đó, hơn thế nữa, đã thế lại",
+      "register": "written",
+      "explanation": "Câu trước nêu một điều, câu sau chồng thêm một điều cùng chiều lên trên (うえ = phía trên). Giọng hơi trang trọng, hay gặp trong văn viết và bài đọc JLPT.\n\nViết bằng chữ Hán là その上. Đừng nhầm với ～上（で）, ～上（は） là các mẫu ngữ pháp khác.",
+      "usage": [
+        "Mẫu: 「A。そのうえ、B。」 — A và B cùng tốt hoặc cùng xấu.",
+        "Câu sau thường có も: 「そのうえ、～も…」.",
+        "Hợp với văn viết, bài luận, lời giới thiệu."
+      ],
+      "pitfalls": [
+        "Câu sau không là mệnh lệnh, lời mời, ý chí: ✗「疲れた。そのうえ、早く帰ろう。」.",
+        "Không nối hai ý trái chiều; khi đó dùng しかし／ところが."
+      ],
+      "comparisons": [
+        { "pattern": "さらに", "targetId": "sarani", "difference": "さらに nhấn mạnh mức độ tăng tiến; そのうえ nhấn mạnh việc chồng thêm vào điều đã có." }
+      ],
+      "examples": [
+        { "japanese": "この仕事は給料がいい。そのうえ、休みも多い。", "vietnamese": "Công việc này lương tốt. Thêm vào đó, ngày nghỉ cũng nhiều." },
+        { "japanese": "道に迷ってしまった。そのうえ、携帯の電池も切れた。", "vietnamese": "Tôi bị lạc đường. Đã thế điện thoại lại hết pin." },
+        { "japanese": "この地域は気候が穏やかである。そのうえ、交通の便もよい。", "vietnamese": "Vùng này khí hậu ôn hòa. Hơn thế nữa, giao thông cũng thuận tiện." }
+      ]
+    },
+    {
+      "id": "omakeni",
+      "word": "おまけに",
+      "reading": "おまけに",
+      "level": "N2",
+      "meaning": "đã thế lại còn, thêm vào đó (thường là chuyện xấu)",
+      "register": "spoken",
+      "explanation": "Thêm một điều nữa lên điều vừa nói, phần lớn dùng khi chuyện không hay cứ chồng chất (\"xui lại thêm xui\"). Giọng thân mật, dùng trong hội thoại hoặc khi kể chuyện.\n\nおまけ nghĩa gốc là \"quà tặng kèm\"; cũng có thể dùng cho chuyện tốt nhưng ít gặp hơn.",
+      "usage": [
+        "Mẫu than phiền: 「A（xấu）。おまけに、B（xấu）。」.",
+        "Câu sau là sự việc, không phải ý chí, mệnh lệnh.",
+        "Hay kết hợp với ～し: 「寒いし、おまけに雨まで降ってきた。」."
+      ],
+      "pitfalls": [
+        "Không hợp với văn bản trang trọng; trong báo cáo hãy dùng さらに／そのうえ."
+      ],
+      "comparisons": [
+        { "pattern": "しかも", "targetId": "shikamo", "difference": "しかも trung tính, dùng cho cả chuyện tốt và xấu, cả văn viết; おまけに thân mật và thường cho chuyện xấu." }
+      ],
+      "examples": [
+        { "japanese": "朝から頭が痛い。おまけに、熱まで出てきた。", "vietnamese": "Từ sáng đã đau đầu. Đã thế lại còn bị sốt." },
+        { "japanese": "電車は遅れたし、おまけに、傘を電車に忘れてしまった。", "vietnamese": "Tàu thì trễ, đã thế tôi lại còn để quên ô trên tàu." },
+        { "japanese": "その店は高かった。おまけに、店員の態度も悪かった。", "vietnamese": "Quán đó đắt. Thêm vào đó thái độ nhân viên cũng tệ." }
+      ]
+    }
+  ]
+}

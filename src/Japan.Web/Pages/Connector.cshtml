@@ -1,0 +1,120 @@
+@page "/tu-noi/{id}"
+@model ConnectorModel
+@{
+    var c = Model.Location.Connector;
+    var g = Model.Location.Group;
+    ViewData["Title"] = c.Word;
+
+    var toc = new List<(string Id, string Title)> { ("y-nghia", "Ý nghĩa"), ("giai-thich", "Giải thích") };
+    if (c.Usage.Count > 0) toc.Add(("cach-dung", "Cách dùng"));
+    if (c.Pitfalls.Count > 0) toc.Add(("loi-hay-gap", "Lỗi hay gặp"));
+    if (c.Comparisons.Count > 0) toc.Add(("so-sanh", "So sánh"));
+    toc.Add(("vi-du", "Ví dụ"));
+}
+<div class="point-layout">
+    <aside class="toc" aria-label="Mục lục trang">
+        <p class="toc-label">Trong trang này</p>
+        <ul>
+            @foreach (var item in toc)
+            {
+                <li><a href="#@item.Id">@item.Title</a></li>
+            }
+        </ul>
+    </aside>
+
+    <article class="point-main">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+                <li class="breadcrumb-item"><a asp-page="/Connectors">Từ nối</a></li>
+                <li class="breadcrumb-item active ja" aria-current="page">@c.Word</li>
+            </ol>
+        </nav>
+        <header class="point-head">
+            <p class="eyebrow">@g.Title · <span class="level-badge">@c.Level</span> · @c.Register.Label()</p>
+            <h1 class="point-title ja">@c.Word</h1>
+            @if (c.Reading != c.Word)
+            {
+                <p class="connector-reading ja">@c.Reading</p>
+            }
+        </header>
+
+        <section id="y-nghia" class="block">
+            <h2 class="block-title">Ý nghĩa</h2>
+            <p class="lead-text">@c.Meaning</p>
+        </section>
+
+        <section id="giai-thich" class="block">
+            <h2 class="block-title">Giải thích</h2>
+            @foreach (var para in c.Explanation.Split("\n\n", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+            {
+                <p class="jp">@para</p>
+            }
+        </section>
+
+        @if (c.Usage.Count > 0)
+        {
+            <section id="cach-dung" class="block">
+                <h2 class="block-title">Cách dùng</h2>
+                <ul class="bullets">@foreach (var u in c.Usage) { <li class="jp">@u</li> }</ul>
+            </section>
+        }
+
+        @if (c.Pitfalls.Count > 0)
+        {
+            <section id="loi-hay-gap" class="block block-warn">
+                <h2 class="block-title">Lưu ý &amp; lỗi hay gặp</h2>
+                <ul class="bullets">@foreach (var u in c.Pitfalls) { <li class="jp">@u</li> }</ul>
+            </section>
+        }
+
+        @if (c.Comparisons.Count > 0)
+        {
+            <section id="so-sanh" class="block">
+                <h2 class="block-title">So sánh</h2>
+                <div class="compare-grid">
+                    @foreach (var cmp in c.Comparisons)
+                    {
+                        <div class="compare-card">
+                            @if (cmp.TargetId is not null)
+                            {
+                                <a class="compare-pattern ja" asp-page="/Connector" asp-route-id="@cmp.TargetId">@cmp.Pattern <span aria-hidden="true">→</span></a>
+                            }
+                            else
+                            {
+                                <span class="compare-pattern ja">@cmp.Pattern</span>
+                            }
+                            <p class="jp mb-0">@cmp.Difference</p>
+                        </div>
+                    }
+                </div>
+            </section>
+        }
+
+        <section id="vi-du" class="block">
+            <h2 class="block-title">Ví dụ</h2>
+            <partial name="_Examples" model="c.Examples" />
+        </section>
+
+        <nav class="pager" aria-label="Từ nối trước và sau">
+            @if (Model.Location.Previous is { } prev)
+            {
+                <a class="pager-link" rel="prev" asp-page="/Connector" asp-route-id="@prev.Id">
+                    <span class="pager-dir">← Trước</span>
+                    <span class="pager-pattern ja">@prev.Word</span>
+                </a>
+            }
+            else
+            {
+                <span></span>
+            }
+            @if (Model.Location.Next is { } next)
+            {
+                <a class="pager-link pager-next" rel="next" asp-page="/Connector" asp-route-id="@next.Id">
+                    <span class="pager-dir">Sau →</span>
+                    <span class="pager-pattern ja">@next.Word</span>
+                </a>
+            }
+        </nav>
+    </article>
+</div>

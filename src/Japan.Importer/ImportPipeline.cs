@@ -1,4 +1,3 @@
-using System.Text;
 using Japan.Core;
 using Japan.Importer.Assembly;
 using Japan.Importer.Furigana;
@@ -58,11 +57,7 @@ public static class ImportPipeline
         }
 
         var book = FuriganaApplier.Apply(assembled.Book, generator);
-        var fullOutput = Path.GetFullPath(settings.OutputPath);
-        Directory.CreateDirectory(Path.GetDirectoryName(fullOutput)!);
-        var temp = fullOutput + ".tmp";
-        File.WriteAllText(temp, GrammarJson.Serialize(book), new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
-        File.Move(temp, fullOutput, overwrite: true);
+        OutputFile.Write(settings.OutputPath, GrammarJson.Serialize(book));
 
         var points = book.Lessons.SelectMany(l => l.Points).ToList();
         output.WriteLine($"Đã ghi {settings.OutputPath}: {book.Lessons.Count} bài, {points.Count} điểm, {points.Count(p => p.Enrichment is not null)} điểm có phần bổ sung.");

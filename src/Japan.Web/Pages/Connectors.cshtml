@@ -1,0 +1,61 @@
+@page "/tu-noi"
+@model ConnectorsModel
+@{
+    ViewData["Title"] = "Từ nối";
+    var shown = Model.Groups.Sum(g => g.Connectors.Count);
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-page="/Index">Mục lục</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Từ nối</li>
+    </ol>
+</nav>
+<header class="page-head">
+    <p class="eyebrow"><span class="ja">接続詞</span> · N5–N2</p>
+    <h1 class="page-title">Từ nối</h1>
+    <p class="group-desc">Từ đứng đầu câu để nối hai câu hoặc hai đoạn, chia theo chức năng. Khi làm bài, hãy xác định quan hệ giữa hai câu trước rồi mới chọn từ.</p>
+</header>
+@if (!Model.IsLoaded)
+{
+    <div class="alert alert-warning">
+        <strong>Chưa có dữ liệu từ nối.</strong> <code>@Model.LoadError</code>.
+        Hãy chạy <code>dotnet run --project src/Japan.Importer -- connectors</code> trong thư mục repo rồi tải lại trang.
+    </div>
+}
+else
+{
+    <nav class="level-filter" aria-label="Lọc theo cấp">
+        <a class="level-chip @(Model.Level is null ? "active" : null)" asp-page="/Connectors"
+           aria-current="@(Model.Level is null ? "page" : null)">Tất cả</a>
+        @foreach (var level in JlptLevels.All)
+        {
+            <a class="level-chip @(Model.Level == level ? "active" : null)" asp-page="/Connectors" asp-route-cap="@level"
+               aria-current="@(Model.Level == level ? "page" : null)">@level</a>
+        }
+        <span class="level-count">@shown từ</span>
+    </nav>
+
+    @foreach (var group in Model.Groups)
+    {
+        <section class="block" id="@group.Id">
+            <h2 class="block-title">@group.Title <span class="group-ja ja">@group.JaTitle</span></h2>
+            <p class="group-desc">@group.Description</p>
+            <div class="connector-grid">
+                @foreach (var c in group.Connectors)
+                {
+                    <a class="connector-card" asp-page="/Connector" asp-route-id="@c.Id">
+                        <span class="connector-head">
+                            <span class="connector-word ja">@c.Word</span>
+                            <span class="level-badge">@c.Level</span>
+                        </span>
+                        @if (c.Reading != c.Word)
+                        {
+                            <span class="connector-reading ja">@c.Reading</span>
+                        }
+                        <span class="connector-meaning">@c.Meaning</span>
+                    </a>
+                }
+            </div>
+        </section>
+    }
+}

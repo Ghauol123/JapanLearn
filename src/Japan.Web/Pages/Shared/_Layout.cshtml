@@ -23,10 +23,11 @@
             <a class="brand" asp-page="/Index" aria-label="Ngữ pháp N3 — Mục lục">
                 <span class="brand-mark ja">文法</span><span class="brand-level">N3</span>
             </a>
+            <a class="nav-main" asp-page="/Connectors">Từ nối</a>
             @if (headerSearch)
             {
                 <form action="/timkiem" method="get" role="search" class="header-search flex-grow-1">
-                    <input name="q" type="search" class="form-control" placeholder="Tìm ngữ pháp…" aria-label="Tìm ngữ pháp" autocomplete="off" />
+                    <input name="q" type="search" class="form-control" placeholder="Tìm ngữ pháp, từ nối…" aria-label="Tìm kiếm" autocomplete="off" />
                     <kbd class="search-hint d-none d-md-inline">/</kbd>
                 </form>
             }

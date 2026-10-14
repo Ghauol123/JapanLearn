@@ -48,4 +48,34 @@ public sealed class SearchPageTests : IDisposable
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.DoesNotContain("kết quả", await response.Content.ReadAsStringAsync());
     }
+
+    [Fact]
+    public async Task FullPage_FindsConnectors_InTheirOwnGroup()
+    {
+        var html = await _factory.CreateClient().GetStringAsync("/timkiem?q=cho%20nen");
+
+        Assert.Contains("class=\"result-group\">Từ nối<", html);
+        Assert.DoesNotContain("class=\"result-group\">Ngữ pháp<", html);
+        Assert.Contains("href=\"/tu-noi/dakara\"", html);
+        Assert.Contains("1 kết quả", html);
+    }
+
+    [Fact]
+    public async Task GrammarOnlyQuery_HasNoConnectorGroup()
+    {
+        var html = await _factory.CreateClient().GetStringAsync("/timkiem?q=tranh%20thu");
+
+        Assert.Contains("class=\"result-group\">Ngữ pháp<", html);
+        Assert.DoesNotContain("class=\"result-group\">Từ nối<", html);
+    }
+
+    [Fact]
+    public async Task Partial_IncludesConnectorHits()
+    {
+        var html = await _factory.CreateClient().GetStringAsync("/timkiem?handler=Partial&q=%E3%81%97%E3%81%8B%E3%81%97");
+
+        Assert.DoesNotContain("<html", html);
+        Assert.Contains("href=\"/tu-noi/shikashi\"", html);
+        Assert.Contains("<mark>しかし</mark>", html);
+    }
 }

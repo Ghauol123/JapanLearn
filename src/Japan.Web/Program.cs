@@ -15,6 +15,8 @@ builder.Services.AddRazorPages();
 builder.Services.Configure<WebEncoderOptions>(o => o.TextEncoderSettings = new TextEncoderSettings(UnicodeRanges.All));
 builder.Services.Configure<GrammarDataOptions>(builder.Configuration.GetSection(GrammarDataOptions.Section));
 builder.Services.AddSingleton<GrammarRepository>();
+builder.Services.Configure<ConnectorDataOptions>(builder.Configuration.GetSection(ConnectorDataOptions.Section));
+builder.Services.AddSingleton<ConnectorRepository>();
 
 var app = builder.Build();
 

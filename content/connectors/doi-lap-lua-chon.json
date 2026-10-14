@@ -1,0 +1,111 @@
+{
+  "id": "doi-lap-lua-chon",
+  "order": 5,
+  "title": "Đối lập, lựa chọn",
+  "jaTitle": "対比・選択",
+  "description": "So sánh hai mặt, hoặc đưa ra các khả năng để chọn.",
+  "connectors": [
+    {
+      "id": "matawa",
+      "word": "または",
+      "reading": "または",
+      "level": "N4",
+      "meaning": "hoặc là, hay",
+      "register": "both",
+      "explanation": "Đưa ra hai (hoặc nhiều) khả năng, chọn một trong số đó. Hay gặp trong hướng dẫn, quy định, đề bài: \"làm A hoặc B đều được\".\n\nまたは có thể nối danh từ (「ペンまたは鉛筆」) hoặc nối hai câu. Khác それとも, または không dùng trong câu hỏi lựa chọn trực tiếp với người nghe.",
+      "usage": [
+        "Nối danh từ: 「電話またはメールで連絡してください。」.",
+        "Nối hai câu/hai cách làm trong hướng dẫn: 「A。または、B。」.",
+        "Hay gặp trong mẫu đơn, đề thi, biển báo."
+      ],
+      "pitfalls": [
+        "Không dùng để hỏi người nghe chọn gì: ✗「コーヒーにしますか。または、紅茶にしますか。」 ✓「コーヒーにしますか。それとも、紅茶にしますか。」."
+      ],
+      "comparisons": [
+        { "pattern": "それとも", "targetId": "soretomo", "difference": "それとも dùng trong câu hỏi lựa chọn; または dùng trong câu trần thuật, hướng dẫn." },
+        { "pattern": "あるいは", "targetId": "aruiwa", "difference": "あるいは cứng hơn, thiên về văn viết và còn có nghĩa \"có lẽ\"; または phổ biến hơn trong hướng dẫn hằng ngày." }
+      ],
+      "examples": [
+        { "japanese": "黒または青のペンで書いてください。", "vietnamese": "Hãy viết bằng bút đen hoặc xanh." },
+        { "japanese": "申し込みはインターネットでできます。または、窓口でも受け付けています。", "vietnamese": "Có thể đăng ký qua Internet. Hoặc cũng có thể nộp tại quầy." },
+        { "japanese": "会員カードまたは身分証明書を見せてください。", "vietnamese": "Vui lòng xuất trình thẻ hội viên hoặc giấy tờ tùy thân." }
+      ]
+    },
+    {
+      "id": "soretomo",
+      "word": "それとも",
+      "reading": "それとも",
+      "level": "N3",
+      "meaning": "hay là (trong câu hỏi)",
+      "register": "spoken",
+      "explanation": "Dùng trong câu hỏi lựa chọn: hỏi người nghe (hoặc tự hỏi) giữa hai khả năng thì là cái nào. Cả hai vế thường là câu hỏi kết thúc bằng か.\n\nĐây là điểm phân biệt hay bị hỏi: có câu hỏi → それとも; câu trần thuật, hướng dẫn → または／あるいは.",
+      "usage": [
+        "Mẫu: 「Aですか。それとも、Bですか。」.",
+        "Tự hỏi: 「行こうか。それとも、やめようか。」.",
+        "Cả hai vế đều là câu hỏi; vế sau có thể lược か trong hội thoại thân mật."
+      ],
+      "pitfalls": [
+        "Không dùng trong câu trần thuật: ✗「電話それともメールで連絡してください。」 ✓「電話またはメールで連絡してください。」."
+      ],
+      "comparisons": [
+        { "pattern": "または", "targetId": "matawa", "difference": "または dùng trong câu trần thuật, hướng dẫn; それとも dùng trong câu hỏi lựa chọn." }
+      ],
+      "examples": [
+        { "japanese": "お飲み物はコーヒーになさいますか。それとも、紅茶になさいますか。", "vietnamese": "Quý khách dùng cà phê ạ? Hay là dùng trà ạ?" },
+        { "japanese": "週末は映画を見に行く？それとも、家でゆっくりする？", "vietnamese": "Cuối tuần đi xem phim không? Hay là ở nhà nghỉ ngơi?" },
+        { "japanese": "彼は本当に知らないのだろうか。それとも、知らないふりをしているのだろうか。", "vietnamese": "Anh ta thật sự không biết sao? Hay là đang giả vờ không biết?" }
+      ]
+    },
+    {
+      "id": "aruiwa",
+      "word": "あるいは",
+      "reading": "あるいは",
+      "level": "N3",
+      "meaning": "hoặc, hay; (phó từ) có lẽ",
+      "register": "written",
+      "explanation": "Nghĩa như または (đưa ra các khả năng), nhưng giọng trang trọng hơn, hay gặp trong văn viết và bài đọc. あるいは thường gợi ý rằng các khả năng còn để ngỏ, chưa chắc cái nào đúng.\n\nKhi là phó từ, あるいは nghĩa là \"có lẽ\" và đi với ～かもしれない: 「あるいは雨になるかもしれない。」.",
+      "usage": [
+        "Nối danh từ hoặc câu: 「本人、あるいは家族の方」.",
+        "Nghĩa \"có lẽ\": 「あるいは～かもしれない」.",
+        "Hay dùng trong văn viết, báo chí, luận văn."
+      ],
+      "pitfalls": [
+        "Giống または, không dùng あるいは để hỏi người nghe chọn: ✗「歩いて行く？あるいは、バス？」 ✓「歩いて行く？それとも、バス？」."
+      ],
+      "comparisons": [
+        { "pattern": "または", "targetId": "matawa", "difference": "または phổ biến trong hướng dẫn hằng ngày; あるいは trang trọng hơn và có thêm nghĩa \"có lẽ\"." }
+      ],
+      "examples": [
+        { "japanese": "本人、あるいは家族の方が手続きをしてください。", "vietnamese": "Bản thân người đó hoặc người nhà hãy làm thủ tục." },
+        { "japanese": "原因は機械の故障だろう。あるいは、操作のミスかもしれない。", "vietnamese": "Nguyên nhân có lẽ là máy hỏng. Hoặc cũng có thể là lỗi thao tác." },
+        { "japanese": "この問題は話し合いで、あるいは投票で決めることになる。", "vietnamese": "Vấn đề này sẽ được quyết định bằng thảo luận hoặc bằng bỏ phiếu." }
+      ]
+    },
+    {
+      "id": "ippou",
+      "word": "一方",
+      "reading": "いっぽう",
+      "level": "N3",
+      "meaning": "mặt khác, trong khi đó",
+      "register": "written",
+      "explanation": "Đặt hai sự việc, hai mặt cạnh nhau để so sánh, đối chiếu: câu trước nói về A, câu sau nói về B ở phía bên kia. Khác しかし, 一方 không nhất thiết phủ định câu trước, chỉ đưa ra mặt còn lại.\n\nCó thể viết 一方で、その一方で. Đừng nhầm với các mẫu ngữ pháp ～一方だ (ngày càng…) và ～一方（で） (vừa… mặt khác…) đứng sau động từ.",
+      "usage": [
+        "Mẫu đối chiếu: 「Aは～。一方、Bは～。」.",
+        "Nêu hai mặt của một vấn đề: 「便利になった。その一方で、～という問題も生まれた。」.",
+        "Hay gặp trong bài báo, bài viết so sánh số liệu."
+      ],
+      "pitfalls": [
+        "Khi câu sau phủ định, phản bác câu trước (chứ không chỉ so sánh) thì しかし chính xác hơn.",
+        "Không dùng 一方 trong hội thoại thân mật thường ngày; nghe như đọc báo."
+      ],
+      "comparisons": [
+        { "pattern": "しかし", "targetId": "shikashi", "difference": "しかし: câu sau đi ngược câu trước; 一方: đặt hai mặt song song để đối chiếu, không phủ định nhau." }
+      ],
+      "examples": [
+        { "japanese": "都市部では人口が増えている。一方、地方では人口の減少が続いている。", "vietnamese": "Ở thành thị dân số đang tăng. Trong khi đó, ở nông thôn dân số tiếp tục giảm." },
+        { "japanese": "兄は外で遊ぶのが好きだ。一方、弟は家で本を読むのが好きだ。", "vietnamese": "Anh trai thích chơi ngoài trời. Còn em trai thì thích ở nhà đọc sách." },
+        { "japanese": "インターネットで生活は便利になった。その一方で、個人情報の問題も増えている。", "vietnamese": "Nhờ Internet, cuộc sống tiện lợi hơn. Mặt khác, vấn đề thông tin cá nhân cũng gia tăng." }
+      ]
+    }
+  ]
+}
