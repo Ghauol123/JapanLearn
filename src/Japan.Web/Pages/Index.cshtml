@@ -11,11 +11,22 @@
     <p class="hero-sub">@Model.Lessons.Count bài · @pointCount điểm ngữ pháp, có furigana và giải thích mở rộng.</p>
     <form method="get" action="/timkiem" role="search" class="hero-search">
         <input id="search-box" name="q" type="search" class="form-control form-control-lg"
-               placeholder="Tìm mẫu ngữ pháp, nghĩa tiếng Việt hoặc câu ví dụ…" autocomplete="off"
+               placeholder="Tìm mẫu ngữ pháp, từ nối, nghĩa tiếng Việt hoặc câu ví dụ…" autocomplete="off"
                aria-label="Tìm ngữ pháp" data-search-url="@Url.Page("/Search", "Partial")" />
         <kbd class="search-hint d-none d-md-inline">/</kbd>
     </form>
 </section>
+@if (Model.ConnectorCount > 0)
+{
+    <a class="feature-link" asp-page="/Connectors">
+        <span class="feature-mark ja" aria-hidden="true">接続詞</span>
+        <span class="feature-body">
+            <span class="feature-title">Từ nối N5–N2</span>
+            <span class="feature-sub">@Model.ConnectorCount từ nối theo chức năng, lọc theo cấp</span>
+        </span>
+        <span aria-hidden="true">→</span>
+    </a>
+}
 <div id="search-results"></div>
 <div id="lesson-list" class="lesson-grid">
     @foreach (var lesson in Model.Lessons)
