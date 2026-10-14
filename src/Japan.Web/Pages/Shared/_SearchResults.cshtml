@@ -30,7 +30,7 @@
             {
                 <a class="result-card" asp-page="/Connector" asp-route-id="@hit.Connector.Id">
                     <span class="result-meta">
-                        <span class="tag">@hit.Connector.Level</span>
+                        <span class="level-badge @hit.Connector.Level.CssClass()">@hit.Connector.Level</span>
                         <span class="tag tag-field">@hit.Field</span>
                     </span>
                     <span class="result-pattern ja">@Highlight.Mark(hit.Connector.Word, Model.Query)</span>

@@ -138,4 +138,18 @@ public sealed class ConnectorPagesTests : IDisposable
 
         Assert.Contains("connector-reading ja\">いっぽう<", html);
     }
+
+    [Fact]
+    public async Task LevelBadges_CarryAPerLevelClass()
+    {
+        var list = await Get("/tu-noi");
+        var detail = await Get("/tu-noi/shitagatte");
+        var search = await Get("/timkiem?q=cho%20nen");
+
+        Assert.Contains("level-badge level-n4\">N4<", list);
+        Assert.Contains("level-badge level-n5\">N5<", list);
+        Assert.Contains("level-chip level-n3", list);
+        Assert.Contains("level-badge level-n3\">N3<", detail);
+        Assert.Contains("level-badge level-n4\">N4<", search);
+    }
 }

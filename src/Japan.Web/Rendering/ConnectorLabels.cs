@@ -10,4 +10,6 @@ public static class ConnectorLabels
         ConnectorRegister.Written => "Văn viết",
         _ => "Văn nói & văn viết",
     };
+
+    public static string CssClass(this JlptLevel level) => $"level-{level.ToString().ToLowerInvariant()}";
 }

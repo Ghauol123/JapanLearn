@@ -29,7 +29,7 @@ else
            aria-current="@(Model.Level is null ? "page" : null)">Tất cả</a>
         @foreach (var level in JlptLevels.All)
         {
-            <a class="level-chip @(Model.Level == level ? "active" : null)" asp-page="/Connectors" asp-route-cap="@level"
+            <a class="level-chip @level.CssClass() @(Model.Level == level ? "active" : null)" asp-page="/Connectors" asp-route-cap="@level"
                aria-current="@(Model.Level == level ? "page" : null)">@level</a>
         }
         <span class="level-count">@shown từ</span>
@@ -46,7 +46,7 @@ else
                     <a class="connector-card" asp-page="/Connector" asp-route-id="@c.Id">
                         <span class="connector-head">
                             <span class="connector-word ja">@c.Word</span>
-                            <span class="level-badge">@c.Level</span>
+                            <span class="level-badge @c.Level.CssClass()">@c.Level</span>
                         </span>
                         @if (c.Reading != c.Word)
                         {
