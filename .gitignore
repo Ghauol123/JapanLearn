@@ -485,6 +485,5 @@ $RECYCLE.BIN/
 
 .superpowers/
 
-# Wrangler local state
-.wrangler/
 dist/
+.neon
