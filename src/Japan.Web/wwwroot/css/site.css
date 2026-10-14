@@ -12,6 +12,14 @@
   --vermilion: #b8462c;
   --vermilion-soft: #f9e8e2;
   --mark: #fde6a8;
+  --n5: #2f7a4b;
+  --n5-soft: #e3f2e8;
+  --n4: #2563a8;
+  --n4-soft: #e2edf9;
+  --n3: #b06008;
+  --n3-soft: #fbeedd;
+  --n2: #a33a6b;
+  --n2-soft: #f7e4ee;
   --shadow: 0 1px 2px rgb(34 37 43 / 0.04), 0 4px 16px rgb(34 37 43 / 0.05);
 }
 
@@ -27,6 +35,14 @@
   --vermilion: #f0937a;
   --vermilion-soft: #3a241e;
   --mark: #6b5418;
+  --n5: #7fd19c;
+  --n5-soft: #1b3326;
+  --n4: #86b6f0;
+  --n4-soft: #1b2a40;
+  --n3: #f2b366;
+  --n3-soft: #3a2a16;
+  --n2: #ec9cc2;
+  --n2-soft: #3a1f2d;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.25);
 }
 
@@ -966,8 +982,25 @@ span.compare-pattern {
   font-weight: 700;
   padding: 0.05rem 0.45rem;
   border-radius: 6px;
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: var(--level-soft, var(--accent-soft));
+  color: var(--level, var(--accent));
+}
+
+.level-n5 { --level: var(--n5); --level-soft: var(--n5-soft); }
+.level-n4 { --level: var(--n4); --level-soft: var(--n4-soft); }
+.level-n3 { --level: var(--n3); --level-soft: var(--n3-soft); }
+.level-n2 { --level: var(--n2); --level-soft: var(--n2-soft); }
+
+.level-chip[class*="level-n"] {
+  color: var(--level);
+  border-color: color-mix(in srgb, var(--level) 40%, var(--line));
+}
+
+.level-chip[class*="level-n"]:hover,
+.level-chip[class*="level-n"].active {
+  background: var(--level);
+  border-color: var(--level);
+  color: var(--surface);
 }
 
 .result-group {

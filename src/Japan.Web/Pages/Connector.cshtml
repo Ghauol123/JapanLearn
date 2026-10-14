@@ -31,7 +31,7 @@
             </ol>
         </nav>
         <header class="point-head">
-            <p class="eyebrow">@g.Title · <span class="level-badge">@c.Level</span> · @c.Register.Label()</p>
+            <p class="eyebrow">@g.Title · <span class="level-badge @c.Level.CssClass()">@c.Level</span> · @c.Register.Label()</p>
             <h1 class="point-title ja">@c.Word</h1>
             @if (c.Reading != c.Word)
             {
