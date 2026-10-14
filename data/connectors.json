@@ -831,7 +831,560 @@
           ]
         }
       ]
+    },
+    {
+      "id": "song-song",
+      "order": 4,
+      "title": "Song song — liệt kê",
+      "jaTitle": "並立",
+      "description": "Đặt hai sự việc ngang hàng cạnh nhau.",
+      "connectors": [
+        {
+          "id": "mata",
+          "word": "また",
+          "reading": "また",
+          "level": "N5",
+          "meaning": "ngoài ra, đồng thời, cũng như vậy",
+          "register": "both",
+          "explanation": "Khi đứng đầu câu, また dùng để đặt thêm một thông tin ngang hàng với câu trước: hai ý có vai trò như nhau, không ý nào là kết quả hay đối lập của ý kia. Rất hay gặp trong văn viết giải thích, thông báo, bài luận.\n\nĐừng nhầm với phó từ また \"lại, nữa\" (またね, また来ます). Phân biệt bằng vị trí: từ nối また đứng đầu câu và thường có dấu phẩy sau.",
+          "usage": [
+            "Liệt kê hai đặc điểm, hai quy định ngang hàng: 「A。また、B。」.",
+            "Trong thông báo: 「また、駐車場はございませんので、ご了承ください。」.",
+            "Có thể nối hai danh từ/ vế trong câu: 「医者であり、また作家でもある」."
+          ],
+          "pitfalls": [
+            "Khi điều thêm vào mạnh hơn, nhấn mạnh \"hơn nữa\", さらに／しかも tự nhiên hơn また.",
+            "Trong hội thoại thân mật khi liệt kê thêm lý do, người Nhật hay dùng それに hơn là また."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それに",
+              "targetId": "soreni",
+              "difference": "それに là văn nói, thêm lý do để củng cố lập luận; また trung tính, đặt hai thông tin ngang hàng."
+            },
+            {
+              "pattern": "および",
+              "targetId": "oyobi",
+              "difference": "および nối hai danh từ trong văn bản trang trọng; また nối hai câu."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "この公園では花火をしてはいけません。また、ペットを放すことも禁止されています。",
+              "vietnamese": "Không được đốt pháo hoa trong công viên này. Ngoài ra, thả rông thú cưng cũng bị cấm.",
+              "ruby": "この[公園|こうえん]では[花火|はなび]をしてはいけません。また、ペットを[放|はな]すことも[禁止|きんし]されています。"
+            },
+            {
+              "japanese": "彼は有名な医者だ。また、小説家としても知られている。",
+              "vietnamese": "Ông ấy là một bác sĩ nổi tiếng. Đồng thời cũng được biết đến như một nhà văn.",
+              "ruby": "[彼|かれ]は[有名|ゆうめい]な[医者|いしゃ]だ。また、[小説|しょうせつ][家|か]としても[知|し]られている。"
+            },
+            {
+              "japanese": "運動は体にいい。また、ストレスを減らす効果もある。",
+              "vietnamese": "Vận động tốt cho cơ thể. Ngoài ra nó còn có tác dụng giảm căng thẳng.",
+              "ruby": "[運動|うんどう]は[体|からだ]にいい。また、ストレスを[減|へ]らす[効果|こうか]もある。"
+            }
+          ]
+        },
+        {
+          "id": "oyobi",
+          "word": "および",
+          "reading": "および",
+          "level": "N2",
+          "meaning": "và, cùng với",
+          "register": "written",
+          "explanation": "Nối hai (hoặc nhiều) danh từ ngang hàng trong văn bản trang trọng: quy định, hợp đồng, thông báo, tài liệu hành chính. Tương đương と nhưng cứng hơn nhiều.\n\nViết chữ Hán là 及び. Khác các từ nối khác trong danh sách, および thường đứng giữa hai danh từ chứ không đứng đầu câu.",
+          "usage": [
+            "Mẫu: 「N1およびN2」 — 「住所および電話番号」.",
+            "Khi liệt kê nhiều mục: 「A、B、およびC」 (およびđặt trước mục cuối).",
+            "Gặp nhiều trong mẫu đơn, điều khoản, thông báo của cơ quan."
+          ],
+          "pitfalls": [
+            "Không dùng trong hội thoại thường ngày: ✗「パンおよび牛乳を買ってきて。」 ✓「パンと牛乳を買ってきて。」.",
+            "Không nối hai câu hoàn chỉnh; để nối câu dùng また."
+          ],
+          "comparisons": [
+            {
+              "pattern": "また",
+              "targetId": "mata",
+              "difference": "また nối hai câu, đứng đầu câu sau; および nối hai danh từ trong cùng một câu."
+            },
+            {
+              "pattern": "～と",
+              "difference": "と là cách nói thường ngày; および là văn viết hành chính, trang trọng."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "申込書には氏名および住所を記入してください。",
+              "vietnamese": "Vui lòng điền họ tên và địa chỉ vào đơn đăng ký.",
+              "ruby": "[申込|もうしこみ][書|しょ]には[氏名|しめい]および[住所|じゅうしょ]を[記入|きにゅう]してください。"
+            },
+            {
+              "japanese": "館内での飲食および喫煙は禁止されています。",
+              "vietnamese": "Ăn uống và hút thuốc trong tòa nhà đều bị cấm.",
+              "ruby": "[館内|かんない]での[飲食|いんしょく]および[喫煙|きつえん]は[禁止|きんし]されています。"
+            },
+            {
+              "japanese": "この調査は東京、大阪、および名古屋で行われた。",
+              "vietnamese": "Cuộc khảo sát này được tiến hành ở Tokyo, Osaka và Nagoya.",
+              "ruby": "この[調査|ちょうさ]は[東京|とうきょう]、[大阪|おおさか]、および[名古屋|なごや]で[行|おこな]われた。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doi-lap-lua-chon",
+      "order": 5,
+      "title": "Đối lập, lựa chọn",
+      "jaTitle": "対比・選択",
+      "description": "So sánh hai mặt, hoặc đưa ra các khả năng để chọn.",
+      "connectors": [
+        {
+          "id": "matawa",
+          "word": "または",
+          "reading": "または",
+          "level": "N4",
+          "meaning": "hoặc là, hay",
+          "register": "both",
+          "explanation": "Đưa ra hai (hoặc nhiều) khả năng, chọn một trong số đó. Hay gặp trong hướng dẫn, quy định, đề bài: \"làm A hoặc B đều được\".\n\nまたは có thể nối danh từ (「ペンまたは鉛筆」) hoặc nối hai câu. Khác それとも, または không dùng trong câu hỏi lựa chọn trực tiếp với người nghe.",
+          "usage": [
+            "Nối danh từ: 「電話またはメールで連絡してください。」.",
+            "Nối hai câu/hai cách làm trong hướng dẫn: 「A。または、B。」.",
+            "Hay gặp trong mẫu đơn, đề thi, biển báo."
+          ],
+          "pitfalls": [
+            "Không dùng để hỏi người nghe chọn gì: ✗「コーヒーにしますか。または、紅茶にしますか。」 ✓「コーヒーにしますか。それとも、紅茶にしますか。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "それとも",
+              "targetId": "soretomo",
+              "difference": "それとも dùng trong câu hỏi lựa chọn; または dùng trong câu trần thuật, hướng dẫn."
+            },
+            {
+              "pattern": "あるいは",
+              "targetId": "aruiwa",
+              "difference": "あるいは cứng hơn, thiên về văn viết và còn có nghĩa \"có lẽ\"; または phổ biến hơn trong hướng dẫn hằng ngày."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "黒または青のペンで書いてください。",
+              "vietnamese": "Hãy viết bằng bút đen hoặc xanh.",
+              "ruby": "[黒|くろ]または[青|あお]のペンで[書|か]いてください。"
+            },
+            {
+              "japanese": "申し込みはインターネットでできます。または、窓口でも受け付けています。",
+              "vietnamese": "Có thể đăng ký qua Internet. Hoặc cũng có thể nộp tại quầy.",
+              "ruby": "[申|もう]し[込|こ]みはインターネットでできます。または、[窓口|まどぐち]でも[受|う]け[付|つ]けています。"
+            },
+            {
+              "japanese": "会員カードまたは身分証明書を見せてください。",
+              "vietnamese": "Vui lòng xuất trình thẻ hội viên hoặc giấy tờ tùy thân.",
+              "ruby": "[会員|かいいん]カードまたは[身分|みぶん][証明|しょうめい][書|しょ]を[見|み]せてください。"
+            }
+          ]
+        },
+        {
+          "id": "soretomo",
+          "word": "それとも",
+          "reading": "それとも",
+          "level": "N3",
+          "meaning": "hay là (trong câu hỏi)",
+          "register": "spoken",
+          "explanation": "Dùng trong câu hỏi lựa chọn: hỏi người nghe (hoặc tự hỏi) giữa hai khả năng thì là cái nào. Cả hai vế thường là câu hỏi kết thúc bằng か.\n\nĐây là điểm phân biệt hay bị hỏi: có câu hỏi → それとも; câu trần thuật, hướng dẫn → または／あるいは.",
+          "usage": [
+            "Mẫu: 「Aですか。それとも、Bですか。」.",
+            "Tự hỏi: 「行こうか。それとも、やめようか。」.",
+            "Cả hai vế đều là câu hỏi; vế sau có thể lược か trong hội thoại thân mật."
+          ],
+          "pitfalls": [
+            "Không dùng trong câu trần thuật: ✗「電話それともメールで連絡してください。」 ✓「電話またはメールで連絡してください。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "または",
+              "targetId": "matawa",
+              "difference": "または dùng trong câu trần thuật, hướng dẫn; それとも dùng trong câu hỏi lựa chọn."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "お飲み物はコーヒーになさいますか。それとも、紅茶になさいますか。",
+              "vietnamese": "Quý khách dùng cà phê ạ? Hay là dùng trà ạ?",
+              "ruby": "お[飲|の]み[物|もの]はコーヒーになさいますか。それとも、[紅茶|こうちゃ]になさいますか。"
+            },
+            {
+              "japanese": "週末は映画を見に行く？それとも、家でゆっくりする？",
+              "vietnamese": "Cuối tuần đi xem phim không? Hay là ở nhà nghỉ ngơi?",
+              "ruby": "[週末|しゅうまつ]は[映画|えいが]を[見|み]に[行|い]く？それとも、[家|いえ]でゆっくりする？"
+            },
+            {
+              "japanese": "彼は本当に知らないのだろうか。それとも、知らないふりをしているのだろうか。",
+              "vietnamese": "Anh ta thật sự không biết sao? Hay là đang giả vờ không biết?",
+              "ruby": "[彼|かれ]は[本当|ほんとう]に[知|し]らないのだろうか。それとも、[知|し]らないふりをしているのだろうか。"
+            }
+          ]
+        },
+        {
+          "id": "aruiwa",
+          "word": "あるいは",
+          "reading": "あるいは",
+          "level": "N3",
+          "meaning": "hoặc, hay; (phó từ) có lẽ",
+          "register": "written",
+          "explanation": "Nghĩa như または (đưa ra các khả năng), nhưng giọng trang trọng hơn, hay gặp trong văn viết và bài đọc. あるいは thường gợi ý rằng các khả năng còn để ngỏ, chưa chắc cái nào đúng.\n\nKhi là phó từ, あるいは nghĩa là \"có lẽ\" và đi với ～かもしれない: 「あるいは雨になるかもしれない。」.",
+          "usage": [
+            "Nối danh từ hoặc câu: 「本人、あるいは家族の方」.",
+            "Nghĩa \"có lẽ\": 「あるいは～かもしれない」.",
+            "Hay dùng trong văn viết, báo chí, luận văn."
+          ],
+          "pitfalls": [
+            "Giống または, không dùng あるいは để hỏi người nghe chọn: ✗「歩いて行く？あるいは、バス？」 ✓「歩いて行く？それとも、バス？」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "または",
+              "targetId": "matawa",
+              "difference": "または phổ biến trong hướng dẫn hằng ngày; あるいは trang trọng hơn và có thêm nghĩa \"có lẽ\"."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "本人、あるいは家族の方が手続きをしてください。",
+              "vietnamese": "Bản thân người đó hoặc người nhà hãy làm thủ tục.",
+              "ruby": "[本人|ほんにん]、あるいは[家族|かぞく]の[方|かた]が[手続|てつづ]きをしてください。"
+            },
+            {
+              "japanese": "原因は機械の故障だろう。あるいは、操作のミスかもしれない。",
+              "vietnamese": "Nguyên nhân có lẽ là máy hỏng. Hoặc cũng có thể là lỗi thao tác.",
+              "ruby": "[原因|げんいん]は[機械|きかい]の[故障|こしょう]だろう。あるいは、[操作|そうさ]のミスかもしれない。"
+            },
+            {
+              "japanese": "この問題は話し合いで、あるいは投票で決めることになる。",
+              "vietnamese": "Vấn đề này sẽ được quyết định bằng thảo luận hoặc bằng bỏ phiếu.",
+              "ruby": "この[問題|もんだい]は[話|はな]し[合|あ]いで、あるいは[投票|とうひょう]で[決|き]めることになる。"
+            }
+          ]
+        },
+        {
+          "id": "ippou",
+          "word": "一方",
+          "reading": "いっぽう",
+          "level": "N3",
+          "meaning": "mặt khác, trong khi đó",
+          "register": "written",
+          "explanation": "Đặt hai sự việc, hai mặt cạnh nhau để so sánh, đối chiếu: câu trước nói về A, câu sau nói về B ở phía bên kia. Khác しかし, 一方 không nhất thiết phủ định câu trước, chỉ đưa ra mặt còn lại.\n\nCó thể viết 一方で、その一方で. Đừng nhầm với các mẫu ngữ pháp ～一方だ (ngày càng…) và ～一方（で） (vừa… mặt khác…) đứng sau động từ.",
+          "usage": [
+            "Mẫu đối chiếu: 「Aは～。一方、Bは～。」.",
+            "Nêu hai mặt của một vấn đề: 「便利になった。その一方で、～という問題も生まれた。」.",
+            "Hay gặp trong bài báo, bài viết so sánh số liệu."
+          ],
+          "pitfalls": [
+            "Khi câu sau phủ định, phản bác câu trước (chứ không chỉ so sánh) thì しかし chính xác hơn.",
+            "Không dùng 一方 trong hội thoại thân mật thường ngày; nghe như đọc báo."
+          ],
+          "comparisons": [
+            {
+              "pattern": "しかし",
+              "targetId": "shikashi",
+              "difference": "しかし: câu sau đi ngược câu trước; 一方: đặt hai mặt song song để đối chiếu, không phủ định nhau."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "都市部では人口が増えている。一方、地方では人口の減少が続いている。",
+              "vietnamese": "Ở thành thị dân số đang tăng. Trong khi đó, ở nông thôn dân số tiếp tục giảm.",
+              "ruby": "[都市|とし][部|ぶ]では[人口|じんこう]が[増|ふ]えている。[一方|いっぽう]、[地方|ちほう]では[人口|じんこう]の[減少|げんしょう]が[続|つづ]いている。"
+            },
+            {
+              "japanese": "兄は外で遊ぶのが好きだ。一方、弟は家で本を読むのが好きだ。",
+              "vietnamese": "Anh trai thích chơi ngoài trời. Còn em trai thì thích ở nhà đọc sách.",
+              "ruby": "[兄|あに]は[外|そと]で[遊|あそ]ぶのが[好|す]きだ。[一方|いっぽう]、[弟|おとうと]は[家|いえ]で[本|ほん]を[読|よ]むのが[好|す]きだ。"
+            },
+            {
+              "japanese": "インターネットで生活は便利になった。その一方で、個人情報の問題も増えている。",
+              "vietnamese": "Nhờ Internet, cuộc sống tiện lợi hơn. Mặt khác, vấn đề thông tin cá nhân cũng gia tăng.",
+              "ruby": "インターネットで[生活|せいかつ]は[便利|べんり]になった。その[一方|いっぽう]で、[個人|こじん][情報|じょうほう]の[問題|もんだい]も[増|ふ]えている。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giai-thich",
+      "order": 6,
+      "title": "Giải thích, tóm lại",
+      "jaTitle": "説明",
+      "description": "Câu sau nói lại, tóm tắt hoặc nêu lý do cho câu trước.",
+      "connectors": [
+        {
+          "id": "tsumari",
+          "word": "つまり",
+          "reading": "つまり",
+          "level": "N3",
+          "meaning": "tức là, nói cách khác, tóm lại là",
+          "register": "both",
+          "explanation": "Câu sau nói lại nội dung câu trước bằng cách khác: ngắn gọn hơn, rõ hơn hoặc rút ra ý cốt lõi. Hai câu cùng một ý, không thêm thông tin mới.\n\nTrong bài đọc, câu sau つまり thường chính là ý tác giả muốn nói — đáp án của nhiều câu hỏi \"筆者の言いたいことは何か\".",
+          "usage": [
+            "Nói lại cho dễ hiểu: 「A。つまり、B（ということだ）。」.",
+            "Hay kết thúc bằng ～ということだ／～わけだ.",
+            "Trong hội thoại để xác nhận: 「つまり、来られないってこと？」."
+          ],
+          "pitfalls": [
+            "Không dùng つまり để nêu ví dụ cụ thể; đưa ví dụ thì dùng 例えば.",
+            "Không dùng để thêm thông tin mới; câu sau phải tương đương nội dung câu trước."
+          ],
+          "comparisons": [
+            {
+              "pattern": "すなわち",
+              "targetId": "sunawachi",
+              "difference": "すなわち cứng, văn viết, thường định nghĩa lại chính xác; つまり dùng được cả trong hội thoại."
+            },
+            {
+              "pattern": "要するに",
+              "targetId": "yousuruni",
+              "difference": "要するに tóm gọn cả một đoạn dài, đôi khi có giọng sốt ruột; つまり nói lại câu ngay trước."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "彼は母の兄の息子だ。つまり、私のいとこだ。",
+              "vietnamese": "Anh ấy là con trai của anh trai mẹ tôi. Tức là anh họ của tôi.",
+              "ruby": "[彼|かれ]は[母|はは]の[兄|あに]の[息子|むすこ]だ。つまり、[私|わたし]のいとこだ。"
+            },
+            {
+              "japanese": "この店は午後十時に閉まる。つまり、あと三十分しかない。",
+              "vietnamese": "Cửa hàng này đóng cửa lúc 10 giờ tối. Nói cách khác, chỉ còn 30 phút nữa.",
+              "ruby": "この[店|みせ]は[午後|ごご][十|じゅう][時|じ]に[閉|し]まる。つまり、あと[三十分|さんじゅっぷん]しかない。"
+            },
+            {
+              "japanese": "参加者は年々減っている。つまり、このイベントへの関心が薄れているということだ。",
+              "vietnamese": "Số người tham gia giảm mỗi năm. Tức là sự quan tâm đến sự kiện này đang phai nhạt.",
+              "ruby": "[参加|さんか][者|しゃ]は[年々|ねんねん][減|へ]っている。つまり、このイベントへの[関心|かんしん]が[薄|うす]れているということだ。"
+            }
+          ]
+        },
+        {
+          "id": "sunawachi",
+          "word": "すなわち",
+          "reading": "すなわち",
+          "level": "N3",
+          "meaning": "tức là, nghĩa là, chính là",
+          "register": "written",
+          "explanation": "Câu sau (hoặc cụm sau) định nghĩa lại, chỉ rõ chính xác cái đã nêu ở trước; hai bên tương đương nhau. Giọng văn viết trang trọng, gặp trong sách, luận văn, văn bản giải thích.\n\nすなわち hay nối hai danh từ: 「日本の首都、すなわち東京」.",
+          "usage": [
+            "Nối danh từ để chỉ rõ: 「N1、すなわちN2」.",
+            "Nối câu để định nghĩa lại: 「A。すなわち、B。」.",
+            "Viết chữ Hán là 即ち nhưng thường viết hiragana."
+          ],
+          "pitfalls": [
+            "Nghe quá cứng trong hội thoại thường ngày; khi nói chuyện hãy dùng つまり."
+          ],
+          "comparisons": [
+            {
+              "pattern": "つまり",
+              "targetId": "tsumari",
+              "difference": "つまり dùng cả văn nói, có thể tóm tắt ý; すなわち là văn viết, nhấn mạnh hai bên tương đương chính xác."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "会議は来月の一日、すなわち月曜日に行われる。",
+              "vietnamese": "Cuộc họp được tổ chức vào ngày mùng 1 tháng sau, tức là thứ Hai.",
+              "ruby": "[会議|かいぎ]は[来月|らいげつ]の[一日|ついたち]、すなわち[月曜日|げつようび]に[行|おこな]われる。"
+            },
+            {
+              "japanese": "水は百度で沸騰する。すなわち、それ以上温度は上がらない。",
+              "vietnamese": "Nước sôi ở 100 độ. Nghĩa là nhiệt độ không tăng thêm nữa.",
+              "ruby": "[水|みず]は[百|ひゃく][度|ど]で[沸騰|ふっとう]する。すなわち、それ[以上|いじょう][温度|おんど]は[上|あ]がらない。"
+            },
+            {
+              "japanese": "言葉を学ぶことは、すなわちその国の文化を学ぶことである。",
+              "vietnamese": "Học một ngôn ngữ chính là học văn hóa của đất nước đó.",
+              "ruby": "[言葉|ことば]を[学|まな]ぶことは、すなわちその[国|くに]の[文化|ぶんか]を[学|まな]ぶことである。"
+            }
+          ]
+        },
+        {
+          "id": "yousuruni",
+          "word": "要するに",
+          "reading": "ようするに",
+          "level": "N3",
+          "meaning": "tóm lại, nói gọn lại là",
+          "register": "both",
+          "explanation": "Tóm gọn những gì đã nói (thường là cả một đoạn dài, nhiều chi tiết) thành một ý ngắn. Trong hội thoại, 要するに đôi khi mang giọng sốt ruột, muốn cắt ngang để đi thẳng vào vấn đề.\n\nCâu sau thường kết thúc bằng ～ということだ／～わけだ／～だけだ.",
+          "usage": [
+            "Sau một đoạn giải thích dài: 「…。要するに、～ということだ。」.",
+            "Trong hội thoại để hỏi lại ý chính: 「要するに、何が言いたいの？」.",
+            "Câu sau là kết luận ngắn, khái quát."
+          ],
+          "pitfalls": [
+            "Không dùng 要するに khi câu trước rất ngắn và chỉ cần nói lại; khi đó つまり tự nhiên hơn.",
+            "Với người trên, 要するに có thể nghe thiếu lịch sự (như cắt lời); nên nói 「つまり、～ということでしょうか」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "つまり",
+              "targetId": "tsumari",
+              "difference": "つまり nói lại câu ngay trước bằng cách khác; 要するに tóm gọn toàn bộ nội dung dài thành ý chính."
+            },
+            {
+              "pattern": "結局",
+              "targetId": "kekkyoku",
+              "difference": "結局 nói kết cục sau một quá trình; 要するに tóm gọn nội dung lời nói."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "彼は忙しいとか、体調が悪いとか、いろいろ言っていた。要するに、行きたくないのだ。",
+              "vietnamese": "Anh ta nói nào là bận, nào là không khỏe. Tóm lại là không muốn đi.",
+              "ruby": "[彼|かれ]は[忙|いそが]しいとか、[体調|たいちょう]が[悪|わる]いとか、いろいろ[言|い]っていた。[要|よう]するに、[行|い]きたくないのだ。"
+            },
+            {
+              "japanese": "この計画は費用がかかるし、時間も人も足りない。要するに、今は無理だということだ。",
+              "vietnamese": "Kế hoạch này tốn kém, lại thiếu cả thời gian lẫn người. Nói gọn lại là bây giờ không thể làm được.",
+              "ruby": "この[計画|けいかく]は[費用|ひよう]がかかるし、[時間|じかん]も[人|ひと]も[足|た]りない。[要|よう]するに、[今|いま]は[無理|むり]だということだ。"
+            },
+            {
+              "japanese": "説明が長くてよくわからない。要するに、何をすればいいんですか。",
+              "vietnamese": "Giải thích dài quá nên tôi không hiểu lắm. Tóm lại là tôi nên làm gì ạ?",
+              "ruby": "[説明|せつめい]が[長|なが]くてよくわからない。[要|よう]するに、[何|なに]をすればいいんですか。"
+            }
+          ]
+        },
+        {
+          "id": "nazenara",
+          "word": "なぜなら",
+          "reading": "なぜなら",
+          "level": "N3",
+          "meaning": "bởi vì, lý do là",
+          "register": "written",
+          "explanation": "Câu trước nêu kết luận, nhận định; câu sau giải thích lý do. Thứ tự này ngược với だから (lý do → kết quả). Thường dùng trong văn viết, bài luận, phát biểu có lập luận.\n\nCâu sau なぜなら gần như luôn kết thúc bằng ～からだ／～ためだ／～のだ.",
+          "usage": [
+            "Mẫu cố định: 「A。なぜなら、Bからだ。」.",
+            "Dạng nhấn mạnh hơn: なぜかというと／なぜかと言えば.",
+            "Hợp với bài luận, bài phát biểu nêu quan điểm."
+          ],
+          "pitfalls": [
+            "Quên ～からだ ở cuối câu là lỗi hay gặp: ✗「私は反対だ。なぜなら、費用が高すぎる。」 ✓「私は反対だ。なぜなら、費用が高すぎるからだ。」."
+          ],
+          "comparisons": [
+            {
+              "pattern": "というのは",
+              "targetId": "toiunowa",
+              "difference": "というのは là văn nói, giải thích nhẹ nhàng; なぜなら là văn viết, mang tính lập luận."
+            },
+            {
+              "pattern": "だから",
+              "targetId": "dakara",
+              "difference": "だから: lý do trước, kết quả sau; なぜなら: kết quả trước, lý do sau."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "私はこの案に反対だ。なぜなら、費用がかかりすぎるからだ。",
+              "vietnamese": "Tôi phản đối phương án này. Bởi vì nó tốn kém quá.",
+              "ruby": "[私|わたし]はこの[案|あん]に[反対|はんたい]だ。なぜなら、[費用|ひよう]がかかりすぎるからだ。"
+            },
+            {
+              "japanese": "朝ご飯は必ず食べたほうがいい。なぜなら、脳が働くためのエネルギーになるからだ。",
+              "vietnamese": "Nên ăn sáng đầy đủ. Lý do là nó cung cấp năng lượng cho não hoạt động.",
+              "ruby": "[朝|あさ]ご[飯|はん]は[必|かなら]ず[食|た]べたほうがいい。なぜなら、[脳|のう]が[働|はたら]くためのエネルギーになるからだ。"
+            },
+            {
+              "japanese": "その実験は失敗した。なぜなら、温度の管理が不十分だったからである。",
+              "vietnamese": "Thí nghiệm đó đã thất bại. Bởi vì việc kiểm soát nhiệt độ chưa đầy đủ.",
+              "ruby": "その[実験|じっけん]は[失敗|しっぱい]した。なぜなら、[温度|おんど]の[管理|かんり]が[不十分|ふじゅうぶん]だったからである。"
+            }
+          ]
+        },
+        {
+          "id": "toiunowa",
+          "word": "というのは",
+          "reading": "というのは",
+          "level": "N3",
+          "meaning": "là vì, bởi vì (giải thích)",
+          "register": "spoken",
+          "explanation": "Câu trước nêu một sự việc hay quyết định, câu sau giải thích lý do hoặc hoàn cảnh. Giống なぜなら về thứ tự, nhưng mềm hơn và thường dùng khi nói chuyện.\n\nCâu sau thường kết thúc bằng ～からだ／～んです／～のだ. Lưu ý: というのは sau danh từ lại có nghĩa \"… nghĩa là\" (định nghĩa): 「JLPTというのは…」.",
+          "usage": [
+            "Mẫu: 「A。というのは、Bからです／んです。」.",
+            "Dạng thân mật: っていうのは.",
+            "Dùng khi giải thích hoàn cảnh cho người nghe, giọng nhẹ nhàng."
+          ],
+          "pitfalls": [
+            "Đứng đầu câu (từ nối) khác với đứng sau danh từ (định nghĩa): 「というのは、～からだ」 (vì…) ≠ 「「積ん読」というのは、～ことだ」 (… nghĩa là)."
+          ],
+          "comparisons": [
+            {
+              "pattern": "なぜなら",
+              "targetId": "nazenara",
+              "difference": "なぜなら mạnh, mang tính lập luận, hợp văn viết; というのは nhẹ hơn, hay dùng trong hội thoại."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "明日の会議には出られません。というのは、大阪へ出張することになったんです。",
+              "vietnamese": "Tôi không dự cuộc họp ngày mai được. Là vì tôi phải đi công tác Osaka.",
+              "ruby": "[明日|あした]の[会議|かいぎ]には[出|で]られません。というのは、[大阪|おおさか]へ[出張|しゅっちょう]することになったんです。"
+            },
+            {
+              "japanese": "最近、自転車で通勤している。というのは、運動不足が気になっていたからだ。",
+              "vietnamese": "Gần đây tôi đạp xe đi làm. Là vì tôi lo mình thiếu vận động.",
+              "ruby": "[最近|さいきん]、[自転車|じてんしゃ]で[通勤|つうきん]している。というのは、[運動|うんどう][不足|ふそく]が[気|き]になっていたからだ。"
+            },
+            {
+              "japanese": "彼女は今日休んでいます。というのは、子どもが熱を出したからなんです。",
+              "vietnamese": "Hôm nay cô ấy nghỉ. Bởi vì con cô ấy bị sốt.",
+              "ruby": "[彼女|かのじょ]は[今日|きょう][休|やす]んでいます。というのは、[子|こ]どもが[熱|ねつ]を[出|だ]したからなんです。"
+            }
+          ]
+        },
+        {
+          "id": "kekkyoku",
+          "word": "結局",
+          "reading": "けっきょく",
+          "level": "N3",
+          "meaning": "rốt cuộc, cuối cùng thì",
+          "register": "both",
+          "explanation": "Sau một quá trình (cân nhắc, cố gắng, nhiều diễn biến), câu sau nêu kết cục cuối cùng. Thường hàm ý kết quả không như dự định hoặc mọi chuyện quay về điểm ban đầu.\n\n結局 vừa đứng đầu câu (từ nối) vừa làm phó từ trong câu: 「結局、行かなかった」「結局は自分次第だ」.",
+          "usage": [
+            "Kể kết cục: 「いろいろ迷った。結局、～ことにした。」.",
+            "Kết luận chung: 「結局、～ということだ」「結局は～だ」.",
+            "Hay hàm ý tiếc nuối hoặc \"công cốc\"."
+          ],
+          "pitfalls": [
+            "Không dùng cho kết quả xảy ra ngay, không có quá trình phía trước: câu trước phải cho thấy có dằng co, cân nhắc hay nhiều diễn biến."
+          ],
+          "comparisons": [
+            {
+              "pattern": "要するに",
+              "targetId": "yousuruni",
+              "difference": "要するに tóm gọn nội dung lời nói; 結局 nói kết cục của một quá trình sự việc."
+            }
+          ],
+          "examples": [
+            {
+              "japanese": "一週間も迷った。結局、一番安いパソコンを買った。",
+              "vietnamese": "Tôi phân vân cả tuần. Rốt cuộc mua cái máy tính rẻ nhất.",
+              "ruby": "[一週間|いっしゅうかん]も[迷|まよ]った。[結局|けっきょく]、[一番|いちばん][安|やす]いパソコンを[買|か]った。"
+            },
+            {
+              "japanese": "みんなでいろいろ話し合った。結局、何も決まらなかった。",
+              "vietnamese": "Mọi người bàn bạc đủ điều. Cuối cùng thì chẳng quyết được gì.",
+              "ruby": "みんなでいろいろ[話|はな]し[合|あ]った。[結局|けっきょく]、[何|なに]も[決|き]まらなかった。"
+            },
+            {
+              "japanese": "いろいろな方法を試してみた。結局、毎日少しずつ続けるのが一番だとわかった。",
+              "vietnamese": "Tôi đã thử nhiều cách. Rốt cuộc nhận ra rằng mỗi ngày làm một chút đều đặn là tốt nhất.",
+              "ruby": "いろいろな[方法|ほうほう]を[試|ため]してみた。[結局|けっきょく]、[毎日|まいにち][少|すこ]しずつ[続|つづ]けるのが[一番|いちばん]だとわかった。"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-10-14T14:16:49.9269844+00:00"
+  "generatedAt": "2026-10-14T14:20:23.3180997+00:00"
 }

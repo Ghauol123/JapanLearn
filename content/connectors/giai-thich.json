@@ -1,0 +1,164 @@
+{
+  "id": "giai-thich",
+  "order": 6,
+  "title": "Giải thích, tóm lại",
+  "jaTitle": "説明",
+  "description": "Câu sau nói lại, tóm tắt hoặc nêu lý do cho câu trước.",
+  "connectors": [
+    {
+      "id": "tsumari",
+      "word": "つまり",
+      "reading": "つまり",
+      "level": "N3",
+      "meaning": "tức là, nói cách khác, tóm lại là",
+      "register": "both",
+      "explanation": "Câu sau nói lại nội dung câu trước bằng cách khác: ngắn gọn hơn, rõ hơn hoặc rút ra ý cốt lõi. Hai câu cùng một ý, không thêm thông tin mới.\n\nTrong bài đọc, câu sau つまり thường chính là ý tác giả muốn nói — đáp án của nhiều câu hỏi \"筆者の言いたいことは何か\".",
+      "usage": [
+        "Nói lại cho dễ hiểu: 「A。つまり、B（ということだ）。」.",
+        "Hay kết thúc bằng ～ということだ／～わけだ.",
+        "Trong hội thoại để xác nhận: 「つまり、来られないってこと？」."
+      ],
+      "pitfalls": [
+        "Không dùng つまり để nêu ví dụ cụ thể; đưa ví dụ thì dùng 例えば.",
+        "Không dùng để thêm thông tin mới; câu sau phải tương đương nội dung câu trước."
+      ],
+      "comparisons": [
+        { "pattern": "すなわち", "targetId": "sunawachi", "difference": "すなわち cứng, văn viết, thường định nghĩa lại chính xác; つまり dùng được cả trong hội thoại." },
+        { "pattern": "要するに", "targetId": "yousuruni", "difference": "要するに tóm gọn cả một đoạn dài, đôi khi có giọng sốt ruột; つまり nói lại câu ngay trước." }
+      ],
+      "examples": [
+        { "japanese": "彼は母の兄の息子だ。つまり、私のいとこだ。", "vietnamese": "Anh ấy là con trai của anh trai mẹ tôi. Tức là anh họ của tôi." },
+        { "japanese": "この店は午後十時に閉まる。つまり、あと三十分しかない。", "vietnamese": "Cửa hàng này đóng cửa lúc 10 giờ tối. Nói cách khác, chỉ còn 30 phút nữa." },
+        { "japanese": "参加者は年々減っている。つまり、このイベントへの関心が薄れているということだ。", "vietnamese": "Số người tham gia giảm mỗi năm. Tức là sự quan tâm đến sự kiện này đang phai nhạt." }
+      ]
+    },
+    {
+      "id": "sunawachi",
+      "word": "すなわち",
+      "reading": "すなわち",
+      "level": "N3",
+      "meaning": "tức là, nghĩa là, chính là",
+      "register": "written",
+      "explanation": "Câu sau (hoặc cụm sau) định nghĩa lại, chỉ rõ chính xác cái đã nêu ở trước; hai bên tương đương nhau. Giọng văn viết trang trọng, gặp trong sách, luận văn, văn bản giải thích.\n\nすなわち hay nối hai danh từ: 「日本の首都、すなわち東京」.",
+      "usage": [
+        "Nối danh từ để chỉ rõ: 「N1、すなわちN2」.",
+        "Nối câu để định nghĩa lại: 「A。すなわち、B。」.",
+        "Viết chữ Hán là 即ち nhưng thường viết hiragana."
+      ],
+      "pitfalls": [
+        "Nghe quá cứng trong hội thoại thường ngày; khi nói chuyện hãy dùng つまり."
+      ],
+      "comparisons": [
+        { "pattern": "つまり", "targetId": "tsumari", "difference": "つまり dùng cả văn nói, có thể tóm tắt ý; すなわち là văn viết, nhấn mạnh hai bên tương đương chính xác." }
+      ],
+      "examples": [
+        { "japanese": "会議は来月の一日、すなわち月曜日に行われる。", "vietnamese": "Cuộc họp được tổ chức vào ngày mùng 1 tháng sau, tức là thứ Hai." },
+        { "japanese": "水は百度で沸騰する。すなわち、それ以上温度は上がらない。", "vietnamese": "Nước sôi ở 100 độ. Nghĩa là nhiệt độ không tăng thêm nữa." },
+        { "japanese": "言葉を学ぶことは、すなわちその国の文化を学ぶことである。", "vietnamese": "Học một ngôn ngữ chính là học văn hóa của đất nước đó." }
+      ]
+    },
+    {
+      "id": "yousuruni",
+      "word": "要するに",
+      "reading": "ようするに",
+      "level": "N3",
+      "meaning": "tóm lại, nói gọn lại là",
+      "register": "both",
+      "explanation": "Tóm gọn những gì đã nói (thường là cả một đoạn dài, nhiều chi tiết) thành một ý ngắn. Trong hội thoại, 要するに đôi khi mang giọng sốt ruột, muốn cắt ngang để đi thẳng vào vấn đề.\n\nCâu sau thường kết thúc bằng ～ということだ／～わけだ／～だけだ.",
+      "usage": [
+        "Sau một đoạn giải thích dài: 「…。要するに、～ということだ。」.",
+        "Trong hội thoại để hỏi lại ý chính: 「要するに、何が言いたいの？」.",
+        "Câu sau là kết luận ngắn, khái quát."
+      ],
+      "pitfalls": [
+        "Không dùng 要するに khi câu trước rất ngắn và chỉ cần nói lại; khi đó つまり tự nhiên hơn.",
+        "Với người trên, 要するに có thể nghe thiếu lịch sự (như cắt lời); nên nói 「つまり、～ということでしょうか」."
+      ],
+      "comparisons": [
+        { "pattern": "つまり", "targetId": "tsumari", "difference": "つまり nói lại câu ngay trước bằng cách khác; 要するに tóm gọn toàn bộ nội dung dài thành ý chính." },
+        { "pattern": "結局", "targetId": "kekkyoku", "difference": "結局 nói kết cục sau một quá trình; 要するに tóm gọn nội dung lời nói." }
+      ],
+      "examples": [
+        { "japanese": "彼は忙しいとか、体調が悪いとか、いろいろ言っていた。要するに、行きたくないのだ。", "vietnamese": "Anh ta nói nào là bận, nào là không khỏe. Tóm lại là không muốn đi." },
+        { "japanese": "この計画は費用がかかるし、時間も人も足りない。要するに、今は無理だということだ。", "vietnamese": "Kế hoạch này tốn kém, lại thiếu cả thời gian lẫn người. Nói gọn lại là bây giờ không thể làm được." },
+        { "japanese": "説明が長くてよくわからない。要するに、何をすればいいんですか。", "vietnamese": "Giải thích dài quá nên tôi không hiểu lắm. Tóm lại là tôi nên làm gì ạ?" }
+      ]
+    },
+    {
+      "id": "nazenara",
+      "word": "なぜなら",
+      "reading": "なぜなら",
+      "level": "N3",
+      "meaning": "bởi vì, lý do là",
+      "register": "written",
+      "explanation": "Câu trước nêu kết luận, nhận định; câu sau giải thích lý do. Thứ tự này ngược với だから (lý do → kết quả). Thường dùng trong văn viết, bài luận, phát biểu có lập luận.\n\nCâu sau なぜなら gần như luôn kết thúc bằng ～からだ／～ためだ／～のだ.",
+      "usage": [
+        "Mẫu cố định: 「A。なぜなら、Bからだ。」.",
+        "Dạng nhấn mạnh hơn: なぜかというと／なぜかと言えば.",
+        "Hợp với bài luận, bài phát biểu nêu quan điểm."
+      ],
+      "pitfalls": [
+        "Quên ～からだ ở cuối câu là lỗi hay gặp: ✗「私は反対だ。なぜなら、費用が高すぎる。」 ✓「私は反対だ。なぜなら、費用が高すぎるからだ。」."
+      ],
+      "comparisons": [
+        { "pattern": "というのは", "targetId": "toiunowa", "difference": "というのは là văn nói, giải thích nhẹ nhàng; なぜなら là văn viết, mang tính lập luận." },
+        { "pattern": "だから", "targetId": "dakara", "difference": "だから: lý do trước, kết quả sau; なぜなら: kết quả trước, lý do sau." }
+      ],
+      "examples": [
+        { "japanese": "私はこの案に反対だ。なぜなら、費用がかかりすぎるからだ。", "vietnamese": "Tôi phản đối phương án này. Bởi vì nó tốn kém quá." },
+        { "japanese": "朝ご飯は必ず食べたほうがいい。なぜなら、脳が働くためのエネルギーになるからだ。", "vietnamese": "Nên ăn sáng đầy đủ. Lý do là nó cung cấp năng lượng cho não hoạt động." },
+        { "japanese": "その実験は失敗した。なぜなら、温度の管理が不十分だったからである。", "vietnamese": "Thí nghiệm đó đã thất bại. Bởi vì việc kiểm soát nhiệt độ chưa đầy đủ." }
+      ]
+    },
+    {
+      "id": "toiunowa",
+      "word": "というのは",
+      "reading": "というのは",
+      "level": "N3",
+      "meaning": "là vì, bởi vì (giải thích)",
+      "register": "spoken",
+      "explanation": "Câu trước nêu một sự việc hay quyết định, câu sau giải thích lý do hoặc hoàn cảnh. Giống なぜなら về thứ tự, nhưng mềm hơn và thường dùng khi nói chuyện.\n\nCâu sau thường kết thúc bằng ～からだ／～んです／～のだ. Lưu ý: というのは sau danh từ lại có nghĩa \"… nghĩa là\" (định nghĩa): 「JLPTというのは…」.",
+      "usage": [
+        "Mẫu: 「A。というのは、Bからです／んです。」.",
+        "Dạng thân mật: っていうのは.",
+        "Dùng khi giải thích hoàn cảnh cho người nghe, giọng nhẹ nhàng."
+      ],
+      "pitfalls": [
+        "Đứng đầu câu (từ nối) khác với đứng sau danh từ (định nghĩa): 「というのは、～からだ」 (vì…) ≠ 「「積ん読」というのは、～ことだ」 (… nghĩa là)."
+      ],
+      "comparisons": [
+        { "pattern": "なぜなら", "targetId": "nazenara", "difference": "なぜなら mạnh, mang tính lập luận, hợp văn viết; というのは nhẹ hơn, hay dùng trong hội thoại." }
+      ],
+      "examples": [
+        { "japanese": "明日の会議には出られません。というのは、大阪へ出張することになったんです。", "vietnamese": "Tôi không dự cuộc họp ngày mai được. Là vì tôi phải đi công tác Osaka." },
+        { "japanese": "最近、自転車で通勤している。というのは、運動不足が気になっていたからだ。", "vietnamese": "Gần đây tôi đạp xe đi làm. Là vì tôi lo mình thiếu vận động." },
+        { "japanese": "彼女は今日休んでいます。というのは、子どもが熱を出したからなんです。", "vietnamese": "Hôm nay cô ấy nghỉ. Bởi vì con cô ấy bị sốt." }
+      ]
+    },
+    {
+      "id": "kekkyoku",
+      "word": "結局",
+      "reading": "けっきょく",
+      "level": "N3",
+      "meaning": "rốt cuộc, cuối cùng thì",
+      "register": "both",
+      "explanation": "Sau một quá trình (cân nhắc, cố gắng, nhiều diễn biến), câu sau nêu kết cục cuối cùng. Thường hàm ý kết quả không như dự định hoặc mọi chuyện quay về điểm ban đầu.\n\n結局 vừa đứng đầu câu (từ nối) vừa làm phó từ trong câu: 「結局、行かなかった」「結局は自分次第だ」.",
+      "usage": [
+        "Kể kết cục: 「いろいろ迷った。結局、～ことにした。」.",
+        "Kết luận chung: 「結局、～ということだ」「結局は～だ」.",
+        "Hay hàm ý tiếc nuối hoặc \"công cốc\"."
+      ],
+      "pitfalls": [
+        "Không dùng cho kết quả xảy ra ngay, không có quá trình phía trước: câu trước phải cho thấy có dằng co, cân nhắc hay nhiều diễn biến."
+      ],
+      "comparisons": [
+        { "pattern": "要するに", "targetId": "yousuruni", "difference": "要するに tóm gọn nội dung lời nói; 結局 nói kết cục của một quá trình sự việc." }
+      ],
+      "examples": [
+        { "japanese": "一週間も迷った。結局、一番安いパソコンを買った。", "vietnamese": "Tôi phân vân cả tuần. Rốt cuộc mua cái máy tính rẻ nhất." },
+        { "japanese": "みんなでいろいろ話し合った。結局、何も決まらなかった。", "vietnamese": "Mọi người bàn bạc đủ điều. Cuối cùng thì chẳng quyết được gì." },
+        { "japanese": "いろいろな方法を試してみた。結局、毎日少しずつ続けるのが一番だとわかった。", "vietnamese": "Tôi đã thử nhiều cách. Rốt cuộc nhận ra rằng mỗi ngày làm một chút đều đặn là tốt nhất." }
+      ]
+    }
+  ]
+}

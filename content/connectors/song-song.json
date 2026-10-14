@@ -1,0 +1,63 @@
+{
+  "id": "song-song",
+  "order": 4,
+  "title": "Song song — liệt kê",
+  "jaTitle": "並立",
+  "description": "Đặt hai sự việc ngang hàng cạnh nhau.",
+  "connectors": [
+    {
+      "id": "mata",
+      "word": "また",
+      "reading": "また",
+      "level": "N5",
+      "meaning": "ngoài ra, đồng thời, cũng như vậy",
+      "register": "both",
+      "explanation": "Khi đứng đầu câu, また dùng để đặt thêm một thông tin ngang hàng với câu trước: hai ý có vai trò như nhau, không ý nào là kết quả hay đối lập của ý kia. Rất hay gặp trong văn viết giải thích, thông báo, bài luận.\n\nĐừng nhầm với phó từ また \"lại, nữa\" (またね, また来ます). Phân biệt bằng vị trí: từ nối また đứng đầu câu và thường có dấu phẩy sau.",
+      "usage": [
+        "Liệt kê hai đặc điểm, hai quy định ngang hàng: 「A。また、B。」.",
+        "Trong thông báo: 「また、駐車場はございませんので、ご了承ください。」.",
+        "Có thể nối hai danh từ/ vế trong câu: 「医者であり、また作家でもある」."
+      ],
+      "pitfalls": [
+        "Khi điều thêm vào mạnh hơn, nhấn mạnh \"hơn nữa\", さらに／しかも tự nhiên hơn また.",
+        "Trong hội thoại thân mật khi liệt kê thêm lý do, người Nhật hay dùng それに hơn là また."
+      ],
+      "comparisons": [
+        { "pattern": "それに", "targetId": "soreni", "difference": "それに là văn nói, thêm lý do để củng cố lập luận; また trung tính, đặt hai thông tin ngang hàng." },
+        { "pattern": "および", "targetId": "oyobi", "difference": "および nối hai danh từ trong văn bản trang trọng; また nối hai câu." }
+      ],
+      "examples": [
+        { "japanese": "この公園では花火をしてはいけません。また、ペットを放すことも禁止されています。", "vietnamese": "Không được đốt pháo hoa trong công viên này. Ngoài ra, thả rông thú cưng cũng bị cấm." },
+        { "japanese": "彼は有名な医者だ。また、小説家としても知られている。", "vietnamese": "Ông ấy là một bác sĩ nổi tiếng. Đồng thời cũng được biết đến như một nhà văn." },
+        { "japanese": "運動は体にいい。また、ストレスを減らす効果もある。", "vietnamese": "Vận động tốt cho cơ thể. Ngoài ra nó còn có tác dụng giảm căng thẳng." }
+      ]
+    },
+    {
+      "id": "oyobi",
+      "word": "および",
+      "reading": "および",
+      "level": "N2",
+      "meaning": "và, cùng với",
+      "register": "written",
+      "explanation": "Nối hai (hoặc nhiều) danh từ ngang hàng trong văn bản trang trọng: quy định, hợp đồng, thông báo, tài liệu hành chính. Tương đương と nhưng cứng hơn nhiều.\n\nViết chữ Hán là 及び. Khác các từ nối khác trong danh sách, および thường đứng giữa hai danh từ chứ không đứng đầu câu.",
+      "usage": [
+        "Mẫu: 「N1およびN2」 — 「住所および電話番号」.",
+        "Khi liệt kê nhiều mục: 「A、B、およびC」 (およびđặt trước mục cuối).",
+        "Gặp nhiều trong mẫu đơn, điều khoản, thông báo của cơ quan."
+      ],
+      "pitfalls": [
+        "Không dùng trong hội thoại thường ngày: ✗「パンおよび牛乳を買ってきて。」 ✓「パンと牛乳を買ってきて。」.",
+        "Không nối hai câu hoàn chỉnh; để nối câu dùng また."
+      ],
+      "comparisons": [
+        { "pattern": "また", "targetId": "mata", "difference": "また nối hai câu, đứng đầu câu sau; および nối hai danh từ trong cùng một câu." },
+        { "pattern": "～と", "targetId": null, "difference": "と là cách nói thường ngày; および là văn viết hành chính, trang trọng." }
+      ],
+      "examples": [
+        { "japanese": "申込書には氏名および住所を記入してください。", "vietnamese": "Vui lòng điền họ tên và địa chỉ vào đơn đăng ký." },
+        { "japanese": "館内での飲食および喫煙は禁止されています。", "vietnamese": "Ăn uống và hút thuốc trong tòa nhà đều bị cấm." },
+        { "japanese": "この調査は東京、大阪、および名古屋で行われた。", "vietnamese": "Cuộc khảo sát này được tiến hành ở Tokyo, Osaka và Nagoya." }
+      ]
+    }
+  ]
+}
